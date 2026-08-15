@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>axno apps</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1c1e; --muted: #5a6169;
+    --line: #e3e6ea; --card: #f7f9fb; --accent: #3182f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161a; --fg: #e8eaed; --muted: #9aa3ad;
+            --line: #2a2f36; --card: #1c1f24; --accent: #7aa9ff; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                 "Malgun Gothic", Roboto, sans-serif;
+    line-height: 1.65; -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 20px 72px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 28px; margin-bottom: 32px; }
+  h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -0.4px; }
+  h2 { font-size: 17px; margin: 36px 0 10px; letter-spacing: -0.2px; }
+  p { margin: 0 0 12px; }
+  .lead { color: var(--muted); margin: 0; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  a { color: var(--accent); }
+  .rows { list-style: none; padding: 0; margin: 0; }
+  .rows li { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+  .rows b { min-width: 108px; font-weight: 600; color: var(--muted); font-size: 14px; }
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>axno apps</h1>
+    <p class="lead">Android 앱을 만들고 운영합니다. Apps for Android, published on Google Play.</p>
+  </header>
+
+  <h2>앱 소개</h2>
+  <p>
+    영상 모음, 이미지 갤러리, 미니게임을 담은 안드로이드 앱들을 Google Play 에 게시하고 있습니다.
+    주제별로 앱이 나뉘어 있으며, 각 앱의 자세한 설명과 스크린샷은 Play 스토어 등록정보에서 확인하실 수 있습니다.
+  </p>
+
+  <h2>문의</h2>
+  <div class="card">
+    <ul class="rows">
+      <li><b>이메일</b> <a href="mailto:axno.app@gmail.com">axno.app@gmail.com</a></li>
+      <li><b>문의 내용</b> 앱 오류 · 콘텐츠 신고 · 광고 · 기타</li>
+    </ul>
+  </div>
+
+  <h2>정책</h2>
+  <ul>
+    <li><a href="https://sonssapp.cafe24.com/sonss_app/sonss_admin/terms">이용약관</a></li>
+    <li><a href="https://sonssapp.cafe24.com/sonss_app/sonss_admin/privacy">개인정보처리방침</a></li>
+  </ul>
+
+  <h2>광고</h2>
+  <p>
+    앱 내 광고는 Google AdMob 을 통해 게재됩니다.
+    판매자 인증 정보는 <a href="./app-ads.txt">app-ads.txt</a> 에 공개되어 있습니다.
+  </p>
+
+  <footer>
+    © axno apps · Contact: axno.app@gmail.com
+  </footer>
+
+</div>
+</body>
+</html>
