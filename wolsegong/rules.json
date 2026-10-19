@@ -1,0 +1,29 @@
+{
+  "_읽을것": [
+    "조세특례제한법 §95의2 · 시행령 §95 · 소득세법 §70 · 국세기본법 §45의2 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "rateStd 15 · rateLow 17 (%) · grossCap\/compCap = 8천만\/7천만 이하 · grossLow\/compLow = 5천500만\/4천500만 이하 · limit = 월세 연 한도",
+    "areaM2 85 와 시행령 2026-02-27 개정의 적용 연도는 확인 필요 — 확인되면 여기서 고친다. prep* 는 법정일이 아니라 앱의 증빙 준비 알림일",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "rateStd": 15,
+  "rateLow": 17,
+  "grossCap": 80000000,
+  "compCap": 70000000,
+  "grossLow": 55000000,
+  "compLow": 45000000,
+  "limit": 10000000,
+  "valueCap": 400000000,
+  "areaM2": 85,
+  "kidsAreaM2": 100,
+  "prepMonth": 1,
+  "prepDay": 15,
+  "filingFromMonth": 5,
+  "filingFromDay": 1,
+  "filingToMonth": 5,
+  "filingToDay": 31,
+  "claimYears": 5,
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
