@@ -1,0 +1,349 @@
+{
+  "_읽을것": [
+    "자동차관리법 §43·§84 · 시행령 별표2(소) · 시행규칙 §74·§77·별표15의2 · 종합검사규칙 §9·§12·별표1 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "fineStartDay = 가산을 세기 시작하는 지연일(첫날). 31 이면 34일째에 처음 2만 원이 붙는다. 30 으로 바꾸면 33일째부터",
+    "windowBefore\/After = 만료일 전 90일 ~ 후 31일(2025-01-01 부터). 지연일수는 기간 마지막 날(만료일+windowAfter) 다음 날이 1일이다",
+    "periodic\/comprehensive 는 위에서부터 처음 맞는 줄을 쓴다. biz = yes|no|any · sizes 비면 전부 · upTo 차령 이하면 a, 넘으면 b(-1 = 없음)",
+    "first = 신차 첫 유효기간, firstOld = newCarFrom 전에 신규등록한 차의 첫 유효기간(비사업용 승용 4년)",
+    "comprehensive 의 over = 이 차령을 「초과」하면 종합검사 대상(대상 지역 차만)",
+    "fines=false 면 과태료 금액을 숨긴다(부과기준이 바뀌어 금액이 틀렸을 때). 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "windowBefore": 90,
+  "windowAfter": 31,
+  "fineBase": 40000,
+  "fineFlatDays": 30,
+  "fineStartDay": 31,
+  "fineStepDays": 3,
+  "fineStepWon": 20000,
+  "fineCapDay": 115,
+  "fineCap": 600000,
+  "selfPayCutPct": 20,
+  "orderAfterDays": 30,
+  "newCarFrom": "2025-01-01",
+  "periodic": [
+    {
+      "kind": "CAR",
+      "biz": "no",
+      "sizes": [],
+      "over": 0,
+      "upTo": -1,
+      "a": 24,
+      "b": 24,
+      "first": 60,
+      "firstOld": 48
+    },
+    {
+      "kind": "CAR",
+      "biz": "yes",
+      "sizes": [],
+      "over": 0,
+      "upTo": -1,
+      "a": 12,
+      "b": 12,
+      "first": 24,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "no",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 0,
+      "upTo": 4,
+      "a": 24,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "no",
+      "sizes": [
+        "MID",
+        "LARGE"
+      ],
+      "over": 0,
+      "upTo": 8,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "yes",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 0,
+      "upTo": 4,
+      "a": 24,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "yes",
+      "sizes": [
+        "MID",
+        "LARGE"
+      ],
+      "over": 0,
+      "upTo": 8,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "no",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 0,
+      "upTo": 4,
+      "a": 24,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "no",
+      "sizes": [
+        "MID",
+        "LARGE"
+      ],
+      "over": 0,
+      "upTo": 5,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "yes",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 0,
+      "upTo": -1,
+      "a": 12,
+      "b": 12,
+      "first": 24,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "yes",
+      "sizes": [
+        "MID"
+      ],
+      "over": 0,
+      "upTo": 5,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "yes",
+      "sizes": [
+        "LARGE"
+      ],
+      "over": 0,
+      "upTo": 2,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "SPECIAL",
+      "biz": "any",
+      "sizes": [],
+      "over": 0,
+      "upTo": 5,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    }
+  ],
+  "comprehensive": [
+    {
+      "kind": "CAR",
+      "biz": "no",
+      "sizes": [],
+      "over": 4,
+      "upTo": -1,
+      "a": 24,
+      "b": 24,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "CAR",
+      "biz": "yes",
+      "sizes": [],
+      "over": 2,
+      "upTo": -1,
+      "a": 12,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "no",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 4,
+      "upTo": -1,
+      "a": 12,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "no",
+      "sizes": [
+        "MID",
+        "LARGE"
+      ],
+      "over": 3,
+      "upTo": 8,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "yes",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 4,
+      "upTo": -1,
+      "a": 12,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "VAN",
+      "biz": "yes",
+      "sizes": [
+        "MID",
+        "LARGE"
+      ],
+      "over": 2,
+      "upTo": 8,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "no",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 4,
+      "upTo": -1,
+      "a": 12,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "no",
+      "sizes": [
+        "MID",
+        "LARGE"
+      ],
+      "over": 3,
+      "upTo": 5,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "yes",
+      "sizes": [
+        "SMALL"
+      ],
+      "over": 2,
+      "upTo": -1,
+      "a": 12,
+      "b": 12,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "yes",
+      "sizes": [
+        "MID"
+      ],
+      "over": 2,
+      "upTo": 5,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "TRUCK",
+      "biz": "yes",
+      "sizes": [
+        "LARGE"
+      ],
+      "over": 2,
+      "upTo": -1,
+      "a": 6,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "SPECIAL",
+      "biz": "no",
+      "sizes": [],
+      "over": 3,
+      "upTo": 5,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    },
+    {
+      "kind": "SPECIAL",
+      "biz": "yes",
+      "sizes": [],
+      "over": 2,
+      "upTo": 5,
+      "a": 12,
+      "b": 6,
+      "first": -1,
+      "firstOld": -1
+    }
+  ],
+  "fines": true,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
