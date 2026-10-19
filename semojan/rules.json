@@ -1,0 +1,33 @@
+{
+  "_읽을것": [
+    "정본은 소득세법 제59조의3(연금계좌세액공제)과 시행령 제118조의2·제40조의2다. 국세청 안내는 대조용이다",
+    "taxYear 는 이 값이 맞는 과세기간(해)이다. 한도·공제율이 바뀌는 개정은 시행일이 속한 해부터라, 그해 1월에 taxYear 와 값을 함께 고치고 reviewBy 를 다음 해 1월 말로 민다",
+    "금액은 원 단위 정수다(600만원 = 6000000). combinedCap ≥ savingsCap · payCap ≥ combinedCap · rateLow ≤ rateHigh 가 깨지면 앱은 표 전체를 버리고 앞 표를 쓴다",
+    "rateHigh·rateLow 는 소득세만의 공제율(15·12)이다. 화면의 16.5%·13.2% 는 앱이 localPct(지방소득세 10%)를 더해 셈한다 — 16.5 를 적지 마라",
+    "ISA 추가 한도 확대 같은 개정이 공포 전이면 값은 그대로 두고 pending 에 한 줄만 적는다. 공포되면 isaPct·isaCap 을 고치고 pending 을 비운다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "taxYear": 2026,
+  "savingsCap": 6000000,
+  "combinedCap": 9000000,
+  "payCap": 18000000,
+  "rateHigh": 15,
+  "rateLow": 12,
+  "salaryLine": 55000000,
+  "incomeLine": 45000000,
+  "localPct": 10,
+  "isaPct": 10,
+  "isaCap": 3000000,
+  "isaDays": 60,
+  "otherTaxPct": 15,
+  "source": "https:\/\/www.nts.go.kr\/nts\/cm\/cntnts\/cntntsView.do?cntntsId=7875",
+  "sourceName": "국세청 「연금계좌 세액공제」 · 소득세법 제59조의3",
+  "sourceCheckedAt": "2026-10-18",
+  "lawUrl": "https:\/\/www.law.go.kr\/법령\/소득세법\/제59조의3",
+  "enfUrl": "https:\/\/www.law.go.kr\/법령\/소득세법시행령\/제118조의2",
+  "hometaxUrl": "https:\/\/www.hometax.go.kr\/",
+  "pending": "",
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
