@@ -1,0 +1,19 @@
+{
+  "_읽을것": [
+    "근로기준법 §26(해고의 예고) · §49(임금채권 소멸시효) 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "noticeDays = 예고 기간(30일) · exemptMonths = 이 개월 수 미만 근속이면 예고 예외 · wageDays = 30일분 통상임금의 일수",
+    "monthlyHours = 월 통상임금 \/ 이 시간 x dayHours = 일 통상임금(209시간 · 8시간)",
+    "amount=false 면 금액을 숨기고 날 수만 보인다. notice 는 화면 맨 위에 한 줄. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "noticeDays": 30,
+  "exemptMonths": 3,
+  "monthlyHours": 209,
+  "dayHours": 8,
+  "wageDays": 30,
+  "claimYears": 3,
+  "amount": true,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
