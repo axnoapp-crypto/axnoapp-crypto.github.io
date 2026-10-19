@@ -1,0 +1,64 @@
+{
+  "_읽을것": [
+    "pay 는 공무원보수규정의 병 봉급(이병·일병·상병·병장 순, 원)이다. 다음 해 표가 고시되면 year 한 줄을 더하라 — 없는 해는 마지막 표를 이어 쓴다",
+    "promo = 일병·상병·병장이 되는 복무 개월(입대월을 1로 센다). 병역법 시행령 62조 1항",
+    "saveCap·matchPct·ratePermille 은 장병내일준비적금 값이다(ratePermille 50 = 연 5.0%). 공식 안내를 읽고 확인되면 unverified 에서 지운다",
+    "unverified 에 적힌 이름은 화면이 「공식 확인 필요」라고 말한다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "branches": [
+    {
+      "id": "army",
+      "label": "육군",
+      "months": 18
+    },
+    {
+      "id": "navy",
+      "label": "해군",
+      "months": 20
+    },
+    {
+      "id": "air",
+      "label": "공군",
+      "months": 21
+    },
+    {
+      "id": "marine",
+      "label": "해병",
+      "months": 18
+    },
+    {
+      "id": "social",
+      "label": "사회복무",
+      "months": 21
+    }
+  ],
+  "promo": [
+    3,
+    9,
+    15
+  ],
+  "pay": [
+    {
+      "year": 2026,
+      "won": [
+        750000,
+        900000,
+        1200000,
+        1500000
+      ]
+    }
+  ],
+  "payDay": 25,
+  "saveCap": 550000,
+  "matchPct": 100,
+  "ratePermille": 50,
+  "unverified": [
+    "복무 개월",
+    "봉급일",
+    "적금 한도·매칭·금리"
+  ],
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
