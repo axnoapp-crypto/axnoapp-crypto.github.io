@@ -1,0 +1,77 @@
+{
+  "_읽을것": [
+    "소득세법 §65·§77·§86·§55 · 시행령 §123·§125·§140·§208 · 국세기본법 §5·§47의4 · 시행령 §27의4 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "dueMd 등은 월-일이다. 해(年)는 앱이 오늘 날짜로 정한다. 주말은 코드가 알고, holidays 에는 공휴일·대체공휴일만 싣는다",
+    "brackets 의 upTo 는 그 구간의 위 끝(원)이고 마지막은 -1(끝 없음)이다. 세율 개정이 공포되면 통째로 바꿔라",
+    "lateMonthly 는 지정납부기한 다음 날부터 달마다 붙는 몫이다(2026-07-01 시행). lateMonthlyFromWon 미만 고지서에는 안 붙는다",
+    "extension 은 그해 국세청 직권 연장 발표가 있을 때만 싣는다 — who(대상) · until(늦춰진 기한) · source(보도자료 이름)",
+    "judging=false 면 추계 신고 가능 판정을 숨긴다(계산식이 바뀌었을 때). 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "shareNum": 1,
+  "shareDen": 2,
+  "roundWon": 1000,
+  "minLevyWon": 500000,
+  "noticeFromMd": "11-01",
+  "noticeToMd": "11-15",
+  "dueMd": "11-30",
+  "reissueFromMd": "01-01",
+  "reissueToMd": "01-15",
+  "estimateRatio": 0.3,
+  "brackets": [
+    {
+      "upTo": 14000000,
+      "rate": 0.06
+    },
+    {
+      "upTo": 50000000,
+      "rate": 0.15
+    },
+    {
+      "upTo": 88000000,
+      "rate": 0.24
+    },
+    {
+      "upTo": 150000000,
+      "rate": 0.35
+    },
+    {
+      "upTo": 300000000,
+      "rate": 0.38
+    },
+    {
+      "upTo": 500000000,
+      "rate": 0.4
+    },
+    {
+      "upTo": 1000000000,
+      "rate": 0.42
+    },
+    {
+      "upTo": -1,
+      "rate": 0.45
+    }
+  ],
+  "basicDeductionWon": 1500000,
+  "splitOverWon": 10000000,
+  "splitHalfOverWon": 20000000,
+  "splitHalfRatio": 0.5,
+  "splitMonths": 2,
+  "doubleEntryWon": [
+    300000000,
+    150000000,
+    75000000
+  ],
+  "lateOnce": 0.03,
+  "lateMonthly": 0.0067,
+  "lateMonthlyFromWon": 1500000,
+  "lateMaxMonths": 60,
+  "holidays": [
+    "2026-12-25",
+    "2027-01-01"
+  ],
+  "judging": true,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
