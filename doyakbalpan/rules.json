@@ -1,0 +1,52 @@
+{
+  "_읽을것": [
+    "고용노동부 2026-01-26 보도자료·정책브리핑 korea.kr 의 값이다. 숫자를 바꿀 땐 공고·운영 지침을 먼저 읽어라",
+    "tiers[].incentive = 2년간 근속 인센티브 총액(원) · metro=true 는 수도권 유형(인센티브 0)",
+    "payMonths = 근속 몇 개월째에 지급되나. 공식 자료로 확인하면 payVerified 를 true 로 올려라(화면의 「확인 필요」가 사라진다)",
+    "하나라도 깨지면 앱은 표 전체를 버린다. 개정안은 시행 전에 넣지 말고 notice 한 줄로만 알린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "minAge": 15,
+  "maxAge": 34,
+  "tiers": [
+    {
+      "id": "metro",
+      "label": "수도권",
+      "note": "서울 · 경기 · 인천 — 취업애로청년만 · 기업 지원금 중심",
+      "metro": true,
+      "incentive": 0
+    },
+    {
+      "id": "general",
+      "label": "비수도권 (일반)",
+      "note": "근속 인센티브 최대 480만 원",
+      "metro": false,
+      "incentive": 4800000
+    },
+    {
+      "id": "preferred",
+      "label": "비수도권 · 우대지원지역",
+      "note": "근속 인센티브 최대 600만 원",
+      "metro": false,
+      "incentive": 6000000
+    },
+    {
+      "id": "special",
+      "label": "비수도권 · 특별지원지역",
+      "note": "인구감소지역 등 · 근속 인센티브 최대 720만 원",
+      "metro": false,
+      "incentive": 7200000
+    }
+  ],
+  "firmMonthly": 600000,
+  "payMonths": [
+    6,
+    12,
+    18,
+    24
+  ],
+  "payVerified": false,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
