@@ -1,0 +1,25 @@
+{
+  "_읽을것": [
+    "소득세법 §89①3 · 시행령 §154·§155·§156 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "holdYears = 보유 · residYears = 조정대상지역 취득분 거주 · gapMonths = 종전 주택 취득 후 신규 취득까지 최소 간격",
+    "tempYearsStrict = 종전·신규 모두 조정지역일 때 처분 기한 · tempYearsDefault = 그 밖의 경우 · strictFrom = 2년이 적용되는 신규 취득 시작일(부칙) · highPriceWon = 고가주택 기준",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "holdYears": 2,
+  "residYears": 2,
+  "gapMonths": 12,
+  "tempYearsStrict": 2,
+  "tempYearsDefault": 3,
+  "strictFrom": "2026-08-04",
+  "highPriceWon": 1200000000,
+  "alertDays": [
+    60,
+    30,
+    7,
+    0
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
