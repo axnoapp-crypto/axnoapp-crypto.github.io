@@ -1,0 +1,92 @@
+{
+  "_읽을것": [
+    "한전 전기공급약관·시행세칙의 복지할인 값이다(법령 아님). 숫자를 바꿀 땐 정부24 「전기요금 복지할인」·한전 안내를 먼저 읽어라",
+    "ratePct 0 = 정액형(요금이 한도 이하면 요금만큼) · 30 = 요금의 30% 를 한도까지. capOther\/capSummer = 월 한도(원), 0 = 한도 없음",
+    "summerMonths 와 newbornYears 는 정부24 에 없어 확인 필요 — 한전 123 으로 확인한 뒤 고쳐라",
+    "개정안은 시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "kinds": [
+    {
+      "id": "basic1",
+      "label": "기초생활수급자 (생계·의료급여)",
+      "note": "정액 · 월 16,000원 (여름 20,000원)",
+      "ratePct": 0,
+      "capOther": 16000,
+      "capSummer": 20000
+    },
+    {
+      "id": "basic2",
+      "label": "기초생활수급자 (주거·교육급여)",
+      "note": "정액 · 월 10,000원 (여름 12,000원)",
+      "ratePct": 0,
+      "capOther": 10000,
+      "capSummer": 12000
+    },
+    {
+      "id": "near",
+      "label": "차상위계층",
+      "note": "정액 · 월 8,000원 (여름 10,000원)",
+      "ratePct": 0,
+      "capOther": 8000,
+      "capSummer": 10000
+    },
+    {
+      "id": "disabled",
+      "label": "심한 장애인",
+      "note": "정액 · 월 16,000원 (여름 20,000원)",
+      "ratePct": 0,
+      "capOther": 16000,
+      "capSummer": 20000
+    },
+    {
+      "id": "merit",
+      "label": "국가유공자 · 독립유공자 · 5·18 상이자 1~3급",
+      "note": "정액 · 월 16,000원 (여름 20,000원)",
+      "ratePct": 0,
+      "capOther": 16000,
+      "capSummer": 20000
+    },
+    {
+      "id": "kids3",
+      "label": "자녀 3인 이상 가구",
+      "note": "30% · 월 16,000원 한도",
+      "ratePct": 30,
+      "capOther": 16000,
+      "capSummer": 16000
+    },
+    {
+      "id": "big5",
+      "label": "가구원 5인 이상 대가족",
+      "note": "30% · 월 16,000원 한도",
+      "ratePct": 30,
+      "capOther": 16000,
+      "capSummer": 16000
+    },
+    {
+      "id": "newborn",
+      "label": "출산가구 (영아가 있는 집)",
+      "note": "30% · 월 16,000원 한도 · 기간 있음",
+      "ratePct": 30,
+      "capOther": 16000,
+      "capSummer": 16000
+    },
+    {
+      "id": "life",
+      "label": "생명유지장치 사용 가구",
+      "note": "30% · 한도 없음",
+      "ratePct": 30,
+      "capOther": 0,
+      "capSummer": 0
+    }
+  ],
+  "summerMonths": [
+    6,
+    7,
+    8
+  ],
+  "newbornYears": 3,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
