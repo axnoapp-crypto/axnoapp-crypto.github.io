@@ -1,0 +1,91 @@
+{
+  "_읽을것": [
+    "소득세법 §59의4④(기부금 세액공제) · §34(한도) · §47(근로소득공제) · 조세특례제한법 §76(정치자금) 의 값이다. law.go.kr 조문을 먼저 읽고 바꿔라",
+    "rate1Pct 는 stepWon 까지, rate2Pct 는 그 초과분. 정치후원금은 polFreeWon 까지 100\/110, 그 위 polUpperWon 까지 polRatePct, 초과는 polUpperRatePct",
+    "wage 는 근로소득공제 구간(마지막 upTo=-1). 하나라도 깨지면 앱은 표 전체를 버린다",
+    "judging=false 면 공제액 셈을 숨긴다. notice 는 화면 맨 위 문구"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "rate1Pct": 15,
+  "rate2Pct": 30,
+  "stepWon": 10000000,
+  "legalCapPct": 100,
+  "designatedCapPct": 30,
+  "religiousCapPct": 10,
+  "religiousExtraPct": 20,
+  "polFreeWon": 100000,
+  "polRatePct": 15,
+  "polUpperWon": 30000000,
+  "polUpperRatePct": 25,
+  "wage": [
+    {
+      "upTo": 5000000,
+      "base": 0,
+      "ratePct": 70,
+      "from": 0
+    },
+    {
+      "upTo": 15000000,
+      "base": 3500000,
+      "ratePct": 40,
+      "from": 5000000
+    },
+    {
+      "upTo": 45000000,
+      "base": 7500000,
+      "ratePct": 15,
+      "from": 15000000
+    },
+    {
+      "upTo": 100000000,
+      "base": 12000000,
+      "ratePct": 5,
+      "from": 45000000
+    },
+    {
+      "upTo": -1,
+      "base": 14750000,
+      "ratePct": 2,
+      "from": 100000000
+    }
+  ],
+  "wageCapWon": 20000000,
+  "deadlineMd": "12-31",
+  "milestones": [
+    {
+      "md": "12-15",
+      "title": "기부 마감 보름 전",
+      "note": "기부금 단체 영수증을 받을 수 있게 미리 기부해요",
+      "kind": "GIVE"
+    },
+    {
+      "md": "12-31",
+      "title": "기부 마감",
+      "note": "이 날까지 낸 기부만 올해 공제예요",
+      "kind": "GIVE"
+    },
+    {
+      "md": "01-15",
+      "title": "간소화 자료 열림",
+      "note": "홈택스 연말정산 간소화에서 내 기부금이 올라왔는지 봐요",
+      "kind": "CHECK"
+    },
+    {
+      "md": "02-10",
+      "title": "2월 급여에서 정산",
+      "note": "회사가 돌려줄 몫을 2월 월급에 얹어요",
+      "kind": "CHECK"
+    },
+    {
+      "md": "05-01",
+      "title": "놓쳤으면 5월 신고",
+      "note": "5월 한 달 종합소득세 신고로 빠뜨린 기부를 넣을 수 있어요",
+      "kind": "FIX"
+    }
+  ],
+  "limitsChecked": true,
+  "judging": true,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
