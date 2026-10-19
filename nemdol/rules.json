@@ -1,0 +1,70 @@
+{
+  "_읽을것": [
+    "정본은 보건복지부 「자산형성지원 통장사업 안내(Ⅱ)」(guidePdf · 자산형성포털 사업소개 source)다. 블로그 숫자를 옮기지 마라 — 「6개월 연속 미납」은 청년저축계좌(옛 사업) 기준이다",
+    "해마다 1~2월 새 사업안내가 나오면 guideYear·guideName 과 incomeCap(1인~7인 · 1·2·3인은 3인 값)·capYear·capPerExtra 를 함께 고치고 reviewBy 를 다음 해 2월 말로 민다",
+    "「하반기 확대(소득 120% · 만 18~39세 · 매칭 40만원)」는 2026-10 현재 보도된 방안일 뿐이다. 지침·고시로 확정되면 그때 matchLow·joinAge·joinIncome 을 고친다 — 기존 가입자에 소급되는지도 지침을 보고 notice 에 적는다",
+    "eduSteps 는 가입 몇 개월까지(upToMonths) 몇 분(minutes)이 필요한지다. 오름차순이어야 하고 마지막은 999(그 뒤 전부)로 둔다. 하나라도 깨지면 앱은 표 전체를 버린다",
+    "다음 모집이 공고되면 nextRecruit 에 「2027.5.○ ~ 5.○」처럼 적는다. 비어 있으면 앱은 「공고 전」이라고만 말한다",
+    "midOpen 은 차상위 초과(10만원 매칭) 구간을 새로 받는지다. 2026 은 false — 기존 가입자는 그대로 10만원이라 matchMid 는 지우지 않는다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "guideYear": 2026,
+  "guideName": "2026년 자산형성지원 통장사업 안내(Ⅱ)",
+  "termMonths": 36,
+  "specialTermMonths": 60,
+  "matchMaxMonths": 36,
+  "stopMax": 12,
+  "specialStopMax": 24,
+  "stopLeadDays": 7,
+  "missedLimit": 12,
+  "depositMin": 100000,
+  "depositMax": 500000,
+  "depositStep": 10000,
+  "windowEndDay": 22,
+  "autopayEndDay": 20,
+  "matchLow": 300000,
+  "matchMid": 100000,
+  "deductionBonus": 100000,
+  "midOpen": false,
+  "eduTotalMin": 600,
+  "eduSteps": [
+    {
+      "upToMonths": 12,
+      "minutes": 240
+    },
+    {
+      "upToMonths": 24,
+      "minutes": 420
+    },
+    {
+      "upToMonths": 999,
+      "minutes": 600
+    }
+  ],
+  "paperMonths": 6,
+  "incomeCap": [
+    5359036,
+    5359036,
+    5359036,
+    6494738,
+    7556719,
+    8555952,
+    9515150
+  ],
+  "capYear": 2026,
+  "capPerExtra": 959198,
+  "joinAge": "만 15세 ~ 39세",
+  "joinIncome": "가구 소득인정액 기준 중위 50% 이하 · 본인 근로·사업소득 월 10만원 이상",
+  "recruit": "2026.5.4 ~ 5.20 (마감 · 9.30 선정 완료)",
+  "nextRecruit": "",
+  "source": "https:\/\/hope.welfareinfo.or.kr\/bsns\/bsnsIntrcnAcc.do",
+  "sourceName": "보건복지부 「2026년 자산형성지원 통장사업 안내(Ⅱ)」",
+  "guidePdf": "https:\/\/hope.welfareinfo.or.kr\/pds\/GuideLine.pdf",
+  "newsUrl": "https:\/\/www.korea.kr\/news\/policyNewsView.do?newsId=148963836",
+  "bokjiro": "https:\/\/www.bokjiro.go.kr\/ssis-tbu\/twataa\/wlfareInfo\/moveTWAT52011M.do?wlfareInfoId=WLF00000060",
+  "lawUrl": "https:\/\/www.law.go.kr\/법령\/국민기초생활보장법\/제18조의8",
+  "sourceCheckedAt": "2026-10-18",
+  "notice": "",
+  "reviewBy": "2027-02-28"
+}
