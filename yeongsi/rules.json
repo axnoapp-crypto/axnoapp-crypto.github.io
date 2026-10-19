@@ -1,0 +1,162 @@
+{
+  "_읽을것": [
+    "부동산거래신고법 §6의2·§6의3·§6의5·§28⑤ · 시행령 §4의3·별표3(마) · 주민등록법 §16·§40④·시행령 별표4(라) · 주택임대차보호법 §3·§3의2·§8·시행령 §10·§11 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "depositOver\/rentOver 는 「초과」다 — 보증금 정확히 6천만 원·월세 정확히 30만 원은 대상이 아니다",
+    "fineFrom = 이날 이후 「체결한」 계약부터 과태료(국토부 계도기간 2025-05-31 종료). 법령이 아니라 집행 방침이라 여기 뺐다",
+    "amountEdges 는 「미만」으로 끊는다(1억 미만 · 1억 이상 3억 미만 …). fineBands 의 won 은 그 구간마다 하나 — 길이가 amountEdges+1 이어야 한다",
+    "fineBands.upToMonths = 신고하지 않은 기간(신고기간 만료일 다음 날부터)이 이 개월 「이하」면 이 줄. 마지막 줄은 -1(그 뒤 전부)",
+    "moveFines = 전입신고 기간이 지난 뒤 days 일 이내 또는 months 개월 이내에 신고하면 won. 마지막 줄은 0,0(그 뒤 전부)",
+    "areas.covered = YES|NO|ASK. ASK 는 판정하지 않고 「군청에 확인」을 띄운다(강원·전북특별자치도의 군)",
+    "small = 소액임차인(보증금 depositMax 이하) 최우선변제 priorityWon. smallSince 전에 근저당이 설정된 집은 옛 기준을 쓴다 — 앱이 그 말을 한다",
+    "fines=false 면 과태료 금액을 숨긴다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "depositOver": 60000000,
+  "rentOver": 300000,
+  "reportDays": 30,
+  "moveInDays": 14,
+  "reportFrom": "2021-06-01",
+  "fineFrom": "2025-06-01",
+  "rentTimes": 200,
+  "amountEdges": [
+    100000000,
+    300000000,
+    500000000
+  ],
+  "fineBands": [
+    {
+      "upToMonths": 3,
+      "won": [
+        20000,
+        30000,
+        40000,
+        50000
+      ]
+    },
+    {
+      "upToMonths": 6,
+      "won": [
+        40000,
+        80000,
+        120000,
+        150000
+      ]
+    },
+    {
+      "upToMonths": 12,
+      "won": [
+        60000,
+        100000,
+        160000,
+        200000
+      ]
+    },
+    {
+      "upToMonths": 24,
+      "won": [
+        80000,
+        130000,
+        200000,
+        250000
+      ]
+    },
+    {
+      "upToMonths": -1,
+      "won": [
+        100000,
+        150000,
+        250000,
+        300000
+      ]
+    }
+  ],
+  "falseFine": 1000000,
+  "moveFines": [
+    {
+      "days": 7,
+      "months": 0,
+      "won": 5000
+    },
+    {
+      "days": 0,
+      "months": 1,
+      "won": 20000
+    },
+    {
+      "days": 0,
+      "months": 3,
+      "won": 30000
+    },
+    {
+      "days": 0,
+      "months": 6,
+      "won": 40000
+    },
+    {
+      "days": 0,
+      "months": 0,
+      "won": 50000
+    }
+  ],
+  "areas": [
+    {
+      "code": "CITY",
+      "label": "시·구 · 세종 · 제주",
+      "example": "서울 ○○구 · 부산 ○○구 · 수원시 · 춘천시 · 세종 · 제주시",
+      "covered": "YES"
+    },
+    {
+      "code": "METRO_GUN",
+      "label": "광역시·경기도의 군",
+      "example": "기장군 · 달성군 · 군위군 · 강화군 · 옹진군 · 울주군 · 가평군 · 양평군 · 연천군",
+      "covered": "YES"
+    },
+    {
+      "code": "SPECIAL_GUN",
+      "label": "강원·전북특별자치도의 군",
+      "example": "홍천군 · 양구군 · 완주군 · 무주군 등",
+      "covered": "ASK"
+    },
+    {
+      "code": "DO_GUN",
+      "label": "그 밖 도의 군",
+      "example": "충북·충남·전남·경북·경남의 군 — 예: 괴산군 · 예산군 · 해남군 · 청송군 · 하동군",
+      "covered": "NO"
+    }
+  ],
+  "small": [
+    {
+      "code": "SEOUL",
+      "label": "서울",
+      "example": "서울특별시 전체",
+      "depositMax": 165000000,
+      "priorityWon": 55000000
+    },
+    {
+      "code": "OVER",
+      "label": "과밀억제권역 · 세종 · 용인 · 화성 · 김포",
+      "example": "인천(강화·옹진 등 일부 제외) · 의정부 · 구리 · 하남 · 고양 · 수원 · 성남 · 안양 · 부천 · 광명 · 과천 · 의왕 · 군포 · 시흥(반월 제외) · 남양주 일부",
+      "depositMax": 145000000,
+      "priorityWon": 48000000
+    },
+    {
+      "code": "METRO",
+      "label": "광역시 · 안산 · 광주 · 파주 · 이천 · 평택",
+      "example": "부산 · 대구 · 대전 · 광주광역시 · 울산(군 지역과 과밀억제권역 제외) · 경기 광주시 등",
+      "depositMax": 85000000,
+      "priorityWon": 28000000
+    },
+    {
+      "code": "ELSE",
+      "label": "그 밖의 지역",
+      "example": "위 셋에 들지 않는 시·군",
+      "depositMax": 75000000,
+      "priorityWon": 25000000
+    }
+  ],
+  "smallSince": "2023-02-21",
+  "fines": true,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
