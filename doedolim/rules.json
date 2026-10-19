@@ -1,0 +1,31 @@
+{
+  "_읽을것": [
+    "국민연금법 §77~§79 · 시행령 §50·§52 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "deposit3yPermille·deposit1yPermille = 정기예금 이율(‰) 단순화 근사. 정본(은행 평균이율)을 못 읽어 확인 필요 — 읽으면 여기만 고쳐라",
+    "tiers = 가입기간(개월) 미만이면 그 횟수까지 분할(시행령 §52②). 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "needMonths": 120,
+  "lumpAge": 60,
+  "deposit3yPermille": 30,
+  "deposit1yPermille": 25,
+  "estPremiumPermille": 90,
+  "tiers": [
+    {
+      "belowMonths": 12,
+      "count": 3
+    },
+    {
+      "belowMonths": 60,
+      "count": 12
+    },
+    {
+      "belowMonths": 2147483647,
+      "count": 24
+    }
+  ],
+  "rateNote": "정기예금 이율은 단순화한 근사예요 · 확인 필요",
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
