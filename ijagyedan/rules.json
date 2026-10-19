@@ -1,0 +1,24 @@
+{
+  "_읽을것": [
+    "소액생계비대출(불법사금융예방대출) — 서민금융진흥원 상품 안내·금융위 보도자료 기준이다. 숫자를 바꿀 땐 원문을 먼저 읽어라",
+    "금리는 1\/100 % 단위: baseBp 1590 = 연 15.90% · discountBp 50 = 금융교육·복지멤버십 우대 0.5%p · stepBp 300 = 성실납부 인하 3%p",
+    "stepEvery 6 = 6번 제때 낼 때마다 한 계단 · maxSteps 2 = 최대 두 계단 · firstLimit = 최초 한도(원) · maxYears = 연장 포함 최장 연수",
+    "개정이 공포·시행되기 전에는 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "baseBp": 1590,
+  "discountBp": 50,
+  "stepBp": 300,
+  "stepEvery": 6,
+  "maxSteps": 2,
+  "firstLimit": 1000000,
+  "termMonths": 12,
+  "maxYears": 5,
+  "minAge": 19,
+  "kcb": 700,
+  "nice": 749,
+  "incomeMan": 3500,
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
