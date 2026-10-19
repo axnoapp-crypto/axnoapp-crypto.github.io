@@ -1,0 +1,129 @@
+{
+  "_읽을것": [
+    "키재기(우리아이자립펀드) 기준표 — 통째로 받거나 통째로 버린다. 칸 하나라도 이상하면 앱은 내장값을 쓴다.",
+    "stage 는 「정부안」 또는 「확정」. 2027 예산이 국회에서 의결되고 세부 운용방안이 나오면 「확정」으로 바꾸고 stageNote 를 고친다 — 앱이 사용자에게 알림을 한 번 보낸다.",
+    "bands 는 아래 구간부터. kind = FIXED(정부 정액) · MATCH(부모 parentPer 원당 정부 govPer 원, govMax 까지) · NONE(정부 없음). 마지막 구간의 toPct 는 null.",
+    "중위 50~100% 는 1:2 다 — 정책브리핑 본문의 「50~150%」는 오기로 보고 금융위 예산안 설명을 따랐다(2026-10-18). 정식 안내가 나오면 다시 본다.",
+    "median 은 가구원 1인부터의 월 기준 중위소득(원) · medianYear 의 보건복지부 고시값. 해마다 7~8월 중앙생활보장위원회 뒤 고친다.",
+    "launchOn 은 출시일이 발표되면 채운다(YYYY-MM-DD). 비어 있으면 launchFrom(하반기 첫날)을 「빠르면」으로만 센다.",
+    "reviewBy 가 지나면 앱이 「표가 낡았다」고 말한다. 국회 예산 의결(12월)을 확인하고 날짜를 민다."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "stage": "정부안",
+  "stageNote": "2027년 예산안 · 국회 의결 전 — 숫자가 바뀔 수 있어요",
+  "eligibleFrom": "2026-09-01",
+  "launchLabel": "2027년 하반기",
+  "launchFrom": "2027-07-01",
+  "launchOn": null,
+  "annualCap": 2000000,
+  "endAge": 18,
+  "taxFreeAge": 34,
+  "bands": [
+    {
+      "id": "low",
+      "title": "중위 50% 이하",
+      "fromPct": 0,
+      "toPct": 50,
+      "kind": "FIXED",
+      "govMax": 1200000,
+      "parentPer": 0,
+      "govPer": 0
+    },
+    {
+      "id": "mid",
+      "title": "중위 50~100%",
+      "fromPct": 50,
+      "toPct": 100,
+      "kind": "MATCH",
+      "govMax": 1000000,
+      "parentPer": 1,
+      "govPer": 2
+    },
+    {
+      "id": "upper",
+      "title": "중위 100~150%",
+      "fromPct": 100,
+      "toPct": 150,
+      "kind": "MATCH",
+      "govMax": 1000000,
+      "parentPer": 1,
+      "govPer": 1
+    },
+    {
+      "id": "high",
+      "title": "중위 150% 초과",
+      "fromPct": 150,
+      "toPct": null,
+      "kind": "NONE",
+      "govMax": 0,
+      "parentPer": 0,
+      "govPer": 0
+    }
+  ],
+  "medianYear": 2027,
+  "median": [
+    2736042,
+    4480645,
+    5718091,
+    6929885,
+    8063019,
+    9129201
+  ],
+  "timeline": [
+    {
+      "on": "2026-08-28",
+      "title": "정부 첫 발표",
+      "note": "청년 예산 언박싱 2027 — 청년미래적금·청년기회자금과 잇는 자산형성 사다리",
+      "sure": true
+    },
+    {
+      "on": "2026-09-01",
+      "title": "대상 아이 태어나기 시작",
+      "note": "이날부터 태어난 아이가 정부 지원 대상(가구 중위 150% 이하)",
+      "sure": true
+    },
+    {
+      "on": "2026-10-01",
+      "title": "관계부처 지원방안",
+      "note": "구간별 정부 몫 · 연 200만 한도 · 만 34세까지 비과세 유지",
+      "sure": true
+    },
+    {
+      "on": "2026-12-02",
+      "title": "국회 예산 의결",
+      "note": "예산이 확정돼야 정부안이 「확정」이 돼요(법정 시한 12월 2일)",
+      "sure": false
+    },
+    {
+      "on": "2027-07-01",
+      "title": "출시 — 2027년 하반기",
+      "note": "전산 준비 뒤 은행·증권사에서 아이 명의로 가입(날짜 미정)",
+      "sure": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "brief",
+      "title": "정책브리핑 · 「우리아이 자립펀드」 내년 출시(2026-10-01 관계부처 합동)",
+      "url": "https:\/\/www.korea.kr\/news\/policyNewsView.do?newsId=148972878"
+    },
+    {
+      "id": "budget",
+      "title": "이데일리 · 우리아이자립펀드 나온다(2026-09-01 · 금융위 2027 예산안)",
+      "url": "https:\/\/marketin.edaily.co.kr\/News\/ReadE?newsId=03752326645575856"
+    },
+    {
+      "id": "median",
+      "title": "보건복지부 · 2027년 기준 중위소득(2026-07-28 보도자료)",
+      "url": "https:\/\/mohw.go.kr\/board.es?act=view&bid=0027&list_no=1491453&mid=a10503010100"
+    },
+    {
+      "id": "fsc",
+      "title": "금융위원회 · 보도자료 목록",
+      "url": "https:\/\/www.fsc.go.kr\/no010101"
+    }
+  ],
+  "notice": null,
+  "reviewBy": "2026-12-31"
+}
