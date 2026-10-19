@@ -1,0 +1,60 @@
+{
+  "_읽을것": [
+    "부가가치세법 §61·§62·§63·§66·§67·§69 · 시행령 §109·§111 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "limit = 간이과세 상한(미만) · exempt = 납부면제(미만) · 공급대가(부가세 포함 매출) 기준이다",
+    "sectors 의 pct 는 업종별 부가가치율(%) · creditPermille 5 = 매입 공급대가의 0.5%",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "limit": 104000000,
+  "exempt": 48000000,
+  "vatPct": 10,
+  "creditPermille": 5,
+  "sectors": [
+    {
+      "id": "retail",
+      "label": "소매업·음식점업",
+      "example": "편의점 · 식당 · 카페 · 옷가게",
+      "pct": 15
+    },
+    {
+      "id": "mfg",
+      "label": "제조업·농임어업",
+      "example": "공방 · 베이커리 제조 · 농산물",
+      "pct": 20
+    },
+    {
+      "id": "lodging",
+      "label": "숙박업",
+      "example": "펜션 · 게스트하우스",
+      "pct": 25
+    },
+    {
+      "id": "build",
+      "label": "건설·운수·정보통신",
+      "example": "인테리어 · 택배 · 앱 개발",
+      "pct": 30
+    },
+    {
+      "id": "pro",
+      "label": "전문서비스·부동산임대",
+      "example": "디자인 · 세무 · 월세",
+      "pct": 40
+    },
+    {
+      "id": "other",
+      "label": "그 밖의 서비스업",
+      "example": "미용 · 학원 · 세탁 · 수리",
+      "pct": 30
+    }
+  ],
+  "filingMonth": 1,
+  "filingDay": 25,
+  "prelimMonth": 7,
+  "prelimDay": 25,
+  "switchMonth": 7,
+  "switchDay": 1,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
