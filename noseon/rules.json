@@ -1,0 +1,66 @@
+{
+  "_읽을것": [
+    "기억노선(cog-check) 기준표. 통째로 받거나 통째로 버린다 — 한 칸이라도 이상하면 앱은 내장값을 쓴다.",
+    "나이는 「그해 나이 = 연도 − 출생연도」다. kdsqAge 66 · kdsqEvery 2 = 「건강검진 실시기준」 별표의 「66세 이상(2년마다)」.",
+    "parity 는 「홀수 해는 홀수년생 · 짝수 해는 짝수년생」(공단 운영). 공단이 바꾸면 false 로 내리고 notice 에 한 줄.",
+    "medians 는 해마다 7~8월 기준 중위소득 고시 뒤 한 줄을 더한다(one=1인 · two=2인 월액). 앞 줄은 지우지 마라.",
+    "incomePct·diagCap·diffCap* 는 그해 「치매정책 사업안내」 값이다 — 새 사업안내가 나오면 programYear 와 함께 고치고 reviewBy 를 한 해 민다.",
+    "이 파일은 apps\/cog-check 의 RulesTest 가 만든다(data\/rules.json) — 손으로 쓰지 마라."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "kdsqAge": 66,
+  "kdsqEvery": 2,
+  "parity": true,
+  "kdsqSuspectFrom": 6,
+  "screenAge": 60,
+  "screenCycleMonths": 24,
+  "incomePct": 120,
+  "medians": [
+    {
+      "year": 2026,
+      "one": 2564238,
+      "two": 4199292,
+      "notice": "보건복지부고시 제2025-135호"
+    },
+    {
+      "year": 2027,
+      "one": 2736042,
+      "two": 4480645,
+      "notice": "보건복지부고시 제2026-157호"
+    }
+  ],
+  "diagCap": 150000,
+  "diffCapClinic": 80000,
+  "diffCapTertiary": 110000,
+  "programYear": 2026,
+  "callCenter": "1899-9988",
+  "sources": [
+    {
+      "label": "치매관리법 제11조(치매검진사업)·제17조(치매안심센터)",
+      "url": "https:\/\/www.law.go.kr\/법령\/치매관리법"
+    },
+    {
+      "label": "치매관리법 시행령 제8조·제9조",
+      "url": "https:\/\/www.law.go.kr\/법령\/치매관리법시행령"
+    },
+    {
+      "label": "치매관리법 시행규칙 제3조(치매의 검진 방법)",
+      "url": "https:\/\/www.law.go.kr\/법령\/치매관리법시행규칙"
+    },
+    {
+      "label": "건강검진 실시기준(보건복지부고시)",
+      "url": "https:\/\/www.law.go.kr\/행정규칙\/건강검진실시기준"
+    },
+    {
+      "label": "보건복지부 치매조기검진사업 안내",
+      "url": "https:\/\/www.mohw.go.kr\/menu.es?mid=a10712010100"
+    },
+    {
+      "label": "중앙치매센터",
+      "url": "https:\/\/www.nid.or.kr"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
