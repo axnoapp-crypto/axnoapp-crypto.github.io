@@ -1,0 +1,194 @@
+{
+  "_읽을것": [
+    "여권법 §5·시행령 §6·[별표](수수료) - 이 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "countries 는 외교부 해외안전여행(0404.go.kr)을 직접 읽어 확인한 나라만 confirmed true 로 바꿔라 - 지금은 전부 false(확인 필요)",
+    "mode entry = 입국일로부터 months 개월 · stay = 체류를 마친 날로부터 months 개월. months 0 은 체류 기간만 덮으면 된다는 뜻이다",
+    "개정안은 공포 시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 이 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "fees": {
+    "adult10Page26": 37000,
+    "adult10Page58": 40000,
+    "five26": 32000,
+    "five58": 35000,
+    "under5": 17000,
+    "single": 17000,
+    "remain": 27000
+  },
+  "adultYears": 10,
+  "minorYears": 5,
+  "processDays": 8,
+  "countries": [
+    {
+      "code": "JP",
+      "name": "일본",
+      "months": 0,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "체류 예정 기간만 덮으면 된다고 안내돼요(대사관 FAQ 요약)"
+    },
+    {
+      "code": "US",
+      "name": "미국",
+      "months": 0,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "체류 기간 이상. 전자여행허가(ESTA)는 따로 받아요"
+    },
+    {
+      "code": "CN",
+      "name": "중국",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "자료로 6개월 이상 남기라고 정리돼 있어요"
+    },
+    {
+      "code": "TW",
+      "name": "대만",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "입국일 기준 6개월 이상으로 알려져 있어요"
+    },
+    {
+      "code": "HK",
+      "name": "홍콩",
+      "months": 1,
+      "mode": "stay",
+      "confirmed": false,
+      "note": "체류를 마친 뒤 1개월 이상으로 알려져 있어요"
+    },
+    {
+      "code": "TH",
+      "name": "태국",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "SG",
+      "name": "싱가포르",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "VN",
+      "name": "베트남",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "자료마다 3개월과 6개월이 엇갈려 6개월로 잡았어요"
+    },
+    {
+      "code": "PH",
+      "name": "필리핀",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "자료마다 60일과 6개월이 엇갈려 6개월로 잡았어요"
+    },
+    {
+      "code": "ID",
+      "name": "인도네시아",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "MY",
+      "name": "말레이시아",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "KH",
+      "name": "캄보디아",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "LA",
+      "name": "라오스",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "IN",
+      "name": "인도",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "AE",
+      "name": "아랍에미리트",
+      "months": 6,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "6개월 이상으로 안내돼요"
+    },
+    {
+      "code": "TR",
+      "name": "튀르키예",
+      "months": 5,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "입국일부터 150일 이상으로 알려져 있어요"
+    },
+    {
+      "code": "EU",
+      "name": "유럽 솅겐 지역",
+      "months": 3,
+      "mode": "stay",
+      "confirmed": false,
+      "note": "출국 예정일 뒤 3개월 이상 · 발급 10년 이내여야 해요"
+    },
+    {
+      "code": "GB",
+      "name": "영국",
+      "months": 0,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "체류 기간 이상으로 알려져 있어요"
+    },
+    {
+      "code": "AU",
+      "name": "호주",
+      "months": 0,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "체류 기간 이상으로 알려져 있어요"
+    },
+    {
+      "code": "NZ",
+      "name": "뉴질랜드",
+      "months": 3,
+      "mode": "stay",
+      "confirmed": false,
+      "note": "출국 예정일 뒤 3개월 이상으로 알려져 있어요"
+    },
+    {
+      "code": "CA",
+      "name": "캐나다",
+      "months": 0,
+      "mode": "entry",
+      "confirmed": false,
+      "note": "체류 기간 이상으로 알려져 있어요"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
