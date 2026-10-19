@@ -1,0 +1,225 @@
+{
+  "_읽을것": [
+    "미세먼지법 §21①(기간) · §18④(조례) · §31②(과태료) · 시행령 §9(제외 차량) · 별표 의 값이다. 정부 계절관리제 시행계획(보통 11월 말)이 나오면 regions\/holidays 를 먼저 맞춰라",
+    "planAnnounced=false 면 화면이 「정부 시행계획 발표 전」이라고 말한다. 계획을 읽고 고쳤으면 true 로 올리고 planNote 를 바꿔라",
+    "regions[].endHour 는 단속이 끝나는 시(21 = 오후 9시). 울산은 계절관리제 때 18. 시작은 startHour 하나다",
+    "regions[].temp = 한시 제외 규칙. anyOf 중 하나에 해당하고 need 를 다 갖추면 빠진다. CANNOT_FIT = 저감장치 부착 불가 판정, APPLIED = 저공해조치 신청함",
+    "dieselOnly=true 면 경유차만 제한한다(울산). holidays 에는 평일 공휴일·대체공휴일을 빠짐없이 넣어라 — 빠지면 그날을 단속일로 센다",
+    "dieselUpTo\/gasUpTo 는 등급을 모를 때의 가늠이다. 화면은 늘 「조회로 확정하세요」를 같이 말한다",
+    "judging=false 면 대상 판정을 숨긴다. 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "seasonNo": 8,
+  "seasonStart": "2026-12-01",
+  "seasonEnd": "2027-03-31",
+  "planAnnounced": false,
+  "planNote": "기간은 미세먼지법 §21①(12\/1~3\/31) · 지역·시간은 대구시 8차 예고(2026-10)와 7차 지자체 안내 기준 — 정부 8차 시행계획은 발표 전이에요",
+  "startHour": 6,
+  "fineWon": 100000,
+  "regions": [
+    {
+      "id": "seoul",
+      "name": "서울",
+      "area": "METRO",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": [
+            "CANNOT_FIT"
+          ]
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": false,
+      "note": ""
+    },
+    {
+      "id": "incheon",
+      "name": "인천",
+      "area": "METRO",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": [
+            "CANNOT_FIT"
+          ]
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": false,
+      "note": ""
+    },
+    {
+      "id": "gyeonggi",
+      "name": "경기",
+      "area": "METRO",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": [
+            "CANNOT_FIT"
+          ]
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": false,
+      "note": ""
+    },
+    {
+      "id": "busan",
+      "name": "부산",
+      "area": "CITY",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "CANNOT_FIT",
+            "COMMERCIAL",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": []
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": false,
+      "note": ""
+    },
+    {
+      "id": "daegu",
+      "name": "대구",
+      "area": "CITY",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "CANNOT_FIT",
+            "COMMERCIAL",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": []
+        }
+      ],
+      "tempUntil": "2027-11",
+      "dieselOnly": false,
+      "note": ""
+    },
+    {
+      "id": "gwangju",
+      "name": "광주",
+      "area": "CITY",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "CANNOT_FIT",
+            "COMMERCIAL",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": []
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": false,
+      "note": "전남광주통합특별시(2026-07 출범) — 적용 구역은 시 공고로 확인하세요"
+    },
+    {
+      "id": "daejeon",
+      "name": "대전",
+      "area": "CITY",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "CANNOT_FIT",
+            "COMMERCIAL",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": []
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": false,
+      "note": "한시 제외 범위는 7차 기준이에요 — 시 공고로 확인하세요"
+    },
+    {
+      "id": "ulsan",
+      "name": "울산",
+      "area": "CITY",
+      "endHour": 18,
+      "temp": [
+        {
+          "anyOf": [
+            "APPLIED",
+            "BASIC",
+            "CANNOT_FIT",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": []
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": true,
+      "note": "울산은 경유차만 · 오후 6시까지"
+    },
+    {
+      "id": "sejong",
+      "name": "세종",
+      "area": "CITY",
+      "endHour": 21,
+      "temp": [
+        {
+          "anyOf": [
+            "BASIC",
+            "CANNOT_FIT",
+            "COMMERCIAL",
+            "NEAR_POOR",
+            "SMALL_BIZ"
+          ],
+          "need": []
+        }
+      ],
+      "tempUntil": "",
+      "dieselOnly": false,
+      "note": "한시 제외 범위는 7차 기준이에요 — 시 공고로 확인하세요"
+    }
+  ],
+  "holidays": [
+    "2026-12-25",
+    "2027-01-01",
+    "2027-02-06",
+    "2027-02-07",
+    "2027-02-08",
+    "2027-02-09",
+    "2027-03-01"
+  ],
+  "dieselUpTo": 2005,
+  "gasUpTo": 1987,
+  "judging": true,
+  "notice": "",
+  "reviewBy": "2027-04-30"
+}
