@@ -1,0 +1,16 @@
+{
+  "_읽을것": [
+    "국민건강보험법 §50 · 시행령 §23(2026-10-01 시행)의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "singleWon = 하나의 태아 상한 · multiWon = 둘 이상 · validYears = 출산일부터 몇 년",
+    "multiWon = 쌍둥이(태아당 100만 고시) · ruralExtraWon = 분만취약지 추가(0이면 앱이 직접 입력을 받는다)",
+    "하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "singleWon": 1000000,
+  "multiWon": 2000000,
+  "ruralExtraWon": 200000,
+  "validYears": 2,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
