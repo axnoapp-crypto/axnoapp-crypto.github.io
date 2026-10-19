@@ -1,0 +1,103 @@
+{
+  "_읽을것": [
+    "steps = 법 개정 시행일별 일수. annualDays(연간 휴가) · paidDays(최초 며칠 유급 — 남녀고용평등법 제18조의3①) · insuredDays(고용보험이 주는 날 — 고용보험법 제76조①3). from 이 빠른 순으로",
+    "개정이 공포되면 시행일을 from 으로 한 줄을 끝에 더한다. 앞 줄을 고치지 마라 — 지난 날의 유급 판정이 바뀐다",
+    "caps = 「출산전후휴가 급여등 상한액 고시」의 난임치료휴가 1일분 상한. 고시는 해마다 유효기간이 끝난다(until). 새 고시가 나오면 from·until·perDay·law 한 줄을 끝에 더한다",
+    "minWages = 해별 최저임금 시급(급여 하한). 해가 바뀌면 그해 줄을 더한다",
+    "하나라도 형식이 깨지면(일수 범위·날짜 순서·https) 앱은 표 전체를 버리고 앞 표를 쓴다",
+    "notice 에 한 줄을 넣으면 앱 첫 화면 맨 위에 그대로 뜬다(급한 정정용)"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "steps": [
+    {
+      "from": "2025-02-23",
+      "annualDays": 6,
+      "paidDays": 2,
+      "insuredDays": 2,
+      "law": "법률 제20521호(2025-02-23 시행)"
+    },
+    {
+      "from": "2026-11-27",
+      "annualDays": 6,
+      "paidDays": 4,
+      "insuredDays": 4,
+      "law": "법률 제21700호 · 고용보험법 법률 제21699호(2026-05-26 공포 · 2026-11-27 시행)"
+    }
+  ],
+  "caps": [
+    {
+      "from": "2026-09-18",
+      "until": "2026-12-31",
+      "perDay": 84210,
+      "law": "고용노동부 고시 제2026-67호"
+    }
+  ],
+  "minWages": [
+    {
+      "year": 2026,
+      "hourly": 10320
+    },
+    {
+      "year": 2027,
+      "hourly": 10700
+    }
+  ],
+  "insuredDaysMin": 180,
+  "claimOpenMonths": 1,
+  "claimCloseMonths": 12,
+  "monthHours": 209,
+  "dayHours": 8,
+  "sources": [
+    {
+      "id": "act",
+      "title": "남녀고용평등법 제18조의3(난임치료휴가)",
+      "url": "https:\/\/www.law.go.kr\/lsInfoP.do?lsiSeq=284457&efYd=20260918",
+      "kind": "법령"
+    },
+    {
+      "id": "act27",
+      "title": "같은 법 2026-11-27 시행판(최초 4일 유급)",
+      "url": "https:\/\/www.law.go.kr\/lsInfoP.do?lsiSeq=286255&efYd=20261127",
+      "kind": "법령"
+    },
+    {
+      "id": "decree",
+      "title": "같은 법 시행령 제9조의3(신청)",
+      "url": "https:\/\/www.law.go.kr\/lsInfoP.do?lsiSeq=288719&efYd=20260918",
+      "kind": "법령"
+    },
+    {
+      "id": "ei",
+      "title": "고용보험법 제75조·제76조(급여·신청 기한)",
+      "url": "https:\/\/www.law.go.kr\/lsInfoP.do?lsiSeq=286253&efYd=20261127",
+      "kind": "법령"
+    },
+    {
+      "id": "eidecree",
+      "title": "고용보험법 시행령 제12조·별표 1(우선지원 대상기업)",
+      "url": "https:\/\/www.law.go.kr\/lsInfoP.do?lsiSeq=288717&efYd=20260918",
+      "kind": "법령"
+    },
+    {
+      "id": "cap",
+      "title": "출산전후휴가 급여등 상한액 고시(제2026-67호)",
+      "url": "https:\/\/www.law.go.kr\/admRulInfoP.do?admRulSeq=2100000285290",
+      "kind": "고시"
+    },
+    {
+      "id": "moel",
+      "title": "고용노동부 「난임치료휴가, 11월부터 유급기간 4일로 확대」(2026-08-23)",
+      "url": "https:\/\/eiec.kdi.re.kr\/policy\/materialView.do?num=285673",
+      "kind": "보도자료"
+    },
+    {
+      "id": "work24",
+      "title": "고용24 — 급여 신청",
+      "url": "https:\/\/www.work24.go.kr",
+      "kind": "신청"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
