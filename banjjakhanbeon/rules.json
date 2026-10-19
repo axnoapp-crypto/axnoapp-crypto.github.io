@@ -1,0 +1,26 @@
+{
+  "_읽을것": [
+    "반짝한번(scaling-once) 기준표. 통째로 받거나 통째로 버린다 — 한 칸이라도 이상하면 앱은 내장값을 쓴다.",
+    "clinicPct 30 · hospCityPct 40 · hospRuralPct 35 = 국민건강보험법 시행령 별표 2 제3호 가목 외래 표(치과의원·치과병원). minAge 19 · perYear 1 = 보건복지부 고시(원문 못 읽음 — 공단 안내 대조).",
+    "이 파일은 apps\/scaling-once 의 RulesTest 가 만든다(data\/rules.json) — 손으로 쓰지 마라."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "minAge": 19,
+  "perYear": 1,
+  "clinicPct": 30,
+  "hospCityPct": 40,
+  "hospRuralPct": 35,
+  "notice": "",
+  "sources": [
+    {
+      "label": "국민건강보험법 시행령 별표 2(본인부담률)",
+      "url": "https:\/\/www.law.go.kr\/법령\/국민건강보험법시행령"
+    },
+    {
+      "label": "국민건강보험공단",
+      "url": "https:\/\/www.nhis.or.kr"
+    }
+  ],
+  "reviewBy": "2027-06-30"
+}
