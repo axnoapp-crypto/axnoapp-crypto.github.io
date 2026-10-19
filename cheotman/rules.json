@@ -1,0 +1,71 @@
+{
+  "_읽을것": [
+    "보건복지부 첫만남이용권 지원사업 안내(지침)의 값이다. 정본을 못 읽은 채 안내 글로 넣은 값이니 숫자를 바꿀 땐 지침을 먼저 읽어라",
+    "firstWon = 첫째 · laterWon = 둘째 이상(원) · useMonths = 출생일부터 사용 개월 · applyMonths = 늦어도 신청할 권장선(법정 기한 아님)",
+    "places 의 ok=false 는 사용 불가 업종이다. 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "firstWon": 2000000,
+  "laterWon": 3000000,
+  "useMonths": 24,
+  "applyMonths": 21,
+  "places": [
+    {
+      "id": "care",
+      "label": "산후조리원",
+      "example": "산후조리원 · 산모 도우미",
+      "ok": true
+    },
+    {
+      "id": "hospital",
+      "label": "병원·약국",
+      "example": "소아과 · 약국 · 예방접종",
+      "ok": true
+    },
+    {
+      "id": "goods",
+      "label": "육아용품",
+      "example": "분유 · 기저귀 · 유모차 · 카시트",
+      "ok": true
+    },
+    {
+      "id": "mart",
+      "label": "마트·백화점",
+      "example": "대형마트 · 백화점 · 편의점",
+      "ok": true
+    },
+    {
+      "id": "online",
+      "label": "온라인 쇼핑",
+      "example": "오픈마켓 · 쇼핑몰",
+      "ok": true
+    },
+    {
+      "id": "etc",
+      "label": "그 밖에 쓸 수 있는 곳",
+      "example": "음식점 · 카페 · 서점",
+      "ok": true
+    },
+    {
+      "id": "bad1",
+      "label": "유흥·사행 업종",
+      "example": "유흥주점 · 카지노 · 복권방",
+      "ok": false
+    },
+    {
+      "id": "bad2",
+      "label": "면세점",
+      "example": "면세점",
+      "ok": false
+    },
+    {
+      "id": "bad3",
+      "label": "위생·레저 일부 업종",
+      "example": "성인용품점 · 레저업종 등",
+      "ok": false
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
