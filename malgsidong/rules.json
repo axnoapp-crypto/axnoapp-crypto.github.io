@@ -1,0 +1,57 @@
+{
+  "_읽을것": [
+    "도로교통법 §80의2·§82②·§152·§148의3 · 시행규칙 §3의2·§33의6~9 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "fromDrunk\/fromObstruct = 재위반이 이날 이후여야 대상(부칙). 첫 위반 날짜가 아니다",
+    "yearsBase 등 = 결격기간 = 부착기간(같은 길이). 부착은 결격이 끝난 다음 날부터 센다",
+    "burnPerHour 는 느린 쪽(보수적) 값이다. 평균값으로 올리면 앱이 「이제 괜찮다」를 더 이르게 말한다",
+    "costLowMan\/costHighMan 은 보도 기준이다. 정부 고시가 나오면 costSource 도 같이 바꿔라",
+    "judging=false 면 대상 판정을 숨긴다(기준이 바뀌어 판정이 틀렸을 때). 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "repeatYears": 5,
+  "fromDrunk": "2024-10-25",
+  "fromObstruct": "2025-06-04",
+  "noLicenseSince": "2026-10-13",
+  "yearsBase": 2,
+  "yearsCrashTwice": 3,
+  "yearsGrave": 5,
+  "lockBac": 0.03,
+  "checkMonths": 6,
+  "windowDays": 31,
+  "lapseDays": 30,
+  "changeDays": 14,
+  "brokenDays": 30,
+  "burnPerHour": 0.01,
+  "rMale": 0.7,
+  "rFemale": 0.6,
+  "absorbHours": 1,
+  "costLowMan": 250,
+  "costHighMan": 300,
+  "costSource": "보도 기준 · 정부가 정한 값 아님",
+  "penalties": [
+    {
+      "what": "장치 없는 차를 운전",
+      "then": "1년 이하 징역 · 300만 원 이하 벌금",
+      "law": "§152"
+    },
+    {
+      "what": "장치를 떼거나 조작",
+      "then": "3년 이하 징역 · 3천만 원 이하 벌금",
+      "law": "§148의3①"
+    },
+    {
+      "what": "대신 불어 시동을 걸어 줌",
+      "then": "1년 이하 징역 · 300만 원 이하 벌금",
+      "law": "§148의3③"
+    },
+    {
+      "what": "등록 안 하고 운전 · 조작된 걸 알고 운전",
+      "then": "면허 취소 사유",
+      "law": "§93①"
+    }
+  ],
+  "judging": true,
+  "notice": "",
+  "reviewBy": "2027-04-30"
+}
