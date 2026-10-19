@@ -1,0 +1,27 @@
+{
+  "_읽을것": [
+    "남녀고용평등법 §19의2 · 고용보험법 §73의2 · 같은 법 시행령 §104의2 로 만든 표다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "급여 상한(tier1Cap 250만 · tier2Cap 160만)이나 나이(maxAge)·기간(baseMonths·leaveFactor)이 개정되면 여기만 고치고 version 을 올린다",
+    "하나라도 범위를 벗어나면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "maxAge": 12,
+  "maxGrade": 6,
+  "minHours": 15,
+  "maxHours": 35,
+  "baseMonths": 12,
+  "leaveFactor": 2,
+  "leaveMonths": 12,
+  "applyDaysBefore": 30,
+  "firstTierHours": 10,
+  "tier1Cap": 2500000,
+  "tier1Floor": 500000,
+  "tier2RatePct": 80,
+  "tier2Cap": 1600000,
+  "tier2Floor": 500000,
+  "claimOpenMonths": 1,
+  "claimCloseMonths": 12,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
