@@ -1,0 +1,21 @@
+{
+  "_읽을것": [
+    "법 §19·§20·§21 · 시행령 §9·§9의2 · 시행규칙 §16 의 값이다. 숫자를 바꿀 땐 조문과 고시를 먼저 읽어라",
+    "baseWon·dependentWon·successMaxWon 은 고용정책심의회 결정값이라 법령 본문에 없다 - 고시·고용24 안내로 확인한 뒤 바꿔라",
+    "successMaxWon 0 = 아직 못 읽음(화면이 금액 대신 확인 필요를 말한다)",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "baseWon": 600000,
+  "dependentWon": 100000,
+  "dependentMax": 4,
+  "months": 6,
+  "medianOneWon": 2564238,
+  "medianPct": 60,
+  "shiftDays": 7,
+  "payWithinDays": 14,
+  "successMaxWon": 0,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
