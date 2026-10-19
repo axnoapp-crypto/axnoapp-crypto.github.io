@@ -1,0 +1,65 @@
+{
+  "_읽을것": [
+    "소득세법 §14③6·§17③·§55·§56·§62·§70·§129 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "threshold = 종합과세기준금액(초과 시 종합과세) · withholdPct = 이자·배당 원천징수율 · grossUpPct = 배당가산율",
+    "brackets = 기본세율 표 — over 초과분에 pct% 를 곱해 base 에 더한다",
+    "hiThreshold = 건강보험 피부양자 소득요건(연 합산소득, 원 · 시행규칙 별표1의2). 0 이면 앱이 「확인 필요」로 말한다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "threshold": 20000000,
+  "withholdPct": 14,
+  "grossUpPct": 11,
+  "brackets": [
+    {
+      "over": 0,
+      "base": 0,
+      "pct": 6
+    },
+    {
+      "over": 14000000,
+      "base": 840000,
+      "pct": 15
+    },
+    {
+      "over": 50000000,
+      "base": 6240000,
+      "pct": 24
+    },
+    {
+      "over": 88000000,
+      "base": 15360000,
+      "pct": 35
+    },
+    {
+      "over": 150000000,
+      "base": 37060000,
+      "pct": 38
+    },
+    {
+      "over": 300000000,
+      "base": 94060000,
+      "pct": 40
+    },
+    {
+      "over": 500000000,
+      "base": 174060000,
+      "pct": 42
+    },
+    {
+      "over": 1000000000,
+      "base": 384060000,
+      "pct": 45
+    }
+  ],
+  "yearEndMonth": 12,
+  "yearEndDay": 31,
+  "filingStartMonth": 5,
+  "filingStartDay": 1,
+  "filingEndMonth": 5,
+  "filingEndDay": 31,
+  "hiThreshold": 20000000,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
