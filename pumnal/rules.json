@@ -1,0 +1,37 @@
+{
+  "_읽을것": [
+    "dadDays·dadSplits·dadAfterBirthDays·dadBeforeDueDays = 남녀고용평등법 제18조의2 (20일 · 3회 · 출산한 날부터 120일 · 출산예정일 50일 전부터). dadBeforeFrom = 사전 사용이 시작된 시행일(2026-09-18)",
+    "momDays·momAfterMin·momPaid = 근로기준법 제74조 (90일\/100일\/120일 · 출산 후 45\/60일 이상 · 최초 60\/75일 유급)",
+    "claimOpenMonths·claimCloseMonths = 고용보험법 제75조 제2호 (휴가 시작 후 1개월부터 끝난 날 이후 12개월 이내)",
+    "caps = 「출산전후휴가 급여등 상한액 고시」. 고시는 해마다 유효기간이 끝난다(until). 새 고시가 나오면 from·until·금액·law 한 줄을 끝에 더한다. 앞 줄은 고치지 마라",
+    "하나라도 형식이 깨지면(범위·날짜 순서) 앱은 표 전체를 버리고 앞 표를 쓴다. notice 에 한 줄을 넣으면 첫 화면 맨 위에 그대로 뜬다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "dadDays": 20,
+  "dadSplits": 3,
+  "dadAfterBirthDays": 120,
+  "dadBeforeDueDays": 50,
+  "dadBeforeFrom": "2026-09-18",
+  "momDays": 90,
+  "momDaysPremature": 100,
+  "momDaysMulti": 120,
+  "momAfterMin": 45,
+  "momAfterMinMulti": 60,
+  "momPaid": 60,
+  "momPaidMulti": 75,
+  "claimOpenMonths": 1,
+  "claimCloseMonths": 12,
+  "caps": [
+    {
+      "from": "2026-09-18",
+      "until": "2026-12-31",
+      "mom": 6600000,
+      "momPremature": 7333330,
+      "momMulti": 8800000,
+      "dad": 1684210,
+      "law": "고용노동부 고시 제2026-67호"
+    }
+  ],
+  "notice": ""
+}
