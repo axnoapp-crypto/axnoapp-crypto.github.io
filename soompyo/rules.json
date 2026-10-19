@@ -1,0 +1,266 @@
+{
+  "_읽을것": [
+    "숨표 기준표. 통째로 받거나 통째로 버린다 — 한 칸이라도 이상하면 앱은 내장값을 쓴다.",
+    "나이는 「그해 나이 = 연도 − 출생연도」. items 는 「건강검진 실시기준」 별표 1 의 「대상자」 칸 그대로다.",
+    "ages 가 있으면 그 나이에만, 없으면 from 부터 step 년마다(to 가 있으면 거기까지). since 는 처음 들어간 해 — 화면에 「신설」로 뜬다.",
+    "새 고시(보통 1월)가 나오면 year·standard·items 를 고치고 reviewBy 를 한 해 민다.",
+    "parity 는 「짝수년생은 짝수 해 · 홀수년생은 홀수 해」(공단 운영). 공단이 바꾸면 false 로 내리고 notice 에 한 줄.",
+    "이 파일은 apps\/checkup 의 RulesTest 가 만든다(data\/rules.json) — 손으로 쓰지 마라."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "year": 2026,
+  "notice": "",
+  "standard": "건강검진 실시기준(보건복지부고시 제2026-6호)",
+  "parity": true,
+  "every": 2,
+  "adultFrom": 20,
+  "cancerShare": 10,
+  "items": [
+    {
+      "key": "lung",
+      "name": "폐기능 검사",
+      "part": "폐",
+      "sex": "ANY",
+      "ages": [
+        56,
+        66
+      ],
+      "from": -1,
+      "to": -1,
+      "step": -1,
+      "since": 2026,
+      "note": "숨을 크게 들이마셨다 6초 넘게 내쉬는 검사 · 만성폐쇄성폐질환(COPD) 조기 발견"
+    },
+    {
+      "key": "hcv",
+      "name": "C형간염 항체검사",
+      "part": "간",
+      "sex": "ANY",
+      "ages": [
+        56
+      ],
+      "from": -1,
+      "to": -1,
+      "step": -1,
+      "since": 2025,
+      "note": "같은 피로 한 번에 · 양성이면 확진검사는 다음 해 3월 31일까지"
+    },
+    {
+      "key": "hbv",
+      "name": "B형간염 검사",
+      "part": "간",
+      "sex": "ANY",
+      "ages": [
+        40
+      ],
+      "from": -1,
+      "to": -1,
+      "step": -1,
+      "since": -1,
+      "note": "B형간염 보균자·항체가 이미 있는 사람은 빠져요"
+    },
+    {
+      "key": "bone",
+      "name": "골밀도 검사",
+      "part": "뼈",
+      "sex": "F",
+      "ages": [
+        54,
+        60,
+        66
+      ],
+      "from": -1,
+      "to": -1,
+      "step": -1,
+      "since": -1,
+      "note": "여성만 · 60세는 2025년부터 더해졌어요"
+    },
+    {
+      "key": "kdsq",
+      "name": "인지기능장애 검사",
+      "part": "머리",
+      "sex": "ANY",
+      "ages": [],
+      "from": 66,
+      "to": -1,
+      "step": 2,
+      "since": -1,
+      "note": "66세부터 2년마다 · 같이 간 가족이 문진표를 써요"
+    },
+    {
+      "key": "fall",
+      "name": "노인신체기능검사(낙상)",
+      "part": "다리",
+      "sex": "ANY",
+      "ages": [
+        66,
+        70,
+        80
+      ],
+      "from": -1,
+      "to": -1,
+      "step": -1,
+      "since": -1,
+      "note": "일어나 3m 걸었다 돌아와 앉기 · 한 발로 서기"
+    },
+    {
+      "key": "life",
+      "name": "생활습관평가",
+      "part": "생활",
+      "sex": "ANY",
+      "ages": [
+        40,
+        50,
+        60,
+        70
+      ],
+      "from": -1,
+      "to": -1,
+      "step": -1,
+      "since": -1,
+      "note": "담배·술·운동·영양·비만 상담과 처방"
+    },
+    {
+      "key": "cholM",
+      "name": "콜레스테롤 4종",
+      "part": "피",
+      "sex": "M",
+      "ages": [],
+      "from": 24,
+      "to": -1,
+      "step": 4,
+      "since": -1,
+      "note": "남성 24세부터 4년마다 — 실제 대상은 공단 안내로 확인해요"
+    },
+    {
+      "key": "cholF",
+      "name": "콜레스테롤 4종",
+      "part": "피",
+      "sex": "F",
+      "ages": [],
+      "from": 40,
+      "to": -1,
+      "step": 4,
+      "since": -1,
+      "note": "여성 40세부터 4년마다 — 실제 대상은 공단 안내로 확인해요"
+    },
+    {
+      "key": "mind",
+      "name": "정신건강검사(우울·조기정신증)",
+      "part": "마음",
+      "sex": "ANY",
+      "ages": [],
+      "from": 20,
+      "to": 34,
+      "step": 2,
+      "since": -1,
+      "note": "20~34세는 2년마다 · 그 뒤로는 10년 나이대마다 한 번"
+    },
+    {
+      "key": "plaque",
+      "name": "치면세균막 검사",
+      "part": "치아",
+      "sex": "ANY",
+      "ages": [
+        40
+      ],
+      "from": -1,
+      "to": -1,
+      "step": -1,
+      "since": -1,
+      "note": "구강검진 때 같이"
+    }
+  ],
+  "cancers": [
+    {
+      "key": "stomach",
+      "name": "위암",
+      "sex": "ANY",
+      "from": 40,
+      "to": -1,
+      "months": 24,
+      "risk": "NONE",
+      "free": false,
+      "how": "위내시경(또는 위장조영)"
+    },
+    {
+      "key": "colon",
+      "name": "대장암",
+      "sex": "ANY",
+      "from": 50,
+      "to": -1,
+      "months": 12,
+      "risk": "NONE",
+      "free": true,
+      "how": "분변잠혈검사 — 양성이면 대장내시경"
+    },
+    {
+      "key": "liver",
+      "name": "간암",
+      "sex": "ANY",
+      "from": 40,
+      "to": -1,
+      "months": 6,
+      "risk": "LIVER",
+      "free": false,
+      "how": "간초음파 + 혈액검사 · 상·하반기 한 번씩"
+    },
+    {
+      "key": "breast",
+      "name": "유방암",
+      "sex": "F",
+      "from": 40,
+      "to": -1,
+      "months": 24,
+      "risk": "NONE",
+      "free": false,
+      "how": "유방촬영"
+    },
+    {
+      "key": "cervix",
+      "name": "자궁경부암",
+      "sex": "F",
+      "from": 20,
+      "to": -1,
+      "months": 24,
+      "risk": "NONE",
+      "free": true,
+      "how": "자궁경부세포검사"
+    },
+    {
+      "key": "lungCa",
+      "name": "폐암",
+      "sex": "ANY",
+      "from": 54,
+      "to": 74,
+      "months": 24,
+      "risk": "LUNG",
+      "free": false,
+      "how": "저선량 흉부CT"
+    }
+  ],
+  "sources": [
+    {
+      "label": "건강검진 실시기준(보건복지부고시) 별표 1",
+      "url": "https:\/\/www.law.go.kr\/행정규칙\/건강검진실시기준"
+    },
+    {
+      "label": "국민건강보험법 시행령 제25조",
+      "url": "https:\/\/www.law.go.kr\/법령\/국민건강보험법시행령"
+    },
+    {
+      "label": "암관리법 시행령 제8조 · 별표 1",
+      "url": "https:\/\/www.law.go.kr\/법령\/암관리법시행령"
+    },
+    {
+      "label": "암검진 실시기준(보건복지부고시) 제11조",
+      "url": "https:\/\/www.law.go.kr\/행정규칙\/암검진실시기준"
+    },
+    {
+      "label": "국민건강보험공단 일반건강검진 실시안내",
+      "url": "https:\/\/www.nhis.or.kr\/nhis\/healthin\/wbhaca04500m01.do"
+    }
+  ],
+  "reviewBy": "2027-03-31"
+}
