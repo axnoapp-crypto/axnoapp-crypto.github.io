@@ -1,0 +1,57 @@
+{
+  "_읽을것": [
+    "자동차손해배상 보장법 §5·§48③ · 시행령 §36 별표 5 제2호 가·나목의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "kind = moto(이륜) · private(비사업용) · biz(사업용) \/ cov = person(대인Ⅰ 책임보험) · prop(대물)",
+    "금액 = base(freeDays 일 이내) · 그 뒤 1일마다 perDay 를 더한 값 · 총액은 cap 을 못 넘는다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "freeDays": 10,
+  "rows": [
+    {
+      "kind": "moto",
+      "cov": "person",
+      "base": 6000,
+      "perDay": 1200,
+      "cap": 200000
+    },
+    {
+      "kind": "private",
+      "cov": "person",
+      "base": 10000,
+      "perDay": 4000,
+      "cap": 600000
+    },
+    {
+      "kind": "biz",
+      "cov": "person",
+      "base": 30000,
+      "perDay": 8000,
+      "cap": 1000000
+    },
+    {
+      "kind": "moto",
+      "cov": "prop",
+      "base": 3000,
+      "perDay": 600,
+      "cap": 100000
+    },
+    {
+      "kind": "private",
+      "cov": "prop",
+      "base": 5000,
+      "perDay": 2000,
+      "cap": 300000
+    },
+    {
+      "kind": "biz",
+      "cov": "prop",
+      "base": 5000,
+      "perDay": 2000,
+      "cap": 300000
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
