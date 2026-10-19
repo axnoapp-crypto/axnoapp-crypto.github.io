@@ -1,0 +1,78 @@
+{
+  "_읽을것": [
+    "국민연금법 §6·§13·§61·§88·§90 · 시행령 §21 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "rateSteps = 연도별 임의계속가입자 보험료율(‰, 2025-12 개정법 부칙 §4②) · rateAfterPermille = 마지막 해 이후(13%)",
+    "floorWon·capWon = 기준소득월액 하한·상한(매년 7월 보건복지부 고시). 지금 값은 보도 기준이라 고시 원문 확인 필요",
+    "ageBands = 출생연도 이상이면 그 수급 나이(법 부칙). 개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "needMonths": 120,
+  "mandatoryAge": 60,
+  "optionalMaxAge": 65,
+  "rateSteps": [
+    {
+      "year": 2026,
+      "permille": 95
+    },
+    {
+      "year": 2027,
+      "permille": 100
+    },
+    {
+      "year": 2028,
+      "permille": 105
+    },
+    {
+      "year": 2029,
+      "permille": 110
+    },
+    {
+      "year": 2030,
+      "permille": 115
+    },
+    {
+      "year": 2031,
+      "permille": 120
+    },
+    {
+      "year": 2032,
+      "permille": 125
+    }
+  ],
+  "rateBeforePermille": 90,
+  "rateAfterPermille": 130,
+  "floorWon": 410000,
+  "capWon": 6590000,
+  "wageNote": "2026년 7월~2027년 6월 적용 · 보도 기준이라 고시 확인 필요",
+  "ageBands": [
+    {
+      "fromBirthYear": 0,
+      "age": 60
+    },
+    {
+      "fromBirthYear": 1953,
+      "age": 61
+    },
+    {
+      "fromBirthYear": 1957,
+      "age": 62
+    },
+    {
+      "fromBirthYear": 1961,
+      "age": 63
+    },
+    {
+      "fromBirthYear": 1965,
+      "age": 64
+    },
+    {
+      "fromBirthYear": 1969,
+      "age": 65
+    }
+  ],
+  "dueDay": 10,
+  "delinquentMonths": 6,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
