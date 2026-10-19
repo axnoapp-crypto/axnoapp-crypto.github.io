@@ -1,0 +1,61 @@
+{
+  "_읽을것": [
+    "국민연금 실버론(노후긴급자금 대부) 기준표다 — 국민연금법 §46①1 · §59① · 시행령 §31①4 + 국민연금공단 FAQ·온에어 안내가 정본이다",
+    "rates 는 분기 금리다. 공단이 새 분기 금리를 공지하면 줄을 하나 더하고(label·from·to·percent) reviewBy 를 그 분기 끝 + 31일로 민다. 확인 안 한 분기는 싣지 마라",
+    "windows 는 용도별 신청 기한(개월)이다 — before 는 사유일 전, after 는 사유일 뒤. RENT_NEW 만 before 가 있다(임차개시일 전후 3개월)",
+    "capWon 은 최고 한도, multiple 은 연간 연금액의 배수, deductShare 는 연금에서 뗄 수 있는 상한(연금월액의 2분의 1 · 국민연금법 §59①)",
+    "budgetState 는 \"\"(모름 — 한정 예산이라는 말만) · \"open\" · \"closed\". 공단이 마감·재개를 공지했을 때만 바꾸고 budgetNote·budgetAsOf 를 같이 채운다",
+    "judging=false 면 앱이 한도·상환 셈을 숨긴다 — 한도 공식이 바뀌었는데 아직 못 고쳤을 때",
+    "하나라도 깨지면 앱은 표 전체를 버리고 앱 안의 값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "minAge": 60,
+  "multiple": 2,
+  "capWon": 10000000,
+  "maxRepayYears": 5,
+  "maxGraceYears": 2,
+  "deductShare": 0.5,
+  "payDay": 25,
+  "rates": [
+    {
+      "label": "2026년 4분기",
+      "from": "2026-10-01",
+      "to": "2026-12-31",
+      "percent": 3.21
+    }
+  ],
+  "windows": [
+    {
+      "purpose": "RENT_NEW",
+      "before": 3,
+      "after": 3
+    },
+    {
+      "purpose": "RENT_RENEW",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "purpose": "MEDICAL",
+      "before": 0,
+      "after": 6
+    },
+    {
+      "purpose": "FUNERAL",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "purpose": "DISASTER",
+      "before": 0,
+      "after": 6
+    }
+  ],
+  "budgetState": "",
+  "budgetNote": "",
+  "budgetAsOf": "",
+  "judging": true,
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
