@@ -1,0 +1,33 @@
+{
+  "_읽을것": [
+    "조세특례제한법 §126의2 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라. 개정안은 공포·시행 전에 넣지 마라(notice 한 줄로만 알린다)",
+    "salaryCap = 문화체육사용분을 따로 치는 총급여 상한(이하) · thresholdPct = 총급여 대비 문턱(%) · limitLow\/limitHigh = [자녀0, 1, 2명이상] 한도",
+    "facilityScope = 시행령 §121의2 체육시설 범위(수영장·체력단련장, 강습비·입회금 제외)",
+    "simplifyMonth\/Day 는 연말정산 간소화 확인 알림용 대략 날짜다(정본 미확인). 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "salaryCap": 70000000,
+  "thresholdPct": 25,
+  "cardPct": 15,
+  "debitPct": 30,
+  "culturePct": 30,
+  "limitLow": [
+    3000000,
+    3500000,
+    4000000
+  ],
+  "limitHigh": [
+    2500000,
+    2750000,
+    3000000
+  ],
+  "extraCap": 3000000,
+  "gymFrom": "2025-07-01",
+  "lastYear": 2028,
+  "simplifyMonth": 1,
+  "simplifyDay": 15,
+  "facilityScope": "「체육시설법 시행령」 별표1의 수영장·체력단련장(헬스장) 이용료만 — 개인강습비(PT 등)·회원 입회금은 빠져요",
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
