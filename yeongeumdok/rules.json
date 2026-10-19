@@ -1,0 +1,72 @@
+{
+  "_읽을것": [
+    "소득세법 §14③9·§47의2·§55·§64의4·§129①5의2·6 · 시행령 §40의2 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "sepLimit = 분리과세 선택 선(1,500만 원) · rate* = 연금소득세 원천징수율(%) · flatPct = 초과 시 분리 선택 세율 · outsidePct = 연금외수령 기타소득세율",
+    "localPct = 지방소득세(소득세의 %) · limitPct\/limitFreeYear = 연금수령한도 계수와 한도 없는 연차 · dedMax = 연금소득공제 상한",
+    "brackets = 기본세율 표 — over 초과분에 pct% 를 곱해 base 에 더한다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "sepLimit": 15000000,
+  "rateUnder70": 5,
+  "rate70": 4,
+  "rate80": 3,
+  "rateLifetime": 3,
+  "flatPct": 15,
+  "outsidePct": 15,
+  "localPct": 10,
+  "limitPct": 120,
+  "limitFreeYear": 11,
+  "dedMax": 9000000,
+  "brackets": [
+    {
+      "over": 0,
+      "base": 0,
+      "pct": 6
+    },
+    {
+      "over": 14000000,
+      "base": 840000,
+      "pct": 15
+    },
+    {
+      "over": 50000000,
+      "base": 6240000,
+      "pct": 24
+    },
+    {
+      "over": 88000000,
+      "base": 15360000,
+      "pct": 35
+    },
+    {
+      "over": 150000000,
+      "base": 37060000,
+      "pct": 38
+    },
+    {
+      "over": 300000000,
+      "base": 94060000,
+      "pct": 40
+    },
+    {
+      "over": 500000000,
+      "base": 174060000,
+      "pct": 42
+    },
+    {
+      "over": 1000000000,
+      "base": 384060000,
+      "pct": 45
+    }
+  ],
+  "yearEndMonth": 12,
+  "yearEndDay": 31,
+  "filingStartMonth": 5,
+  "filingStartDay": 1,
+  "filingEndMonth": 5,
+  "filingEndDay": 31,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
