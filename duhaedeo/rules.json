@@ -1,0 +1,52 @@
+{
+  "_읽을것": [
+    "주택임대차보호법·시행령과 한국은행 기준금리의 값이다. 숫자를 바꿀 땐 국가법령정보센터 원문·한국은행 발표를 먼저 읽어라",
+    "baseRate 는 한국은행 기준금리(연 %)다. 금통위가 바꾸면 그날 고쳐라(baseRateSince 도). 전환율 = min(convCap, baseRate + convSpread) 를 앱이 계산한다",
+    "localCaps 는 시·도 조례로 5%보다 낮춘 곳이다(region 은 「서울특별시」처럼 화면에 그대로 쓰는 이름). 2026-10-18 현재 확인된 곳 없음",
+    "openMonths·closeMonths 는 법 §6① 의 6개월·2개월이다. 앱은 양 끝을 하루씩 안쪽으로 잡는다(해석이 갈리는 경계)",
+    "reportDays·reportDepositOver·reportRentOver 는 임대차 신고 한 줄 안내용이다(이 앱의 판정에는 안 쓴다)",
+    "judging=false 면 창·갈래 판정을 숨긴다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "baseRate": 3,
+  "baseRateSince": "2026-08-27",
+  "convCap": 10,
+  "convSpread": 2,
+  "raiseCapPct": 5,
+  "localCaps": [],
+  "raiseLockMonths": 12,
+  "openMonths": 6,
+  "closeMonths": 2,
+  "twoMonthFrom": "2020-12-10",
+  "termYears": 2,
+  "cancelMonths": 3,
+  "reportDays": 30,
+  "reportDepositOver": 60000000,
+  "reportRentOver": 300000,
+  "sources": [
+    {
+      "name": "주택임대차보호법 (국가법령정보센터)",
+      "url": "https:\/\/www.law.go.kr\/법령\/주택임대차보호법"
+    },
+    {
+      "name": "주택임대차보호법 시행령 (국가법령정보센터)",
+      "url": "https:\/\/www.law.go.kr\/법령\/주택임대차보호법시행령"
+    },
+    {
+      "name": "한국은행 기준금리 (한국은행)",
+      "url": "https:\/\/www.bok.or.kr\/portal\/singl\/baseRate\/list.do?dataSeCd=01&menuNo=200643"
+    },
+    {
+      "name": "주택·상가건물 임대차분쟁조정위원회 (대한법률구조공단)",
+      "url": "https:\/\/www.hldcc.or.kr"
+    },
+    {
+      "name": "임대차 계약 신고 (부동산거래관리시스템)",
+      "url": "https:\/\/rtms.molit.go.kr"
+    }
+  ],
+  "judging": true,
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
