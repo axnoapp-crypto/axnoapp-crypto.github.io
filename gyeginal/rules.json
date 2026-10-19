@@ -1,0 +1,28 @@
+{
+  "_읽을것": [
+    "자동차관리법 §51·§84 · 이륜자동차검사의 시행 등에 관한 규칙 §3·§11·§13 · 대기환경보전법 시행령 §78의2 · 자동차관리법 시행령 과태료 별표의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "firstYears 3 = 최초 정기검사는 사용신고 3년 · cycleYears 2 = 이후 2년 · windowDays 31 = 만료일 전후 31일",
+    "fine* 는 지연 일수별 과태료(원). fineStartDay 를 30 으로 낮추면 「31일째부터 3일 초과마다」를 한 칸 앞당겨 읽는 것이다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "firstYears": 3,
+  "cycleYears": 2,
+  "windowDays": 31,
+  "minCc": 50,
+  "largeCc": 260,
+  "madeFrom": 2018,
+  "largeKw": 15,
+  "electricFrom": "2025-04-28",
+  "fineBase": 20000,
+  "fineFlatDays": 30,
+  "fineStartDay": 31,
+  "fineStepDays": 3,
+  "fineStepWon": 10000,
+  "fineCapDay": 85,
+  "fineCap": 200000,
+  "notice": "",
+  "fines": true,
+  "reviewBy": "2027-06-30"
+}
