@@ -1,0 +1,164 @@
+{
+  "_읽을것": [
+    "주택임대차보호법 시행령 §10(최우선변제액)·§11(소액임차인 범위)의 시기별 값이다. 숫자를 바꿀 땐 그 시기의 시행령 본문을 먼저 읽어라",
+    "eras 는 from(시행일) 오름차순 · 적용 기준일은 담보물권(근저당) 설정일이다(개정령 부칙 경과조치). 새 시행령이 나오면 맨 끝에 era 를 더한다",
+    "maxDeposit = 보증금이 이 금액 이하면 소액임차인 · maxPay = 그중 먼저 받는 금액(원). 하나라도 깨지면 앱은 표 전체를 버린다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "eras": [
+    {
+      "from": "2010-07-26",
+      "bands": {
+        "seoul": {
+          "maxDeposit": 75000000,
+          "maxPay": 25000000
+        },
+        "overcrowd": {
+          "maxDeposit": 65000000,
+          "maxPay": 22000000
+        },
+        "metro": {
+          "maxDeposit": 55000000,
+          "maxPay": 19000000
+        },
+        "other": {
+          "maxDeposit": 40000000,
+          "maxPay": 14000000
+        }
+      },
+      "notes": {
+        "overcrowd": "수도권정비계획법 과밀억제권역(서울 제외)",
+        "metro": "광역시(과밀억제권역에 포함된 지역·군 제외) · 안산 · 용인 · 김포 · 광주"
+      }
+    },
+    {
+      "from": "2014-01-01",
+      "bands": {
+        "seoul": {
+          "maxDeposit": 95000000,
+          "maxPay": 32000000
+        },
+        "overcrowd": {
+          "maxDeposit": 80000000,
+          "maxPay": 27000000
+        },
+        "metro": {
+          "maxDeposit": 60000000,
+          "maxPay": 20000000
+        },
+        "other": {
+          "maxDeposit": 45000000,
+          "maxPay": 15000000
+        }
+      },
+      "notes": {
+        "overcrowd": "수도권정비계획법 과밀억제권역(서울 제외)",
+        "metro": "광역시(과밀억제권역에 포함된 지역·군 제외) · 안산 · 용인 · 김포 · 광주"
+      }
+    },
+    {
+      "from": "2016-03-31",
+      "bands": {
+        "seoul": {
+          "maxDeposit": 100000000,
+          "maxPay": 34000000
+        },
+        "overcrowd": {
+          "maxDeposit": 80000000,
+          "maxPay": 27000000
+        },
+        "metro": {
+          "maxDeposit": 60000000,
+          "maxPay": 20000000
+        },
+        "other": {
+          "maxDeposit": 50000000,
+          "maxPay": 17000000
+        }
+      },
+      "notes": {
+        "overcrowd": "수도권정비계획법 과밀억제권역(서울 제외)",
+        "metro": "광역시(과밀억제권역에 포함된 지역·군 제외) · 세종 · 안산 · 용인 · 김포 · 광주"
+      }
+    },
+    {
+      "from": "2018-09-18",
+      "bands": {
+        "seoul": {
+          "maxDeposit": 110000000,
+          "maxPay": 37000000
+        },
+        "overcrowd": {
+          "maxDeposit": 100000000,
+          "maxPay": 34000000
+        },
+        "metro": {
+          "maxDeposit": 60000000,
+          "maxPay": 20000000
+        },
+        "other": {
+          "maxDeposit": 50000000,
+          "maxPay": 17000000
+        }
+      },
+      "notes": {
+        "overcrowd": "수도권정비계획법 과밀억제권역(서울 제외) · 세종 · 용인 · 화성",
+        "metro": "광역시(과밀억제권역에 포함된 지역·군 제외) · 안산 · 김포 · 광주 · 파주"
+      }
+    },
+    {
+      "from": "2021-05-11",
+      "bands": {
+        "seoul": {
+          "maxDeposit": 150000000,
+          "maxPay": 50000000
+        },
+        "overcrowd": {
+          "maxDeposit": 130000000,
+          "maxPay": 43000000
+        },
+        "metro": {
+          "maxDeposit": 70000000,
+          "maxPay": 23000000
+        },
+        "other": {
+          "maxDeposit": 60000000,
+          "maxPay": 20000000
+        }
+      },
+      "notes": {
+        "overcrowd": "수도권정비계획법 과밀억제권역(서울 제외) · 세종 · 용인 · 화성 · 김포",
+        "metro": "광역시(과밀억제권역에 포함된 지역·군 제외) · 안산 · 광주 · 파주 · 이천 · 평택"
+      }
+    },
+    {
+      "from": "2023-02-21",
+      "bands": {
+        "seoul": {
+          "maxDeposit": 165000000,
+          "maxPay": 55000000
+        },
+        "overcrowd": {
+          "maxDeposit": 145000000,
+          "maxPay": 48000000
+        },
+        "metro": {
+          "maxDeposit": 85000000,
+          "maxPay": 28000000
+        },
+        "other": {
+          "maxDeposit": 75000000,
+          "maxPay": 25000000
+        }
+      },
+      "notes": {
+        "overcrowd": "수도권정비계획법 과밀억제권역(서울 제외) · 세종 · 용인 · 화성 · 김포",
+        "metro": "광역시(과밀억제권역에 포함된 지역·군 제외) · 안산 · 광주 · 파주 · 이천 · 평택"
+      }
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
