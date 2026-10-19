@@ -1,0 +1,52 @@
+{
+  "_읽을것": [
+    "HUG 전세보증금반환보증 기준이다(법령 아님). 숫자를 바꿀 땐 HUG 공고·보도자료를 먼저 읽어라",
+    "capMetro\/capOther = 보증금 한도(원) · officialPct = 공시가격 반영률 · ratioLimitPct = 전세가율 한도(보증금+선순위 ≤ 주택가격×이 값)",
+    "seniorLimitPct · appraisalRowPct · discount* 는 2차 출처라 HUG 원문으로 확인 필요",
+    "rates[0]=아파트 · rates[1]=그 밖 · 각 [≤debtTier1, ≤debtTier2, 초과] 의 [최소,최대] 연 %. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "capMetro": 700000000,
+  "capOther": 500000000,
+  "officialPct": 140,
+  "ratioLimitPct": 90,
+  "seniorLimitPct": 60,
+  "appraisalRowPct": 90,
+  "debtTier1": 70,
+  "debtTier2": 80,
+  "rates": [
+    [
+      [
+        0.097,
+        0.113
+      ],
+      [
+        0.117,
+        0.138
+      ],
+      [
+        0.137,
+        0.164
+      ]
+    ],
+    [
+      [
+        0.111,
+        0.132
+      ],
+      [
+        0.142,
+        0.172
+      ],
+      [
+        0.172,
+        0.211
+      ]
+    ]
+  ],
+  "discountLowPct": 60,
+  "discountCarePct": 40,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
