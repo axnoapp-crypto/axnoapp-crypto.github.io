@@ -1,0 +1,26 @@
+{
+  "_읽을것": [
+    "국민건강보험법 시행규칙 제2조 · 별표1(부양요건) · 별표1의2(소득·재산요건) 와 시행령 제41조·제44조의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라. 돈은 전부 만 원 단위",
+    "incomeLimit 2000 = 연 합산소득 2천만 원 이하 · incomeMid 1000 = 재산 propLow 초과~propHigh 이하일 때의 소득 상한 · bizAllow 500 = 사업소득 예외 한도",
+    "propLow 54000 = 5.4억 · propHigh 90000 = 9억 · propSibling 18000 = 형제자매 1.8억 · premiumBp 719 = 지역가입자 보험료율 7.19%",
+    "reflectDay·leadDays 는 앱 알림 기본값이지 정본이 아니다(11월 정기 재산정 일자는 공단 안내 확인 필요). 개정안은 공포·시행 전에 넣지 마라. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "incomeLimit": 2000,
+  "incomeMid": 1000,
+  "bizAllow": 500,
+  "propLow": 54000,
+  "propHigh": 90000,
+  "propSibling": 18000,
+  "premiumBp": 719,
+  "reflectMonth": 11,
+  "reflectDay": 1,
+  "leadDays": [
+    30,
+    7,
+    0
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
