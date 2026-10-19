@@ -1,0 +1,110 @@
+{
+  "_읽을것": [
+    "해마다 12월 말 고용노동부가 「최고·최저 보상기준 금액」을 고시하면 그해 줄의 maxDaily·minDaily·basis 를 채운다. 고시 원문(law.go.kr 행정규칙)을 직접 열어 읽은 숫자만 넣어라",
+    "모르면 maxDaily·minDaily 를 0 으로 둔다. 앱은 「고시 전 어림」(직전 해 최고값 · 그해 최저임금액)으로 셈하고 화면에 그렇게 말한다 — 작년 값을 그해 줄에 넣지 마라",
+    "hourlyMin 은 그해 시간급 최저임금이다(최저임금 고시). 8월 초 고시가 나오면 다음 해 줄을 새로 더한다",
+    "minDaily 는 hourlyMin × 8 이상이어야 한다(산재보험법 제36조 제7항). 깨지면 앱은 표 전체를 버리고 앞 표를 쓴다",
+    "basePct·lowPct·lowLinePct·partialPct·pensionDays·ageCut 은 법률이 바뀔 때만 고친다(제52~55·66조 · 별표 1·4)"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "years": [
+    {
+      "year": 2023,
+      "maxDaily": 246036,
+      "minDaily": 76960,
+      "hourlyMin": 9620,
+      "basis": "고용노동부고시 제2022-89호"
+    },
+    {
+      "year": 2024,
+      "maxDaily": 253354,
+      "minDaily": 78880,
+      "hourlyMin": 9860,
+      "basis": "고용노동부고시 제2023-74호"
+    },
+    {
+      "year": 2025,
+      "maxDaily": 258132,
+      "minDaily": 80240,
+      "hourlyMin": 10030,
+      "basis": "고용노동부고시 제2024-65호"
+    },
+    {
+      "year": 2026,
+      "maxDaily": 268299,
+      "minDaily": 82560,
+      "hourlyMin": 10320,
+      "basis": "고용노동부고시 제2025-84호"
+    },
+    {
+      "year": 2027,
+      "maxDaily": 0,
+      "minDaily": 0,
+      "hourlyMin": 10700,
+      "basis": "최저임금 고용노동부고시 제2026-60호 · 보상기준 고시 전"
+    }
+  ],
+  "basePct": 70,
+  "lowPct": 90,
+  "lowLinePct": 80,
+  "partialPct": 80,
+  "waitDays": 3,
+  "limitYears": 3,
+  "pensionAfterYears": 2,
+  "pensionDays": [
+    329,
+    291,
+    257
+  ],
+  "ageCut70": [
+    66,
+    62,
+    58,
+    54,
+    50
+  ],
+  "ageCut90": [
+    86,
+    82,
+    78,
+    74,
+    70
+  ],
+  "ageFrom": 61,
+  "ageGraceYears": 2,
+  "sources": [
+    {
+      "title": "산업재해보상보험법 (제36·52~55·66·67·112조)",
+      "by": "국가법령정보센터",
+      "url": "https:\/\/www.law.go.kr\/법령\/산업재해보상보험법"
+    },
+    {
+      "title": "산업재해보상보험법 시행령 (제26·49~51조)",
+      "by": "국가법령정보센터",
+      "url": "https:\/\/www.law.go.kr\/법령\/산업재해보상보험법시행령"
+    },
+    {
+      "title": "근로기준법 제2조 (평균임금)",
+      "by": "국가법령정보센터",
+      "url": "https:\/\/www.law.go.kr\/법령\/근로기준법"
+    },
+    {
+      "title": "최고·최저 보상기준 금액 (2026)",
+      "by": "고용노동부고시 제2025-84호",
+      "url": "https:\/\/www.law.go.kr\/행정규칙\/최고·최저보상기준금액"
+    },
+    {
+      "title": "휴업급여 안내 · 청구",
+      "by": "근로복지공단",
+      "url": "https:\/\/www.comwel.or.kr"
+    },
+    {
+      "title": "고용·산재보험 토탈서비스 (온라인 청구)",
+      "by": "근로복지공단",
+      "url": "https:\/\/total.comwel.or.kr"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
