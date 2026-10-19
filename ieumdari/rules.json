@@ -1,0 +1,125 @@
+{
+  "_읽을것": [
+    "이음다리(continued-work) 기준표. 통째로 받거나 통째로 버린다 — 한 칸이라도 이상하면 앱은 내장값을 쓴다.",
+    "billSchedule 은 정년 연장 법이 **공포된 뒤에만** 채운다 — {from: 시행일 YYYY-MM-DD, age: 그날부터 최소 정년}. 논의 중일 땐 빈 배열.",
+    "aValues 의 a = 0 은 「고시 전」이다. 보건복지부 재평가율 고시(해마다 1월)가 나오면 그해 줄만 채운다.",
+    "incentive 는 「고령자 고용안정지원금 지급 규정」(고용노동부 고시) 값. 고시가 바뀌면 그 칸만 고친다.",
+    "이 파일은 apps\/continued-work 의 RulesTest 가 만든다(data\/rules.json) — 손으로 쓰지 마라."
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-18",
+  "legalAge": 60,
+  "billStatus": "정년 65세 단계적 연장 — 고령자고용법 개정안이 국회에서 논의 중이에요(공포 전). 지금 법정 정년은 60세 이상이에요",
+  "billSchedule": [],
+  "pensionBase": 60,
+  "pensionAges": [
+    {
+      "from": 1953,
+      "to": 1956,
+      "age": 61
+    },
+    {
+      "from": 1957,
+      "to": 1960,
+      "age": 62
+    },
+    {
+      "from": 1961,
+      "to": 1964,
+      "age": 63
+    },
+    {
+      "from": 1965,
+      "to": 1968,
+      "age": 64
+    },
+    {
+      "from": 1969,
+      "to": 2100,
+      "age": 65
+    }
+  ],
+  "earlyPermille": [
+    700,
+    760,
+    820,
+    880,
+    940
+  ],
+  "deferPermilleMonth": 6,
+  "deferMaxYears": 5,
+  "workCut": [
+    {
+      "from": 2000000,
+      "base": 150000,
+      "permille": 150
+    },
+    {
+      "from": 3000000,
+      "base": 300000,
+      "permille": 200
+    },
+    {
+      "from": 4000000,
+      "base": 500000,
+      "permille": 250
+    }
+  ],
+  "workCutCapPct": 50,
+  "workCutYears": 5,
+  "aValues": [
+    {
+      "year": 2025,
+      "a": 3089062
+    },
+    {
+      "year": 2026,
+      "a": 3193511
+    },
+    {
+      "year": 2027,
+      "a": 0
+    }
+  ],
+  "incentive": {
+    "capitalMonthly": 300000,
+    "otherMonthly": 400000,
+    "capPct": 30,
+    "capMax": 30,
+    "smallUnder": 10,
+    "smallCap": 3,
+    "years": 3,
+    "minPay": 1240000,
+    "minTenureYears": 2,
+    "rehireWithinMonths": 6,
+    "rehireMinYears": 1,
+    "extendMinYears": 1,
+    "oldRatioMaxPct": 30,
+    "reachWithinYears": 5,
+    "applyWithinYears": 1
+  },
+  "sources": [
+    {
+      "label": "고령자고용법 제19조·제21조",
+      "url": "https:\/\/www.law.go.kr\/법령\/고용상연령차별금지및고령자고용촉진에관한법률"
+    },
+    {
+      "label": "고령자 고용안정지원금 지급 규정",
+      "url": "https:\/\/www.law.go.kr\/행정규칙\/고령자고용안정지원금지급규정"
+    },
+    {
+      "label": "국민연금법 제61~63조의2",
+      "url": "https:\/\/www.law.go.kr\/법령\/국민연금법"
+    },
+    {
+      "label": "국민연금공단 — 내 연금 알아보기",
+      "url": "https:\/\/www.nps.or.kr"
+    },
+    {
+      "label": "고용24 — 고령자 계속고용장려금",
+      "url": "https:\/\/www.work24.go.kr"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
