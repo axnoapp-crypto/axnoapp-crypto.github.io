@@ -1,0 +1,69 @@
+{
+  "_읽을것": [
+    "소득세법 §12·§14·§25·§50·§55·§64의2·§70·§78 · 시행령 §8의2·§53·§122의2 · 시행규칙 §23 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "interestPermille 31 = 정기예금이자율 3.1% (연도마다 시행규칙이 바뀔 수 있다) · smallUntilYear = 소형주택을 주택 수에서 빼 주는 마지막 연도",
+    "brackets 의 deduction 은 누진공제액이다 (과세표준 × 세율 − 누진공제). 마지막 구간 upTo 는 null",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "sepLimit": 20000000,
+  "sepRatePct": 14,
+  "costPct": 50,
+  "costRegPct": 60,
+  "otherCap": 20000000,
+  "extraDeduct": 2000000,
+  "extraDeductReg": 4000000,
+  "exemptPriceCap": 1200000000,
+  "deemedBase": 300000000,
+  "deemedTwoCap": 1200000000,
+  "deemedPct": 60,
+  "interestPermille": 31,
+  "smallUntilYear": 2026,
+  "brackets": [
+    {
+      "upTo": 14000000,
+      "ratePct": 6,
+      "deduction": 0
+    },
+    {
+      "upTo": 50000000,
+      "ratePct": 15,
+      "deduction": 1260000
+    },
+    {
+      "upTo": 88000000,
+      "ratePct": 24,
+      "deduction": 5760000
+    },
+    {
+      "upTo": 150000000,
+      "ratePct": 35,
+      "deduction": 15440000
+    },
+    {
+      "upTo": 300000000,
+      "ratePct": 38,
+      "deduction": 19940000
+    },
+    {
+      "upTo": 500000000,
+      "ratePct": 40,
+      "deduction": 25940000
+    },
+    {
+      "upTo": 1000000000,
+      "ratePct": 42,
+      "deduction": 35940000
+    },
+    {
+      "upTo": null,
+      "ratePct": 45,
+      "deduction": 65940000
+    }
+  ],
+  "basicDeduct": 1500000,
+  "registerDays": 20,
+  "notice": "",
+  "reviewBy": "2027-04-15"
+}
