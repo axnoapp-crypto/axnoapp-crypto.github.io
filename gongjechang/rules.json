@@ -1,0 +1,49 @@
+{
+  "_읽을것": [
+    "상속세 및 증여세법 §26·§47·§53·§53의2·§56·§68 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "cap* = 증여재산공제 한도(원) · capMarriageBirth = 혼인·출산 공제 합산 한도 · windowYears = 합산 기간(년)",
+    "brackets 는 세율 × 과세표준 − deduct(누진공제). upTo 0 = 끝 구간",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "capSpouse": 600000000,
+  "capAscend": 50000000,
+  "capAscendMinor": 20000000,
+  "capDescend": 50000000,
+  "capKin": 10000000,
+  "capMarriageBirth": 100000000,
+  "windowYears": 10,
+  "adultAge": 19,
+  "combineMin": 10000000,
+  "filingMonths": 3,
+  "brackets": [
+    {
+      "upTo": 100000000,
+      "ratePct": 10,
+      "deduct": 0
+    },
+    {
+      "upTo": 500000000,
+      "ratePct": 20,
+      "deduct": 10000000
+    },
+    {
+      "upTo": 1000000000,
+      "ratePct": 30,
+      "deduct": 60000000
+    },
+    {
+      "upTo": 3000000000,
+      "ratePct": 40,
+      "deduct": 160000000
+    },
+    {
+      "upTo": 0,
+      "ratePct": 50,
+      "deduct": 460000000
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
