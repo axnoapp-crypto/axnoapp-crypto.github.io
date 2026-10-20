@@ -1,0 +1,25 @@
+{
+  "_읽을것": [
+    "고용보험료 지원 고시(고용노동부) §4~§6·§13 · 소규모사업장 저소득근로자 연금보험료 지원 고시(보건복지부) §2~§6 의 값이다. 숫자를 바꿀 땐 고시를 먼저 읽어라",
+    "wageLimit=월 보수 미만 · propertyLimit=재산 과세표준 합계 미만 · incomeLimit=종합소득(연) 미만 · supportPct=80 · cap*=월 지원 상한(원)",
+    "eiWorkerBp·eiEmployerBp·npEachBp 는 1\/10000 요율(90=0.9%, 475=4.75%). 요율이 바뀌면 여기만 고친다",
+    "policyUntil=고시 적용기간 끝. 개정안은 공포·시행 전에 넣지 마라 — notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "reviewBy": "2027-01-15",
+  "headLimit": 10,
+  "wageLimit": 2700000,
+  "propertyLimit": 600000000,
+  "incomeLimit": 43000000,
+  "supportPct": 80,
+  "eiWorkerBp": 90,
+  "eiEmployerBp": 115,
+  "npEachBp": 475,
+  "capEiWorker": 16560,
+  "capEiEmployer": 21160,
+  "capNp": 87400,
+  "maxMonths": 36,
+  "policyUntil": "2027-12-31",
+  "notice": ""
+}
