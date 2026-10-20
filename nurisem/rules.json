@@ -1,0 +1,84 @@
+{
+  "_읽을것": [
+    "문화체육관광부·문화누리카드 누리집(mnuri.kr)의 해당 연도 사업 안내 값이다. 숫자를 바꿀 땐 공지를 먼저 읽어라",
+    "baseWon = 기본 지원(원) · extraWon = 생애주기 추가(원) · autoMinUseWon = 자동재충전 최소 사용액(전년도)",
+    "units 의 won 은 공식 값이 아니라 환산용 어림값이다. alerts 는 소멸 전 알림 날짜(kind: issue\/mid\/last)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-20",
+  "year": 2026,
+  "baseWon": 150000,
+  "extraWon": 10000,
+  "extraNote": "청소년(13~18세)·준고령(60~64세)",
+  "expiryMonth": 12,
+  "expiryDay": 31,
+  "issueEndMonth": 11,
+  "issueEndDay": 30,
+  "autoMinUseWon": 30000,
+  "cats": [
+    {
+      "id": "perform",
+      "label": "공연·전시"
+    },
+    {
+      "id": "movie",
+      "label": "영화"
+    },
+    {
+      "id": "book",
+      "label": "도서·음반"
+    },
+    {
+      "id": "trip",
+      "label": "여행·숙박"
+    },
+    {
+      "id": "sport",
+      "label": "체육·스포츠"
+    },
+    {
+      "id": "move",
+      "label": "교통·기타"
+    }
+  ],
+  "units": [
+    {
+      "id": "movie",
+      "label": "영화",
+      "name": "편",
+      "won": 14000
+    },
+    {
+      "id": "book",
+      "label": "책",
+      "name": "권",
+      "won": 16000
+    },
+    {
+      "id": "show",
+      "label": "공연·전시",
+      "name": "번",
+      "won": 30000
+    }
+  ],
+  "alerts": [
+    {
+      "month": 11,
+      "day": 30,
+      "kind": "issue"
+    },
+    {
+      "month": 12,
+      "day": 15,
+      "kind": "mid"
+    },
+    {
+      "month": 12,
+      "day": 24,
+      "kind": "last"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
