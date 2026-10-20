@@ -1,0 +1,75 @@
+{
+  "_읽을것": [
+    "국민연금법 §54·§61·§62·§63·§63의2 · 부칙 §8 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "bands = 출생연도별 수급개시연령 · earlyPermilPerYear 60 = 조기 1년당 6% 감액 · deferPermilPerMonth 6 = 연기 1개월당 0.6% 가산",
+    "cutTiers 는 소득 있는 업무 감액(초과소득월액 만 원 기준) · 개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다",
+    "하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "bands": [
+    {
+      "from": 0,
+      "to": 1952,
+      "age": 60
+    },
+    {
+      "from": 1953,
+      "to": 1956,
+      "age": 61
+    },
+    {
+      "from": 1957,
+      "to": 1960,
+      "age": 62
+    },
+    {
+      "from": 1961,
+      "to": 1964,
+      "age": 63
+    },
+    {
+      "from": 1965,
+      "to": 1968,
+      "age": 64
+    },
+    {
+      "from": 1969,
+      "to": 9999,
+      "age": 65
+    }
+  ],
+  "earlyPermilPerYear": 60,
+  "earlyMaxYears": 5,
+  "earliestAge": 55,
+  "deferPermilPerMonth": 6,
+  "deferMaxYears": 5,
+  "partialPermille": [
+    500,
+    600,
+    700,
+    800,
+    900
+  ],
+  "cutTiers": [
+    {
+      "fromMan": 200,
+      "baseMan": 15,
+      "ratePermille": 150
+    },
+    {
+      "fromMan": 300,
+      "baseMan": 30,
+      "ratePermille": 200
+    },
+    {
+      "fromMan": 400,
+      "baseMan": 50,
+      "ratePermille": 250
+    }
+  ],
+  "cutCapPermille": 500,
+  "payDay": 25,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
