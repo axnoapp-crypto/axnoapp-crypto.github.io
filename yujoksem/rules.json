@@ -1,0 +1,24 @@
+{
+  "_읽을것": [
+    "국민연금법 §52·§54·§56·§72~§76·§115 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "rate* 는 지급률(‰) 400 = 40% · dep*Year 는 부양가족연금액 연액(원) · depIndexPermille 1000 = 물가 반영 전",
+    "stopAfterMonths 36 = 배우자 3년 지급 후 정지 · stopUntilAge 55 · overlapExtraPermille 300 = 중복급여 유족연금 30% 가산",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "rateUnder10": 400,
+  "rate10to20": 500,
+  "rate20Up": 600,
+  "depSpouseYear": 150000,
+  "depChildYear": 100000,
+  "depParentYear": 100000,
+  "depIndexPermille": 1000,
+  "stopAfterMonths": 36,
+  "stopUntilAge": 55,
+  "overlapExtraPermille": 300,
+  "claimYears": 5,
+  "payDay": 25,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
