@@ -1,0 +1,25 @@
+{
+  "_읽을것": [
+    "국민연금법 §61·§64·§64의2·§64의3 · 부칙(수급연령 가산)의 값이다. 숫자를 바꿀 땐 원문을 먼저 읽어라",
+    "minMarriageMonths = 분할연금 최소 혼인 기간(개월) · baseAge = 기본 수급연령 · ageSteps = 출생연도 가산 시작점(i번째 이상이면 +i+1세)",
+    "claimYears = 요건 충족 후 청구 기한 · preclaimYears = 이혼 후 선청구 기한 · splitPct = 균등 분할 비율 · minPensionMonths = 노령연금 최소 가입개월",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "reviewBy": "2027-04-01",
+  "minMarriageMonths": 60,
+  "baseAge": 60,
+  "ageSteps": [
+    1953,
+    1957,
+    1961,
+    1965,
+    1969
+  ],
+  "claimYears": 5,
+  "preclaimYears": 3,
+  "splitPct": 50,
+  "minPensionMonths": 120,
+  "notice": ""
+}
