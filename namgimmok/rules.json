@@ -1,0 +1,24 @@
+{
+  "_읽을것": [
+    "민법 §1112~§1118 · §1009 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라(시행일별로)",
+    "descNum\/descDen = 직계비속 유류분율 · spouse = 배우자 · asc = 직계존속 (형제자매는 2024.9.20 삭제되어 없다)",
+    "heirGiftYears 0 = 공동상속인 증여는 기간 제한 없이 산입(판례 근사). 개정·판례가 나오면 여기만 고친다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "descNum": 1,
+  "descDen": 2,
+  "spouseNum": 1,
+  "spouseDen": 2,
+  "ascNum": 1,
+  "ascDen": 3,
+  "spouseBonusPct": 50,
+  "shortYears": 1,
+  "longYears": 10,
+  "outsiderGiftYears": 1,
+  "heirGiftYears": 0,
+  "valuePayFrom": "2026-03-17",
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
