@@ -1,0 +1,226 @@
+{
+  "_읽을것": [
+    "주택공급에 관한 규칙 §35의3·§40·§41·§43·§46 의 소득 구간이다(2026-06-15 시행분). 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "incomes = 가구원수별(1~8인) 전년도 도시근로자 가구당 월평균소득 100%(원). 매년 청약홈이 새 표를 공지하면 baseYear 와 함께 바꾼다",
+    "sizeFloor 3 = 3인 이하 가구는 3인 금액을 쓴다(청약홈 분양 특공 표 방식). 9인 이상은 표에 없으면 앱이 「공고문 확인」으로 돌린다",
+    "tiers 의 pct 는 소득 상한(%), dualPct 는 배우자 소득이 있을 때, assetAlt 는 소득이 넘어도 자산 충족이면 가능한 추첨분. 빈 배열 = 소득기준 없음",
+    "realEstateLimit·carLimit 는 못 읽어 비워 둔 칸이다 — 청약홈 공고 기준을 확인하면 원 단위로 채운다. 개정안은 시행 전에 넣지 말고 notice 한 줄로만 알린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-20",
+  "baseYear": 2026,
+  "effectiveFrom": "2026-06-15",
+  "incomes": [
+    3813363,
+    5866270,
+    8168429,
+    8802202,
+    9326985,
+    9906263,
+    10485541,
+    11064819
+  ],
+  "sizeFloor": 3,
+  "realEstateLimit": null,
+  "carLimit": null,
+  "carRequired": false,
+  "types": [
+    {
+      "id": "newly",
+      "label": "신혼부부",
+      "who": "혼인 7년 이내 · 무주택세대구성원",
+      "law": "규칙 §41",
+      "note": "맞벌이(배우자 소득 있음)면 상한이 20%p 올라가요",
+      "public": [
+        {
+          "k": "PRIORITY",
+          "pct": 100,
+          "dualPct": 120,
+          "share": 50,
+          "assetAlt": false
+        },
+        {
+          "k": "GENERAL",
+          "pct": 140,
+          "dualPct": 160,
+          "share": 20,
+          "assetAlt": false
+        },
+        {
+          "k": "LOTTERY",
+          "pct": 140,
+          "dualPct": 160,
+          "share": 30,
+          "assetAlt": true
+        }
+      ],
+      "private": [
+        {
+          "k": "PRIORITY",
+          "pct": 100,
+          "dualPct": 120,
+          "share": 50,
+          "assetAlt": false
+        },
+        {
+          "k": "GENERAL",
+          "pct": 140,
+          "dualPct": 160,
+          "share": 20,
+          "assetAlt": false
+        },
+        {
+          "k": "LOTTERY",
+          "pct": 140,
+          "dualPct": 160,
+          "share": 30,
+          "assetAlt": true
+        }
+      ]
+    },
+    {
+      "id": "first",
+      "label": "생애최초",
+      "who": "세대원 전원 무주택 · 소득세 5년 납부",
+      "law": "규칙 §43",
+      "note": "우선·일반은 소득만 보고, 추첨분만 자산으로 대신할 수 있어요",
+      "public": [
+        {
+          "k": "PRIORITY",
+          "pct": 100,
+          "dualPct": null,
+          "share": 50,
+          "assetAlt": false
+        },
+        {
+          "k": "GENERAL",
+          "pct": 130,
+          "dualPct": null,
+          "share": 20,
+          "assetAlt": false
+        },
+        {
+          "k": "LOTTERY",
+          "pct": 130,
+          "dualPct": null,
+          "share": 30,
+          "assetAlt": true
+        }
+      ],
+      "private": [
+        {
+          "k": "PRIORITY",
+          "pct": 130,
+          "dualPct": null,
+          "share": 50,
+          "assetAlt": false
+        },
+        {
+          "k": "GENERAL",
+          "pct": 160,
+          "dualPct": null,
+          "share": 20,
+          "assetAlt": false
+        },
+        {
+          "k": "LOTTERY",
+          "pct": 160,
+          "dualPct": null,
+          "share": 30,
+          "assetAlt": true
+        }
+      ]
+    },
+    {
+      "id": "newborn",
+      "label": "신생아",
+      "who": "2세 미만 자녀(태아 포함) · 1순위 무주택",
+      "law": "규칙 §35의3",
+      "note": "2026-06-15 이후 공고부터 민영도 신생아 특공이 있어요",
+      "public": [
+        {
+          "k": "PRIORITY",
+          "pct": 100,
+          "dualPct": null,
+          "share": 50,
+          "assetAlt": false
+        },
+        {
+          "k": "GENERAL",
+          "pct": 130,
+          "dualPct": null,
+          "share": 20,
+          "assetAlt": false
+        },
+        {
+          "k": "LOTTERY",
+          "pct": 130,
+          "dualPct": null,
+          "share": 30,
+          "assetAlt": true
+        }
+      ],
+      "private": [
+        {
+          "k": "PRIORITY",
+          "pct": 130,
+          "dualPct": null,
+          "share": 50,
+          "assetAlt": false
+        },
+        {
+          "k": "GENERAL",
+          "pct": 160,
+          "dualPct": null,
+          "share": 20,
+          "assetAlt": false
+        },
+        {
+          "k": "LOTTERY",
+          "pct": 160,
+          "dualPct": null,
+          "share": 30,
+          "assetAlt": true
+        }
+      ]
+    },
+    {
+      "id": "multi",
+      "label": "다자녀",
+      "who": "미성년 자녀 2명 이상 · 무주택세대구성원",
+      "law": "규칙 §40",
+      "note": "원칙은 소득기준이 없어요. 공공 사업주체가 85㎡ 이하에만 120%를 걸 수 있어요",
+      "public": [
+        {
+          "k": "CAP",
+          "pct": 120,
+          "dualPct": null,
+          "share": null,
+          "assetAlt": false
+        }
+      ],
+      "private": []
+    },
+    {
+      "id": "parents",
+      "label": "노부모부양",
+      "who": "65세 이상 직계존속 3년 이상 부양 · 세대주",
+      "law": "규칙 §46",
+      "note": "원칙은 소득기준이 없어요. 공공 사업주체가 85㎡ 이하에만 120%를 걸 수 있어요",
+      "public": [
+        {
+          "k": "CAP",
+          "pct": 120,
+          "dualPct": null,
+          "share": null,
+          "assetAlt": false
+        }
+      ],
+      "private": []
+    }
+  ],
+  "renewMonth": 3,
+  "renewDay": 1,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
