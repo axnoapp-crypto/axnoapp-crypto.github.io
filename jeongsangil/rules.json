@@ -1,0 +1,89 @@
+{
+  "_읽을것": [
+    "근로자퇴직급여 보장법 §8·§22 · 시행령 §3·§14 · 근로기준법 §2 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "reasons 의 pay = 퇴직금 중간정산 사유, dc = DC 중도인출 사유. 사유가 늘면 한 줄 추가 — 질문이 없는 id 는 앱이 「직접 확인」 한 칸으로 다룬다",
+    "medicalPermille 125 = 연간 임금총액의 12.5% 초과 · lookbackMonths 60 = 5년 · daysPerYear 30 = 1년당 30일분",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "reasons": [
+    {
+      "id": "house",
+      "label": "무주택자의 주택 구입",
+      "note": "본인 명의로 사는 집",
+      "pay": true,
+      "dc": true
+    },
+    {
+      "id": "jeonse",
+      "label": "전세금·임차보증금",
+      "note": "사업장 근무 중 1회만",
+      "pay": true,
+      "dc": true
+    },
+    {
+      "id": "medical",
+      "label": "6개월 이상 요양 의료비",
+      "note": "본인·배우자·부양가족",
+      "pay": true,
+      "dc": true
+    },
+    {
+      "id": "bankrupt",
+      "label": "파산선고",
+      "note": "신청일 5년 이내",
+      "pay": true,
+      "dc": true
+    },
+    {
+      "id": "rehab",
+      "label": "개인회생 개시결정",
+      "note": "신청일 5년 이내",
+      "pay": true,
+      "dc": true
+    },
+    {
+      "id": "peak",
+      "label": "임금피크제 시행",
+      "note": "정년 연장·보장 조건",
+      "pay": true,
+      "dc": false
+    },
+    {
+      "id": "hours",
+      "label": "근로시간 단축 합의",
+      "note": "1일 1시간·주 5시간 이상",
+      "pay": true,
+      "dc": false
+    },
+    {
+      "id": "law52",
+      "label": "법정 근로시간 단축",
+      "note": "주 52시간제로 퇴직금 감소",
+      "pay": true,
+      "dc": false
+    },
+    {
+      "id": "disaster",
+      "label": "재난 피해",
+      "note": "고용노동부 고시 사유",
+      "pay": true,
+      "dc": true
+    },
+    {
+      "id": "loan",
+      "label": "퇴직연금 담보대출 상환",
+      "note": "DC 전용 · 고시 사유",
+      "pay": false,
+      "dc": true
+    }
+  ],
+  "medicalPermille": 125,
+  "lookbackMonths": 60,
+  "daysPerYear": 30,
+  "avgDays": 92,
+  "docKeepYears": 5,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
