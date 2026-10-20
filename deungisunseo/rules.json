@@ -1,0 +1,18 @@
+{
+  "_읽을것": [
+    "주택임대차보호법 §3의3 · 임차권등기명령 절차에 관한 규칙 §2~§7 · 민법 §379 · 소송촉진 등에 관한 특례법 §3① 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "stampWon 2000 = 신청서 인지(규칙 §2③) · civilPermille 50 = 연 5% · courtPermille 120 = 소장 송달 다음 날부터 연 12%",
+    "serviceFeeWon·registerFeeWon 0 = 못 읽은 값이다. 0 이면 화면이 「법원·등기소 확인」이라고만 한다 — 확인한 값만 넣어라",
+    "하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "stampWon": 2000,
+  "serviceFeeWon": 0,
+  "registerFeeWon": 0,
+  "civilPermille": 50,
+  "courtPermille": 120,
+  "courtSince": "2019-06-01",
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
