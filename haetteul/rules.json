@@ -1,0 +1,287 @@
+{
+  "_읽을것": [
+    "일출 시각은 앱이 NOAA 공식으로 계산한다. 여기에는 명소 목록·좌표와 보정값만 있다",
+    "adjustSec 는 모든 계산값에 더하는 초(±180). 천문연 값과 어긋남이 확인될 때만 고친다",
+    "altM 은 전망대·정상 높이(m) — 「산 위에서 보기」를 켠 사용자에게만 쓰인다",
+    "하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-20",
+  "spots": [
+    {
+      "id": "jeongdongjin",
+      "name": "정동진 해변",
+      "region": "강원",
+      "lat": 37.6892,
+      "lon": 129.0343,
+      "altM": 0,
+      "note": "기차역 앞 바다"
+    },
+    {
+      "id": "gyeongpo",
+      "name": "경포 해변",
+      "region": "강원",
+      "lat": 37.8058,
+      "lon": 128.9081,
+      "altM": 0,
+      "note": "강릉 · 경포대 앞"
+    },
+    {
+      "id": "sokcho",
+      "name": "속초 해변",
+      "region": "강원",
+      "lat": 38.1876,
+      "lon": 128.6048,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "naksansa",
+      "name": "낙산사 의상대",
+      "region": "강원",
+      "lat": 38.1244,
+      "lon": 128.6314,
+      "altM": 0,
+      "note": "양양 · 절벽 위 정자"
+    },
+    {
+      "id": "jumunjin",
+      "name": "주문진 등대",
+      "region": "강원",
+      "lat": 37.8935,
+      "lon": 128.8278,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "mukho",
+      "name": "묵호등대",
+      "region": "강원",
+      "lat": 37.5513,
+      "lon": 129.1167,
+      "altM": 0,
+      "note": "동해 · 언덕 위 등대"
+    },
+    {
+      "id": "chuam",
+      "name": "추암 촛대바위",
+      "region": "강원",
+      "lat": 37.478,
+      "lon": 129.16,
+      "altM": 0,
+      "note": "동해 · 해돋이 사진 명소"
+    },
+    {
+      "id": "taebaek",
+      "name": "태백산 천제단",
+      "region": "강원",
+      "lat": 37.0955,
+      "lon": 128.915,
+      "altM": 1560,
+      "note": "정상 · 눈꽃 산행"
+    },
+    {
+      "id": "mangyang",
+      "name": "망양정",
+      "region": "경북",
+      "lat": 37.0577,
+      "lon": 129.4153,
+      "altM": 0,
+      "note": "울진 · 바다가 트인 정자"
+    },
+    {
+      "id": "changpo",
+      "name": "창포말등대",
+      "region": "경북",
+      "lat": 36.5453,
+      "lon": 129.4163,
+      "altM": 0,
+      "note": "영덕"
+    },
+    {
+      "id": "homigot",
+      "name": "호미곶",
+      "region": "경북",
+      "lat": 36.0766,
+      "lon": 129.57,
+      "altM": 0,
+      "note": "포항 · 상생의 손"
+    },
+    {
+      "id": "munmu",
+      "name": "문무대왕릉",
+      "region": "경북",
+      "lat": 35.739,
+      "lon": 129.496,
+      "altM": 0,
+      "note": "경주 · 대왕암 앞바다"
+    },
+    {
+      "id": "ulleung",
+      "name": "울릉도 도동항",
+      "region": "경북",
+      "lat": 37.4844,
+      "lon": 130.9057,
+      "altM": 0,
+      "note": "섬"
+    },
+    {
+      "id": "dokdo",
+      "name": "독도",
+      "region": "경북",
+      "lat": 37.2414,
+      "lon": 131.8667,
+      "altM": 0,
+      "note": "우리나라 가장 동쪽"
+    },
+    {
+      "id": "gatbawi",
+      "name": "팔공산 갓바위",
+      "region": "대구",
+      "lat": 35.981,
+      "lon": 128.711,
+      "altM": 850,
+      "note": "정상 부근 · 새벽 산행"
+    },
+    {
+      "id": "ganjeolgot",
+      "name": "간절곶",
+      "region": "울산",
+      "lat": 35.3607,
+      "lon": 129.36,
+      "altM": 0,
+      "note": "육지에서 가장 일찍 해가 뜨는 곳"
+    },
+    {
+      "id": "daewangam",
+      "name": "대왕암공원",
+      "region": "울산",
+      "lat": 35.48,
+      "lon": 129.435,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "haeundae",
+      "name": "해운대 해변",
+      "region": "부산",
+      "lat": 35.1587,
+      "lon": 129.1604,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "gwangalli",
+      "name": "광안리 해변",
+      "region": "부산",
+      "lat": 35.1532,
+      "lon": 129.1187,
+      "altM": 0,
+      "note": "광안대교 너머"
+    },
+    {
+      "id": "taejongdae",
+      "name": "태종대",
+      "region": "부산",
+      "lat": 35.0512,
+      "lon": 129.087,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "haegeumgang",
+      "name": "거제 해금강",
+      "region": "경남",
+      "lat": 34.7155,
+      "lon": 128.6921,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "hyangiram",
+      "name": "여수 향일암",
+      "region": "전남",
+      "lat": 34.5895,
+      "lon": 127.7855,
+      "altM": 0,
+      "note": "절벽 위 암자"
+    },
+    {
+      "id": "ttangkkeut",
+      "name": "해남 땅끝마을",
+      "region": "전남",
+      "lat": 34.298,
+      "lon": 126.519,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "seongsan",
+      "name": "성산일출봉",
+      "region": "제주",
+      "lat": 33.458,
+      "lon": 126.9425,
+      "altM": 180,
+      "note": "분화구 정상"
+    },
+    {
+      "id": "seopji",
+      "name": "섭지코지",
+      "region": "제주",
+      "lat": 33.4243,
+      "lon": 126.9317,
+      "altM": 0,
+      "note": ""
+    },
+    {
+      "id": "waemok",
+      "name": "당진 왜목마을",
+      "region": "충남",
+      "lat": 37.0505,
+      "lon": 126.5528,
+      "altM": 0,
+      "note": "서해에서 해돋이를 볼 수 있는 곳"
+    },
+    {
+      "id": "manisan",
+      "name": "강화 마니산",
+      "region": "인천",
+      "lat": 37.6128,
+      "lon": 126.426,
+      "altM": 469,
+      "note": "참성단"
+    },
+    {
+      "id": "namsan",
+      "name": "서울 남산",
+      "region": "서울",
+      "lat": 37.5512,
+      "lon": 126.9882,
+      "altM": 262,
+      "note": "N서울타워 전망대"
+    },
+    {
+      "id": "achasan",
+      "name": "아차산 해맞이광장",
+      "region": "서울",
+      "lat": 37.553,
+      "lon": 127.102,
+      "altM": 285,
+      "note": ""
+    },
+    {
+      "id": "haneul",
+      "name": "하늘공원",
+      "region": "서울",
+      "lat": 37.57,
+      "lon": 126.886,
+      "altM": 95,
+      "note": "마포 · 억새 언덕"
+    }
+  ],
+  "arriveBeforeMin": 30,
+  "eveHour": 21,
+  "adjustSec": 0,
+  "notice": "",
+  "reviewBy": "2027-11-30"
+}
