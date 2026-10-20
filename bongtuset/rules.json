@@ -1,0 +1,42 @@
+{
+  "_읽을것": [
+    "고용노동부 「고용보험 미적용자 출산급여」(정부24·고용24 안내)의 값이다. 숫자를 바꿀 땐 안내문을 먼저 읽어라",
+    "totalWon = 출산 시 총액 · monthWon = 봉투 한 장(월 단위) · lossTiers = 유산·사산 주수별 금액",
+    "multiBirthWon 은 다태아 지급액 — 안내문에 없어 null. 공식 금액이 나오면 그때 숫자로 채워라",
+    "deadlineMonths 12 = 출산일부터 1년 · bufferDays 1 = 마지막 날 해석이 불확실해 하루 앞당긴다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-20",
+  "totalWon": 1500000,
+  "monthWon": 500000,
+  "lossTiers": [
+    {
+      "maxWeeks": 15,
+      "won": 300000,
+      "label": "15주까지"
+    },
+    {
+      "maxWeeks": 21,
+      "won": 500000,
+      "label": "16~21주"
+    },
+    {
+      "maxWeeks": 27,
+      "won": 1000000,
+      "label": "22~27주"
+    },
+    {
+      "maxWeeks": 99,
+      "won": 1500000,
+      "label": "28주 이상"
+    }
+  ],
+  "deadlineMonths": 12,
+  "bufferDays": 1,
+  "decideDays": 14,
+  "multiBirthWon": null,
+  "incomeRuleFrom": "2026-02-01",
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
