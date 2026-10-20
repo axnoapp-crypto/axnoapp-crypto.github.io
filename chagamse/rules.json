@@ -1,0 +1,28 @@
+{
+  "_읽을것": [
+    "지방세법 §12 · 지방세특례제한법 §17·§22의2·§29·§66·§67·§180 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "rate* 는 ‰(70 = 7%) · *Cap 은 감면 한도(원) · *Until 은 그 날까지 취득한 것에 적용(일몰)",
+    "전기차 evUntil 2026-12-31 은 연장·개정이 공포되면 그 날짜만 고쳐라. 공포 전 개정안은 notice 한 줄로만 알린다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-20",
+  "ratePassenger": 70,
+  "rateCargo": 50,
+  "rateLight": 40,
+  "lightCap": 750000,
+  "lightUntil": "2027-12-31",
+  "evCap": 1400000,
+  "evUntil": "2026-12-31",
+  "h2Cap": 1400000,
+  "h2Until": "2027-12-31",
+  "hybridUntil": "2024-12-31",
+  "multiCap": 1400000,
+  "multiHalfCap": 700000,
+  "multiUntil": "2027-12-31",
+  "disabledUntil": "2027-12-31",
+  "veteranUntil": "2027-12-31",
+  "clawbackMonths": 12,
+  "notice": "",
+  "reviewBy": "2026-12-15"
+}
