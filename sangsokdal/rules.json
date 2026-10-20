@@ -1,0 +1,18 @@
+{
+  "_읽을것": [
+    "가족관계등록법 §84·민법 §1019·상속세및증여세법 §67·지방세법 §20·자동차등록령 §26·국민연금법 §115·§121 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "deathReportMonths·disclaimMonths·pensionReportMonths 는 안 날부터 · taxMonths·carMonths 는 사망일이 속한 달의 말일부터 센다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "deathReportMonths": 1,
+  "disclaimMonths": 3,
+  "taxMonths": 6,
+  "taxMonthsAbroad": 9,
+  "carMonths": 6,
+  "pensionReportMonths": 1,
+  "claimYears": 5,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
