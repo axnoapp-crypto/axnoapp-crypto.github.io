@@ -1,0 +1,53 @@
+{
+  "_읽을것": [
+    "한부모가족지원법 §4·§5·§12 · 시행령 §13 · 성평등가족부 「한부모가족 지원사업 안내」(매년)의 값이다. 숫자를 바꿀 땐 안내 원문을 먼저 읽어라",
+    "incomePct = 아동양육비 소득선(기준 중위소득의 %, 이하) · basicMonthly = 아동 1인당 월 · extraMonthly = 추가(미혼모·부·조손 5세 이하, 25~34세 청년 한부모)",
+    "teenMonthly·teenInfantMonthly = 청소년 한부모(24세 이하) 아동 1인당 월(0~1세는 teenInfantMonthly). 0 이면 못 읽은 값이라 화면이 「확인 필요」를 말한다",
+    "schoolSupplyYearly·livingAidMonthly = 0 이면 못 읽은 값(화면 「확인 필요」). 안내 원문을 읽은 뒤에만 채워라",
+    "years[].medians = 1~7인 가구 월 기준 중위소득(원). 내년 고시가 나오면 years 에 한 해를 더하면 된다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "years": [
+    {
+      "year": 2026,
+      "medians": [
+        2564238,
+        4199292,
+        5359036,
+        6494738,
+        7556719,
+        8555952,
+        9515150
+      ]
+    },
+    {
+      "year": 2027,
+      "medians": [
+        2736042,
+        4480645,
+        5718091,
+        6929885,
+        8063019,
+        9129201,
+        10152665
+      ]
+    }
+  ],
+  "incomePct": 65,
+  "basicMonthly": 230000,
+  "extraMonthly": 100000,
+  "extraChildMaxAge": 5,
+  "extraParentMaxAge": 34,
+  "teenMonthly": 370000,
+  "teenInfantMonthly": 400000,
+  "teenInfantMaxAge": 1,
+  "teenParentMaxAge": 24,
+  "childMaxAge": 18,
+  "studentMaxAge": 22,
+  "schoolSupplyYearly": 0,
+  "livingAidMonthly": 0,
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
