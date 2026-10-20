@@ -1,0 +1,78 @@
+{
+  "_읽을것": [
+    "관세법 §96·§241·시행규칙 §48·§49의2·시행령 §96 별표 2 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "basicUsd = 기본 면세범위(미화) · 술·담배·향수는 별도 · 술은 liquorMl 이하이면서 liquorUsd 이하",
+    "fx 의 krw 는 통화 1단위당 원이다. 관세청 고시 과세환율을 못 읽어 대략 기준값이다 — 확인해서 고쳐라",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-20",
+  "basicUsd": 800,
+  "liquorMl": 2000,
+  "liquorUsd": 400,
+  "cigarette": 200,
+  "cigar": 50,
+  "ecigHeat": 200,
+  "ecigLiquidMl": 20,
+  "ecigOtherG": 110,
+  "otherTobaccoG": 250,
+  "perfumeMl": 100,
+  "genPct": 15,
+  "clothPct": 18,
+  "highPct": 45,
+  "jewelBaseWon": 4808000,
+  "watchBaseWon": 1923000,
+  "reducePct": 30,
+  "reduceCapWon": 200000,
+  "penaltyPct": 40,
+  "penaltyRepeatPct": 60,
+  "fx": [
+    {
+      "code": "USD",
+      "label": "미국 달러",
+      "krw": 1400
+    },
+    {
+      "code": "EUR",
+      "label": "유로",
+      "krw": 1600
+    },
+    {
+      "code": "JPY",
+      "label": "일본 엔",
+      "krw": 9.3
+    },
+    {
+      "code": "CNY",
+      "label": "중국 위안",
+      "krw": 195
+    },
+    {
+      "code": "GBP",
+      "label": "영국 파운드",
+      "krw": 1850
+    },
+    {
+      "code": "THB",
+      "label": "태국 바트",
+      "krw": 41
+    },
+    {
+      "code": "VND",
+      "label": "베트남 동",
+      "krw": 0.055
+    },
+    {
+      "code": "TWD",
+      "label": "대만 달러",
+      "krw": 44
+    },
+    {
+      "code": "HKD",
+      "label": "홍콩 달러",
+      "krw": 180
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
