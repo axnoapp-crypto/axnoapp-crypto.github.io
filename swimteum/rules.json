@@ -1,0 +1,29 @@
+{
+  "_읽을것": [
+    "근로기준법 §50·§53·§54·§56 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "tiers = 근로시간(분) 이상이면 휴게(분) 이상 · 휴게는 근로시간 도중에 줘야 한다",
+    "weekExtraCapMin = 1주 연장 한도(분) · night* = 야간 구간(하루 중 분)",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "tiers": [
+    {
+      "workMin": 240,
+      "breakMin": 30
+    },
+    {
+      "workMin": 480,
+      "breakMin": 60
+    }
+  ],
+  "dayLimitMin": 480,
+  "weekLimitMin": 2400,
+  "weekExtraCapMin": 720,
+  "nightStartMin": 1320,
+  "nightEndMin": 360,
+  "overtimePct": 50,
+  "nightPct": 50,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
