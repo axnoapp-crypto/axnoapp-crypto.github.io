@@ -1,0 +1,25 @@
+{
+  "_읽을것": [
+    "자동차관리법 §12·§80·§86 · 시행령 별표 3 제3호 · 자동차등록령 §26·§27 · 지방세법 §20 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "saleDays·giftDays·otherDays = 그 날부터 며칠 이내 · inheritMonths = 상속개시일이 속하는 달 말일부터 몇 개월",
+    "범칙금 = 지연 fineBaseDays 일 이내 fineBase 원, 그 뒤 하루 finePerDay 원씩, 상한 fineCap 원",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "saleDays": 15,
+  "giftDays": 20,
+  "otherDays": 15,
+  "inheritMonths": 6,
+  "fineBase": 100000,
+  "fineBaseDays": 10,
+  "finePerDay": 10000,
+  "fineCap": 500000,
+  "noticeMin": 7,
+  "noticeMax": 15,
+  "acqTaxDays": 60,
+  "acqTaxGiftMonths": 3,
+  "acqTaxInheritMonths": 6,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
