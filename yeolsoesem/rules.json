@@ -1,0 +1,52 @@
+{
+  "_읽을것": [
+    "소득세법 §52④⑤⑥ · 시행령 §112②④ · 시행규칙 §57 · 조세특례제한법 §87② 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "ratePct 40 = 원리금 상환액의 40% · cap = 청약저축 공제와 합친 연 한도(원)",
+    "privateMinRatePermille 31 = 연 3.1% · bankWindowMonths\/privateWindowMonths = 입주·전입 빠른 날 전후 개월",
+    "rateBands 는 절세 어림용 대략 구간이다(upTo 0 = 끝). docsMonth\/docsDay 는 국세청 간소화 일정이다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "ratePct": 40,
+  "cap": 4000000,
+  "subsPayCap": 3000000,
+  "subsRatePct": 40,
+  "subsSalaryMax": 70000000,
+  "subsUntil": "2028-12-31",
+  "privateSalaryMax": 50000000,
+  "bankWindowMonths": 3,
+  "privateWindowMonths": 1,
+  "privateMinRatePermille": 31,
+  "areaM2": 85,
+  "ruralAreaM2": 100,
+  "rateBands": [
+    {
+      "upTo": 25000000,
+      "pct": 6
+    },
+    {
+      "upTo": 70000000,
+      "pct": 15
+    },
+    {
+      "upTo": 130000000,
+      "pct": 24
+    },
+    {
+      "upTo": 200000000,
+      "pct": 35
+    },
+    {
+      "upTo": 0,
+      "pct": 38
+    }
+  ],
+  "localTaxPct": 10,
+  "checkMonth": 12,
+  "checkDay": 1,
+  "docsMonth": 1,
+  "docsDay": 15,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
