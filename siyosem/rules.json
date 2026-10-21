@@ -1,0 +1,86 @@
+{
+  "_읽을것": [
+    "민법 §162~§184 · 상법 §64 의 값이다. 숫자를 바꿀 땐 law.go.kr 조문을 먼저 읽어라",
+    "kinds 의 years = 그 채권의 소멸시효(년) · demandMonths = 최고 뒤 재판상 청구까지 달 수(§174) · judgmentYears = 판결 확정 채권(§165)",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다",
+    "reviewBy = 이 표를 다시 볼 날"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "kinds": [
+    {
+      "id": "loan",
+      "label": "빌려준 돈 (개인끼리)",
+      "example": "지인·가족에게 빌려준 돈 · 차용증",
+      "years": 10,
+      "basis": "민법 §162①"
+    },
+    {
+      "id": "biz",
+      "label": "사업상 거래 채권 (상사)",
+      "example": "가게·회사가 거래로 받을 돈 · 사업자 대여금",
+      "years": 5,
+      "basis": "상법 §64"
+    },
+    {
+      "id": "goods",
+      "label": "물건·상품 판매 대금",
+      "example": "외상으로 판 물건값 · 납품 대금",
+      "years": 3,
+      "basis": "민법 §163 6호"
+    },
+    {
+      "id": "build",
+      "label": "공사대금",
+      "example": "인테리어 · 수리 · 건축 공사비",
+      "years": 3,
+      "basis": "민법 §163 3호"
+    },
+    {
+      "id": "periodic",
+      "label": "이자·월세·급료 (1년 이내 정기)",
+      "example": "밀린 월세 · 약정 이자 · 월급",
+      "years": 3,
+      "basis": "민법 §163 1호"
+    },
+    {
+      "id": "craft",
+      "label": "수공업·제조 일감 대금",
+      "example": "맞춤 제작 · 수선 · 가공비",
+      "years": 3,
+      "basis": "민법 §163 7호"
+    },
+    {
+      "id": "food",
+      "label": "숙박·음식 외상값",
+      "example": "식당·주점 외상 · 숙박료",
+      "years": 1,
+      "basis": "민법 §164 1호"
+    },
+    {
+      "id": "rental",
+      "label": "물건 대여료",
+      "example": "옷 · 장비 · 공구 대여료",
+      "years": 1,
+      "basis": "민법 §164 2호"
+    },
+    {
+      "id": "tuition",
+      "label": "교습비·하숙비",
+      "example": "과외비 · 학원비 · 하숙비",
+      "years": 1,
+      "basis": "민법 §164 4호"
+    },
+    {
+      "id": "judgment",
+      "label": "판결·조정으로 확정된 돈",
+      "example": "확정판결 · 조정 · 화해 · 확정된 지급명령",
+      "years": 10,
+      "basis": "민법 §165"
+    }
+  ],
+  "demandMonths": 6,
+  "judgmentYears": 10,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
