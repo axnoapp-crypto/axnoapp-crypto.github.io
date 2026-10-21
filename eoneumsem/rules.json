@@ -1,0 +1,57 @@
+{
+  "_읽을것": [
+    "국민건강보험법 §71 · 시행령 §41·§44 · 시행규칙 §44 · 노인장기요양보험법 시행령 §4 · 월별 건강보험료액 상한 고시의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "deduct = 연 공제(2천만) · finFloor = 이자+배당 합산 제외 기준(1천만 이하) · ratePermyriad 719 = 7.19%",
+    "ltcPerMillion 9448 = 소득 대비 0.9448% · capMonthly = 소득월액보험료 월 상한(해마다 1월 고시로 바뀐다 — 0 이면 앱이 「확인 필요」)",
+    "kinds 의 pct = 소득 평가 비율(이자·배당·사업·기타 100 · 근로·연금 50)",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "deduct": 20000000,
+  "finFloor": 10000000,
+  "ratePermyriad": 719,
+  "ltcPerMillion": 9448,
+  "capMonthly": 4591740,
+  "kinds": [
+    {
+      "id": "interest",
+      "label": "이자소득",
+      "example": "예금·적금·채권 이자",
+      "pct": 100
+    },
+    {
+      "id": "dividend",
+      "label": "배당소득",
+      "example": "주식·펀드 배당",
+      "pct": 100
+    },
+    {
+      "id": "business",
+      "label": "사업소득",
+      "example": "부업·프리랜서·월세 임대",
+      "pct": 100
+    },
+    {
+      "id": "wage",
+      "label": "근로소득",
+      "example": "두 번째 직장 급여",
+      "pct": 50
+    },
+    {
+      "id": "pension",
+      "label": "연금소득",
+      "example": "공적연금·사적연금",
+      "pct": 50
+    },
+    {
+      "id": "other",
+      "label": "기타소득",
+      "example": "강연료·원고료·상금",
+      "pct": 100
+    }
+  ],
+  "switchMonth": 11,
+  "notice": "",
+  "reviewBy": "2026-12-31"
+}
