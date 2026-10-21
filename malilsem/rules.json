@@ -1,0 +1,89 @@
+{
+  "_읽을것": [
+    "국제조세조정에 관한 법률 §53~§56·§90 · 시행령 §92·§93·§147 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "threshold = 신고 대상 기준(초과) · fine* = 미신고 과태료(기본 10%, 10억 한도, ±50% 가감, 법 상한 20%)",
+    "rates 는 \"YYYY-MM\" → 통화 → 그 달 말일 기준환율(원, 1단위당). 비워 두면 앱이 사용자 입력을 받는다. 확인 안 된 숫자는 넣지 마라",
+    "amendCuts·lateCuts = 수정신고·기한 후 신고 과태료 감경(시행령 §147④). 개정안은 공포·시행 전에 넣지 말고 notice 한 줄로만",
+    "하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "threshold": 500000000,
+  "fineBasePct": 10,
+  "fineMaxWon": 1000000000,
+  "fineAdjustPct": 50,
+  "fineLawCapPct": 20,
+  "filingStartMonth": 6,
+  "filingStartDay": 1,
+  "deadlineMonth": 6,
+  "deadlineDay": 30,
+  "currencies": [
+    {
+      "code": "USD",
+      "label": "미국 달러"
+    },
+    {
+      "code": "EUR",
+      "label": "유로"
+    },
+    {
+      "code": "JPY",
+      "label": "일본 엔 (1엔당)"
+    },
+    {
+      "code": "CNY",
+      "label": "중국 위안"
+    },
+    {
+      "code": "GBP",
+      "label": "영국 파운드"
+    },
+    {
+      "code": "HKD",
+      "label": "홍콩 달러"
+    },
+    {
+      "code": "KRW",
+      "label": "원화 표시 계좌"
+    }
+  ],
+  "rates": {},
+  "amendCuts": [
+    {
+      "months": 6,
+      "cutPct": 90
+    },
+    {
+      "months": 12,
+      "cutPct": 70
+    },
+    {
+      "months": 24,
+      "cutPct": 50
+    },
+    {
+      "months": 48,
+      "cutPct": 30
+    }
+  ],
+  "lateCuts": [
+    {
+      "months": 1,
+      "cutPct": 90
+    },
+    {
+      "months": 6,
+      "cutPct": 70
+    },
+    {
+      "months": 12,
+      "cutPct": 50
+    },
+    {
+      "months": 24,
+      "cutPct": 30
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-05-15"
+}
