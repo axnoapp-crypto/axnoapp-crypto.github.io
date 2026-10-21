@@ -1,0 +1,69 @@
+{
+  "_읽을것": [
+    "한국농어촌공사 및 농지관리기금법 §24의5 · 시행령 §19의9·§19의10 · 시행규칙 §19의9·§19의10 + 농지은행(fbo.or.kr) 안내의 값이다. 숫자를 바꿀 땐 먼저 읽어라",
+    "ratesBp·frontFirstPct·frontAfterPct·termSharePct·transferPct·onDemand* 는 공사 산식의 근사 계수다 — 공사 예상연금 조회와 맞춰 고친다",
+    "monthlyCap(월 지급 상한)·defaultPayDay(지급일 기본값)는 공식 확인을 못 한 값이다. 확인되면 고치고 notice 로 알린다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "minAge": 60,
+  "minFarmYears": 5,
+  "holdYears": 2,
+  "holdFromYear": 2020,
+  "monthlyCap": 3000000,
+  "jigaRatePct": 100,
+  "apprRatePct": 90,
+  "lienPct": 15,
+  "taxExemptWon": 600000000,
+  "ratesBp": [
+    {
+      "age": 60,
+      "bp": 24
+    },
+    {
+      "age": 65,
+      "bp": 30
+    },
+    {
+      "age": 70,
+      "bp": 38
+    },
+    {
+      "age": 75,
+      "bp": 50
+    },
+    {
+      "age": 80,
+      "bp": 70
+    },
+    {
+      "age": 85,
+      "bp": 100
+    }
+  ],
+  "frontFirstPct": 120,
+  "frontAfterPct": 80,
+  "termSharePct": 70,
+  "transferPct": 110,
+  "onDemandMonthlyPct": 70,
+  "onDemandLimitPct": 30,
+  "onDemandOpen": false,
+  "terms": [
+    {
+      "years": 5,
+      "minAge": 78
+    },
+    {
+      "years": 10,
+      "minAge": 73
+    },
+    {
+      "years": 15,
+      "minAge": 68
+    }
+  ],
+  "defaultPayDay": 15,
+  "notice": "",
+  "reviewBy": "2027-04-30"
+}
