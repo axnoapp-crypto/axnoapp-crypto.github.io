@@ -1,0 +1,370 @@
+{
+  "_읽을것": [
+    "도로교통법 §93 · 시행규칙 §91① · [별표 28] 의 값이다. 숫자를 바꿀 땐 별표 원문(law.go.kr)을 먼저 읽어라",
+    "suspendAt = 정지 시작 처분벌점 · cancel1\/2\/3 = 1·2·3년 누산 취소선 · clearYears = 처분벌점(suspendAt 미만) 무위반 소멸 기간",
+    "eduPoints = 벌점감경교육 감경 점수 · eduDays\/fieldDays = 정지일수 감경(법규준수교육·현장참여교육) · pledgeUnit = 무위반 서약 1회 공제 점수",
+    "items[].zone: 0 가중 없음 · 1 보호구역에서 zoneMax 점 · 2 보호구역에서 2배. items[].from 은 시행일(그 전엔 목록에서 빠진다)",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "suspendAt": 40,
+  "cancel1": 121,
+  "cancel2": 201,
+  "cancel3": 271,
+  "clearYears": 1,
+  "eduPoints": 20,
+  "eduDays": 20,
+  "fieldDays": 30,
+  "pledgeUnit": 10,
+  "zoneMax": 120,
+  "items": [
+    {
+      "code": "S100",
+      "name": "속도위반 100km\/h 초과",
+      "points": 100,
+      "group": 0,
+      "zone": 1
+    },
+    {
+      "code": "S80",
+      "name": "속도위반 80km\/h 초과 100km\/h 이하",
+      "points": 80,
+      "group": 0,
+      "zone": 1
+    },
+    {
+      "code": "S60",
+      "name": "속도위반 60km\/h 초과 80km\/h 이하",
+      "points": 60,
+      "group": 0,
+      "zone": 2
+    },
+    {
+      "code": "S40",
+      "name": "속도위반 40km\/h 초과 60km\/h 이하",
+      "points": 30,
+      "group": 0,
+      "zone": 2
+    },
+    {
+      "code": "S20",
+      "name": "속도위반 20km\/h 초과 40km\/h 이하",
+      "points": 15,
+      "group": 0,
+      "zone": 2
+    },
+    {
+      "code": "SZ",
+      "name": "어린이보호구역 08~20시 제한속도 20km\/h 이내 초과",
+      "points": 15,
+      "group": 0,
+      "zone": 0
+    },
+    {
+      "code": "SIG",
+      "name": "신호·지시위반",
+      "points": 15,
+      "group": 1,
+      "zone": 2
+    },
+    {
+      "code": "CEN",
+      "name": "중앙선 침범(통행구분 위반)",
+      "points": 30,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "PED",
+      "name": "보행자 보호 불이행·정지선 위반",
+      "points": 10,
+      "group": 1,
+      "zone": 2
+    },
+    {
+      "code": "OVT",
+      "name": "앞지르기 금지시기·장소 위반",
+      "points": 15,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "OVM",
+      "name": "앞지르기 방법 위반",
+      "points": 10,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "DIST",
+      "name": "안전거리 미확보·진로변경 방법 위반",
+      "points": 10,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "LANE",
+      "name": "차로통행 준수·지정차로·진로변경 금지장소 위반",
+      "points": 10,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "SIDE",
+      "name": "보도침범·보도 횡단방법 위반",
+      "points": 10,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "DEDI",
+      "name": "일반도로 전용차로 통행위반",
+      "points": 10,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "BUS",
+      "name": "고속도로 버스전용·다인승전용차로 통행위반",
+      "points": 30,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "SHLD",
+      "name": "고속도로·자동차전용도로 갓길통행",
+      "points": 30,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "RAIL",
+      "name": "철길건널목 통과방법 위반",
+      "points": 30,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "ROUND",
+      "name": "회전교차로 통행 방향 위반",
+      "points": 30,
+      "group": 1,
+      "zone": 0
+    },
+    {
+      "code": "PHONE",
+      "name": "운전 중 휴대용 전화 사용",
+      "points": 15,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "VIDEO",
+      "name": "운전 중 볼 수 있는 위치에 영상 표시",
+      "points": 15,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "VIDEO2",
+      "name": "운전 중 영상표시장치 조작",
+      "points": 15,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "SAFE",
+      "name": "안전운전 의무 위반",
+      "points": 10,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "LOAD",
+      "name": "적재 제한·적재물 추락 방지 위반",
+      "points": 15,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "RECD",
+      "name": "운행기록계 미설치 자동차 운전금지 등 위반",
+      "points": 15,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "LIC",
+      "name": "면허증 제시의무 위반·신원확인 질문 불응",
+      "points": 30,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "QUAR",
+      "name": "노상 시비·다툼 등으로 차마 통행 방해",
+      "points": 10,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "AUTO",
+      "name": "자율주행자동차 운전자 준수사항 위반",
+      "points": 10,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "THROW",
+      "name": "물건 던지기·발사(돌·유리병 등 위험물)",
+      "points": 10,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "THROW2",
+      "name": "달리는 차에서 밖으로 물건 던지기",
+      "points": 10,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "FALL",
+      "name": "승객·승하차자 추락방지조치 위반",
+      "points": 10,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "SBUS",
+      "name": "어린이통학버스 특별보호 위반",
+      "points": 30,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "SBUS2",
+      "name": "어린이통학버스 운전자 의무 위반",
+      "points": 30,
+      "group": 2,
+      "zone": 0
+    },
+    {
+      "code": "EMG",
+      "name": "긴급자동차에 대한 일시정지·양보 위반",
+      "points": 10,
+      "group": 2,
+      "zone": 0,
+      "from": "2027-02-25"
+    },
+    {
+      "code": "EMG2",
+      "name": "허용 외 경광등·사이렌 사용",
+      "points": 10,
+      "group": 2,
+      "zone": 0,
+      "from": "2027-02-25"
+    },
+    {
+      "code": "DUI",
+      "name": "술에 취한 상태 운전(혈중알코올 0.03% 이상 0.08% 미만)",
+      "points": 100,
+      "group": 3,
+      "zone": 0
+    },
+    {
+      "code": "REV",
+      "name": "보복운전(특수상해 등)으로 입건",
+      "points": 100,
+      "group": 3,
+      "zone": 0
+    },
+    {
+      "code": "RACE",
+      "name": "공동위험행위로 형사입건",
+      "points": 40,
+      "group": 3,
+      "zone": 0
+    },
+    {
+      "code": "RECK",
+      "name": "난폭운전으로 형사입건",
+      "points": 40,
+      "group": 3,
+      "zone": 0
+    },
+    {
+      "code": "REFUSE",
+      "name": "정차·주차위반 조치불응(3회 이상 이동명령 불응)",
+      "points": 40,
+      "group": 3,
+      "zone": 0
+    },
+    {
+      "code": "GSAFE",
+      "name": "단체 안전운전 지시 3회 불응",
+      "points": 40,
+      "group": 3,
+      "zone": 0
+    },
+    {
+      "code": "NOISY",
+      "name": "승객의 차내 소란행위 방치운전",
+      "points": 40,
+      "group": 3,
+      "zone": 0
+    },
+    {
+      "code": "DEAD",
+      "name": "교통사고 사망 1명(72시간 이내)",
+      "points": 90,
+      "group": 4,
+      "zone": 0
+    },
+    {
+      "code": "SERI",
+      "name": "교통사고 중상 1명(3주 이상 치료)",
+      "points": 15,
+      "group": 4,
+      "zone": 0
+    },
+    {
+      "code": "MINOR",
+      "name": "교통사고 경상 1명(3주 미만 5일 이상)",
+      "points": 5,
+      "group": 4,
+      "zone": 0
+    },
+    {
+      "code": "HURT",
+      "name": "교통사고 부상신고 1명(5일 미만)",
+      "points": 2,
+      "group": 4,
+      "zone": 0
+    },
+    {
+      "code": "HIT",
+      "name": "물적 피해 사고 후 도주",
+      "points": 15,
+      "group": 4,
+      "zone": 0
+    },
+    {
+      "code": "AID1",
+      "name": "사상자 구호 안 하고 자진신고 — 3시간(그 밖은 12시간) 이내",
+      "points": 30,
+      "group": 4,
+      "zone": 0
+    },
+    {
+      "code": "AID2",
+      "name": "사상자 구호 안 하고 자진신고 — 그 후 48시간 이내",
+      "points": 60,
+      "group": 4,
+      "zone": 0
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-02-25"
+}
