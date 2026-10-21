@@ -1,0 +1,69 @@
+{
+  "_읽을것": [
+    "상가건물 임대차보호법 §2·§10·§10의4·§11·§14 · 시행령 §2·§4·§6·§7 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "convertLimit = 환산보증금 이하면 법 전체 적용 · smallCap = 소액임차인 환산 상한 · smallPay = 최우선변제 한도 (원)",
+    "openMonths\/closeMonths = 갱신요구 창(만료 6개월 전 ~ 1개월 전) · maxYears = 10년",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "rentMultiplier": 100,
+  "raisePct": 5,
+  "maxYears": 10,
+  "openMonths": 6,
+  "closeMonths": 1,
+  "regions": [
+    {
+      "id": "seoul",
+      "label": "서울특별시",
+      "example": "서울 전 지역",
+      "convertLimit": 900000000,
+      "smallCap": 65000000,
+      "smallPay": 22000000
+    },
+    {
+      "id": "overcrowd",
+      "label": "과밀억제권역",
+      "example": "서울 제외 — 인천 일부 · 의정부 · 구리 · 남양주 일부 등",
+      "convertLimit": 690000000,
+      "smallCap": 55000000,
+      "smallPay": 19000000
+    },
+    {
+      "id": "busan",
+      "label": "부산광역시",
+      "example": "환산 기준은 과밀억제권역과 같고, 소액 기준은 광역시 칸이에요",
+      "convertLimit": 690000000,
+      "smallCap": 38000000,
+      "smallPay": 13000000
+    },
+    {
+      "id": "metro",
+      "label": "광역시 · 안산 · 용인 · 김포 · 광주",
+      "example": "대구 · 대전 · 광주 · 울산 · 인천(과밀 밖) · 경기 안산 · 용인 · 김포 · 광주(시)",
+      "convertLimit": 540000000,
+      "smallCap": 38000000,
+      "smallPay": 13000000
+    },
+    {
+      "id": "sejong",
+      "label": "세종 · 파주 · 화성",
+      "example": "환산 기준은 광역시 칸이고, 소액 기준은 그 밖의 지역 칸이에요",
+      "convertLimit": 540000000,
+      "smallCap": 30000000,
+      "smallPay": 10000000
+    },
+    {
+      "id": "other",
+      "label": "그 밖의 지역",
+      "example": "위에 없는 시 · 군",
+      "convertLimit": 370000000,
+      "smallCap": 30000000,
+      "smallPay": 10000000
+    }
+  ],
+  "smallFrom": "2019-04-02",
+  "convertFrom": "2019-04-02",
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
