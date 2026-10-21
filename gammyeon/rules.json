@@ -1,0 +1,85 @@
+{
+  "_읽을것": [
+    "국세기본법 §45의3·§47의2·§47의4·§48② · 시행령 §27의4 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "generalPct·fraudPct·offshorePct = 무신고가산세율(%) · revenue*Per10k = 복식부기·법인 수입금액 기준(1만분의 n)",
+    "steps = 기한 후 신고 감면 — 법정신고기한이 지난 뒤 months 개월 이내면 무신고가산세의 pct% 감면",
+    "dailyPer100k = 납부지연 1일 10만분의 n · countPayDay=false 는 납부일 전날까지 센다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "generalPct": 20,
+  "fraudPct": 40,
+  "offshorePct": 60,
+  "revenueGeneralPer10k": 7,
+  "revenueFraudPer10k": 14,
+  "steps": [
+    {
+      "months": 1,
+      "pct": 50
+    },
+    {
+      "months": 3,
+      "pct": 30
+    },
+    {
+      "months": 6,
+      "pct": 20
+    }
+  ],
+  "dailyPer100k": 22,
+  "countPayDay": false,
+  "kinds": [
+    {
+      "id": "income",
+      "label": "종합소득세",
+      "month": 5,
+      "day": 31,
+      "hint": "5월 31일"
+    },
+    {
+      "id": "sincere",
+      "label": "성실신고 종소세",
+      "month": 6,
+      "day": 30,
+      "hint": "6월 30일"
+    },
+    {
+      "id": "vat1",
+      "label": "부가세 1기 확정",
+      "month": 7,
+      "day": 25,
+      "hint": "7월 25일"
+    },
+    {
+      "id": "vat2",
+      "label": "부가세 2기 확정",
+      "month": 1,
+      "day": 25,
+      "hint": "1월 25일"
+    },
+    {
+      "id": "corp",
+      "label": "법인세 (12월 결산)",
+      "month": 3,
+      "day": 31,
+      "hint": "3월 31일"
+    },
+    {
+      "id": "transfer",
+      "label": "양도세 예정신고",
+      "month": 0,
+      "day": 0,
+      "hint": "양도 달 말일+2개월"
+    },
+    {
+      "id": "custom",
+      "label": "그 밖의 세목",
+      "month": 0,
+      "day": 0,
+      "hint": "날짜를 직접"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
