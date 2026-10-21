@@ -1,0 +1,39 @@
+{
+  "_읽을것": [
+    "조세특례제한법 §126의2 의 값이다. 숫자를 바꿀 땐 조문(시행일)을 먼저 읽어라",
+    "thresholdPct = 최저사용금액(총급여 %) · *Pct = 수단별 공제율 · salaryCut = 7천만 원 구간 경계(이하)",
+    "limitLow\/limitHigh = 기본한도 [자녀 0, 1, 2명 이상] · extraLow\/extraHigh = 전통시장·대중교통(·문화) 추가한도",
+    "growthYears = 전년 대비 증가분 추가공제가 있는 귀속연도. 개정이 공포되면 그 연도를 넣어라(없으면 화면이 말하지 않는다)",
+    "useUntil = 일몰(이 날까지 사용분). 개정안은 공포·시행 전에 넣지 마라. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "thresholdPct": 25,
+  "creditPct": 15,
+  "debitPct": 30,
+  "marketPct": 40,
+  "transitPct": 40,
+  "culturePct": 30,
+  "salaryCut": 70000000,
+  "limitLow": [
+    3000000,
+    3500000,
+    4000000
+  ],
+  "limitHigh": [
+    2500000,
+    2750000,
+    3000000
+  ],
+  "extraLow": 3000000,
+  "extraHigh": 2000000,
+  "growthYears": [
+    2024
+  ],
+  "growthBasePct": 105,
+  "growthRatePct": 10,
+  "growthCap": 1000000,
+  "useUntil": "2028-12-31",
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
