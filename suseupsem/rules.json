@@ -1,0 +1,31 @@
+{
+  "_읽을것": [
+    "최저임금법 §5② · 시행령 §3·§5 · 고용노동부 최저임금 고시(연도별) · 단순노무직종 지정 고시의 값이다. 숫자를 바꿀 땐 원문을 먼저 읽어라",
+    "wages = 연도별 시간급 최저임금. 다음 해 고시(보통 8월 5일)가 나오면 한 줄 더한다",
+    "probationPct 90 = 100분의 10을 뺀 금액 · probationMonths 3 · minContractMonths 12",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "wages": [
+    {
+      "year": 2026,
+      "hourly": 10320
+    },
+    {
+      "year": 2027,
+      "hourly": 10700
+    }
+  ],
+  "probationPct": 90,
+  "probationMonths": 3,
+  "minContractMonths": 12,
+  "simpleJobs": [
+    "택배원",
+    "음식배달원",
+    "청소원",
+    "경비원"
+  ],
+  "notice": "",
+  "reviewBy": "2027-08-10"
+}
