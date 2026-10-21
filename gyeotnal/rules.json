@@ -1,0 +1,22 @@
+{
+  "_읽을것": [
+    "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률 §22의2 · 시행령 §16의2~§16의4 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "leaveMaxDays 90 · leaveMinBlock 30 = 휴직 연 90일, 1회 30일 이상 · careMaxDays 10 = 휴가 연 10일 · careInLeave = 휴가가 휴직 90일에 포함",
+    "careExtendDays\/careExtendSingleDays\/careExtendUntil 은 고용노동부 장관이 연장을 고시했을 때만 채운다(일반 +10 · 한부모 +15 이내). 없으면 0·빈칸",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "leaveMaxDays": 90,
+  "leaveMinBlock": 30,
+  "careMaxDays": 10,
+  "careExtendDays": 0,
+  "careExtendSingleDays": 0,
+  "careExtendUntil": "",
+  "careInLeave": true,
+  "applyLeadDays": 30,
+  "minTenureMonths": 6,
+  "withdrawDays": 7,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
