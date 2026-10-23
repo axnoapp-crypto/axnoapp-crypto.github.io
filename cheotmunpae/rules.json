@@ -1,0 +1,21 @@
+{
+  "_읽을것": [
+    "지방세특례제한법 §36의3 · 지방세법 §11①8 · §20① 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "priceCap = 감면 가액 상한(이하) · smallCap* = 소형 주택 가액(이하) · smallArea = 전용면적 ㎡(이하)",
+    "deductSmall\/deductBasic = 공제액(원) · reliefUntil = 감면 일몰 · 연장 개정이 공포되면 이 날만 고친다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-23",
+  "priceCap": 1200000000,
+  "smallCapMetro": 600000000,
+  "smallCapOther": 300000000,
+  "smallArea": 60,
+  "deductSmall": 3000000,
+  "deductBasic": 2000000,
+  "holdYears": 3,
+  "fileDays": 60,
+  "reliefUntil": "2028-12-31",
+  "notice": "",
+  "reviewBy": "2027-01-15"
+}
