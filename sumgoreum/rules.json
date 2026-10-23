@@ -1,0 +1,121 @@
+{
+  "_읽을것": [
+    "국세징수법 §13~§18 · 시행령 §11~§16 · 소득세법 §77·§112 · 법인세법 §64 · 상속세및증여세법 §70 · 종합부동산세법 §20 · 국세기본법 §47의4 · 시행령 §27의4 의 값이다",
+    "kinds: over 초과면 분납 가능(0 = 제도 없음) · halfOver 이하면 over 초과분, 초과면 50% 이하 · months = 납부기한 뒤 몇 개월",
+    "dailyPer100k 22 = 1일 10만분의 22 · monthlyPer10k 67 = 월 1만분의 67 · noticeLumpPct 3 = 지정납부기한 미납 3%",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-23",
+  "reviewBy": "2027-03-31",
+  "notice": "",
+  "kinds": [
+    {
+      "id": "income",
+      "label": "종합소득세",
+      "over": 10000000,
+      "halfOver": 20000000,
+      "months": 2,
+      "note": "5월 확정신고분 · 중간예납분도 같은 계산"
+    },
+    {
+      "id": "transfer",
+      "label": "양도소득세",
+      "over": 10000000,
+      "halfOver": 20000000,
+      "months": 2,
+      "note": "예정·확정신고분 각각"
+    },
+    {
+      "id": "corp",
+      "label": "법인세",
+      "over": 10000000,
+      "halfOver": 20000000,
+      "months": 1,
+      "note": "중소기업이 아니면 1개월"
+    },
+    {
+      "id": "corpSme",
+      "label": "법인세(중소기업)",
+      "over": 10000000,
+      "halfOver": 20000000,
+      "months": 2,
+      "note": "중소기업은 2개월"
+    },
+    {
+      "id": "inherit",
+      "label": "상속·증여세",
+      "over": 10000000,
+      "halfOver": 20000000,
+      "months": 2,
+      "note": "연부연납을 받으면 분납은 안 돼요"
+    },
+    {
+      "id": "comp",
+      "label": "종합부동산세",
+      "over": 2500000,
+      "halfOver": 5000000,
+      "months": 6,
+      "note": "12월 고지분 · 납부기한까지 분납 신청"
+    },
+    {
+      "id": "vat",
+      "label": "부가가치세",
+      "over": 0,
+      "halfOver": 0,
+      "months": 0,
+      "note": "분납 제도가 없어요 — 연장·유예로만 나눠 내요"
+    }
+  ],
+  "reasons": [
+    {
+      "id": "disaster",
+      "label": "재난·도난으로 재산에 큰 손실",
+      "sub": "화재·수해·도난 등",
+      "noCollateral": "yes"
+    },
+    {
+      "id": "business",
+      "label": "사업에 큰 손실 · 부도·도산 우려",
+      "sub": "매출 급감·거래처 부도",
+      "noCollateral": "maybe"
+    },
+    {
+      "id": "illness",
+      "label": "본인·동거가족이 6개월 이상 치료 · 상중",
+      "sub": "중병·중상해·사망",
+      "noCollateral": "no"
+    },
+    {
+      "id": "seized",
+      "label": "장부·서류가 압수·영치됨",
+      "sub": "수사기관 압수 등",
+      "noCollateral": "no"
+    },
+    {
+      "id": "system",
+      "label": "정전·전산 오류로 납부 시스템이 멈춤",
+      "sub": "한국은행·우체국 전산 장애",
+      "noCollateral": "yes"
+    },
+    {
+      "id": "agent",
+      "label": "장부를 맡긴 세무사·회계사의 재해·장부 도난",
+      "sub": "세무대리인 사무실 화재 등",
+      "noCollateral": "no"
+    }
+  ],
+  "applyDaysBefore": 3,
+  "deemedDaysBefore": 10,
+  "deemedReplyDays": 10,
+  "extendMonths": 9,
+  "evenFromMonth": 6,
+  "specialMonths": 24,
+  "collateralPct": 120,
+  "collateralCashPct": 110,
+  "dailyPer100k": 22,
+  "noticeLumpPct": 3,
+  "monthlyPer10k": 67,
+  "monthlyExemptUnder": 1500000,
+  "capMonths": 60
+}
