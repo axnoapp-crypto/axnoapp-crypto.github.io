@@ -1,0 +1,303 @@
+{
+  "_읽을것": [
+    "dongji = 해마다 동지 한 줄. 날짜·시각·음력·일출일몰은 한국천문연구원 천문우주지식정보에서 확인한 값만 싣는다 — 모르면 그 칸을 빈칸으로",
+    "prelim = true 면 월력요항 공식 발표 전 「달력자료」 값(앱은 「공식 발표 전」이라고 보여 준다)",
+    "lunarDay 1~10 애동지 · 11~20 중동지 · 21~ 노동지 — 비우면 앱은 「음력 날짜 확인 필요」",
+    "해가 없으면(2029~) 앱은 「동지 날짜 확인 필요 · 해마다 12월 21~22일 무렵」",
+    "recipes = 참고치 레시피(1인분 기준 양 · 단계별 분). id·재료 id·단계 id 는 저장 키라 바꾸지 마라",
+    "saealFlourG·saealWaterMl = 새알 1개 반죽량(참고치)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "dongji": [
+    {
+      "year": 2025,
+      "date": "2025-12-22",
+      "time": "00:03",
+      "lunarMonth": 11,
+      "lunarDay": 3,
+      "sunrise": "07:44",
+      "sunset": "17:18",
+      "prelim": false
+    },
+    {
+      "year": 2026,
+      "date": "2026-12-22",
+      "time": "05:50",
+      "lunarMonth": 11,
+      "lunarDay": 14,
+      "sunrise": "07:43",
+      "sunset": "17:18",
+      "prelim": false
+    },
+    {
+      "year": 2027,
+      "date": "2027-12-22",
+      "time": "11:42",
+      "lunarMonth": 11,
+      "lunarDay": 25,
+      "sunrise": "07:43",
+      "sunset": "17:17",
+      "prelim": true
+    },
+    {
+      "year": 2028,
+      "date": "2028-12-21",
+      "time": "17:20",
+      "lunarMonth": 11,
+      "lunarDay": 6,
+      "sunrise": "07:43",
+      "sunset": "17:17",
+      "prelim": true
+    }
+  ],
+  "recipes": [
+    {
+      "id": "saeal",
+      "title": "새알심 팥죽",
+      "note": "동지 하면 이것 · 새알심을 나이만큼",
+      "saealPerBowl": 6,
+      "items": [
+        {
+          "id": "pat",
+          "name": "팥",
+          "perServing": 70,
+          "unit": "g",
+          "note": "붉은 팥 · 마른 것 기준"
+        },
+        {
+          "id": "rice",
+          "name": "찹쌀(또는 멥쌀)",
+          "perServing": 25,
+          "unit": "g",
+          "note": "죽을 걸쭉하게 · 불려서"
+        },
+        {
+          "id": "water",
+          "name": "물",
+          "perServing": 650,
+          "unit": "ml",
+          "note": "삶는 물 + 끓이는 물"
+        },
+        {
+          "id": "salt",
+          "name": "소금",
+          "perServing": 1.5,
+          "unit": "g",
+          "note": "간은 마지막에"
+        },
+        {
+          "id": "sugar",
+          "name": "설탕(선택)",
+          "perServing": 8,
+          "unit": "g",
+          "note": "달게 먹는 집만"
+        }
+      ],
+      "steps": [
+        {
+          "id": "soak",
+          "title": "팥 불리기(선택)",
+          "minutes": 360,
+          "note": "불리지 않아도 되지만 불려 두면 삶는 시간이 줄어요"
+        },
+        {
+          "id": "first",
+          "title": "첫물 버리기",
+          "minutes": 5,
+          "note": "한소끔 끓으면 물을 따라 버려 떫은맛을 빼요"
+        },
+        {
+          "id": "boil",
+          "title": "팥 삶기",
+          "minutes": 60,
+          "note": "손으로 눌러 으깨질 때까지 · 물이 줄면 보충"
+        },
+        {
+          "id": "strain",
+          "title": "거르기·으깨기",
+          "minutes": 15,
+          "note": "체에 내려 껍질을 걸러요"
+        },
+        {
+          "id": "shape",
+          "title": "새알심 빚기",
+          "minutes": 15,
+          "note": "찹쌀가루를 뜨거운 물로 익반죽"
+        },
+        {
+          "id": "simmer",
+          "title": "쌀 넣고 끓이기",
+          "minutes": 20,
+          "note": "바닥이 눋지 않게 저어 가며"
+        },
+        {
+          "id": "float",
+          "title": "새알 넣고 떠오르기",
+          "minutes": 5,
+          "note": "떠오르면 1~2분 더 · 소금 간"
+        }
+      ]
+    },
+    {
+      "id": "noodle",
+      "title": "팥칼국수",
+      "note": "새알 대신 면 · 점심 한 끼",
+      "saealPerBowl": 0,
+      "items": [
+        {
+          "id": "pat",
+          "name": "팥",
+          "perServing": 70,
+          "unit": "g",
+          "note": "붉은 팥 · 마른 것 기준"
+        },
+        {
+          "id": "noodle",
+          "name": "칼국수 생면",
+          "perServing": 110,
+          "unit": "g",
+          "note": "1인분 한 줌"
+        },
+        {
+          "id": "water",
+          "name": "물",
+          "perServing": 600,
+          "unit": "ml",
+          "note": "삶는 물 + 끓이는 물"
+        },
+        {
+          "id": "salt",
+          "name": "소금",
+          "perServing": 2,
+          "unit": "g",
+          "note": "간은 마지막에"
+        },
+        {
+          "id": "sugar",
+          "name": "설탕(선택)",
+          "perServing": 10,
+          "unit": "g",
+          "note": "달게 먹는 집만"
+        }
+      ],
+      "steps": [
+        {
+          "id": "soak",
+          "title": "팥 불리기(선택)",
+          "minutes": 360,
+          "note": "불리지 않아도 되지만 불려 두면 삶는 시간이 줄어요"
+        },
+        {
+          "id": "first",
+          "title": "첫물 버리기",
+          "minutes": 5,
+          "note": "한소끔 끓으면 물을 따라 버려 떫은맛을 빼요"
+        },
+        {
+          "id": "boil",
+          "title": "팥 삶기",
+          "minutes": 60,
+          "note": "손으로 눌러 으깨질 때까지"
+        },
+        {
+          "id": "strain",
+          "title": "거르기·으깨기",
+          "minutes": 15,
+          "note": "체에 내려 껍질을 걸러요"
+        },
+        {
+          "id": "simmer",
+          "title": "팥물 끓이기",
+          "minutes": 10,
+          "note": "물을 맞춰 한소끔"
+        },
+        {
+          "id": "noodle",
+          "title": "면 넣고 삶기",
+          "minutes": 6,
+          "note": "면끼리 붙지 않게 저어요"
+        }
+      ]
+    },
+    {
+      "id": "sweet",
+      "title": "단팥죽",
+      "note": "달게 졸인 팥 · 새알 조금",
+      "saealPerBowl": 4,
+      "items": [
+        {
+          "id": "pat",
+          "name": "팥",
+          "perServing": 60,
+          "unit": "g",
+          "note": "붉은 팥 · 마른 것 기준"
+        },
+        {
+          "id": "sugar",
+          "name": "설탕",
+          "perServing": 35,
+          "unit": "g",
+          "note": "취향 따라 줄여요"
+        },
+        {
+          "id": "water",
+          "name": "물",
+          "perServing": 450,
+          "unit": "ml",
+          "note": "삶는 물 + 졸이는 물"
+        },
+        {
+          "id": "salt",
+          "name": "소금",
+          "perServing": 1,
+          "unit": "g",
+          "note": "단맛을 살리는 한 꼬집"
+        }
+      ],
+      "steps": [
+        {
+          "id": "soak",
+          "title": "팥 불리기(선택)",
+          "minutes": 360,
+          "note": "불리지 않아도 되지만 불려 두면 삶는 시간이 줄어요"
+        },
+        {
+          "id": "first",
+          "title": "첫물 버리기",
+          "minutes": 5,
+          "note": "한소끔 끓으면 물을 따라 버려 떫은맛을 빼요"
+        },
+        {
+          "id": "boil",
+          "title": "팥 무르게 삶기",
+          "minutes": 70,
+          "note": "알이 터질 만큼 무르게"
+        },
+        {
+          "id": "sugar",
+          "title": "설탕 넣고 졸이기",
+          "minutes": 20,
+          "note": "약불 · 계속 저어요"
+        },
+        {
+          "id": "shape",
+          "title": "새알심 빚기",
+          "minutes": 10,
+          "note": "찹쌀가루 익반죽"
+        },
+        {
+          "id": "float",
+          "title": "새알 넣고 떠오르기",
+          "minutes": 5,
+          "note": "떠오르면 불을 꺼요"
+        }
+      ]
+    }
+  ],
+  "saealFlourG": 6,
+  "saealWaterMl": 3,
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
