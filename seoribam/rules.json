@@ -1,0 +1,84 @@
+{
+  "_읽을것": [
+    "체감온도 식(13.12 + 0.6215T - 11.37V^0.16 + 0.3965V^0.16T, V=km\/h)은 기상청 겨울철 체감온도다. chillMaxTempC·chillMinWindMs 는 그 산출 조건(10°C 이하·1.3m\/s 이상)",
+    "matBands = 체감 aboveC 이상이면 매트 R값 r 이상 권장 — 참고치다. 위에서부터 처음 맞는 줄을 쓴다",
+    "boosts 의 deltaC = 그 보강을 했을 때 침낭 기준을 몇 °C 낮춰 보나 — 참고치다. combustion=true 면 앱이 난방 안전 점검을 띄운다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "chillMaxTempC": 10,
+  "chillMinWindMs": 1.2999999523162842,
+  "matBands": [
+    {
+      "aboveC": 5,
+      "r": 2
+    },
+    {
+      "aboveC": 0,
+      "r": 3
+    },
+    {
+      "aboveC": -5,
+      "r": 4
+    },
+    {
+      "aboveC": -10,
+      "r": 5
+    },
+    {
+      "aboveC": -20,
+      "r": 6
+    },
+    {
+      "aboveC": -99,
+      "r": 7
+    }
+  ],
+  "boosts": [
+    {
+      "id": "liner",
+      "label": "침낭 이너(라이너) 넣기",
+      "deltaC": 3,
+      "note": "플리스·보온 이너 · 참고치 2~5°C",
+      "combustion": false
+    },
+    {
+      "id": "wear",
+      "label": "다운 상하의·우모 양말 입고 자기",
+      "deltaC": 3,
+      "note": "땀이 마른 옷으로 갈아입고",
+      "combustion": false
+    },
+    {
+      "id": "hotpack",
+      "label": "핫팩 2개(발끝·허리)",
+      "deltaC": 2,
+      "note": "피부에 직접 대지 말고 양말 위·옷 위로",
+      "combustion": false
+    },
+    {
+      "id": "cot",
+      "label": "야전침대·두꺼운 러그로 바닥 띄우기",
+      "deltaC": 2,
+      "note": "바닥 냉기를 줄인다",
+      "combustion": false
+    },
+    {
+      "id": "electric",
+      "label": "전기 난방(전기요·전기매트)",
+      "deltaC": 5,
+      "note": "전기 사이트 · 멀티탭 정격 확인",
+      "combustion": false
+    },
+    {
+      "id": "heater",
+      "label": "연소식 난방(가스·등유 난로)",
+      "deltaC": 6,
+      "note": "일산화탄소 경보기·환기 필수",
+      "combustion": true
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
