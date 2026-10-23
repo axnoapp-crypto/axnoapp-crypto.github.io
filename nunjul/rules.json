@@ -1,0 +1,48 @@
+{
+  "_읽을것": [
+    "example*Won 은 사용자가 가격을 안 넣었을 때 화면에 「예시」로만 보이는 값이다 — 특정 스키장 가격이 아니다",
+    "levels = 슬로프 난이도 색(참고치). rank 가 높을수록 어렵다 — rank 3 이상이 「상급」 배지",
+    "nextSeasonOpen = 다음 시즌 개장일(YYYY-MM-DD). 확인 못 했으면 빈칸 — 앱은 「일정 확인 필요」",
+    "safety = 슬로프 안전 한 줄(인천소방본부 겨울철 안전사고 예방 요령)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "exampleSeasonWon": 500000,
+  "exampleDayWon": 90000,
+  "exampleHalfWon": 70000,
+  "levels": [
+    {
+      "id": "green",
+      "label": "초급",
+      "color": "2E9E5B",
+      "rank": 1
+    },
+    {
+      "id": "blue",
+      "label": "중급",
+      "color": "2F6FD0",
+      "rank": 2
+    },
+    {
+      "id": "red",
+      "label": "상급",
+      "color": "D23A3A",
+      "rank": 3
+    },
+    {
+      "id": "black",
+      "label": "최상급",
+      "color": "1B1E22",
+      "rank": 4
+    }
+  ],
+  "safety": [
+    "보호 장비를 챙기고 몸을 풀고 타요",
+    "내 실력에 맞는 코스를 고르고, 통제된 코스는 타지 않아요",
+    "야간에는 다른 사람이 잘 볼 수 있는 곳에서 타요"
+  ],
+  "nextSeasonOpen": "",
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
