@@ -1,0 +1,21 @@
+{
+  "_읽을것": [
+    "근로기준법 §11·§23·§27·§28·§31·§33 · 시행령 §7 별표 1·별표 3 · 노동위원회 규칙 §40 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "remedyMonths = 구제신청 기간(개월) · retrialDays = 초심 판정서 송달 뒤 재심 · lawsuitDays = 재심판정서 송달 뒤 행정소송",
+    "minWorkers = 상시 근로자 이 인원 이상에만 부당해고 구제가 적용된다 · penalty* = 해고 구제명령 불이행 이행강제금",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-23",
+  "remedyMonths": 3,
+  "retrialDays": 10,
+  "lawsuitDays": 15,
+  "minWorkers": 5,
+  "penaltyMinWon": 5000000,
+  "penaltyMaxWon": 30000000,
+  "penaltyTimesPerYear": 2,
+  "penaltyYears": 2,
+  "reportDays": 15,
+  "notice": "",
+  "reviewBy": "2027-04-30"
+}
