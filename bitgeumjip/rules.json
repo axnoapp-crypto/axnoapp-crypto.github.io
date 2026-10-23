@@ -1,0 +1,137 @@
+{
+  "_읽을것": [
+    "부동산 거래신고 등에 관한 법률 §11·§14·§17·§18·§26 · 시행령 §8·§9·§14·§14조의2·§16 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "zones.sqm = 이 면적 '이하'면 허가 불필요(영 §9①) · uses.years = 취득일부터 이용 의무 기간(영 §14②) · fines.pct = 취득가액 대비 이행강제금(영 §16③)",
+    "leaseSpecialUntil = 임대 중 주택 임시특례 허가 신청 마감(영 §14조의2②2). 특례가 끝나면 빈 문자열로 둔다",
+    "designated = 정본 공고로 확인한 지정 구역만 한 줄씩. 확인 못 했으면 비워 둔다(앱은 사용자 체크로 간다)",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-23",
+  "zones": [
+    {
+      "id": "res",
+      "label": "주거지역",
+      "group": "도시지역",
+      "sqm": 60
+    },
+    {
+      "id": "com",
+      "label": "상업지역",
+      "group": "도시지역",
+      "sqm": 150
+    },
+    {
+      "id": "ind",
+      "label": "공업지역",
+      "group": "도시지역",
+      "sqm": 150
+    },
+    {
+      "id": "green",
+      "label": "녹지지역",
+      "group": "도시지역",
+      "sqm": 200
+    },
+    {
+      "id": "none",
+      "label": "용도 미지정",
+      "group": "도시지역",
+      "sqm": 60
+    },
+    {
+      "id": "out",
+      "label": "도시 밖 대지 등",
+      "group": "도시지역 외",
+      "sqm": 250
+    },
+    {
+      "id": "farm",
+      "label": "도시 밖 농지",
+      "group": "도시지역 외",
+      "sqm": 500
+    },
+    {
+      "id": "forest",
+      "label": "도시 밖 임야",
+      "group": "도시지역 외",
+      "sqm": 1000
+    }
+  ],
+  "uses": [
+    {
+      "id": "home",
+      "label": "내가 살 집",
+      "note": "실거주 · 자기 거주용",
+      "years": 2
+    },
+    {
+      "id": "farm",
+      "label": "농·축·임·어업",
+      "note": "구역 안 거주 농업인 등",
+      "years": 2
+    },
+    {
+      "id": "welfare",
+      "label": "복지·편익시설",
+      "note": "구청장이 확인한 시설",
+      "years": 2
+    },
+    {
+      "id": "biz",
+      "label": "사업 시행",
+      "note": "공익사업·지구 사업 등",
+      "years": 4
+    },
+    {
+      "id": "keep",
+      "label": "현상 보존",
+      "note": "개발 제한된 땅",
+      "years": 5
+    },
+    {
+      "id": "other",
+      "label": "그 밖의 목적",
+      "note": "임대사업 등",
+      "years": 5
+    }
+  ],
+  "fines": [
+    {
+      "id": "idle",
+      "label": "방치",
+      "note": "허가받은 목적대로 안 쓰고 비워 둠",
+      "pct": 10
+    },
+    {
+      "id": "lease",
+      "label": "직접 안 쓰고 임대",
+      "note": "전세·월세를 줌",
+      "pct": 7
+    },
+    {
+      "id": "change",
+      "label": "승인 없이 목적 변경",
+      "note": "허가관청 승인 없이 다른 용도로",
+      "pct": 5
+    },
+    {
+      "id": "etc",
+      "label": "그 밖의 위반",
+      "note": "위 셋에 안 들어가는 경우",
+      "pct": 7
+    }
+  ],
+  "customMinPct": 10,
+  "customMaxPct": 300,
+  "maxFinePct": 10,
+  "orderMonths": 3,
+  "processDays": 15,
+  "penaltyPct": 30,
+  "leaseSpecialUntil": "2027-12-31",
+  "leaseSpecialAsOf": "2026-10-01",
+  "leaseSpecialBuyMonths": 4,
+  "designated": [],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
