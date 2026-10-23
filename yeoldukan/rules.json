@@ -1,0 +1,111 @@
+{
+  "_읽을것": [
+    "고용보험법 §77의6·§77의8·§77의10 · 시행령 §104의11·§104의15 · 고용산재보험료징수법 시행령 §56의6 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "thresholdWon = 계약별 월 보수액 기준(이상) · ratePermille 16 = 1.6%(내 몫은 절반) · dailyCapWon = 노무제공자 구직급여일액 상한",
+    "expensePct(직종별 필요경비 공제율) · premiumCapWon(보험료 상한) · dailyFloorWon(일단위 기준보수) 는 고시를 확인하면 채운다. 비어 있으면 화면이 「확인 필요」라고 말한다",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-23",
+  "reviewBy": "2027-01-15",
+  "thresholdWon": 800000,
+  "mergeDeadlineDay": 15,
+  "ratePermille": 16,
+  "premiumCapWon": "",
+  "windowMonths": 24,
+  "needMonths": 12,
+  "minOwnMonths": 3,
+  "workerDaysUnit": 180,
+  "replacePct": 60,
+  "dailyCapWon": 68100,
+  "dailyFloorWon": "",
+  "waitDays": 7,
+  "dropPct": 30,
+  "dropBigPct": 50,
+  "dropMonths": 5,
+  "waitMidDays": 28,
+  "waitBigDays": 14,
+  "daysUnder50": [
+    120,
+    150,
+    180,
+    210,
+    240
+  ],
+  "daysOver50": [
+    120,
+    180,
+    210,
+    240,
+    270
+  ],
+  "jobs": [
+    {
+      "id": "quick",
+      "label": "퀵서비스·배달 라이더",
+      "example": "음식·소화물 배달 · 퀵",
+      "expensePct": ""
+    },
+    {
+      "id": "driver",
+      "label": "대리운전",
+      "example": "대리운전 콜",
+      "expensePct": ""
+    },
+    {
+      "id": "parcel",
+      "label": "택배 기사",
+      "example": "택배 집화·배송",
+      "expensePct": ""
+    },
+    {
+      "id": "truck",
+      "label": "화물차주(특정 품목)",
+      "example": "컨테이너·시멘트·철강·위험물·물류센터 간",
+      "expensePct": ""
+    },
+    {
+      "id": "tutor",
+      "label": "방문 학습지 교사",
+      "example": "학습지·교구 방문강사",
+      "expensePct": ""
+    },
+    {
+      "id": "after",
+      "label": "방과후학교 강사",
+      "example": "초·중·고 방과후 과정",
+      "expensePct": ""
+    },
+    {
+      "id": "insure",
+      "label": "보험설계사",
+      "example": "보험·우체국보험 모집",
+      "expensePct": ""
+    },
+    {
+      "id": "loan",
+      "label": "대출·카드 모집인",
+      "example": "대출모집인 · 전업 카드모집인",
+      "expensePct": ""
+    },
+    {
+      "id": "visit",
+      "label": "방문판매·점검원",
+      "example": "방문판매원 · 대여제품 점검원",
+      "expensePct": ""
+    },
+    {
+      "id": "install",
+      "label": "가전 배송·설치",
+      "example": "가전 배송 후 설치·시운전",
+      "expensePct": ""
+    },
+    {
+      "id": "etc",
+      "label": "그 밖의 직종",
+      "example": "건설기계·SW기술자·관광통역·통학버스·캐디",
+      "expensePct": ""
+    }
+  ],
+  "notice": ""
+}
