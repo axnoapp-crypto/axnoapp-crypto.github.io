@@ -1,0 +1,37 @@
+{
+  "_읽을것": [
+    "tropicalMinC·nightWindow = 열대야 정의(기상청 기상자료개방포털 「열대야일수」 자료설명). 정의가 바뀌면 여기만 고친다",
+    "bands = 방 온도 구간별 꺼짐 예약 참고치(fromC 오름차순). acHours 0 = 에어컨 없이도 되는 밤",
+    "fallAsleepMin·personalExtraHours·acSetC = 참고치(앱이 정한 생활 기준)",
+    "checklist id 는 저장 키라 바꾸지 마라(문구는 고쳐도 된다)",
+    "seasonFromMonth~seasonToMonth = 달력·알림을 거는 달",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "tropicalMinC": 25,
+  "nightWindow": "18:01 ~ 다음 날 09:00",
+  "bands": [
+    {"fromC": 0, "acHours": 0, "fanHours": 1, "note": "선풍기만 잠깐 — 창을 조금 열어 두면 충분한 밤"},
+    {"fromC": 26, "acHours": 1, "fanHours": 2, "note": "잠들 무렵만 식혀 두면 되는 밤"},
+    {"fromC": 28, "acHours": 2, "fanHours": 3, "note": "첫 잠이 깊어질 때까지 시원하게"},
+    {"fromC": 30, "acHours": 3, "fanHours": 4, "note": "더운 방 — 꺼진 뒤 다시 더워지면 취침 모드·제습으로"}
+  ],
+  "fallAsleepMin": 20,
+  "personalExtraHours": 1,
+  "acSetC": 27,
+  "checklist": [
+    {"id": "shower", "title": "미지근한 물로 샤워", "note": "자기 1~2시간 전 · 찬물보다 미지근한 물이 몸을 천천히 식혀요"},
+    {"id": "curtain", "title": "낮에 커튼·블라인드 치기", "note": "햇볕이 덜 들면 밤에 방이 덜 달아요"},
+    {"id": "air", "title": "밖이 더 시원하면 맞바람 환기", "note": "자기 전 10분 · 창 두 곳을 열어요"},
+    {"id": "water", "title": "물 한 컵", "note": "자기 직전 많이 마시면 깨기 쉬워요"},
+    {"id": "bedding", "title": "얇은 면·삼베 이불, 쿨매트", "note": "땀이 잘 마르는 감으로"},
+    {"id": "fan", "title": "선풍기는 몸에 바로 말고 회전으로", "note": "벽이나 발 쪽으로 돌려요"},
+    {"id": "screen", "title": "자기 30분 전 화면 줄이기", "note": "밝은 빛이 잠을 늦춰요"},
+    {"id": "late", "title": "늦은 카페인·야식·술 줄이기", "note": "더운 밤엔 더 자주 깨게 해요"}
+  ],
+  "seasonFromMonth": 6,
+  "seasonToMonth": 9,
+  "notice": "",
+  "reviewBy": "2027-05-31"
+}
