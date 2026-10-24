@@ -1,0 +1,587 @@
+{
+  "_읽을것": [
+    "gasByHp·dieselByHp = 2마력부터 30마력까지 L/시간(고시 별표 2). 0 = 표에 값 없음(앱은 「확인 필요」)",
+    "aboveGasPerHp·aboveDieselPerHp = 31마력 이상 1마력마다 더하는 L/시간 · lpgFactor = LPG 는 같은 규격 경유의 몇 배",
+    "kinds = 기종(id 는 저장 키라 바꾸지 마라). options.hours = 별표 3 연간 사용시간 · rates = 고정 소모량(화물차는 연간 L 에 hours 1)",
+    "sunsetUntil = 감면 적용 기한(일몰). 연장 법이 공포되면 새 날짜로 고친다. 비우면 앱은 「확인 필요」",
+    "useBy·reclaimBy·buyBy·docsDue = MM-DD",
+    "taxGapWon = 리터당 감면세액(원, 유종 이름 키). 비우면 앱은 사용자가 넣게 한다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "gasByHp": [
+    0.8,
+    1.2,
+    1.6,
+    2.0,
+    2.3,
+    2.6,
+    2.9,
+    3.2,
+    3.5,
+    3.8,
+    4.1,
+    4.4,
+    4.7,
+    5.0,
+    5.3,
+    5.6,
+    5.9,
+    6.2,
+    6.5,
+    6.8,
+    7.1,
+    7.4,
+    7.7,
+    8.0,
+    8.3,
+    8.6,
+    8.9,
+    9.2,
+    9.5
+  ],
+  "dieselByHp": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0,
+    2.2,
+    2.4,
+    2.6,
+    2.8,
+    3.0,
+    3.2,
+    3.4,
+    3.6,
+    3.8,
+    4.0,
+    4.2,
+    4.4,
+    4.6,
+    4.8,
+    5.0,
+    5.2,
+    5.4,
+    5.6,
+    5.8,
+    6.0
+  ],
+  "aboveGasPerHp": 0.3,
+  "aboveDieselPerHp": 0.2,
+  "lpgFactor": 1.5,
+  "kinds": [
+    {
+      "id": "tractor",
+      "name": "트랙터",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL"
+      ],
+      "autoByHp": true,
+      "capL": 0,
+      "note": "",
+      "short": "",
+      "options": [
+        {
+          "id": "u40",
+          "label": "40마력 이하",
+          "hours": 171,
+          "maxHp": 40,
+          "rates": {}
+        },
+        {
+          "id": "u60",
+          "label": "41~60마력",
+          "hours": 200,
+          "maxHp": 60,
+          "rates": {}
+        },
+        {
+          "id": "u150",
+          "label": "61~150마력",
+          "hours": 270,
+          "maxHp": 150,
+          "rates": {}
+        },
+        {
+          "id": "u300",
+          "label": "151~300마력",
+          "hours": 330,
+          "maxHp": 300,
+          "rates": {}
+        },
+        {
+          "id": "o300",
+          "label": "301마력 이상",
+          "hours": 350,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "tiller",
+      "name": "경운기",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL",
+        "GAS"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 150,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "combine",
+      "name": "콤바인",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "",
+      "options": [
+        {
+          "id": "s3",
+          "label": "자탈형 3조 이하",
+          "hours": 70,
+          "maxHp": 0,
+          "rates": {}
+        },
+        {
+          "id": "s4",
+          "label": "자탈형 4조",
+          "hours": 80,
+          "maxHp": 0,
+          "rates": {}
+        },
+        {
+          "id": "s5",
+          "label": "자탈형 5조 이상",
+          "hours": 88,
+          "maxHp": 0,
+          "rates": {}
+        },
+        {
+          "id": "normal",
+          "label": "보통형",
+          "hours": 88,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "transplanter",
+      "name": "이앙기",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL",
+        "GAS"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "",
+      "options": [
+        {
+          "id": "walk",
+          "label": "보행형",
+          "hours": 20,
+          "maxHp": 0,
+          "rates": {}
+        },
+        {
+          "id": "ride",
+          "label": "승용형",
+          "hours": 46,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "cultivator",
+      "name": "관리기",
+      "mode": "HP",
+      "fuels": [
+        "GAS",
+        "DIESEL"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 50,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "sprayer",
+      "name": "방제기",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL",
+        "GAS"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "살분무기·연무기는 따로 정한 소모량이라 여기 셈과 달라요",
+      "short": "",
+      "options": [
+        {
+          "id": "ss",
+          "label": "고속분무기(SS)",
+          "hours": 74,
+          "maxHp": 0,
+          "rates": {}
+        },
+        {
+          "id": "drive",
+          "label": "주행형 동력분무기",
+          "hours": 46,
+          "maxHp": 0,
+          "rates": {}
+        },
+        {
+          "id": "etc",
+          "label": "그 밖의 방제기",
+          "hours": 50,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "pump",
+      "name": "양수기",
+      "mode": "HP",
+      "fuels": [
+        "GAS",
+        "DIESEL"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 50,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "carrier",
+      "name": "농산물 운반차",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL",
+        "GAS"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "운반차",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 115,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "excavator",
+      "name": "굴착기(1톤 미만)",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "굴착기",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 151,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "loader",
+      "name": "로더(4톤 미만)",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL"
+      ],
+      "autoByHp": false,
+      "capL": 2000,
+      "note": "",
+      "short": "로더",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 144,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "forklift",
+      "name": "지게차",
+      "mode": "HP",
+      "fuels": [
+        "DIESEL",
+        "LPG"
+      ],
+      "autoByHp": false,
+      "capL": 2000,
+      "note": "",
+      "short": "",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 144,
+          "maxHp": 0,
+          "rates": {}
+        }
+      ]
+    },
+    {
+      "id": "cutter",
+      "name": "예취기(휴대용)",
+      "mode": "FIXED",
+      "fuels": [
+        "GAS"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "예취기",
+      "options": [
+        {
+          "id": "c50",
+          "label": "50cc 미만",
+          "hours": 50,
+          "maxHp": 0,
+          "rates": {
+            "GAS": 0.9
+          }
+        },
+        {
+          "id": "c160",
+          "label": "50~160cc",
+          "hours": 50,
+          "maxHp": 0,
+          "rates": {
+            "GAS": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "drone",
+      "name": "농업용 드론",
+      "mode": "FIXED",
+      "fuels": [
+        "GAS"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "",
+      "short": "드론",
+      "options": [
+        {
+          "id": "all",
+          "label": "전규격",
+          "hours": 100,
+          "maxHp": 0,
+          "rates": {
+            "GAS": 7.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "truck",
+      "name": "농업용 화물차",
+      "mode": "FIXED",
+      "fuels": [
+        "DIESEL",
+        "GAS",
+        "LPG"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "시간이 아니라 한 해 정량으로 배정해요",
+      "short": "화물차",
+      "options": [
+        {
+          "id": "all",
+          "label": "경형·소형·1.2톤 이하",
+          "hours": 1,
+          "maxHp": 0,
+          "rates": {
+            "DIESEL": 379.0,
+            "GAS": 379.0,
+            "LPG": 569.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "dryer",
+      "name": "곡물건조기(순환식)",
+      "mode": "FIXED",
+      "fuels": [
+        "KERO",
+        "DIESEL"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "딱 5톤이면 연 199시간 기준이에요",
+      "short": "건조기",
+      "options": [
+        {
+          "id": "t3",
+          "label": "3톤 이하",
+          "hours": 183,
+          "maxHp": 0,
+          "rates": {
+            "KERO": 5.3,
+            "DIESEL": 5.1
+          }
+        },
+        {
+          "id": "t4",
+          "label": "3.1~4톤",
+          "hours": 183,
+          "maxHp": 0,
+          "rates": {
+            "KERO": 6.2,
+            "DIESEL": 6.0
+          }
+        },
+        {
+          "id": "t5",
+          "label": "4.1~5톤",
+          "hours": 183,
+          "maxHp": 0,
+          "rates": {
+            "KERO": 7.0,
+            "DIESEL": 6.8
+          }
+        },
+        {
+          "id": "t6",
+          "label": "5.1~6톤",
+          "hours": 199,
+          "maxHp": 0,
+          "rates": {
+            "KERO": 7.6,
+            "DIESEL": 7.3
+          }
+        },
+        {
+          "id": "t10",
+          "label": "6.1~10톤",
+          "hours": 199,
+          "maxHp": 0,
+          "rates": {
+            "KERO": 8.9,
+            "DIESEL": 8.6
+          }
+        },
+        {
+          "id": "t19",
+          "label": "10.1~19톤",
+          "hours": 199,
+          "maxHp": 0,
+          "rates": {
+            "KERO": 12.2,
+            "DIESEL": 11.8
+          }
+        },
+        {
+          "id": "t20",
+          "label": "20톤 이상",
+          "hours": 199,
+          "maxHp": 0,
+          "rates": {
+            "KERO": 13.5,
+            "DIESEL": 13.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "custom",
+      "name": "직접 입력(난방기·어선 등)",
+      "mode": "CUSTOM",
+      "fuels": [
+        "DIESEL",
+        "GAS",
+        "KERO",
+        "LPG"
+      ],
+      "autoByHp": false,
+      "capL": 0,
+      "note": "조합·수협이 통지한 연간 배정량을 그대로 넣어요",
+      "short": "직접 입력",
+      "options": []
+    }
+  ],
+  "sunsetUntil": "2026-12-31",
+  "useBy": "11-30",
+  "reclaimBy": "12-10",
+  "buyBy": "12-31",
+  "docsDue": [
+    "01-31",
+    "07-31"
+  ],
+  "docsThresholdL": 10000,
+  "changeReportDays": 30,
+  "penaltyRate": 0.4,
+  "banYears": 2,
+  "banYearsDocs": 1,
+  "taxGapWon": {},
+  "notice": "",
+  "reviewBy": "2027-01-15"
+}
