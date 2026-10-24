@@ -1,0 +1,550 @@
+{
+  "_읽을것": [
+    "차곡짐 준비물 참고 목록이다(정부 정보 아님). 앱이 하루 1회 받아 와 내장 목록을 갈아끼운다",
+    "kind: one=일행 1 · person=사람마다 · adult=어른마다 · kid=아이마다(아이 0이면 빠짐) · days=사람마다 min(일수, clothesCap)+spare · tops=사람마다 min(일수, clothesCap) · half=tops 의 절반(올림)",
+    "types 가 비면 모든 유형(sea·valley·camp·abroad·hotel). bag = carrier·backpack·trunk(해외는 trunk 가 carrier 로 간다). must=true 는 학습으로 빼지 않는다",
+    "id 를 바꾸면 사용자의 체크·학습 기록이 끊긴다 — 고치지 말고 새 id 를 더한다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "clothesCap": 5,
+  "spare": 1,
+  "items": [
+    {
+      "id": "id",
+      "label": "신분증",
+      "cat": "doc",
+      "kind": "adult",
+      "bag": "backpack",
+      "types": [],
+      "note": "아이는 등본·가족관계 확인서류",
+      "must": true
+    },
+    {
+      "id": "passport",
+      "label": "여권 (남은 기간 확인)",
+      "cat": "doc",
+      "kind": "person",
+      "bag": "backpack",
+      "types": [
+        "abroad"
+      ],
+      "note": "남은 유효기간 6개월 이상을 요구하는 나라가 많아요",
+      "must": true
+    },
+    {
+      "id": "ticket",
+      "label": "항공권·숙소 예약 확인",
+      "cat": "doc",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [
+        "abroad"
+      ],
+      "note": "캡처 한 장 + 종이 한 장",
+      "must": true
+    },
+    {
+      "id": "money",
+      "label": "카드·현금 조금",
+      "cat": "doc",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [],
+      "note": "",
+      "must": true
+    },
+    {
+      "id": "fx",
+      "label": "환전·해외 결제 카드",
+      "cat": "doc",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [
+        "abroad"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "insure",
+      "label": "여행자 보험 가입 확인",
+      "cat": "doc",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [
+        "abroad"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "charger",
+      "label": "휴대폰 충전기·케이블",
+      "cat": "elec",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [],
+      "note": "사람 수만큼 케이블",
+      "must": false
+    },
+    {
+      "id": "battery",
+      "label": "보조배터리",
+      "cat": "elec",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [],
+      "note": "비행기는 기내 휴대만",
+      "must": false
+    },
+    {
+      "id": "adapter",
+      "label": "멀티 어댑터 (돼지코)",
+      "cat": "elec",
+      "kind": "one",
+      "bag": "carrier",
+      "types": [
+        "abroad"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "sim",
+      "label": "유심·eSIM·로밍",
+      "cat": "elec",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [
+        "abroad"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "lantern",
+      "label": "랜턴·헤드랜턴",
+      "cat": "elec",
+      "kind": "one",
+      "bag": "trunk",
+      "types": [
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "tablet",
+      "label": "책·태블릿",
+      "cat": "elec",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [
+        "hotel"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "under",
+      "label": "속옷",
+      "cat": "cloth",
+      "kind": "days",
+      "bag": "carrier",
+      "types": [],
+      "note": "일수 + 여벌",
+      "must": false
+    },
+    {
+      "id": "socks",
+      "label": "양말",
+      "cat": "cloth",
+      "kind": "days",
+      "bag": "carrier",
+      "types": [],
+      "note": "일수 + 여벌",
+      "must": false
+    },
+    {
+      "id": "tops",
+      "label": "티셔츠·상의",
+      "cat": "cloth",
+      "kind": "tops",
+      "bag": "carrier",
+      "types": [],
+      "note": "하루 한 벌",
+      "must": false
+    },
+    {
+      "id": "bottoms",
+      "label": "반바지·하의",
+      "cat": "cloth",
+      "kind": "half",
+      "bag": "carrier",
+      "types": [],
+      "note": "이틀에 한 벌",
+      "must": false
+    },
+    {
+      "id": "pajama",
+      "label": "잠옷·실내복",
+      "cat": "cloth",
+      "kind": "person",
+      "bag": "carrier",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "cardigan",
+      "label": "얇은 겉옷(냉방용)",
+      "cat": "cloth",
+      "kind": "person",
+      "bag": "carrier",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "swim",
+      "label": "수영복",
+      "cat": "cloth",
+      "kind": "person",
+      "bag": "carrier",
+      "types": [
+        "sea",
+        "valley",
+        "hotel",
+        "abroad"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "rash",
+      "label": "래시가드",
+      "cat": "cloth",
+      "kind": "person",
+      "bag": "carrier",
+      "types": [
+        "sea",
+        "valley"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "swimcap",
+      "label": "수영모 (호텔 수영장)",
+      "cat": "cloth",
+      "kind": "person",
+      "bag": "carrier",
+      "types": [
+        "hotel"
+      ],
+      "note": "모자를 쓰게 하는 수영장이 많아요",
+      "must": false
+    },
+    {
+      "id": "slipper",
+      "label": "슬리퍼·샌들",
+      "cat": "cloth",
+      "kind": "person",
+      "bag": "carrier",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "aqua",
+      "label": "아쿠아슈즈",
+      "cat": "cloth",
+      "kind": "person",
+      "bag": "trunk",
+      "types": [
+        "sea",
+        "valley"
+      ],
+      "note": "바위·조개껍데기에서 발 보호",
+      "must": false
+    },
+    {
+      "id": "tooth",
+      "label": "칫솔·치약",
+      "cat": "wash",
+      "kind": "person",
+      "bag": "carrier",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "toiletry",
+      "label": "샴푸·폼클렌징·로션",
+      "cat": "wash",
+      "kind": "one",
+      "bag": "carrier",
+      "types": [
+        "sea",
+        "valley",
+        "camp",
+        "abroad"
+      ],
+      "note": "작은 통에 덜어서",
+      "must": false
+    },
+    {
+      "id": "sun",
+      "label": "선크림",
+      "cat": "wash",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [],
+      "note": "물놀이 뒤 다시 바르기",
+      "must": false
+    },
+    {
+      "id": "towel",
+      "label": "비치타월·수건",
+      "cat": "wash",
+      "kind": "person",
+      "bag": "trunk",
+      "types": [
+        "sea",
+        "valley",
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "wipes",
+      "label": "물티슈",
+      "cat": "wash",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "med",
+      "label": "상비약 (소화제·해열제·밴드)",
+      "cat": "med",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "mosquito",
+      "label": "모기 기피제·벌레 물린 데 약",
+      "cat": "med",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [
+        "sea",
+        "valley",
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "rx",
+      "label": "먹는 약 (처방약)",
+      "cat": "med",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [],
+      "note": "일수만큼 · 해외는 영문 처방전",
+      "must": false
+    },
+    {
+      "id": "sunglass",
+      "label": "선글라스",
+      "cat": "gear",
+      "kind": "person",
+      "bag": "backpack",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "hat",
+      "label": "모자",
+      "cat": "gear",
+      "kind": "person",
+      "bag": "backpack",
+      "types": [
+        "sea",
+        "valley",
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "drybag",
+      "label": "방수팩 (휴대폰)",
+      "cat": "gear",
+      "kind": "one",
+      "bag": "backpack",
+      "types": [
+        "sea",
+        "valley"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "bag",
+      "label": "지퍼백·비닐봉투 (젖은 옷)",
+      "cat": "gear",
+      "kind": "one",
+      "bag": "carrier",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "shade",
+      "label": "그늘막·파라솔",
+      "cat": "gear",
+      "kind": "one",
+      "bag": "trunk",
+      "types": [
+        "sea"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "mat",
+      "label": "돗자리",
+      "cat": "gear",
+      "kind": "one",
+      "bag": "trunk",
+      "types": [
+        "sea",
+        "valley"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "cooler",
+      "label": "아이스박스·얼음팩",
+      "cat": "food",
+      "kind": "one",
+      "bag": "trunk",
+      "types": [
+        "sea",
+        "valley",
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "chair",
+      "label": "캠핑 의자",
+      "cat": "gear",
+      "kind": "person",
+      "bag": "trunk",
+      "types": [
+        "valley",
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "tent",
+      "label": "텐트·타프",
+      "cat": "gear",
+      "kind": "one",
+      "bag": "trunk",
+      "types": [
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "sleep",
+      "label": "침낭·매트",
+      "cat": "gear",
+      "kind": "person",
+      "bag": "trunk",
+      "types": [
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "cook",
+      "label": "버너·코펠·가스",
+      "cat": "food",
+      "kind": "one",
+      "bag": "trunk",
+      "types": [
+        "camp"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "tube",
+      "label": "튜브·물놀이 장난감",
+      "cat": "kid",
+      "kind": "kid",
+      "bag": "trunk",
+      "types": [
+        "sea",
+        "valley"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "vest",
+      "label": "구명조끼 (아이 몸무게에 맞게)",
+      "cat": "kid",
+      "kind": "kid",
+      "bag": "trunk",
+      "types": [
+        "sea",
+        "valley"
+      ],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "snack",
+      "label": "아이 간식·물병",
+      "cat": "food",
+      "kind": "kid",
+      "bag": "backpack",
+      "types": [],
+      "note": "",
+      "must": false
+    },
+    {
+      "id": "kidspare",
+      "label": "아이 여벌옷 한 벌 더",
+      "cat": "kid",
+      "kind": "kid",
+      "bag": "backpack",
+      "types": [],
+      "note": "물놀이 뒤 갈아입힐 것",
+      "must": false
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-05-31"
+}
