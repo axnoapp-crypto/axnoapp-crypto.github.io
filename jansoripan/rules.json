@@ -1,0 +1,68 @@
+{
+  "_읽을것": [
+    "holidays = 명절 하나에 한 줄. kind 는 SEOL(설) 또는 CHUSEOK(추석)",
+    "start~end 는 사흘 연휴(명절 전날~다음 날) — 한국천문연구원 월력요항 국경일과 공휴일 표에서 확인한 값만 싣는다",
+    "extra = 대체공휴일(연휴 바로 뒤 사흘 안). 없으면 빈 배열",
+    "prelim = true 면 월력요항 공식 발표 전 「달력자료」 값(앱은 「공식 발표 전」이라고 보여 준다)",
+    "해가 없으면(2029~) 앱은 「명절 날짜 확인 필요」 — 지어내지 말고 비워 둬라",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "holidays": [
+    {
+      "kind": "SEOL",
+      "year": 2026,
+      "start": "2026-02-16",
+      "end": "2026-02-18",
+      "extra": [],
+      "prelim": false
+    },
+    {
+      "kind": "CHUSEOK",
+      "year": 2026,
+      "start": "2026-09-24",
+      "end": "2026-09-26",
+      "extra": [],
+      "prelim": false
+    },
+    {
+      "kind": "SEOL",
+      "year": 2027,
+      "start": "2027-02-06",
+      "end": "2027-02-08",
+      "extra": [
+        "2027-02-09"
+      ],
+      "prelim": false
+    },
+    {
+      "kind": "CHUSEOK",
+      "year": 2027,
+      "start": "2027-09-14",
+      "end": "2027-09-16",
+      "extra": [],
+      "prelim": false
+    },
+    {
+      "kind": "SEOL",
+      "year": 2028,
+      "start": "2028-01-26",
+      "end": "2028-01-28",
+      "extra": [],
+      "prelim": true
+    },
+    {
+      "kind": "CHUSEOK",
+      "year": 2028,
+      "start": "2028-10-02",
+      "end": "2028-10-04",
+      "extra": [
+        "2028-10-05"
+      ],
+      "prelim": true
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-07-31"
+}
