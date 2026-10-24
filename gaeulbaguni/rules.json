@@ -1,0 +1,449 @@
+{
+  "_읽을것": [
+    "전부 참고치다 — 정부 정보 아님. 실재 농장·체험비는 싣지 않는다(사용자 메모)",
+    "crops = 작물 하나에 한 줄. unit 은 KG 또는 COUNT(허용량·게이지 단위). seasonFrom > seasonTo 면 해를 넘긴다(귤 11~1)",
+    "gramsPerPiece = 한 알(개) 무게 g — 개수로 무게를 어림할 때 쓴다",
+    "id(작물·준비물·레시피·단계·숙성) 는 저장 키라 바꾸지 마라",
+    "recipes = 분 단위 타이머 · ripens = 일 단위 숙성(days)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "crops": [
+    {
+      "id": "chestnut",
+      "name": "밤",
+      "verb": "밤 줍기",
+      "unit": "KG",
+      "gramsPerPiece": 15,
+      "seasonFrom": 9,
+      "seasonTo": 10,
+      "defaultAllowance": 2,
+      "prep": [
+        {
+          "id": "tongs",
+          "name": "밤 집게",
+          "note": "가시 밤송이를 맨손으로 잡지 않게"
+        },
+        {
+          "id": "gloves",
+          "name": "두꺼운 장갑",
+          "note": "가죽·코팅 장갑 · 목장갑은 가시가 뚫어요"
+        },
+        {
+          "id": "sleeves",
+          "name": "긴팔·긴바지",
+          "note": "밤송이 가시 · 풀숲 벌레"
+        },
+        {
+          "id": "cap",
+          "name": "챙 있는 모자",
+          "note": "머리 위로 밤송이가 떨어져요"
+        },
+        {
+          "id": "spray",
+          "name": "벌레 기피제",
+          "note": "산자락 밤밭은 모기가 많아요"
+        }
+      ],
+      "tips": [
+        "물에 뜨는 밤은 벌레 먹은 거라 골라내요",
+        "신문지에 싸서 0~2℃ 김치냉장고에 두면 단맛이 올라요",
+        "오래 두려면 삶아 껍질을 까서 냉동해요"
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "사과",
+      "verb": "사과 따기",
+      "unit": "COUNT",
+      "gramsPerPiece": 300,
+      "seasonFrom": 9,
+      "seasonTo": 10,
+      "defaultAllowance": 5,
+      "prep": [
+        {
+          "id": "scissors",
+          "name": "과일 가위",
+          "note": "농장에서 빌려주는지 먼저 확인"
+        },
+        {
+          "id": "box",
+          "name": "단단한 상자·완충재",
+          "note": "눌리면 멍이 들어요"
+        },
+        {
+          "id": "bag",
+          "name": "장바구니",
+          "note": "한 손에 들 수 있게"
+        }
+      ],
+      "tips": [
+        "하나씩 신문지나 랩으로 싸서 냉장 보관해요",
+        "익는 기운(에틸렌)이 나와요 — 다른 과일과 따로 두어요",
+        "꼭지가 빠지거나 흠난 건 먼저 먹어요"
+      ]
+    },
+    {
+      "id": "sweetpotato",
+      "name": "고구마",
+      "verb": "고구마 캐기",
+      "unit": "KG",
+      "gramsPerPiece": 200,
+      "seasonFrom": 9,
+      "seasonTo": 10,
+      "defaultAllowance": 3,
+      "prep": [
+        {
+          "id": "hoe",
+          "name": "호미",
+          "note": "농장에서 빌려주는지 먼저 확인"
+        },
+        {
+          "id": "boots",
+          "name": "장화",
+          "note": "흙이 신발 안으로 들어가요"
+        },
+        {
+          "id": "clothes",
+          "name": "갈아입을 옷",
+          "note": "무릎·소매가 흙투성이가 돼요"
+        },
+        {
+          "id": "sack",
+          "name": "흙 묻어도 되는 자루·봉투",
+          "note": "캔 고구마는 씻지 않고 담아요"
+        },
+        {
+          "id": "cushion",
+          "name": "무릎 방석",
+          "note": "쪼그려 앉아 오래 캐요"
+        }
+      ],
+      "tips": [
+        "캔 뒤 바로 씻지 말고 흙째 그늘에서 말려요",
+        "냉장고는 피해요 — 12~15℃ 통풍되는 곳이 좋아요",
+        "2주쯤 두면 단맛이 올라요(숙성)"
+      ]
+    },
+    {
+      "id": "persimmon",
+      "name": "감",
+      "verb": "감 따기",
+      "unit": "COUNT",
+      "gramsPerPiece": 200,
+      "seasonFrom": 10,
+      "seasonTo": 11,
+      "defaultAllowance": 10,
+      "prep": [
+        {
+          "id": "pole",
+          "name": "감 따는 장대",
+          "note": "농장에서 빌려주는지 먼저 확인"
+        },
+        {
+          "id": "paper",
+          "name": "신문지",
+          "note": "감끼리 부딪히지 않게 싸요"
+        },
+        {
+          "id": "box",
+          "name": "단단한 상자",
+          "note": "홍시는 쉽게 물러요"
+        }
+      ],
+      "tips": [
+        "단감은 비닐에 싸서 냉장하면 아삭함이 오래가요",
+        "떫은 감은 상온에서 후숙해 홍시로 먹어요",
+        "곶감은 껍질을 깎아 바람 잘 드는 곳에 매달아요"
+      ]
+    },
+    {
+      "id": "tangerine",
+      "name": "귤",
+      "verb": "귤 따기",
+      "unit": "KG",
+      "gramsPerPiece": 80,
+      "seasonFrom": 11,
+      "seasonTo": 1,
+      "defaultAllowance": 2,
+      "prep": [
+        {
+          "id": "scissors",
+          "name": "귤 가위",
+          "note": "꼭지를 짧게 잘라야 다른 귤이 안 다쳐요"
+        },
+        {
+          "id": "windbreaker",
+          "name": "바람막이",
+          "note": "귤밭은 바람이 차요"
+        },
+        {
+          "id": "bag",
+          "name": "귤 담을 봉투",
+          "note": "농장 바구니 크기를 확인"
+        }
+      ],
+      "tips": [
+        "꼭지가 아래로 가게, 겹치지 않게 펼쳐 두어요",
+        "5~10℃ 서늘한 베란다가 좋아요",
+        "물러진 귤은 바로 골라내요 — 곰팡이가 옮아요"
+      ]
+    }
+  ],
+  "commonPrep": [
+    {
+      "id": "shoes",
+      "name": "편한 운동화",
+      "note": "흙길·비탈을 걸어요"
+    },
+    {
+      "id": "sun",
+      "name": "모자·선크림",
+      "note": "가을볕도 오래 쬐면 따가워요"
+    },
+    {
+      "id": "water",
+      "name": "물·간식",
+      "note": "밭 한가운데엔 매점이 없어요"
+    },
+    {
+      "id": "wipes",
+      "name": "물티슈·손수건",
+      "note": "흙·과즙 닦기"
+    },
+    {
+      "id": "cash",
+      "name": "체험비(현금·계좌)",
+      "note": "현장 결제가 많아요"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "roast-chestnut",
+      "crop": "chestnut",
+      "title": "군밤(에어프라이어)",
+      "note": "칼집을 깊게 내야 안 터져요",
+      "steps": [
+        {
+          "id": "cut",
+          "title": "칼집 내기",
+          "minutes": 10,
+          "note": "둥근 면에 一자로 깊게"
+        },
+        {
+          "id": "soak",
+          "title": "물에 불리기",
+          "minutes": 20,
+          "note": "속껍질이 잘 벗겨져요"
+        },
+        {
+          "id": "bake1",
+          "title": "200℃ 굽기",
+          "minutes": 15,
+          "note": "물기를 닦고 칼집이 위로"
+        },
+        {
+          "id": "bake2",
+          "title": "뒤집어 굽기",
+          "minutes": 10,
+          "note": "칼집이 벌어지면 다 된 것"
+        },
+        {
+          "id": "rest",
+          "title": "뜸 들이기",
+          "minutes": 5,
+          "note": "꺼내 수건에 싸 두면 잘 까져요"
+        }
+      ]
+    },
+    {
+      "id": "boil-chestnut",
+      "crop": "chestnut",
+      "title": "삶은 밤",
+      "note": "소금 한 꼬집이면 단맛이 살아요",
+      "steps": [
+        {
+          "id": "heat",
+          "title": "물 끓이기",
+          "minutes": 10,
+          "note": "밤이 잠길 만큼"
+        },
+        {
+          "id": "boil",
+          "title": "중불 삶기",
+          "minutes": 30,
+          "note": "큰 밤은 5분 더"
+        },
+        {
+          "id": "rest",
+          "title": "뜸 들이기",
+          "minutes": 10,
+          "note": "불 끄고 뚜껑 덮어"
+        }
+      ]
+    },
+    {
+      "id": "roast-sweetpotato",
+      "crop": "sweetpotato",
+      "title": "군고구마(에어프라이어)",
+      "note": "숙성된 고구마가 더 달아요",
+      "steps": [
+        {
+          "id": "wash",
+          "title": "씻어 물기 닦기",
+          "minutes": 5,
+          "note": "껍질째"
+        },
+        {
+          "id": "bake1",
+          "title": "200℃ 굽기",
+          "minutes": 25,
+          "note": "굵은 건 10분 더"
+        },
+        {
+          "id": "bake2",
+          "title": "뒤집어 굽기",
+          "minutes": 20,
+          "note": "젓가락이 쑥 들어가면 다 된 것"
+        },
+        {
+          "id": "rest",
+          "title": "뜸 들이기",
+          "minutes": 5,
+          "note": "꿀이 배어 나와요"
+        }
+      ]
+    },
+    {
+      "id": "steam-sweetpotato",
+      "crop": "sweetpotato",
+      "title": "찐 고구마",
+      "note": "냄비 바닥에 물 2cm",
+      "steps": [
+        {
+          "id": "heat",
+          "title": "김 올리기",
+          "minutes": 10,
+          "note": "찜기에 물을 끓여요"
+        },
+        {
+          "id": "steam",
+          "title": "찌기",
+          "minutes": 30,
+          "note": "중간에 물이 마르지 않게"
+        },
+        {
+          "id": "rest",
+          "title": "뜸 들이기",
+          "minutes": 5,
+          "note": "불 끄고 뚜껑 덮어"
+        }
+      ]
+    },
+    {
+      "id": "apple-jam",
+      "crop": "apple",
+      "title": "사과잼",
+      "note": "사과 1kg에 설탕 0.5~0.6kg(참고)",
+      "steps": [
+        {
+          "id": "cut",
+          "title": "깎아 잘게 썰기",
+          "minutes": 15,
+          "note": "갈아도 돼요"
+        },
+        {
+          "id": "sugar",
+          "title": "설탕에 재우기",
+          "minutes": 30,
+          "note": "즙이 나오게"
+        },
+        {
+          "id": "simmer",
+          "title": "약불 졸이기",
+          "minutes": 30,
+          "note": "바닥이 눋지 않게 저어 가며"
+        },
+        {
+          "id": "jar",
+          "title": "열탕 소독·담기",
+          "minutes": 10,
+          "note": "뜨거울 때 담고 뒤집어 식혀요"
+        }
+      ]
+    },
+    {
+      "id": "tangerine-syrup",
+      "crop": "tangerine",
+      "title": "귤청",
+      "note": "귤과 설탕 1:1(참고)",
+      "steps": [
+        {
+          "id": "wash",
+          "title": "베이킹소다로 씻기",
+          "minutes": 10,
+          "note": "껍질째 쓸 거라 꼼꼼히"
+        },
+        {
+          "id": "cut",
+          "title": "얇게 썰기",
+          "minutes": 15,
+          "note": "씨는 빼요"
+        },
+        {
+          "id": "layer",
+          "title": "설탕과 켜켜이 담기",
+          "minutes": 10,
+          "note": "맨 위는 설탕으로 덮어요"
+        }
+      ]
+    }
+  ],
+  "ripens": [
+    {
+      "id": "cure-sweetpotato",
+      "crop": "sweetpotato",
+      "title": "고구마 숙성",
+      "days": 14,
+      "note": "흙째 12~15℃ 통풍 · 단맛이 올라요"
+    },
+    {
+      "id": "cold-chestnut",
+      "crop": "chestnut",
+      "title": "밤 저온 숙성",
+      "days": 14,
+      "note": "신문지에 싸서 0~2℃"
+    },
+    {
+      "id": "hongsi",
+      "crop": "persimmon",
+      "title": "홍시 후숙",
+      "days": 7,
+      "note": "상온에서 말랑해질 때까지"
+    },
+    {
+      "id": "gotgam",
+      "crop": "persimmon",
+      "title": "곶감 말리기",
+      "days": 35,
+      "note": "바람 잘 드는 그늘에 매달아"
+    },
+    {
+      "id": "jinpi",
+      "crop": "tangerine",
+      "title": "귤껍질 말리기",
+      "days": 7,
+      "note": "씻은 껍질을 채반에 · 귤피차"
+    },
+    {
+      "id": "apple-cold",
+      "crop": "apple",
+      "title": "사과 냉장 보관",
+      "days": 30,
+      "note": "하나씩 싸서 · 한 달 안에 먹기"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-08-31"
+}
