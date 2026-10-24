@@ -1,0 +1,182 @@
+{
+  "_읽을것": [
+    "valMonth·valDay = 밸런타인데이(2월 14일), whiteMonth·whiteDay = 화이트데이(3월 14일) — 해마다 같은 날",
+    "remindDaysBefore = 알림을 며칠 전에 보낼지(1주 전·전날)",
+    "recipes = 수제 초콜릿·쿠키 단계(참고치 · 분). id·단계 id 는 저장 키라 바꾸지 마라",
+    "cards = 메시지 카드 문구 예시",
+    "budgetHint = 관계(lover·friend·coworker·family)별 눈대중 예산(원 · 참고치). 비우면 안 보인다",
+    "특정 제과 브랜드 이름·상표를 싣지 마라",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "valMonth": 2,
+  "valDay": 14,
+  "whiteMonth": 3,
+  "whiteDay": 14,
+  "remindDaysBefore": [
+    7,
+    1
+  ],
+  "recipes": [
+    {
+      "id": "temper",
+      "title": "하트 초콜릿",
+      "note": "템퍼링 · 커버처 초콜릿을 녹여 하트 틀에 · 윤기 나고 똑 부러지게",
+      "steps": [
+        {
+          "id": "chop",
+          "title": "잘게 다지기",
+          "minutes": 5,
+          "note": "고르게 녹도록 콩알만 하게"
+        },
+        {
+          "id": "melt",
+          "title": "중탕으로 녹이기",
+          "minutes": 10,
+          "note": "다크 45~50℃ 남짓 · 물이 들어가지 않게"
+        },
+        {
+          "id": "cool",
+          "title": "식히기",
+          "minutes": 10,
+          "note": "저어 가며 27~28℃ 남짓까지"
+        },
+        {
+          "id": "rewarm",
+          "title": "살짝 다시 올리기",
+          "minutes": 3,
+          "note": "다크 31~32℃ 남짓 · 넘기면 처음부터"
+        },
+        {
+          "id": "mold",
+          "title": "틀에 붓기·기포 빼기",
+          "minutes": 5,
+          "note": "틀을 탁탁 쳐서 기포를 빼요"
+        },
+        {
+          "id": "set",
+          "title": "냉장 굳히기",
+          "minutes": 30,
+          "note": "틀이 뿌옇게 떨어지면 다 굳은 것"
+        },
+        {
+          "id": "wrap",
+          "title": "틀에서 빼고 포장",
+          "minutes": 10,
+          "note": "손 온도에 녹지 않게 장갑을 끼고"
+        }
+      ]
+    },
+    {
+      "id": "ganache",
+      "title": "생초콜릿",
+      "note": "생크림과 섞어 굳히고 네모로 · 코코아 가루",
+      "steps": [
+        {
+          "id": "cream",
+          "title": "생크림 데우기",
+          "minutes": 5,
+          "note": "가장자리가 보글할 때 불을 꺼요"
+        },
+        {
+          "id": "mix",
+          "title": "초콜릿과 섞기",
+          "minutes": 5,
+          "note": "가운데부터 천천히 · 매끈해질 때까지"
+        },
+        {
+          "id": "pour",
+          "title": "틀에 붓고 펴기",
+          "minutes": 3,
+          "note": "종이 깐 사각 틀에 고르게"
+        },
+        {
+          "id": "chill",
+          "title": "냉장 굳히기",
+          "minutes": 180,
+          "note": "칼로 눌러 자국이 남지 않으면 다 굳은 것"
+        },
+        {
+          "id": "cut",
+          "title": "자르고 코코아 묻히기",
+          "minutes": 10,
+          "note": "칼을 데워 닦아 가며 자르면 깔끔해요"
+        }
+      ]
+    },
+    {
+      "id": "cookie",
+      "title": "버터 쿠키",
+      "note": "화이트데이 답례로 · 한 판 구워 나눠 담기",
+      "steps": [
+        {
+          "id": "soften",
+          "title": "버터 실온에 두기",
+          "minutes": 30,
+          "note": "손가락으로 눌러 쑥 들어갈 만큼"
+        },
+        {
+          "id": "dough",
+          "title": "반죽하기",
+          "minutes": 10,
+          "note": "설탕·달걀 → 가루는 자르듯 섞기"
+        },
+        {
+          "id": "rest",
+          "title": "냉장 휴지",
+          "minutes": 30,
+          "note": "반죽이 단단해져야 모양이 살아요"
+        },
+        {
+          "id": "shape",
+          "title": "모양 내기",
+          "minutes": 15,
+          "note": "하트 틀로 찍거나 짜서 팬에"
+        },
+        {
+          "id": "bake",
+          "title": "굽기",
+          "minutes": 12,
+          "note": "170℃ 남짓 예열한 오븐 · 가장자리가 노릇하면"
+        },
+        {
+          "id": "cool",
+          "title": "식히고 담기",
+          "minutes": 20,
+          "note": "완전히 식혀야 눅눅해지지 않아요"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "thanks",
+      "title": "고마워",
+      "body": "늘 곁에 있어 줘서 고마워. 오늘은 달콤한 걸로 마음을 전해."
+    },
+    {
+      "id": "love",
+      "title": "좋아해",
+      "body": "말로 하긴 쑥스러워서 초콜릿에 담았어. 오늘도 많이 좋아해."
+    },
+    {
+      "id": "work",
+      "title": "동료에게",
+      "body": "바쁜 하루에 잠깐 달콤한 쉼표가 되었으면 해요. 늘 고마워요."
+    },
+    {
+      "id": "back",
+      "title": "답례",
+      "body": "지난달 받은 마음 정말 고마웠어. 작은 답례지만 기쁘게 받아 줘."
+    }
+  ],
+  "budgetHint": {
+    "lover": 50000,
+    "friend": 10000,
+    "coworker": 5000,
+    "family": 20000
+  },
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
