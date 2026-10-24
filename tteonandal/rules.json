@@ -1,0 +1,16 @@
+{
+  "_읽을것": [
+    "국민건강보험법 §54·§74, 시행령 §44의2 - 이 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "minMonths = 일반 국외 체류 면제 최소 개월(정본 3) · workMonths = 업무 종사 공단 인정 시(정본 1)",
+    "firstDayNoExempt = 입국일이 1일이면 그 달 면제 안 함(§74③1) · reexitNoExempt = 입국 달 급여 받고 그 달 재출국하면 면제 안 함(§74③2)",
+    "개정안은 공포 시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 이 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "minMonths": 3,
+  "workMonths": 1,
+  "firstDayNoExempt": true,
+  "reexitNoExempt": true,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
