@@ -1,0 +1,30 @@
+{
+  "_읽을것": [
+    "events = 천문 현상. 한국천문연구원 천문우주지식정보 「월별천문현상」 표에 실린 것만 싣는다 — 날짜·시각·ZHR 을 지어내지 마라",
+    "kind = meteor(유성우) · eclipse(월식·일식) · planet(행성) · moon(달 근접)",
+    "eventsThrough = 확인한 마지막 날. 그 뒤로는 앱이 「발표 후 채워요」라고 보여 준다 — 2027년 표가 실리면 events 를 더하고 이 날짜를 민다",
+    "coreMinAlt·moonLightMax·goodScore = 앱이 정한 판정 기준(참고치)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "events": [
+    {"date": "2026-10-22", "title": "오리온자리 유성우 극대", "kind": "meteor", "time": "03:16", "zhr": 20, "note": "NASA 기준"},
+    {"date": "2026-11-06", "title": "황소자리 남쪽 유성우 극대", "kind": "meteor", "time": "03:45", "zhr": 10, "note": "NASA 기준"},
+    {"date": "2026-11-10", "title": "금성과 스피카 근접(0.9°)", "kind": "planet", "time": "22:31", "zhr": 0, "note": ""},
+    {"date": "2026-11-13", "title": "황소자리 북쪽 유성우 극대", "kind": "meteor", "time": "03:02", "zhr": 15, "note": "NASA 기준"},
+    {"date": "2026-11-18", "title": "사자자리 유성우 극대", "kind": "meteor", "time": "08:45", "zhr": 15, "note": "IMO 기준"},
+    {"date": "2026-11-24", "title": "달과 플레이아데스 성단 근접(0.9°)", "kind": "moon", "time": "20:18", "zhr": 0, "note": ""},
+    {"date": "2026-11-26", "title": "천왕성의 충", "kind": "planet", "time": "08:00", "zhr": 0, "note": ""},
+    {"date": "2026-12-13", "title": "목성과 레굴루스 근접(2.8°)", "kind": "planet", "time": "02:41", "zhr": 0, "note": ""},
+    {"date": "2026-12-14", "title": "쌍둥이자리 유성우 극대", "kind": "meteor", "time": "23:00", "zhr": 150, "note": "IMO 기준"},
+    {"date": "2026-12-23", "title": "작은곰자리 유성우 극대", "kind": "meteor", "time": "07:00", "zhr": 10, "note": "IMO 기준"},
+    {"date": "2026-12-28", "title": "달과 목성 근접(1.5°)", "kind": "moon", "time": "02:32", "zhr": 0, "note": ""}
+  ],
+  "eventsThrough": "2026-12-31",
+  "coreMinAlt": 10,
+  "moonLightMax": 0.15,
+  "goodScore": 45,
+  "notice": "",
+  "reviewBy": "2027-01-15"
+}
