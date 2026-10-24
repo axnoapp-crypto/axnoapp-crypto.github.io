@@ -1,0 +1,566 @@
+{
+  "_읽을것": [
+    "spots = 실재하는 여름꽃 명소만(수국 연꽃 해바라기 배롱나무). homepage 는 열리는 https 공식 페이지(지자체·관광공사)",
+    "from·to = 해마다 피는 대략 시기 [월, 1=초 2=중순 3=말] — 월은 6·7·8·9 만",
+    "festival = 그곳 축제 이름(없으면 빈칸) · start·end = 올해 축제 확정 일정(YYYY-MM-DD). 🔴 공식 발표를 본 것만 — 비우면 앱은 「일정 확인 필요」",
+    "start 를 채우면 그곳을 담은 사람에게 「일정이 나왔어요」와 개막 D-7·D-1·당일 알림이 간다 · 피기 시작 무렵 알림은 from 으로 간다",
+    "lastStart·lastEnd = 지난 축제 실제 기간(참고) · flower = hydrangea lotus sunflower crape",
+    "region = SG GW CB CN JB GB JN GN JJ · id 는 저장 키(담기·도장)라 바꾸지 마라",
+    "year = 이번 꽃 시즌 해 — 해가 바뀌면 올리고 start·end 를 비운다 · reviewBy = 다시 볼 날",
+    "checklist = 준비물 참고치. id 는 체크 저장 키",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "year": 2027,
+  "spots": [
+    {
+      "id": "jangsaengpo",
+      "name": "장생포 오색수국정원",
+      "region": "GN",
+      "city": "울산 남구",
+      "flower": "hydrangea",
+      "from": [
+        6,
+        1
+      ],
+      "to": [
+        6,
+        3
+      ],
+      "homepage": "https://www.ulsannamgu.go.kr/tour/board/tourSights2/432251/view.do",
+      "intro": "고래문화마을 산책로를 따라 수국 1만여 그루 — 매년 6월이면 오색으로 만발",
+      "festival": "장생포 수국 페스티벌",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-06-19",
+      "lastEnd": "2026-06-28",
+      "note": ""
+    },
+    {
+      "id": "yugu",
+      "name": "공주 유구색동수국정원",
+      "region": "CN",
+      "city": "충남 공주시",
+      "flower": "hydrangea",
+      "from": [
+        6,
+        2
+      ],
+      "to": [
+        7,
+        1
+      ],
+      "homepage": "https://www.gongju.go.kr/prog/tursmCn/tour/sub03_01_07/view.do?cntno=66",
+      "intro": "유구천 물가를 따라 길게 이어지는 수국 정원 — 밤에는 경관 조명",
+      "festival": "유구색동수국정원 꽃 축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-06-26",
+      "lastEnd": "2026-06-28",
+      "note": ""
+    },
+    {
+      "id": "docho",
+      "name": "신안 도초도 수국공원",
+      "region": "JN",
+      "city": "전남 신안군",
+      "flower": "hydrangea",
+      "from": [
+        6,
+        2
+      ],
+      "to": [
+        6,
+        3
+      ],
+      "homepage": "https://www.shinan.go.kr/home/tour/shian_event/theme_tour_15_15/theme_tour_15_12/theme_tour_15_10_05/page.wscms",
+      "intro": "바다 건너 섬 언덕을 덮는 수국 — 배를 타고 들어가는 꽃구경",
+      "festival": "도초 섬 수국축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-06-19",
+      "lastEnd": "2026-06-28",
+      "note": "섬이라 배 시간을 먼저 확인하세요"
+    },
+    {
+      "id": "suan",
+      "name": "김해 수안마을 수국정원",
+      "region": "GN",
+      "city": "경남 김해시",
+      "flower": "hydrangea",
+      "from": [
+        6,
+        2
+      ],
+      "to": [
+        6,
+        3
+      ],
+      "homepage": "https://www.gimhae.go.kr/00224/00223/03529.web?amode=view&idx=815",
+      "intro": "마을 수국정원과 마을회관 일원 — 6월 말 마을 축제",
+      "festival": "수안 수국정원 축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2025-06-20",
+      "lastEnd": "2025-06-22",
+      "note": ""
+    },
+    {
+      "id": "jeogu",
+      "name": "거제 저구항 수국동산",
+      "region": "GN",
+      "city": "경남 거제시",
+      "flower": "hydrangea",
+      "from": [
+        6,
+        2
+      ],
+      "to": [
+        7,
+        1
+      ],
+      "homepage": "https://tour.geoje.go.kr/index.geoje?menuCd=DOM_000008504016000000",
+      "intro": "저구항 앞 바다를 보며 걷는 수국 동산",
+      "festival": "남부면 수국축제",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": "축제는 보통 6월 말이에요"
+    },
+    {
+      "id": "taejongsa",
+      "name": "부산 태종사 수국",
+      "region": "GN",
+      "city": "부산 영도구",
+      "flower": "hydrangea",
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        7,
+        1
+      ],
+      "homepage": "https://www.yeongdo.go.kr/tour/01472/01473.web?idx=2200&amode=view",
+      "intro": "태종대 숲속 절 마당을 채우는 수국 — 개화에 맞춰 축제 날짜를 정해요",
+      "festival": "태종사 수국꽃문화축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2025-07-05",
+      "lastEnd": "2025-07-13",
+      "note": ""
+    },
+    {
+      "id": "camellia",
+      "name": "제주 카멜리아힐 수국",
+      "region": "JJ",
+      "city": "제주 서귀포시",
+      "flower": "hydrangea",
+      "from": [
+        6,
+        1
+      ],
+      "to": [
+        6,
+        3
+      ],
+      "homepage": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000001195",
+      "intro": "여름이 시작되면 수목원 길마다 수국이 맞이하는 제주 정원",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": "민간 수목원이라 입장료가 있어요"
+    },
+    {
+      "id": "muan",
+      "name": "무안 회산백련지",
+      "region": "JN",
+      "city": "전남 무안군",
+      "flower": "lotus",
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        8,
+        3
+      ],
+      "homepage": "https://tour.muan.go.kr/tour/festival/lotus",
+      "intro": "드넓은 저수지를 덮는 하얀 백련 — 8월경 가장 많이 피어요",
+      "festival": "무안연꽃축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-06-26",
+      "lastEnd": "2026-06-28",
+      "note": ""
+    },
+    {
+      "id": "semiwon",
+      "name": "양평 세미원",
+      "region": "SG",
+      "city": "경기 양평군",
+      "flower": "lotus",
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        8,
+        2
+      ],
+      "homepage": "https://www.semiwon.or.kr/bbs/board.php?bo_table=notice&wr_id=106",
+      "intro": "두물머리 강가의 물과 꽃의 정원 — 여름 내내 연꽃문화제",
+      "festival": "세미원 연꽃문화제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-06-26",
+      "lastEnd": "2026-08-17",
+      "note": "입장료가 있는 정원이에요"
+    },
+    {
+      "id": "buyeo",
+      "name": "부여 궁남지",
+      "region": "CN",
+      "city": "충남 부여군",
+      "flower": "lotus",
+      "from": [
+        7,
+        1
+      ],
+      "to": [
+        7,
+        3
+      ],
+      "homepage": "https://www.buyeo.go.kr/html/tour/festival/festival_0208.html",
+      "intro": "백제 옛 연못을 둘러싼 연꽃 단지 — 수상 무대와 밤 조명",
+      "festival": "부여서동연꽃축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-07-03",
+      "lastEnd": "2026-07-05",
+      "note": ""
+    },
+    {
+      "id": "siheung",
+      "name": "시흥 연꽃테마파크·관곡지",
+      "region": "SG",
+      "city": "경기 시흥시",
+      "flower": "lotus",
+      "from": [
+        7,
+        1
+      ],
+      "to": [
+        9,
+        3
+      ],
+      "homepage": "https://www.siheung.go.kr/cultour/contents.do?mId=0401050000",
+      "intro": "7월 초부터 피기 시작해 8월 중·하순 절정 — 10월 초까지 이어지는 연꽃 들판",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": ""
+    },
+    {
+      "id": "haman-lotus",
+      "name": "함안 연꽃테마파크",
+      "region": "GN",
+      "city": "경남 함안군",
+      "flower": "lotus",
+      "from": [
+        7,
+        1
+      ],
+      "to": [
+        7,
+        3
+      ],
+      "homepage": "https://www.haman.go.kr/01834/01858/01876.web",
+      "intro": "700년 전 씨앗에서 다시 핀 아라홍련과 가시연·수련",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": ""
+    },
+    {
+      "id": "deokjin",
+      "name": "전주 덕진공원",
+      "region": "JB",
+      "city": "전북 전주시",
+      "flower": "lotus",
+      "from": [
+        7,
+        1
+      ],
+      "to": [
+        8,
+        1
+      ],
+      "homepage": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000022&menuCd=DOM_000000105007000000&paging=ok&startPage=3&dataSid=12282",
+      "intro": "덕진호를 뒤덮는 연잎 — 7월 말부터 8월 초가 절정",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": ""
+    },
+    {
+      "id": "donggung",
+      "name": "경주 동궁과 월지 연꽃단지",
+      "region": "GB",
+      "city": "경북 경주시",
+      "flower": "lotus",
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        9,
+        1
+      ],
+      "homepage": "https://www.gyeongju.go.kr/news/page.do?mnu_uid=1342&parm_bod_uid=89624&step=258",
+      "intro": "신라 옛 연못 동궁과 월지 곁의 넓은 연꽃 단지",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": ""
+    },
+    {
+      "id": "gangju",
+      "name": "함안 강주마을 해바라기",
+      "region": "GN",
+      "city": "경남 함안군",
+      "flower": "sunflower",
+      "from": [
+        6,
+        2
+      ],
+      "to": [
+        7,
+        1
+      ],
+      "homepage": "https://www.haman.go.kr/02212/02213/02221.web",
+      "intro": "마을 언덕을 노랗게 덮는 해바라기 단지 — 여름 초입에 피는 해바라기",
+      "festival": "강주해바라기축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-06-18",
+      "lastEnd": "2026-07-02",
+      "note": ""
+    },
+    {
+      "id": "gubau",
+      "name": "태백 구와우마을 해바라기",
+      "region": "GW",
+      "city": "강원 태백시",
+      "flower": "sunflower",
+      "from": [
+        7,
+        3
+      ],
+      "to": [
+        8,
+        1
+      ],
+      "homepage": "https://tour.taebaek.go.kr/tour/tour/recommend/story_recommend_group",
+      "intro": "고원 마을 비탈을 덮는 해바라기 꽃밭 — 7월 말~8월 초",
+      "festival": "태백 해바라기축제",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": "민간 운영 축제라 입장료가 있어요"
+    },
+    {
+      "id": "horogoru",
+      "name": "연천 호로고루",
+      "region": "SG",
+      "city": "경기 연천군",
+      "flower": "sunflower",
+      "from": [
+        9,
+        1
+      ],
+      "to": [
+        9,
+        1
+      ],
+      "homepage": "https://www.yeoncheon.go.kr/tour/contents.do?key=4947",
+      "intro": "임진강 절벽 위 고구려 성터를 둘러싼 해바라기 — 늦여름에 피어요",
+      "festival": "연천 통일바라기 축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-09-03",
+      "lastEnd": "2026-09-06",
+      "note": ""
+    },
+    {
+      "id": "myeongokheon",
+      "name": "담양 명옥헌 원림",
+      "region": "JN",
+      "city": "전남 담양군",
+      "flower": "crape",
+      "from": [
+        7,
+        3
+      ],
+      "to": [
+        8,
+        3
+      ],
+      "homepage": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=081343ea-c5d4-433e-9efe-c43d9ec357f2",
+      "intro": "연못을 두른 오래된 배롱나무가 분홍 꽃을 피우는 옛 정원",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": ""
+    },
+    {
+      "id": "myeongjae",
+      "name": "논산 명재고택·종학당",
+      "region": "CN",
+      "city": "충남 논산시",
+      "flower": "crape",
+      "from": [
+        7,
+        1
+      ],
+      "to": [
+        9,
+        3
+      ],
+      "homepage": "https://www.nonsan.go.kr/site/cyber/essay/07.html",
+      "intro": "고택 연못과 서당 마당의 배롱나무 노목 — 8~9월에 가장 풍성",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": ""
+    },
+    {
+      "id": "seonunsa",
+      "name": "고창 선운사",
+      "region": "JB",
+      "city": "전북 고창군",
+      "flower": "crape",
+      "from": [
+        7,
+        1
+      ],
+      "to": [
+        8,
+        3
+      ],
+      "homepage": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=290418ad-6a22-45f5-8510-774148e195fe",
+      "intro": "절 마당 배롱나무 고목들이 7~8월에 꽃을 피워요",
+      "festival": "",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "note": ""
+    }
+  ],
+  "checklist": [
+    {
+      "id": "shade",
+      "group": "햇볕·더위",
+      "title": "양산 · 챙 넓은 모자",
+      "note": "그늘 없는 꽃밭이 많아요"
+    },
+    {
+      "id": "sun",
+      "group": "햇볕·더위",
+      "title": "선크림",
+      "note": ""
+    },
+    {
+      "id": "water",
+      "group": "햇볕·더위",
+      "title": "물 · 이온음료",
+      "note": "한낮엔 생각보다 빨리 지쳐요"
+    },
+    {
+      "id": "cool",
+      "group": "햇볕·더위",
+      "title": "쿨링 타월 · 휴대 선풍기",
+      "note": ""
+    },
+    {
+      "id": "bug",
+      "group": "벌레",
+      "title": "모기 기피제",
+      "note": "연못가·풀숲은 모기가 많아요"
+    },
+    {
+      "id": "sleeve",
+      "group": "벌레",
+      "title": "얇은 긴소매 겉옷",
+      "note": "햇볕과 벌레를 같이 막아요"
+    },
+    {
+      "id": "rain",
+      "group": "장마·길",
+      "title": "작은 우산 · 우비",
+      "note": "수국 철은 장마와 겹쳐요"
+    },
+    {
+      "id": "shoes",
+      "group": "장마·길",
+      "title": "잘 안 미끄러지는 신발",
+      "note": "젖은 데크·흙길 대비"
+    },
+    {
+      "id": "early",
+      "group": "시간·교통",
+      "title": "이른 아침에 출발",
+      "note": "연꽃은 아침에 활짝 펴요 · 한낮 더위도 피해요"
+    },
+    {
+      "id": "park",
+      "group": "시간·교통",
+      "title": "주차장 · 셔틀 확인",
+      "note": "축제 주말엔 주차장이 일찍 차요"
+    },
+    {
+      "id": "ferry",
+      "group": "시간·교통",
+      "title": "섬이면 배 시간 확인",
+      "note": ""
+    },
+    {
+      "id": "manner",
+      "group": "꽃밭 매너",
+      "title": "꽃밭 안에 들어가지 않기 · 꺾지 않기",
+      "note": ""
+    },
+    {
+      "id": "trash",
+      "group": "꽃밭 매너",
+      "title": "쓰레기 되가져가기",
+      "note": ""
+    },
+    {
+      "id": "battery",
+      "group": "꽃밭 매너",
+      "title": "보조배터리",
+      "note": "사진을 많이 찍게 돼요"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-05-01"
+}
