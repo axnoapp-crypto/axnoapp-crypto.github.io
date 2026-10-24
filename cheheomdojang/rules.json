@@ -1,0 +1,18 @@
+{
+  "_읽을것": [
+    "교외체험학습 허용 일수·신청 기한·보고서 기한은 학교·교육청마다 다르다 — 앱은 사용자가 넣은 학교 값이 기본이다",
+    "officeRefs = 교육청별 참고. 시·도 교육청 공식 안내(학업성적관리 시행지침 등)에서 확인한 값만 싣는다. 모르는 칸은 0, url 은 https 전체 경로",
+    "officeRefs 가 비어 있으면 화면은 교육청 참고 칸을 아예 안 보인다",
+    "defaultApplyLeadDays·defaultReportDays = 아이를 처음 넣을 때 채워 두는 앱 기본값(참고치) — 화면에 「학교 안내로 바꾸세요」",
+    "schoolYearStartMonth = 학년도 시작 달(쓴 날을 학년도 단위로 센다)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "defaultApplyLeadDays": 7,
+  "defaultReportDays": 7,
+  "schoolYearStartMonth": 3,
+  "officeRefs": [],
+  "notice": "",
+  "reviewBy": "2027-02-28"
+}
