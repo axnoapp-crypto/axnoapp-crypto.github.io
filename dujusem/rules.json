@@ -1,0 +1,43 @@
+{
+  "_읽을것": [
+    "민사소송 등 인지법 §2·§7·§16 · 민사소송법 §470 · 송달료 업무처리요령 [별표 1] 의 값이다. 숫자를 바꿀 땐 law.go.kr 를 먼저 읽어라",
+    "bands = 소장 인지 구간(under 미만 · 1만분의 perTenThousand + add) · orderDiv = 지급명령은 ÷10 · ePermille = 전자 제출 천분율",
+    "serviceRounds = 당사자 1인당 송달료 회분 · serviceFeeWon = 1회분 금액(원) — 정본을 못 읽어 비워 둠. 법원 안내 금액을 확인하면 숫자로 넣어라",
+    "objectionDays = 이의신청 기간 · holidays = 말일을 미룰 공휴일(yyyy-mm-dd) · 하나라도 깨지면 앱은 표 전체를 버린다",
+    "reviewBy = 이 표를 다시 볼 날"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "bands": [
+    {
+      "under": 10000000,
+      "perTenThousand": 50,
+      "add": 0
+    },
+    {
+      "under": 100000000,
+      "perTenThousand": 45,
+      "add": 5000
+    },
+    {
+      "under": 1000000000,
+      "perTenThousand": 40,
+      "add": 55000
+    },
+    {
+      "under": null,
+      "perTenThousand": 35,
+      "add": 555000
+    }
+  ],
+  "minStamp": 1000,
+  "roundUnit": 100,
+  "orderDiv": 10,
+  "ePermille": 900,
+  "serviceRounds": 6,
+  "serviceFeeWon": null,
+  "objectionDays": 14,
+  "holidays": [],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
