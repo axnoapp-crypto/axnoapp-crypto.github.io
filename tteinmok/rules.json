@@ -1,0 +1,189 @@
+{
+  "_읽을것": [
+    "brackets = 소득세법 제55조 기본세율(over 초과분부터 base + 초과분×rate). 세율이 바뀌면 여기만 고친다",
+    "industries = 국세청 「경비율 고시」 표에서 고른 대표 인적용역 업종(%) — simple 단순경비율 기본율 · excess 4천만 초과분 초과율 · standard 기준경비율",
+    "ratioYear = 업종 표가 어느 귀속연도 고시인가. 새 고시(해마다 3월 무렵)가 나오면 값과 함께 올린다 — 앱은 신고 대상 연도와 다르면 「직전 고시 값」이라고 밝힌다",
+    "capMultiplierUntil = 기준경비율 소득의 배율 한도(2.8·3.4)를 쓰는 마지막 날. 연장되면 날짜만 고친다 · 비우면 한도 없이 셈한다",
+    "금액은 원 단위 · 비율은 소수(0.03 = 3%)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "ratioYear": 2025,
+  "ratioSource": "국세청 고시 제2026-14호 2025년 귀속 경비율 고시",
+  "brackets": [
+    {
+      "over": 0,
+      "base": 0,
+      "rate": 0.06
+    },
+    {
+      "over": 14000000,
+      "base": 840000,
+      "rate": 0.15
+    },
+    {
+      "over": 50000000,
+      "base": 6240000,
+      "rate": 0.24
+    },
+    {
+      "over": 88000000,
+      "base": 15360000,
+      "rate": 0.35
+    },
+    {
+      "over": 150000000,
+      "base": 37060000,
+      "rate": 0.38
+    },
+    {
+      "over": 300000000,
+      "base": 94060000,
+      "rate": 0.4
+    },
+    {
+      "over": 500000000,
+      "base": 174060000,
+      "rate": 0.42
+    },
+    {
+      "over": 1000000000,
+      "base": 384060000,
+      "rate": 0.45
+    }
+  ],
+  "withholdRate": 0.03,
+  "localRate": 0.1,
+  "basicPerson": 1500000,
+  "elderly": 1000000,
+  "disabled": 2000000,
+  "woman": 500000,
+  "womanIncomeMax": 30000000,
+  "singleParent": 1000000,
+  "standardCredit": 70000,
+  "simplePrevMax": 36000000,
+  "doubleEntryFrom": 75000000,
+  "excessFrom": 40000000,
+  "smallBizPrevMax": 48000000,
+  "noBookPenalty": 0.2,
+  "capMultiplier": 2.8,
+  "capMultiplierDouble": 3.4,
+  "capMultiplierUntil": "2027-12-31",
+  "industries": [
+    {
+      "code": "940909",
+      "name": "컴퓨터프로그래머",
+      "simple": 64.1,
+      "excess": 49.7,
+      "standard": 17.4
+    },
+    {
+      "code": "940926",
+      "name": "소프트웨어프리랜서",
+      "simple": 64.4,
+      "excess": 50.2,
+      "standard": 20.9
+    },
+    {
+      "code": "940100",
+      "name": "작가",
+      "simple": 58.7,
+      "excess": 42.2,
+      "standard": 7.2
+    },
+    {
+      "code": "940200",
+      "name": "화가 및 관련예술가",
+      "simple": 68,
+      "excess": 55.2,
+      "standard": 16.6
+    },
+    {
+      "code": "940306",
+      "name": "1인미디어콘텐츠창작자",
+      "simple": 64.1,
+      "excess": 49.7,
+      "standard": 12.1
+    },
+    {
+      "code": "940600",
+      "name": "자문·감독·지도·고문",
+      "simple": 58.4,
+      "excess": 41.8,
+      "standard": 7.6
+    },
+    {
+      "code": "940903",
+      "name": "재단사 및 학원강사",
+      "simple": 61.7,
+      "excess": 46.4,
+      "standard": 15.4
+    },
+    {
+      "code": "940925",
+      "name": "방과후강사",
+      "simple": 69.3,
+      "excess": 57,
+      "standard": 19.3
+    },
+    {
+      "code": "940920",
+      "name": "학습지 방문강사",
+      "simple": 75,
+      "excess": 65,
+      "standard": 31.5
+    },
+    {
+      "code": "940906",
+      "name": "보험설계사",
+      "simple": 77.6,
+      "excess": 68.6,
+      "standard": 28.5
+    },
+    {
+      "code": "940918",
+      "name": "퀵서비스배달원",
+      "simple": 79.4,
+      "excess": 71.2,
+      "standard": 19.8
+    },
+    {
+      "code": "940913",
+      "name": "대리운전기사",
+      "simple": 73.7,
+      "excess": 63.2,
+      "standard": 32.2
+    },
+    {
+      "code": "940916",
+      "name": "행사도우미",
+      "simple": 69.8,
+      "excess": 57.7,
+      "standard": 15.5
+    },
+    {
+      "code": "940302",
+      "name": "배우 등",
+      "simple": 29,
+      "excess": 10.6,
+      "standard": 5.9
+    },
+    {
+      "code": "940303",
+      "name": "모델",
+      "simple": 40.9,
+      "excess": 17.3,
+      "standard": 10
+    },
+    {
+      "code": "940927",
+      "name": "관광통역안내사",
+      "simple": 64.1,
+      "excess": 49.7,
+      "standard": 17
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
