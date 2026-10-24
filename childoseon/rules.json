@@ -1,0 +1,88 @@
+{
+  "_읽을것": [
+    "전부 참고치다(법정 기준 아님). winterLineC = 하루 평균기온이 이 아래면 윈터타이어 권장 · summerOkC 이상이면 여름타이어로 충분 · iceC 이하 최저기온이면 결빙 주의",
+    "treadLimitMm = 마모 한계(TWI) · winterMinMm = 겨울 성능 하한(플랫폼 표시) · newTreadMm = 그림의 새 타이어 깊이",
+    "regions 의 fall = 평년 첫 7℃ 날(MM-DD), spring = 봄 7℃ 복귀 날. 1996~2025 일평균기온(ERA5·Open-Meteo, CC BY 4.0) 5일 이동평균의 30년 중앙값. 모르면 빈칸 → 앱이 「확인 필요」",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "winterLineC": 7,
+  "summerOkC": 10,
+  "iceC": 0,
+  "treadLimitMm": 1.6,
+  "winterMinMm": 4,
+  "newTreadMm": 8.5,
+  "ageCheckYears": 5,
+  "ageReplaceYears": 10,
+  "regions": [
+    {
+      "id": "seoul",
+      "name": "서울·경기",
+      "fall": "11-09",
+      "spring": "04-02"
+    },
+    {
+      "id": "chuncheon",
+      "name": "춘천·강원 영서",
+      "fall": "11-09",
+      "spring": "04-04"
+    },
+    {
+      "id": "gangneung",
+      "name": "강릉·강원 영동",
+      "fall": "11-17",
+      "spring": "03-28"
+    },
+    {
+      "id": "pyeongchang",
+      "name": "평창·대관령",
+      "fall": "10-27",
+      "spring": "04-22"
+    },
+    {
+      "id": "cheongju",
+      "name": "청주·충북",
+      "fall": "11-14",
+      "spring": "03-28"
+    },
+    {
+      "id": "daejeon",
+      "name": "대전·충남",
+      "fall": "11-14",
+      "spring": "03-27"
+    },
+    {
+      "id": "jeonju",
+      "name": "전주·전북",
+      "fall": "11-17",
+      "spring": "03-28"
+    },
+    {
+      "id": "gwangju",
+      "name": "광주·전남",
+      "fall": "11-18",
+      "spring": "03-28"
+    },
+    {
+      "id": "daegu",
+      "name": "대구·경북",
+      "fall": "11-17",
+      "spring": "03-23"
+    },
+    {
+      "id": "busan",
+      "name": "부산·경남",
+      "fall": "11-26",
+      "spring": "03-14"
+    },
+    {
+      "id": "jeju",
+      "name": "제주",
+      "fall": "12-13",
+      "spring": "03-11"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
