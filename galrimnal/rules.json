@@ -1,0 +1,96 @@
+{
+  "_읽을것": [
+    "waitMonthsChild·waitMonthsNoChild = 숙려기간(개월) — 민법 836조의2 2항. 개정되면 여기만 고친다",
+    "reportMonths = 확인서등본 받은 날부터 신고 기한(개월) — 가족관계등록법 75조 2항",
+    "guidanceMonths·noShowLimit = 취하 간주 기준 — 가족관계등록규칙 77조",
+    "adultAge = 성년 나이(민법 4조)",
+    "holidays = 기간 말일을 다음 날로 미루는 공휴일(YYYY-MM-DD). 주말은 앱이 따로 셈한다. 확인한 날만 싣는다 — 비어 있으면 앱은 「공휴일 확인 필요」",
+    "reasons·docs = 화면 체크 항목. id 는 저장 키라 바꾸지 마라. childOnly = 미성년 자녀가 있을 때만 보인다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "waitMonthsChild": 3,
+  "waitMonthsNoChild": 1,
+  "reportMonths": 3,
+  "guidanceMonths": 3,
+  "noShowLimit": 2,
+  "adultAge": 19,
+  "holidays": [],
+  "reasons": [
+    {
+      "id": "violence",
+      "title": "폭력으로 한쪽이 참을 수 없는 고통이 예상돼요",
+      "note": "법에 예로 든 사정이에요"
+    },
+    {
+      "id": "urgent",
+      "title": "그 밖에 이혼을 서둘러야 할 급박한 사정이 있어요",
+      "note": "어떤 사정이 해당하는지는 법원이 봐요"
+    }
+  ],
+  "docs": [
+    {
+      "id": "form",
+      "title": "협의이혼의사확인신청서",
+      "note": "부부가 함께 서명 또는 기명날인",
+      "childOnly": false
+    },
+    {
+      "id": "family",
+      "title": "가족관계증명서 — 부부 각 1통",
+      "note": "",
+      "childOnly": false
+    },
+    {
+      "id": "marriage",
+      "title": "혼인관계증명서 — 부부 각 1통",
+      "note": "",
+      "childOnly": false
+    },
+    {
+      "id": "guide",
+      "title": "이혼에 관한 안내 받기",
+      "note": "신청서를 내면서 부부가 함께 출석해 받아요",
+      "childOnly": false
+    },
+    {
+      "id": "agree",
+      "title": "자녀 양육과 친권자결정에 관한 협의서",
+      "note": "1통 + 사본 2통 · 또는 가정법원 심판정본·확정증명서 각 3통",
+      "childOnly": true
+    },
+    {
+      "id": "custody",
+      "title": "협의서 항목 — 양육자 · 양육비 부담 · 면접교섭 여부와 방법",
+      "note": "항목 이름만 적어 둬요 · 내용은 두 사람이 정해요",
+      "childOnly": true
+    },
+    {
+      "id": "parent",
+      "title": "협의서 항목 — 친권자",
+      "note": "",
+      "childOnly": true
+    },
+    {
+      "id": "support",
+      "title": "양육비부담조서",
+      "note": "확인기일에 법원이 작성해요 · 미리 낼 서류는 아니에요",
+      "childOnly": true
+    },
+    {
+      "id": "cert",
+      "title": "확인서등본 받기",
+      "note": "확인기일에 이혼의사가 확인되면 받아요",
+      "childOnly": false
+    },
+    {
+      "id": "report",
+      "title": "이혼신고서 + 확인서등본 첨부해 신고",
+      "note": "받은 날부터 정해진 기한 안에",
+      "childOnly": false
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-04-30"
+}
