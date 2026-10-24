@@ -1,0 +1,861 @@
+{
+  "_읽을것": [
+    "lists = 학년별 기본 준비물(참고치 · 정부 정보 아님). grades 1~6 초등, 7~9 중, 10~12 고. 한 학년은 한 목록에만",
+    "items 의 id 는 저장 키다 — 바꾸지 마라(사이즈 메모를 다음 학년으로 넘길 때 쓴다)",
+    "tag = 이름표 칸을 보여 줄지 · size = 사이즈 메모 칸을 보여 줄지",
+    "startMonth·startDay = 개학일 기본값(사용자가 날짜를 넣으면 그게 이긴다)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "lists": [
+    {
+      "id": "elem1",
+      "title": "초등 1학년 입학",
+      "grades": [
+        1
+      ],
+      "items": [
+        {
+          "id": "schoolbag",
+          "name": "책가방",
+          "cat": "가방",
+          "tag": true,
+          "size": false,
+          "note": "가벼운 것 · 이름표 안쪽에"
+        },
+        {
+          "id": "pencilcase",
+          "name": "필통",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "소리 안 나는 천 필통이 흔해요"
+        },
+        {
+          "id": "pencil",
+          "name": "연필 여러 자루",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "깎아서 · 한 자루씩 이름"
+        },
+        {
+          "id": "eraser",
+          "name": "지우개",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "colorpencil",
+          "name": "색연필",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "signpen",
+          "name": "사인펜",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "glue",
+          "name": "딱풀",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "scissors",
+          "name": "가위",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "끝이 둥근 것"
+        },
+        {
+          "id": "indoorshoes",
+          "name": "실내화",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": "발 크기 + 5mm 남짓"
+        },
+        {
+          "id": "shoebag",
+          "name": "실내화 주머니",
+          "cat": "가방",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "bottle",
+          "name": "물통",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "tooth",
+          "name": "칫솔·치약·양치컵",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": "점심 뒤 양치 · 학교마다 달라요"
+        },
+        {
+          "id": "tissue",
+          "name": "갑티슈·물티슈",
+          "cat": "생활",
+          "tag": false,
+          "size": false,
+          "note": "학급 공용으로 걷기도 해요"
+        },
+        {
+          "id": "file",
+          "name": "L자 파일",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "가정통신문 넣는 것"
+        },
+        {
+          "id": "crayon",
+          "name": "크레파스",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "ruler15",
+          "name": "15cm 자",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "notebook10",
+          "name": "10칸 깍두기 공책",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "학교가 정해 주는 칸 수를 확인"
+        },
+        {
+          "id": "sketch",
+          "name": "종합장·스케치북",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "namesticker",
+          "name": "이름 스티커",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": "연필·색연필 하나하나에 붙일 것"
+        }
+      ]
+    },
+    {
+      "id": "elem2",
+      "title": "초등 2학년",
+      "grades": [
+        2
+      ],
+      "items": [
+        {
+          "id": "pencilcase",
+          "name": "필통",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "소리 안 나는 천 필통이 흔해요"
+        },
+        {
+          "id": "pencil",
+          "name": "연필 여러 자루",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "깎아서 · 한 자루씩 이름"
+        },
+        {
+          "id": "eraser",
+          "name": "지우개",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "colorpencil",
+          "name": "색연필",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "signpen",
+          "name": "사인펜",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "glue",
+          "name": "딱풀",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "scissors",
+          "name": "가위",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "끝이 둥근 것"
+        },
+        {
+          "id": "indoorshoes",
+          "name": "실내화",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": "발 크기 + 5mm 남짓"
+        },
+        {
+          "id": "shoebag",
+          "name": "실내화 주머니",
+          "cat": "가방",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "bottle",
+          "name": "물통",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "tooth",
+          "name": "칫솔·치약·양치컵",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": "점심 뒤 양치 · 학교마다 달라요"
+        },
+        {
+          "id": "tissue",
+          "name": "갑티슈·물티슈",
+          "cat": "생활",
+          "tag": false,
+          "size": false,
+          "note": "학급 공용으로 걷기도 해요"
+        },
+        {
+          "id": "file",
+          "name": "L자 파일",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "가정통신문 넣는 것"
+        },
+        {
+          "id": "crayon",
+          "name": "크레파스",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "ruler15",
+          "name": "15cm 자",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "notebook",
+          "name": "줄공책·깍두기 공책",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "sketch",
+          "name": "종합장·스케치북",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "elem3",
+      "title": "초등 3~6학년",
+      "grades": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "items": [
+        {
+          "id": "pencilcase",
+          "name": "필통",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "소리 안 나는 천 필통이 흔해요"
+        },
+        {
+          "id": "pencil",
+          "name": "연필 여러 자루",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "깎아서 · 한 자루씩 이름"
+        },
+        {
+          "id": "eraser",
+          "name": "지우개",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "colorpencil",
+          "name": "색연필",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "signpen",
+          "name": "사인펜",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "glue",
+          "name": "딱풀",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "scissors",
+          "name": "가위",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "끝이 둥근 것"
+        },
+        {
+          "id": "indoorshoes",
+          "name": "실내화",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": "발 크기 + 5mm 남짓"
+        },
+        {
+          "id": "shoebag",
+          "name": "실내화 주머니",
+          "cat": "가방",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "bottle",
+          "name": "물통",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "tooth",
+          "name": "칫솔·치약·양치컵",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": "점심 뒤 양치 · 학교마다 달라요"
+        },
+        {
+          "id": "tissue",
+          "name": "갑티슈·물티슈",
+          "cat": "생활",
+          "tag": false,
+          "size": false,
+          "note": "학급 공용으로 걷기도 해요"
+        },
+        {
+          "id": "file",
+          "name": "L자 파일",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "가정통신문 넣는 것"
+        },
+        {
+          "id": "ruler30",
+          "name": "30cm 자",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "compass",
+          "name": "컴퍼스·각도기",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "수학 시간에 쓰는 학년이 있어요"
+        },
+        {
+          "id": "redpen",
+          "name": "빨간 볼펜·형광펜",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "notebook",
+          "name": "줄공책",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "recorder",
+          "name": "리코더",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": "음악 시간 · 학교 안내 확인"
+        }
+      ]
+    },
+    {
+      "id": "mid1",
+      "title": "중학교 1학년 입학",
+      "grades": [
+        7
+      ],
+      "items": [
+        {
+          "id": "uniform",
+          "name": "교복(동복·하복)",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": "명찰 · 동복 사이즈 메모"
+        },
+        {
+          "id": "gym",
+          "name": "체육복",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "indoorshoes",
+          "name": "실내화",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "backpack",
+          "name": "백팩",
+          "cat": "가방",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "pencilcase",
+          "name": "필통",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "sharp",
+          "name": "샤프·샤프심",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "pen3",
+          "name": "3색 볼펜·형광펜",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "eraser",
+          "name": "지우개·수정테이프",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "ruler30",
+          "name": "30cm 자",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "notebook",
+          "name": "과목별 공책",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "clearfile",
+          "name": "클리어 파일",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "planner",
+          "name": "플래너",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "bottle",
+          "name": "물통·텀블러",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "umbrella",
+          "name": "우산",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "mid2",
+      "title": "중학교 2·3학년",
+      "grades": [
+        8,
+        9
+      ],
+      "items": [
+        {
+          "id": "uniform",
+          "name": "교복 사이즈 확인",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": "작아졌으면 바꿀 것"
+        },
+        {
+          "id": "gym",
+          "name": "체육복 사이즈 확인",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "indoorshoes",
+          "name": "실내화",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "pencilcase",
+          "name": "필통",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "sharp",
+          "name": "샤프·샤프심",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "pen3",
+          "name": "3색 볼펜·형광펜",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "notebook",
+          "name": "과목별 공책",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "clearfile",
+          "name": "클리어 파일",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "planner",
+          "name": "플래너",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "high1",
+      "title": "고등학교 1학년 입학",
+      "grades": [
+        10
+      ],
+      "items": [
+        {
+          "id": "uniform",
+          "name": "교복(동복·하복)",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": "명찰 · 동복 사이즈 메모"
+        },
+        {
+          "id": "gym",
+          "name": "체육복",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "indoorshoes",
+          "name": "실내화",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "backpack",
+          "name": "백팩",
+          "cat": "가방",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "pencilcase",
+          "name": "필통",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "sharp",
+          "name": "샤프·샤프심",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "pen3",
+          "name": "3색 볼펜·형광펜",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "notebook",
+          "name": "과목별 공책·노트",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "clearfile",
+          "name": "클리어 파일",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "planner",
+          "name": "플래너",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "bookstand",
+          "name": "독서대",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "bottle",
+          "name": "텀블러",
+          "cat": "생활",
+          "tag": true,
+          "size": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "high2",
+      "title": "고등학교 2·3학년",
+      "grades": [
+        11,
+        12
+      ],
+      "items": [
+        {
+          "id": "uniform",
+          "name": "교복 사이즈 확인",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "gym",
+          "name": "체육복 사이즈 확인",
+          "cat": "옷·신발",
+          "tag": true,
+          "size": true,
+          "note": ""
+        },
+        {
+          "id": "pencilcase",
+          "name": "필통",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "sharp",
+          "name": "샤프·샤프심",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "pen3",
+          "name": "3색 볼펜·형광펜",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "notebook",
+          "name": "과목별 노트",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "planner",
+          "name": "플래너",
+          "cat": "학용품",
+          "tag": false,
+          "size": false,
+          "note": ""
+        },
+        {
+          "id": "bookstand",
+          "name": "독서대",
+          "cat": "학용품",
+          "tag": true,
+          "size": false,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "startMonth": 3,
+  "startDay": 2,
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
