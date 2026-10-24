@@ -1,0 +1,488 @@
+{
+  "_읽을것": [
+    "spots = 실재하는 이른 봄꽃(매화·산수유·진달래·유채·튤립) 축제·명소만. 벚꽃은 넣지 않는다. homepage 는 열리는 https 공식 누리집(주최 지자체·관광공사·비짓제주)",
+    "from·to = 해마다 피는(열리는) 대략 시기 [월, 1=초 2=중순 3=말] — 월은 2·3·4·5 만",
+    "start·end = 다가오는 해 확정 일정(YYYY-MM-DD). 🔴 공식 발표를 본 것만 넣는다 — 비우면 앱은 「일정 확인 필요」",
+    "start 를 채우면 그 축제를 담은 사람에게 「일정이 나왔어요」와 D-7·D-1·당일 알림이 간다",
+    "lastStart·lastEnd = 지난 해 실제 기간(참고) · festival = 축제면 true, 축제 없는 명소면 false",
+    "flower = maehwa sansuyu jindallae yuchae tulip · region = SG GW CB CN JB GB JN GN JJ · id 는 저장 키(담기·도장)라 바꾸지 마라",
+    "flowers = 꽃 다섯의 대략 시기와 구경 팁(참고치) — 다섯 다 있어야 한다",
+    "checklist = 봄 나들이 준비물 참고치. id 는 체크 저장 키",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "flowers": [
+    {
+      "flower": "maehwa",
+      "from": [
+        2,
+        3
+      ],
+      "to": [
+        3,
+        2
+      ],
+      "look": "잎보다 먼저 마른 가지에 피는 흰 꽃 — 봄의 첫 소식",
+      "tip": "남쪽부터 3월 초에 피어요 · 꽃이 작아 가까이에서, 은은한 향은 바람 없는 오전에 잘 나요"
+    },
+    {
+      "flower": "sansuyu",
+      "from": [
+        3,
+        2
+      ],
+      "to": [
+        4,
+        1
+      ],
+      "look": "돌담 마을을 덮는 노란 좁쌀꽃 구름",
+      "tip": "흐린 날에도 노랑이 살아요 · 돌담·계곡과 함께 담으면 마을 풍경이 돼요"
+    },
+    {
+      "flower": "jindallae",
+      "from": [
+        3,
+        3
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "look": "산비탈을 분홍으로 물들이는 참꽃 군락",
+      "tip": "산 위 군락이라 남쪽·낮은 산이 먼저 피어요 · 능선 산행이니 등산화와 하산 시간을 챙겨요"
+    },
+    {
+      "flower": "yuchae",
+      "from": [
+        3,
+        3
+      ],
+      "to": [
+        4,
+        2
+      ],
+      "look": "바다·강 둔치를 덮는 노란 꽃 들판",
+      "tip": "파란 하늘과 대비되는 맑은 날이 좋아요 · 꽃가루가 많은 꽃이라 예민하면 마스크를 챙겨요"
+    },
+    {
+      "flower": "tulip",
+      "from": [
+        4,
+        1
+      ],
+      "to": [
+        5,
+        1
+      ],
+      "look": "색색이 줄지어 선 꽃밭과 풍차",
+      "tip": "꽃잎이 오후엔 벌어지고 흐리면 오므라들어요 · 줄 맞춘 꽃밭은 낮게 앉아 찍으면 깊어 보여요"
+    }
+  ],
+  "spots": [
+    {
+      "id": "gwangyang",
+      "name": "광양매화축제",
+      "region": "JN",
+      "city": "전남 광양시 다압면 매화마을",
+      "flower": "maehwa",
+      "from": [
+        3,
+        1
+      ],
+      "to": [
+        3,
+        2
+      ],
+      "homepage": "https://gwangyang.go.kr/tour/",
+      "intro": "섬진강을 내려다보는 비탈 마을 전체가 흰 매화로 덮이는 대표 매화 축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-03-13",
+      "lastEnd": "2026-03-22",
+      "festival": true,
+      "note": "주말엔 셔틀버스·주차 안내를 먼저 보세요"
+    },
+    {
+      "id": "wondong",
+      "name": "양산 원동매화축제",
+      "region": "GN",
+      "city": "경남 양산시 원동면 원동역 일원",
+      "flower": "maehwa",
+      "from": [
+        3,
+        1
+      ],
+      "to": [
+        3,
+        2
+      ],
+      "homepage": "https://www.yangsan.go.kr/tour/contents.do?mid=0202020000",
+      "intro": "낙동강 기찻길을 따라 핀 매화 — 기차를 타고 가는 매화 마을 축제",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-03-07",
+      "lastEnd": "2026-03-08",
+      "festival": true,
+      "note": "개화에 맞춰 일정을 앞당긴 해도 있어요"
+    },
+    {
+      "id": "gurye",
+      "name": "구례산수유꽃축제",
+      "region": "JN",
+      "city": "전남 구례군 산동면 지리산온천 일원",
+      "flower": "sansuyu",
+      "from": [
+        3,
+        2
+      ],
+      "to": [
+        3,
+        3
+      ],
+      "homepage": "https://www.gurye.go.kr",
+      "intro": "지리산 자락 돌담 마을과 계곡을 노랗게 덮는 산수유 군락",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-03-14",
+      "lastEnd": "2026-03-22",
+      "festival": true,
+      "note": ""
+    },
+    {
+      "id": "uiseong",
+      "name": "의성 산수유마을 꽃맞이행사",
+      "region": "GB",
+      "city": "경북 의성군 사곡면 산수유마을",
+      "flower": "sansuyu",
+      "from": [
+        3,
+        2
+      ],
+      "to": [
+        3,
+        3
+      ],
+      "homepage": "https://www.usc.go.kr",
+      "intro": "오래된 산수유나무가 마을 길과 저수지를 따라 늘어선 꽃맞이 행사",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-03-21",
+      "lastEnd": "2026-03-29",
+      "festival": true,
+      "note": ""
+    },
+    {
+      "id": "icheon",
+      "name": "이천백사산수유꽃축제",
+      "region": "SG",
+      "city": "경기 이천시 백사면 도립리 일원",
+      "flower": "sansuyu",
+      "from": [
+        3,
+        3
+      ],
+      "to": [
+        4,
+        1
+      ],
+      "homepage": "https://www.icheon.go.kr/tour/main.do",
+      "intro": "원적산 자락 백 년 넘은 산수유 고목 마을 — 수도권에서 가까운 노란 봄",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-03",
+      "lastEnd": "2026-04-05",
+      "festival": true,
+      "note": ""
+    },
+    {
+      "id": "yeosu",
+      "name": "여수영취산진달래축제",
+      "region": "JN",
+      "city": "전남 여수시 영취산 흥국사 일원",
+      "flower": "jindallae",
+      "from": [
+        3,
+        3
+      ],
+      "to": [
+        4,
+        1
+      ],
+      "homepage": "https://yeosu.go.kr/tour/culture_festa/jindalae",
+      "intro": "남해를 내려다보는 넓은 진달래 군락 — 가장 먼저 피는 진달래 산 가운데 하나",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-03-28",
+      "lastEnd": "2026-03-29",
+      "festival": true,
+      "note": "정상까지 산행이에요 · 산불 조심 기간엔 일정이 바뀌기도 해요"
+    },
+    {
+      "id": "wonmisan",
+      "name": "부천 원미산 진달래축제",
+      "region": "SG",
+      "city": "경기 부천시 원미산 진달래동산",
+      "flower": "jindallae",
+      "from": [
+        3,
+        3
+      ],
+      "to": [
+        4,
+        1
+      ],
+      "homepage": "https://www.bucheon.go.kr/site/homepage/menu/viewMenu?menuid=172001003",
+      "intro": "도심 낮은 산 한쪽 비탈이 통째로 분홍인 진달래동산",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-04",
+      "lastEnd": "2026-04-05",
+      "festival": true,
+      "note": ""
+    },
+    {
+      "id": "goryeosan",
+      "name": "강화 고려산 진달래축제",
+      "region": "SG",
+      "city": "인천 강화군 고려산 일원",
+      "flower": "jindallae",
+      "from": [
+        4,
+        1
+      ],
+      "to": [
+        4,
+        2
+      ],
+      "homepage": "https://www.ganghwa.go.kr",
+      "intro": "고려산 능선을 덮는 진달래 — 중부에서 늦게 피는 편이라 4월 중순에 맞춰요",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-11",
+      "lastEnd": "2026-04-19",
+      "festival": true,
+      "note": "산불 위기 경보로 축제가 취소된 해도 있어요"
+    },
+    {
+      "id": "cheonjusan",
+      "name": "창원 천주산 진달래축제",
+      "region": "GN",
+      "city": "경남 창원시 북면 천주산 일원",
+      "flower": "jindallae",
+      "from": [
+        4,
+        1
+      ],
+      "to": [
+        4,
+        2
+      ],
+      "homepage": "https://www.changwon.go.kr/tour/index.do",
+      "intro": "「고향의 봄」 노랫말 속 꽃동산 — 천주산 정상부 진달래 군락",
+      "start": "",
+      "end": "",
+      "lastStart": "",
+      "lastEnd": "",
+      "festival": true,
+      "note": "해마다 꽃 필 무렵 열려요 · 산불 상황으로 취소된 해도 있어요"
+    },
+    {
+      "id": "biseulsan",
+      "name": "비슬산 참꽃문화제",
+      "region": "GB",
+      "city": "대구 달성군 비슬산 일원",
+      "flower": "jindallae",
+      "from": [
+        4,
+        2
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "homepage": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=347a5f83-38f4-4d50-95f9-98f7555fa383",
+      "intro": "해발 천 미터 넘는 정상 평원을 덮는 참꽃(진달래) 군락 — 봄의 마지막 진달래",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-18",
+      "lastEnd": "2026-04-19",
+      "festival": true,
+      "note": "정상부는 아래보다 늦게 피어요 · 겉옷을 챙기세요"
+    },
+    {
+      "id": "seogwipo",
+      "name": "서귀포유채꽃축제",
+      "region": "JJ",
+      "city": "제주 서귀포시 표선면 가시리 일원",
+      "flower": "yuchae",
+      "from": [
+        3,
+        3
+      ],
+      "to": [
+        4,
+        1
+      ],
+      "homepage": "https://visitjeju.net/kr/festival/view?contentsid=CNTS_300000000014187",
+      "intro": "녹산로 꽃길과 조랑말 체험공원 둘레 넓은 유채꽃 들판",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-04",
+      "lastEnd": "2026-04-05",
+      "festival": true,
+      "note": "바람이 세요 · 제주 유채는 3월부터 섬 곳곳에 피어요"
+    },
+    {
+      "id": "samcheok",
+      "name": "삼척맹방유채꽃축제",
+      "region": "GW",
+      "city": "강원 삼척시 근덕면 상맹방리 일원",
+      "flower": "yuchae",
+      "from": [
+        4,
+        1
+      ],
+      "to": [
+        4,
+        2
+      ],
+      "homepage": "https://www.samcheok.go.kr",
+      "intro": "동해 바다 옆 유채 들판 — 벚꽃길과 함께 보는 강원 봄",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-03",
+      "lastEnd": "2026-04-19",
+      "festival": true,
+      "note": ""
+    },
+    {
+      "id": "changnyeong",
+      "name": "창녕낙동강유채축제",
+      "region": "GN",
+      "city": "경남 창녕군 남지읍 낙동강 둔치",
+      "flower": "yuchae",
+      "from": [
+        4,
+        1
+      ],
+      "to": [
+        4,
+        2
+      ],
+      "homepage": "https://www.cng.go.kr",
+      "intro": "낙동강 둔치를 끝없이 덮는 넓은 유채 단지",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-09",
+      "lastEnd": "2026-04-12",
+      "festival": true,
+      "note": ""
+    },
+    {
+      "id": "shinan",
+      "name": "신안 섬 튤립축제",
+      "region": "JN",
+      "city": "전남 신안군 임자면 대광해수욕장 일원",
+      "flower": "tulip",
+      "from": [
+        4,
+        1
+      ],
+      "to": [
+        4,
+        2
+      ],
+      "homepage": "https://www.shinan.go.kr/home/tour/shian_event/theme_tour_15_06/page.wscms",
+      "intro": "섬 바닷가 튤립 정원 — 풍차와 소나무 숲, 긴 모래사장이 함께",
+      "start": "",
+      "end": "",
+      "lastStart": "2026-04-10",
+      "lastEnd": "2026-04-19",
+      "festival": true,
+      "note": "섬이라 다리·배편과 돌아오는 시간을 확인하세요"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "bloom",
+      "group": "가기 전",
+      "title": "개화 상황 확인",
+      "note": "봄꽃은 기온 따라 한두 주씩 당겨지고 늦어져요"
+    },
+    {
+      "id": "date",
+      "group": "가기 전",
+      "title": "축제 일정·셔틀 확인",
+      "note": "공식 누리집 공지를 보고 가요 · 조기 개화로 앞당기는 해도 있어요"
+    },
+    {
+      "id": "park",
+      "group": "가기 전",
+      "title": "주차장 · 대중교통 확인",
+      "note": "매화·산수유 마을은 길이 좁아 주말엔 일찍 막혀요"
+    },
+    {
+      "id": "fire",
+      "group": "가기 전",
+      "title": "산불 조심 기간 입산 통제 확인",
+      "note": "진달래 산행은 통제로 축제가 취소되기도 해요"
+    },
+    {
+      "id": "layer",
+      "group": "옷차림",
+      "title": "일교차 겉옷 한 벌",
+      "note": "봄 낮은 따뜻해도 아침·저녁과 산 위는 쌀쌀해요"
+    },
+    {
+      "id": "shoes",
+      "group": "옷차림",
+      "title": "편한 신발",
+      "note": "진달래 능선은 등산화가 좋아요"
+    },
+    {
+      "id": "hat",
+      "group": "옷차림",
+      "title": "모자 · 선크림",
+      "note": "봄볕은 생각보다 세요"
+    },
+    {
+      "id": "pollen",
+      "group": "몸 챙기기",
+      "title": "꽃가루 · 황사 대비 마스크",
+      "note": "유채·송홧가루 철엔 예민하면 꼭 챙겨요"
+    },
+    {
+      "id": "allergy",
+      "group": "몸 챙기기",
+      "title": "비염약 · 안약",
+      "note": "꽃가루 알레르기가 있으면"
+    },
+    {
+      "id": "water",
+      "group": "몸 챙기기",
+      "title": "물 · 간단한 간식",
+      "note": ""
+    },
+    {
+      "id": "battery",
+      "group": "사진",
+      "title": "보조배터리 · 저장공간",
+      "note": ""
+    },
+    {
+      "id": "keep",
+      "group": "예절",
+      "title": "꽃 꺾지 않기 · 꽃밭 안 들어가기",
+      "note": "매화·산수유는 마을 사람들의 나무예요"
+    },
+    {
+      "id": "trash",
+      "group": "예절",
+      "title": "쓰레기 봉투 챙기기",
+      "note": ""
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
