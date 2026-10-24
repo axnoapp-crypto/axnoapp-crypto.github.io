@@ -1,0 +1,78 @@
+{
+  "_읽을것": [
+    "kinds = 계획표 칸 종류. id 는 저장 키라 바꾸지 마라(이름·색만 고친다). color 는 #RRGGBB",
+    "homeworkIdeas = 숙제 칸을 빨리 채우는 보기(참고 목록)",
+    "remindDays = 개학 며칠 전에 남은 숙제를 알리나 · remindAt = 그 시각 · checkAt = 매일 저녁 체크 알림 시각",
+    "winterHint·summerHint = 방학 날짜를 안 넣은 사람에게 보이는 안내(날짜를 지어내지 마라)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "kinds": [
+    {
+      "id": "sleep",
+      "title": "잠",
+      "color": "#5B6BA8"
+    },
+    {
+      "id": "study",
+      "title": "공부",
+      "color": "#2E9BC4"
+    },
+    {
+      "id": "meal",
+      "title": "식사",
+      "color": "#F2C14E"
+    },
+    {
+      "id": "play",
+      "title": "놀이",
+      "color": "#F28C38"
+    },
+    {
+      "id": "exercise",
+      "title": "운동",
+      "color": "#4FAE6A"
+    },
+    {
+      "id": "read",
+      "title": "독서",
+      "color": "#A274C8"
+    },
+    {
+      "id": "homework",
+      "title": "숙제",
+      "color": "#E25B4B"
+    },
+    {
+      "id": "free",
+      "title": "자유",
+      "color": "#E88AA6"
+    },
+    {
+      "id": "etc",
+      "title": "기타",
+      "color": "#9AA3AE"
+    }
+  ],
+  "homeworkIdeas": [
+    "방학 일기",
+    "독서록",
+    "체험학습 보고서",
+    "수학 문제집",
+    "만들기·그리기",
+    "줄넘기·운동 기록",
+    "탐구 보고서",
+    "영어 단어"
+  ],
+  "remindDays": [
+    7,
+    3
+  ],
+  "remindAt": "19:00",
+  "checkAt": "21:00",
+  "winterHint": "겨울방학은 보통 12월 하순~1월 초에 시작해요 · 날짜는 학교 학사일정에서 확인해요",
+  "summerHint": "여름방학은 보통 7월 하순에 시작해요 · 날짜는 학교 학사일정에서 확인해요",
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
