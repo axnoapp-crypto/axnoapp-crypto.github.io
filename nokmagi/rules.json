@@ -1,0 +1,94 @@
+{
+  "_읽을것": [
+    "녹 게이지는 앱이 정한 참고 지표다(과학적 측정 아님). 게이지 = 결정량 × (1 + 묻은 날수 × ageFactor), 0~100 으로 자른다",
+    "drives 의 salt = 그 도로를 달린 날 하부에 붙는 결정량 · washes 의 removal = 그 세차로 씻겨 나가는 비율(0~1)",
+    "saltyMin = 결정량이 이 값 이상이면 묻어 있다고 센다 · bandBuild < bandWash < bandHurry = 게이지 단계",
+    "defaultWashAfterDays = 주행 후 며칠 안에 씻기를 권하나(사용자가 1~7일로 바꾼다)",
+    "winterFrom·springFrom 은 MM-DD — 겨울 채비·봄 마무리 카드가 앞에 오는 날",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "drives": [
+    {
+      "id": "snow",
+      "label": "눈길·진창",
+      "note": "녹은 눈과 물을 튀기며 달린 날",
+      "salt": 25
+    },
+    {
+      "id": "wet",
+      "label": "젖은 제설길",
+      "note": "도로가 젖어 있고 하얀 알갱이가 보인 날",
+      "salt": 15
+    },
+    {
+      "id": "dry",
+      "label": "마른 제설길",
+      "note": "눈은 없지만 길가가 하얗게 말라 있던 날",
+      "salt": 8
+    }
+  ],
+  "washes": [
+    {
+      "id": "under",
+      "label": "하부세차",
+      "note": "차 밑 고압 분사가 있는 세차",
+      "removal": 0.8999999761581421
+    },
+    {
+      "id": "rinse",
+      "label": "셀프 하부 헹굼",
+      "note": "휠 안쪽·차 밑을 물로 직접 헹굼",
+      "removal": 0.6000000238418579
+    },
+    {
+      "id": "body",
+      "label": "겉만 세차",
+      "note": "하부 분사 없는 세차",
+      "removal": 0.3499999940395355
+    }
+  ],
+  "saltyMin": 8,
+  "ageFactor": 0.07999999821186066,
+  "bandBuild": 25,
+  "bandWash": 50,
+  "bandHurry": 75,
+  "defaultWashAfterDays": 3,
+  "winterFrom": "11-15",
+  "springFrom": "03-01",
+  "springItems": [
+    {
+      "id": "last",
+      "label": "마지막 눈 뒤 하부세차 한 번 더",
+      "note": "겨울 끝에 남은 결정을 털어 내요"
+    },
+    {
+      "id": "wheel",
+      "label": "휠 안쪽·흙받이 틈 헹구기",
+      "note": "흙과 결정이 뭉쳐 오래 남는 자리예요"
+    },
+    {
+      "id": "drain",
+      "label": "문·트렁크 아래 물 빠지는 구멍 확인",
+      "note": "막혀 있으면 물이 고여요"
+    },
+    {
+      "id": "photo",
+      "label": "하부 녹 자국 사진 남기기",
+      "note": "내년 겨울 끝에 같은 자리를 비교해요"
+    },
+    {
+      "id": "mat",
+      "label": "실내 매트 하얀 자국 닦기",
+      "note": "신발에 묻어 들어온 제설제예요"
+    },
+    {
+      "id": "ask",
+      "label": "정기 점검 때 하부 상태 물어보기",
+      "note": "녹이 번진 곳이 있는지 봐 달라고 해요"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
