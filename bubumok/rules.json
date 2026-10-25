@@ -1,0 +1,40 @@
+{
+  "_읽을것": [
+    "years = 해마다 한 줄. baseWon(기준연금액)·singleLimitWon(단독 선정기준액)·coupleLimitWon(부부 선정기준액)은 보건복지부 고시에서 확인한 값만 싣는다",
+    "모르는 칸은 0 — 앱은 그해를 「확인 필요」로 보여 주고 셈하지 않는다(1월 고시가 나오면 채운다)",
+    "coupleCutPct = 부부가 둘 다 받을 때 각각 깎는 % (지금 20). 법이 바뀌면 여기만 고친다",
+    "linkFullPct·linkMidPct·linkFloorPct = 국민연금 연계감액 구간(150·200·250)",
+    "reverseSinglePct·reverseCouplePct = 소득역전 감액 뒤 바닥(10·20)",
+    "payDay = 지급일. 토·일·holidays 면 그 전날로 앞당긴다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "years": [
+    {
+      "year": 2026,
+      "baseWon": 349700,
+      "singleLimitWon": 2470000,
+      "coupleLimitWon": 3952000
+    },
+    {
+      "year": 2027,
+      "baseWon": 0,
+      "singleLimitWon": 0,
+      "coupleLimitWon": 0
+    }
+  ],
+  "coupleCutPct": 20,
+  "linkFullPct": 150,
+  "linkMidPct": 200,
+  "linkFloorPct": 250,
+  "reverseSinglePct": 10,
+  "reverseCouplePct": 20,
+  "payDay": 25,
+  "holidays": [
+    "2026-12-25",
+    "2027-12-25"
+  ],
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
