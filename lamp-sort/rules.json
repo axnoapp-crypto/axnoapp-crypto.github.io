@@ -1,0 +1,150 @@
+{
+  "_읽을것": [
+    "kinds = 등 종류별 멀쩡할 때 갈 곳(route: box 형광등 수거함 · check 우리 동네 확인 · bag 종량제·마대)과 정격 수명 예시(ratedHours, 시간). 수명은 제품 포장 표기가 우선이다",
+    "깨진 등은 종류와 무관하게 bag 갈래다(재활용가능자원의 분리수거 등에 관한 지침 별표 1 조명제품)",
+    "steps 의 routes 는 그 줄이 나오는 갈 곳(비우면 전부) · state 는 intact(멀쩡할 때만) · broken(깨졌을 때만) · 빈 값(둘 다)",
+    "soonDays = 교체 예상일이 이 날수 안이면 곧 바꿀 등으로 본다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "kinds": [
+    {
+      "id": "tube",
+      "route": "box",
+      "ratedHours": 8000,
+      "note": "막대처럼 긴 형광등"
+    },
+    {
+      "id": "ring",
+      "route": "box",
+      "ratedHours": 8000,
+      "note": "동그란 고리 모양 형광등"
+    },
+    {
+      "id": "compact",
+      "route": "box",
+      "ratedHours": 6000,
+      "note": "소켓에 돌려 끼우는 형광 전구·콤팩트형"
+    },
+    {
+      "id": "led",
+      "route": "box",
+      "ratedHours": 15000,
+      "note": "LED 막대·LED 전구"
+    },
+    {
+      "id": "panel",
+      "route": "check",
+      "ratedHours": 25000,
+      "note": "천장에 붙은 넓적한 LED 등 · 받는 곳이 동네마다 달라요"
+    },
+    {
+      "id": "bulb",
+      "route": "check",
+      "ratedHours": 1000,
+      "note": "형광등이 아닌 전구 · 동네 안내 확인"
+    }
+  ],
+  "steps": [
+    {
+      "id": "pack",
+      "label": "포장 상자와 비닐을 벗겨요",
+      "note": "상자는 종이류로 · 등만 내놓아요",
+      "routes": [],
+      "state": "intact"
+    },
+    {
+      "id": "sort",
+      "label": "모양별로 나눠요",
+      "note": "막대·원형·전구형·콤팩트형 · 수거함 칸이 나뉘어 있으면 맞는 칸에",
+      "routes": [
+        "box"
+      ],
+      "state": "intact"
+    },
+    {
+      "id": "care",
+      "label": "깨지지 않게 살살 넣어요",
+      "note": "던지거나 꺾거나 밟지 않기 · 막대형은 눕혀서",
+      "routes": [
+        "box"
+      ],
+      "state": "intact"
+    },
+    {
+      "id": "box",
+      "label": "가까운 형광등 수거함에 넣어요",
+      "note": "아파트 단지·주민센터 등 우리 동네가 정한 곳",
+      "routes": [
+        "box"
+      ],
+      "state": "intact"
+    },
+    {
+      "id": "nojunk",
+      "label": "수거함에 다른 쓰레기는 넣지 않아요",
+      "note": "포장재·전등 갓·안정기는 따로",
+      "routes": [
+        "box"
+      ],
+      "state": "intact"
+    },
+    {
+      "id": "ask",
+      "label": "우리 동네 배출 안내를 먼저 확인해요",
+      "note": "구청·시청 누리집 재활용 배출 안내 · 수거함에 받는 곳도, 마대로 받는 곳도 있어요",
+      "routes": [
+        "check"
+      ],
+      "state": "intact"
+    },
+    {
+      "id": "asked",
+      "label": "안내에 적힌 곳으로 내놓아요",
+      "note": "모르면 수거함에 넣기 전에 주민센터에 물어봐요",
+      "routes": [
+        "check"
+      ],
+      "state": "intact"
+    },
+    {
+      "id": "air",
+      "label": "창문을 열어 환기해요",
+      "note": "깨진 자리에서 잠시 떨어져 있어요",
+      "routes": [],
+      "state": "broken"
+    },
+    {
+      "id": "hands",
+      "label": "맨손으로 만지지 않아요",
+      "note": "장갑을 끼고 두꺼운 종이로 조각을 모아요",
+      "routes": [],
+      "state": "broken"
+    },
+    {
+      "id": "wrap",
+      "label": "신문지와 테이프로 감싸요",
+      "note": "조각과 가루가 새지 않게 여러 겹",
+      "routes": [],
+      "state": "broken"
+    },
+    {
+      "id": "seal",
+      "label": "봉투에 넣고 입구를 묶어요",
+      "note": "날카로운 조각이 뚫고 나오지 않게",
+      "routes": [],
+      "state": "broken"
+    },
+    {
+      "id": "bag",
+      "label": "종량제봉투나 특수규격마대 등 우리 동네 조례대로 내놓아요",
+      "note": "깨진 등은 형광등 수거함에 넣지 않아요",
+      "routes": [],
+      "state": "broken"
+    }
+  ],
+  "soonDays": 30,
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
