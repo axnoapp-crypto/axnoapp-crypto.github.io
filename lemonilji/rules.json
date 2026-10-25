@@ -1,0 +1,71 @@
+{
+  "_읽을것": [
+    "자동차관리법 §47조의2~§47조의4 · 시행규칙 §98조의2~§98조의4 원문(law.go.kr)에서 확인한 값만 싣는다",
+    "모르는 칸은 0 으로 — 앱은 그 칸을 「확인 필요」로 보여 주고 판정을 보류한다",
+    "windowYears·windowKm = 인도 뒤 1년(주행 2만 km 를 넘으면 지난 것으로 봄) · requestYears = 인도 2년 안에 요구",
+    "majorRepairs·generalRepairs = 중대 2회 · 일반 3회 수리 뒤 재발 · overDays = 1회 이상 수리 + 누적 수리기간 총 30일 초과",
+    "notifyMajor·notifyGeneral = 중대 1회 · 일반 2회 수리 뒤 재발하면 제작사에 재발 통보",
+    "majorParts = 중대한 하자 장치(시행규칙 §98조의2③). id 는 저장 키라 바꾸지 마라 · 'general' 은 쓰지 마라",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "windowYears": 1,
+  "windowKm": 20000,
+  "requestYears": 2,
+  "majorRepairs": 2,
+  "generalRepairs": 3,
+  "overDays": 30,
+  "notifyMajor": 1,
+  "notifyGeneral": 2,
+  "presumeYears": 1,
+  "majorParts": [
+    {
+      "id": "engine",
+      "name": "원동기·동력전달장치",
+      "hint": "엔진·모터·변속기·구동축"
+    },
+    {
+      "id": "running",
+      "name": "주행장치",
+      "hint": "바퀴·차축"
+    },
+    {
+      "id": "control",
+      "name": "조종장치",
+      "hint": "가속·변속 조작"
+    },
+    {
+      "id": "steering",
+      "name": "조향장치",
+      "hint": "핸들·조향 기어"
+    },
+    {
+      "id": "brake",
+      "name": "제동장치",
+      "hint": "브레이크"
+    },
+    {
+      "id": "suspension",
+      "name": "완충장치",
+      "hint": "서스펜션"
+    },
+    {
+      "id": "fuel",
+      "name": "연료장치",
+      "hint": "연료 탱크·공급"
+    },
+    {
+      "id": "electric",
+      "name": "주행 관련 전기·전자장치",
+      "hint": "주행에 쓰는 전기·전자"
+    },
+    {
+      "id": "frame",
+      "name": "차대(차체)",
+      "hint": "뼈대"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-04-30"
+}
