@@ -1,0 +1,194 @@
+{
+  "_읽을것": [
+    "전부 참고치다(정부 정보 아님). 세탁 기호의 뜻은 앱 코드에 있고 여기엔 없다",
+    "kinds = 패딩 종류. detergentMl 한 벌 중성세제 ml · dryFactor 는 10분 넘는 건조 단계에 곱하는 배수",
+    "washMachine·washHand·dryTumble·dryAir = 단계(분 1~1440). id 는 저장 키라 바꾸지 마라",
+    "storeFrom = 봄 정리 알림 날 · takeOut = 다음 겨울 꺼낼 날 알림(MM-dd, 10시)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "kinds": [
+    {
+      "id": "long",
+      "title": "롱패딩",
+      "detergentMl": 40,
+      "dryFactor": 1.3
+    },
+    {
+      "id": "short",
+      "title": "숏패딩",
+      "detergentMl": 30,
+      "dryFactor": 1
+    },
+    {
+      "id": "vest",
+      "title": "조끼·경량",
+      "detergentMl": 20,
+      "dryFactor": 0.7
+    }
+  ],
+  "washMachine": [
+    {
+      "id": "prep",
+      "title": "지퍼·똑딱이 잠그고 뒤집기",
+      "minutes": 3,
+      "note": "털 달린 모자·벨트는 떼어 내요"
+    },
+    {
+      "id": "spot",
+      "title": "목·소매 찌든 때 먼저",
+      "minutes": 5,
+      "note": "중성세제를 묻혀 부드러운 솔로 톡톡"
+    },
+    {
+      "id": "wash",
+      "title": "울·섬세 코스 · 30℃ 이하",
+      "minutes": 40,
+      "note": "중성세제만 · 비슷한 옷 한두 벌과 함께"
+    },
+    {
+      "id": "rinse",
+      "title": "헹굼 1~2회 추가",
+      "minutes": 15,
+      "note": "세제가 남으면 털이 뭉치고 얼룩이 져요"
+    },
+    {
+      "id": "spin",
+      "title": "약하게 짧게 탈수",
+      "minutes": 5,
+      "note": "세게 오래 돌리면 원단과 누빔이 상해요"
+    }
+  ],
+  "washHand": [
+    {
+      "id": "prep",
+      "title": "지퍼·똑딱이 잠그고 뒤집기",
+      "minutes": 3,
+      "note": "털 달린 모자·벨트는 떼어 내요"
+    },
+    {
+      "id": "spot",
+      "title": "목·소매 찌든 때 먼저",
+      "minutes": 5,
+      "note": "중성세제를 묻혀 부드러운 솔로 톡톡"
+    },
+    {
+      "id": "soak",
+      "title": "미지근한 물에 세제 풀고 담그기",
+      "minutes": 10,
+      "note": "30℃ 남짓 · 충분히 잠기게 꾹 눌러요"
+    },
+    {
+      "id": "press",
+      "title": "꾹꾹 눌러 빨기",
+      "minutes": 10,
+      "note": "비비거나 비틀지 않아요"
+    },
+    {
+      "id": "rinse",
+      "title": "물 갈아 가며 세 번 헹구기",
+      "minutes": 15,
+      "note": "거품이 안 나올 때까지"
+    },
+    {
+      "id": "squeeze",
+      "title": "눌러서 물 빼기",
+      "minutes": 5,
+      "note": "마른 수건으로 감싸 꾹 눌러요 · 비틀어 짜지 않아요"
+    }
+  ],
+  "dryTumble": [
+    {
+      "id": "shake",
+      "title": "털어 모양 잡기",
+      "minutes": 5,
+      "note": "뭉친 곳을 손으로 풀어 칸마다 고르게"
+    },
+    {
+      "id": "tumble1",
+      "title": "저온 건조 + 테니스공",
+      "minutes": 40,
+      "note": "공 2~3개가 두드려 뭉친 털을 풀어요 · 새 공은 양말에 넣어요"
+    },
+    {
+      "id": "beat",
+      "title": "꺼내 두드리고 뒤집기",
+      "minutes": 5,
+      "note": "손바닥으로 칸마다 톡톡"
+    },
+    {
+      "id": "tumble2",
+      "title": "저온 건조 한 번 더",
+      "minutes": 30,
+      "note": "높은 온도는 원단이 상할 수 있어요"
+    },
+    {
+      "id": "hang",
+      "title": "그늘에 펼쳐 마무리",
+      "minutes": 240,
+      "note": "속까지 마르지 않으면 냄새가 나요"
+    },
+    {
+      "id": "check",
+      "title": "숨 확인 · 뭉친 곳 없으면 끝",
+      "minutes": 5,
+      "note": "눌렀다 떼면 천천히 부풀어 오르면 다 됐어요"
+    }
+  ],
+  "dryAir": [
+    {
+      "id": "shake",
+      "title": "털어 모양 잡기",
+      "minutes": 5,
+      "note": "뭉친 곳을 손으로 풀어 칸마다 고르게"
+    },
+    {
+      "id": "flat1",
+      "title": "그늘에 뉘어 말리기",
+      "minutes": 180,
+      "note": "건조대 위에 평평하게 · 직사광선은 피해요"
+    },
+    {
+      "id": "beat1",
+      "title": "두드리고 뒤집기",
+      "minutes": 5,
+      "note": "손바닥이나 옷걸이로 톡톡"
+    },
+    {
+      "id": "flat2",
+      "title": "다시 뉘어 말리기",
+      "minutes": 180,
+      "note": "뒤집은 면이 위로"
+    },
+    {
+      "id": "beat2",
+      "title": "두드려 뭉친 털 풀기",
+      "minutes": 5,
+      "note": "덩어리를 손끝으로 쪼개요"
+    },
+    {
+      "id": "finish",
+      "title": "속까지 마를 때까지",
+      "minutes": 360,
+      "note": "하루 넘게 걸리기도 해요"
+    },
+    {
+      "id": "check",
+      "title": "숨 확인 · 뭉친 곳 없으면 끝",
+      "minutes": 5,
+      "note": "눌렀다 떼면 천천히 부풀어 오르면 다 됐어요"
+    }
+  ],
+  "storeTips": [
+    "속까지 완전히 마른 뒤에 넣어요",
+    "압축팩으로 오래 눌러 두지 않아요 — 숨이 죽어요",
+    "비닐 커버는 벗기고 통풍되는 커버를 씌워요",
+    "넉넉한 칸에 걸거나 느슨하게 접어 두어요",
+    "보관 중에도 한두 번 꺼내 바람을 쐬어요"
+  ],
+  "storeFrom": "03-15",
+  "takeOut": "11-01",
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
