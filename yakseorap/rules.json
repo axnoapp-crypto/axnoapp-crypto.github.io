@@ -1,0 +1,130 @@
+{
+  "_읽을것": [
+    "dests = 버리는 곳 넷(bin 폐의약품 수거함 · post 우체통 배출 봉투 · trash 일반쓰레기 · recycle 종이류). id 넷은 빠지면 안 된다",
+    "forms 의 dest = 기본 배출처(post 는 못 쓴다 — 우체통은 postOk 로 가른다). postOk = 우체통 배출 봉투에 넣어도 되나",
+    "icon = 그림에서 그리는 실물: pill·powder·liquid·tube·jar·box",
+    "soonDays = 유통기한이 이 날수 안으로 남으면 「곧 지나요」(앱 설정값)",
+    "우체통 배출은 지역마다 다르다 — 앱은 사용자가 「우리 동네」를 고르게 한다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "dests": [
+    {
+      "id": "bin",
+      "label": "폐의약품 수거함",
+      "note": "주민센터·보건소·구청 등 · 기관 운영 시간에"
+    },
+    {
+      "id": "post",
+      "label": "우체통 배출 봉투",
+      "note": "알약·가루약·캡슐만 · 「폐의약품」이라 적은 봉투에 밀봉"
+    },
+    {
+      "id": "trash",
+      "label": "일반쓰레기",
+      "note": "종량제 봉투"
+    },
+    {
+      "id": "recycle",
+      "label": "종이류 재활용",
+      "note": "약을 뺀 겉 상자·설명서"
+    }
+  ],
+  "forms": [
+    {
+      "id": "pill",
+      "label": "조제 알약",
+      "icon": "pill",
+      "dest": "bin",
+      "postOk": true,
+      "how": "약국 약봉지를 뜯지 말고 봉지째 모아요",
+      "note": "알약만 따로 털어 모으지 않아요"
+    },
+    {
+      "id": "blister",
+      "label": "판 알약(정제)",
+      "icon": "pill",
+      "dest": "bin",
+      "postOk": true,
+      "how": "겉 종이상자만 벗기고 플라스틱·은박 판째 모아요",
+      "note": "알약을 판에서 하나씩 빼지 않아요"
+    },
+    {
+      "id": "capsule",
+      "label": "캡슐",
+      "icon": "pill",
+      "dest": "bin",
+      "postOk": true,
+      "how": "포장된 그대로 모아요",
+      "note": "캡슐을 열지 않아요"
+    },
+    {
+      "id": "powder",
+      "label": "가루약",
+      "icon": "powder",
+      "dest": "bin",
+      "postOk": true,
+      "how": "봉지를 뜯지 말고 그대로 모아요",
+      "note": "꺼내면 가루가 날리고 변질돼요"
+    },
+    {
+      "id": "syrup",
+      "label": "물약·시럽",
+      "icon": "liquid",
+      "dest": "bin",
+      "postOk": false,
+      "how": "마개를 단단히 닫고 용기째 수거함에",
+      "note": "우체통에는 넣지 않아요 · 다른 우편물이 젖어요"
+    },
+    {
+      "id": "ointment",
+      "label": "연고·크림",
+      "icon": "tube",
+      "dest": "bin",
+      "postOk": false,
+      "how": "마개를 닫고 튜브째 수거함에",
+      "note": "우체통에는 넣지 않아요"
+    },
+    {
+      "id": "eyedrop",
+      "label": "안약",
+      "icon": "liquid",
+      "dest": "bin",
+      "postOk": false,
+      "how": "마개를 닫고 용기째 수거함에",
+      "note": "우체통에는 넣지 않아요"
+    },
+    {
+      "id": "box",
+      "label": "겉 종이상자·설명서",
+      "icon": "box",
+      "dest": "recycle",
+      "postOk": false,
+      "how": "약을 다 뺀 상자·설명서는 종이류로",
+      "note": "약이 남은 판·병은 상자에서 빼서 폐의약품으로"
+    },
+    {
+      "id": "supplement",
+      "label": "건강기능식품",
+      "icon": "jar",
+      "dest": "trash",
+      "postOk": false,
+      "how": "비타민·홍삼·영양제는 폐의약품이 아니에요 · 종량제 봉투로",
+      "note": "의약품 수거함에 넣지 않아요"
+    },
+    {
+      "id": "sharps",
+      "label": "주사바늘·혈당침",
+      "icon": "jar",
+      "dest": "trash",
+      "postOk": false,
+      "how": "뚜껑 있는 단단한 통에 안전하게 담아 종량제 봉투로, 또는 병원·약국에 문의",
+      "note": "맨손으로 버리지 않아요"
+    }
+  ],
+  "soonDays": 30,
+  "bagLabel": "폐의약품",
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
