@@ -1,0 +1,278 @@
+{
+  "_읽을것": [
+    "items = 품목 도감. 버리는 곳은 앱이 kind·face·attach 세 답으로 판정한다(품목마다 결과를 적지 않는다)",
+    "kind: sheet(종이·책·노트) · box(상자) · cup(종이컵) · pack(종이팩) · unsure(모름) \/ face: plain · coated · thermal · special · soiled \/ attach: none · detach · fixed",
+    "steps 의 bins 는 paper · general · pack · check 중 그 줄이 나오는 판정. only 는 detach · sheet · box · cup · coated · private 답일 때만",
+    "판정 근거는 재활용가능자원 분리수거 지침 별표 1 종이류 칸이다 — 지자체가 조정할 수 있어 화면은 늘 우리 동네 확인을 붙인다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "items": [
+    {
+      "id": "news",
+      "name": "신문지",
+      "kind": "sheet",
+      "face": "plain",
+      "attach": "none",
+      "note": "펴서 쌓고 끈으로 묶어요 · 젖지 않게"
+    },
+    {
+      "id": "book",
+      "name": "책",
+      "kind": "sheet",
+      "face": "plain",
+      "attach": "detach",
+      "note": "비닐 커버·코팅 표지는 떼요"
+    },
+    {
+      "id": "note",
+      "name": "스프링 노트",
+      "kind": "sheet",
+      "face": "plain",
+      "attach": "detach",
+      "note": "스프링을 빼면 속지는 종이류"
+    },
+    {
+      "id": "flyer",
+      "name": "종이 전단",
+      "kind": "sheet",
+      "face": "plain",
+      "attach": "none",
+      "note": "그냥 종이 전단은 종이류"
+    },
+    {
+      "id": "glossy",
+      "name": "코팅 전단",
+      "kind": "sheet",
+      "face": "coated",
+      "attach": "none",
+      "note": "반짝이는 비닐 코팅 광고지는 빼요"
+    },
+    {
+      "id": "receipt",
+      "name": "영수증",
+      "kind": "sheet",
+      "face": "thermal",
+      "attach": "none",
+      "note": "감열지 · 종이류가 아니에요"
+    },
+    {
+      "id": "label",
+      "name": "택배 송장",
+      "kind": "sheet",
+      "face": "thermal",
+      "attach": "none",
+      "note": "상자에서 떼어 가리고 종량제"
+    },
+    {
+      "id": "photo",
+      "name": "사진",
+      "kind": "sheet",
+      "face": "special",
+      "attach": "none",
+      "note": "사진용지는 종이류가 아니에요"
+    },
+    {
+      "id": "color",
+      "name": "색지",
+      "kind": "sheet",
+      "face": "special",
+      "attach": "none",
+      "note": "색지는 종이류에서 빠져요"
+    },
+    {
+      "id": "foil",
+      "name": "종이호일",
+      "kind": "sheet",
+      "face": "special",
+      "attach": "none",
+      "note": "종이처럼 보여도 종량제"
+    },
+    {
+      "id": "tissue",
+      "name": "쓴 휴지",
+      "kind": "sheet",
+      "face": "soiled",
+      "attach": "none",
+      "note": "사용한 화장지는 종량제"
+    },
+    {
+      "id": "parcel",
+      "name": "택배 상자",
+      "kind": "box",
+      "face": "plain",
+      "attach": "detach",
+      "note": "테이프·송장을 떼고 접어요"
+    },
+    {
+      "id": "snackbox",
+      "name": "과자 상자",
+      "kind": "box",
+      "face": "plain",
+      "attach": "none",
+      "note": "납작하게 접어서 상자끼리"
+    },
+    {
+      "id": "coolbox",
+      "name": "보냉 상자",
+      "kind": "box",
+      "face": "plain",
+      "attach": "fixed",
+      "note": "안쪽 은박이 안 떨어지면 종량제"
+    },
+    {
+      "id": "cup",
+      "name": "종이컵",
+      "kind": "cup",
+      "face": "plain",
+      "attach": "none",
+      "note": "헹궈서 눌러 종이컵끼리"
+    },
+    {
+      "id": "cup2",
+      "name": "양면 코팅 컵",
+      "kind": "cup",
+      "face": "coated",
+      "attach": "none",
+      "note": "안팎이 다 코팅이면 종량제"
+    },
+    {
+      "id": "milk",
+      "name": "우유팩",
+      "kind": "pack",
+      "face": "plain",
+      "attach": "none",
+      "note": "종이팩은 따로 · 헹궈 말려요"
+    },
+    {
+      "id": "wrap",
+      "name": "선물 포장지",
+      "kind": "unsure",
+      "face": "plain",
+      "attach": "none",
+      "note": "기준 품목에 없어요 · 참고"
+    }
+  ],
+  "steps": [
+    {
+      "id": "dry",
+      "label": "젖지 않게 해요",
+      "note": "물기가 닿으면 재활용이 어려워요",
+      "bins": [
+        "paper"
+      ],
+      "only": ""
+    },
+    {
+      "id": "detach",
+      "label": "스프링·테이프·철핀을 떼어 내요",
+      "note": "비닐 커버·코팅 표지·송장도 함께",
+      "bins": [
+        "paper"
+      ],
+      "only": "detach"
+    },
+    {
+      "id": "flat",
+      "label": "반듯하게 펴서 차곡차곡 쌓아요",
+      "note": "크기별로 모으면 묶기 쉬워요",
+      "bins": [
+        "paper"
+      ],
+      "only": "sheet"
+    },
+    {
+      "id": "fold",
+      "label": "납작하게 접어 상자끼리 모아요",
+      "note": "다른 종이와 섞이지 않게",
+      "bins": [
+        "paper"
+      ],
+      "only": "box"
+    },
+    {
+      "id": "rinse",
+      "label": "비우고 헹군 뒤 눌러 납작하게",
+      "note": "봉투에 넣거나 종이컵끼리 묶어요",
+      "bins": [
+        "paper"
+      ],
+      "only": "cup"
+    },
+    {
+      "id": "tie",
+      "label": "끈으로 묶어 종이류로 내놓아요",
+      "note": "요일·장소는 지자체마다 달라요",
+      "bins": [
+        "paper"
+      ],
+      "only": ""
+    },
+    {
+      "id": "hide",
+      "label": "이름·주소가 보이면 가리거나 찢어요",
+      "note": "영수증·송장의 개인정보",
+      "bins": [
+        "general"
+      ],
+      "only": "private"
+    },
+    {
+      "id": "peel",
+      "label": "코팅 표지만 떼어지면 속지는 종이류",
+      "note": "떼어 낸 코팅 부분만 종량제",
+      "bins": [
+        "general"
+      ],
+      "only": "coated"
+    },
+    {
+      "id": "general",
+      "label": "종량제봉투에 넣어요",
+      "note": "큰 것은 우리 동네 안내를 따라요",
+      "bins": [
+        "general"
+      ],
+      "only": ""
+    },
+    {
+      "id": "packrinse",
+      "label": "비우고 헹궈 말려요",
+      "note": "빨대·비닐은 떼어 내요",
+      "bins": [
+        "pack"
+      ],
+      "only": ""
+    },
+    {
+      "id": "packbin",
+      "label": "종이팩 수거함에 따로 내요",
+      "note": "없으면 끈으로 묶어 다른 종이와 구분해요",
+      "bins": [
+        "pack"
+      ],
+      "only": ""
+    },
+    {
+      "id": "site",
+      "label": "구청·시청 누리집의 재활용 배출 안내를 봐요",
+      "note": "품목 이름으로 찾아요",
+      "bins": [
+        "check"
+      ],
+      "only": ""
+    },
+    {
+      "id": "hold",
+      "label": "확인 전엔 종이 묶음에 섞지 않아요",
+      "note": "섞이면 묶음째 재활용이 어려워요",
+      "bins": [
+        "check"
+      ],
+      "only": ""
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
