@@ -1,0 +1,450 @@
+{
+  "_읽을것": [
+    "crops = 작물 한 줄씩. 값은 sources 에 적힌 농촌진흥청 공개 자료(농사로·웹진)에서 확인한 것만 싣는다 — 자료에 없으면 빈칸",
+    "windows = 지역(CENTRAL 중부 · SOUTH 남부)별 심는 때 [\"월-순\", \"월-순\"] · 순 0 상순 1 중순 2 하순 · 비우면 앱은 「지역 날짜 확인 필요」",
+    "rowCm·plantCm·depthCm·stakeCm = [최소, 최대] cm · 빈 배열이면 그 눈금을 그리지 않는다",
+    "coldC = 밤 기온 기준(℃) — 사용자가 넣은 예보 최저기온이 이 값 이하면 「미뤄요」 · 비우면 coldNote 만 보여 준다",
+    "waterDays = 물주기 기본 간격(일) · harvestFrom\/To = 심은 뒤 날수 · flowerFrom\/To = 꽃(수염) 핀 뒤 날수",
+    "tasks.day = 심은 날부터 며칠째 알림 · 비우면 알림 없이 체크만",
+    "id(작물·할 일)는 저장 키라 바꾸지 마라 · 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "sources": [
+    {
+      "id": "ns-pepper",
+      "name": "농사로 농작업 일정 · 고추(보통재배)",
+      "url": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psb\/psbl\/workScheduleDtl.ps?menuId=PS00087&cntntsNo=30600"
+    },
+    {
+      "id": "ns-potato",
+      "name": "농사로 농작업 일정 · 감자",
+      "url": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psb\/psbl\/workScheduleDtl.ps?menuId=PS00087&cntntsNo=30699"
+    },
+    {
+      "id": "ns-sweet",
+      "name": "농사로 농작업 일정 · 고구마",
+      "url": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psb\/psbl\/workScheduleDtl.ps?menuId=PS00087&cntntsNo=30701"
+    },
+    {
+      "id": "ns-corn",
+      "name": "농사로 농작업 일정 · 옥수수",
+      "url": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psb\/psbl\/workScheduleDtl.ps?menuId=PS00087&cntntsNo=30709"
+    },
+    {
+      "id": "rda-pepper",
+      "name": "농촌진흥청 · 노지고추 아주심기 전 준비할 사항",
+      "url": "https:\/\/www.rda.go.kr\/middlePopOpenPopNongsaroDBView.do?no=1266"
+    },
+    {
+      "id": "wz-potato",
+      "name": "농촌진흥청 웹진 · 텃밭에서 감자 키우기",
+      "url": "https:\/\/www.rda.go.kr\/webzine\/2021\/03\/sub4-2.html"
+    },
+    {
+      "id": "wz-tomato",
+      "name": "농촌진흥청 웹진 · 텃밭에서 토마토 키우기",
+      "url": "https:\/\/www.rda.go.kr\/webzine\/2020\/03\/sub4-2.html"
+    },
+    {
+      "id": "wz-eggplant",
+      "name": "농촌진흥청 웹진 · 텃밭에서 가지 키우기",
+      "url": "https:\/\/www.rda.go.kr\/webzine\/2020\/02\/sub4-2.html"
+    },
+    {
+      "id": "wz-lettuce",
+      "name": "농촌진흥청 웹진 · 텃밭에서 상추 키우기",
+      "url": "https:\/\/www.rda.go.kr\/webzine\/2020\/06\/sub4-3.html"
+    },
+    {
+      "id": "wz-corn",
+      "name": "농촌진흥청 웹진 · 텃밭에서 옥수수 키우기",
+      "url": "https:\/\/www.rda.go.kr\/webzine\/2021\/05\/sub4-2.html"
+    }
+  ],
+  "crops": [
+    {
+      "id": "potato",
+      "name": "감자",
+      "kind": "TUBER",
+      "windows": {
+        "CENTRAL": [
+          "3-2",
+          "4-0"
+        ],
+        "SOUTH": [
+          "3-0",
+          "3-1"
+        ]
+      },
+      "windowNote": "싹을 틔운 씨감자를 아주 심는 때예요",
+      "rowCm": [
+        70,
+        80
+      ],
+      "plantCm": [
+        20,
+        25
+      ],
+      "depthCm": [
+        5,
+        10
+      ],
+      "depthNote": "자른 면이 아래로 가게 묻어요",
+      "bedNote": "한 줄로 심으면 이랑 사이 70~80cm",
+      "coldC": "",
+      "coldNote": "",
+      "waterDays": 7,
+      "waterNote": "참흙은 일주일에 한 번, 모래땅은 3~4일에 한 번 흠뻑 · 싹 올라올 때와 꽃 필 때 넉넉히",
+      "stakeCm": [],
+      "harvestFrom": "",
+      "harvestTo": "",
+      "flowerFrom": "",
+      "flowerTo": "",
+      "flowerLabel": "",
+      "harvestNote": "잎이 누렇게 마르기 시작할 때 캐요 · 보통 6월 하순~7월 상순, 장마와 겹치면 비 없는 날 조금 일찍",
+      "prep": [
+        "아주 심기 20~25일 전에 씨감자 싹을 틔워요",
+        "씨감자는 30~50g 크기로 잘라요"
+      ],
+      "tasks": [
+        {
+          "id": "sprout",
+          "title": "싹이 올라와요",
+          "note": "심고 20~30일이면 싹이 나기 시작해요 · 이때 물을 넉넉히",
+          "day": 20
+        },
+        {
+          "id": "hill1",
+          "title": "1차 북주기",
+          "note": "싹이 10cm쯤 자라면 포기 밑에 흙을 북돋아요",
+          "day": ""
+        },
+        {
+          "id": "hill2",
+          "title": "2차 북주기",
+          "note": "1차 북주기 뒤 10~15일쯤 한 번 더",
+          "day": ""
+        },
+        {
+          "id": "bloom",
+          "title": "꽃 필 때 물 주기",
+          "note": "꽃이 피는 동안엔 물을 충분히",
+          "day": ""
+        }
+      ],
+      "sources": [
+        "wz-potato",
+        "ns-potato"
+      ]
+    },
+    {
+      "id": "pepper",
+      "name": "고추",
+      "kind": "SEEDLING",
+      "windows": {
+        "CENTRAL": [
+          "5-0",
+          "5-1"
+        ],
+        "SOUTH": [
+          "4-2",
+          "5-0"
+        ]
+      },
+      "windowNote": "마지막 서리가 내린 뒤 맑은 날 심어요",
+      "rowCm": [
+        100,
+        100
+      ],
+      "plantCm": [
+        35,
+        40
+      ],
+      "depthCm": [],
+      "depthNote": "모종이 포트에 심겨 있던 깊이만큼만 — 깊이 묻지 않아요",
+      "bedNote": "이랑 높이 20cm 이상 · 한 줄 이랑 폭 90~100cm",
+      "coldC": "",
+      "coldNote": "마지막 서리가 지난 뒤에 심어요",
+      "waterDays": "",
+      "waterNote": "",
+      "stakeCm": [
+        120,
+        150
+      ],
+      "harvestFrom": "",
+      "harvestTo": "",
+      "flowerFrom": "",
+      "flowerTo": "",
+      "flowerLabel": "",
+      "harvestNote": "풋고추부터 따고, 붉은 고추는 붉게 익은 것부터 따요",
+      "prep": [
+        "밭 갈기 2~3주 전에 퇴비·석회를 넣어요",
+        "멀칭 비닐은 아주 심기 3~4일 전에 덮어요",
+        "모종이 오면 3~4일 안에 심어요"
+      ],
+      "tasks": [
+        {
+          "id": "stake",
+          "title": "지주 세우고 묶기",
+          "note": "지주는 5포기마다 하나 · 고추 키의 3분의 2 높이에 묶고 자라면서 2~3번 더",
+          "day": ""
+        },
+        {
+          "id": "feed",
+          "title": "웃거름 나눠 주기",
+          "note": "웃거름은 세 번에 나눠 줘요",
+          "day": ""
+        }
+      ],
+      "sources": [
+        "ns-pepper",
+        "rda-pepper"
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": "토마토",
+      "kind": "SEEDLING",
+      "windows": {},
+      "windowNote": "밤 기온이 13℃ 밑으로 떨어지지 않을 때 심어요",
+      "rowCm": [],
+      "plantCm": [
+        40,
+        50
+      ],
+      "depthCm": [],
+      "depthNote": "모종에 물을 흠뻑 주고 심어요",
+      "bedNote": "두둑 높이 25~30cm · 너비 40~50cm",
+      "coldC": 13,
+      "coldNote": "밤 기온이 13℃ 이하면 꽃·열매가 떨어지거나 기형이 생길 수 있어요",
+      "waterDays": 2,
+      "waterNote": "2~3일 간격으로 알맞게",
+      "stakeCm": [
+        150,
+        150
+      ],
+      "harvestFrom": "",
+      "harvestTo": "",
+      "flowerFrom": "",
+      "flowerTo": "",
+      "flowerLabel": "",
+      "harvestNote": "붉게 익으면 따요 · 텃밭이 멀면 붉은 기가 돌 때 따서 집에서 2~3일 익혀요",
+      "prep": [
+        "심기 15일 전 1㎡에 퇴비 2.5kg·깻묵 1kg을 넣어요",
+        "모종마다 지주를 하나씩 미리 꽂아요"
+      ],
+      "tasks": [
+        {
+          "id": "side",
+          "title": "곁가지 따기",
+          "note": "6월부터 7일에 한 번 · 오전에 손으로 밀어서 한 번에 따요",
+          "day": ""
+        }
+      ],
+      "sources": [
+        "wz-tomato"
+      ]
+    },
+    {
+      "id": "eggplant",
+      "name": "가지",
+      "kind": "SEEDLING",
+      "windows": {},
+      "windowNote": "낮 25~28℃ · 밤 15~17℃가 되는지 보고 심어요",
+      "rowCm": [],
+      "plantCm": [],
+      "depthCm": [],
+      "depthNote": "모종 흙이 살짝 보일 만큼 덮고 물을 충분히",
+      "bedNote": "한 줄 재배 80~90cm · 두 줄 재배 150cm 이랑",
+      "coldC": 8,
+      "coldNote": "8℃ 이하면 저온 피해를 입을 수 있어요(17℃ 이하면 더디게 자라요)",
+      "waterDays": 4,
+      "waterNote": "비가 없으면 4~5일 간격",
+      "stakeCm": [
+        150,
+        150
+      ],
+      "harvestFrom": "",
+      "harvestTo": "",
+      "flowerFrom": 10,
+      "flowerTo": 20,
+      "flowerLabel": "꽃",
+      "harvestNote": "너무 익으면 쓴맛이 나요 · 주말에만 가면 조금 어릴 때 따요",
+      "prep": [
+        "3.3㎡에 퇴비 5kg을 넣고 1~2주 뒤 심어요",
+        "4인 가족이면 4포기면 넉넉해요"
+      ],
+      "tasks": [
+        {
+          "id": "leaf",
+          "title": "아래 잎·늙은 잎 따 주기",
+          "note": "바람이 잘 통해야 병에 덜 걸려요",
+          "day": ""
+        },
+        {
+          "id": "drain",
+          "title": "장마 전 물길 내기",
+          "note": "흙에 물이 너무 많으면 뿌리가 썩어요",
+          "day": ""
+        }
+      ],
+      "sources": [
+        "wz-eggplant"
+      ]
+    },
+    {
+      "id": "lettuce",
+      "name": "상추",
+      "kind": "SEEDLING",
+      "windows": {
+        "CENTRAL": [
+          "4-0",
+          "4-1"
+        ],
+        "SOUTH": [
+          "4-0",
+          "4-1"
+        ]
+      },
+      "windowNote": "그 지방에 벚꽃이 필 무렵이에요",
+      "rowCm": [
+        15,
+        15
+      ],
+      "plantCm": [
+        15,
+        20
+      ],
+      "depthCm": [],
+      "depthNote": "가급적 얕게 심어요 · 잎이 5~6장인 모종",
+      "bedNote": "베란다 화분도 같은 간격이면 돼요",
+      "coldC": "",
+      "coldNote": "",
+      "waterDays": 3,
+      "waterNote": "봄·가을엔 3~5일, 여름엔 2~3일 간격",
+      "stakeCm": [],
+      "harvestFrom": 25,
+      "harvestTo": 30,
+      "flowerFrom": "",
+      "flowerTo": "",
+      "flowerLabel": "",
+      "harvestNote": "겉잎부터 차례로 · 손바닥보다 작은 잎(폭 5~6cm·길이 15~18cm)이 좋아요",
+      "prep": [
+        "심기 2주 전에 거름을 주고 이랑을 만들어 둬요"
+      ],
+      "tasks": [],
+      "sources": [
+        "wz-lettuce"
+      ]
+    },
+    {
+      "id": "sweetpotato",
+      "name": "고구마",
+      "kind": "SLIP",
+      "windows": {
+        "CENTRAL": [
+          "5-1",
+          "5-2"
+        ],
+        "SOUTH": [
+          "5-0",
+          "5-2"
+        ]
+      },
+      "windowNote": "보통 재배 기준 · 비 온 뒤 바로, 아니면 물을 주고 심어요",
+      "rowCm": [
+        70,
+        75
+      ],
+      "plantCm": [
+        20,
+        20
+      ],
+      "depthCm": [],
+      "depthNote": "순을 비스듬히 눕혀 묻어요",
+      "bedNote": "이랑 70~75cm",
+      "coldC": "",
+      "coldNote": "",
+      "waterDays": "",
+      "waterNote": "",
+      "stakeCm": [],
+      "harvestFrom": 110,
+      "harvestTo": 130,
+      "flowerFrom": "",
+      "flowerTo": "",
+      "flowerLabel": "",
+      "harvestNote": "심고 약 120일(밤고구마 110일 · 물고구마 130일) · 서리 내리기 전에 캐요",
+      "prep": [],
+      "tasks": [],
+      "sources": [
+        "ns-sweet"
+      ]
+    },
+    {
+      "id": "corn",
+      "name": "옥수수",
+      "kind": "SEED",
+      "windows": {
+        "CENTRAL": [
+          "4-1",
+          "4-1"
+        ],
+        "SOUTH": [
+          "4-1",
+          "4-1"
+        ]
+      },
+      "windowNote": "비닐을 덮지 않고 바로 씨를 뿌리는 때예요",
+      "rowCm": [
+        60,
+        60
+      ],
+      "plantCm": [
+        25,
+        25
+      ],
+      "depthCm": [],
+      "depthNote": "한 구멍에 1~2알 · 싹이 나면 한 포기만 남겨요",
+      "bedNote": "이랑 너비 60cm",
+      "coldC": 10,
+      "coldNote": "밤 기온이 10℃ 이하면 자라기를 멈춰요",
+      "waterDays": "",
+      "waterNote": "",
+      "stakeCm": [],
+      "harvestFrom": "",
+      "harvestTo": "",
+      "flowerFrom": 20,
+      "flowerTo": 25,
+      "flowerLabel": "수염",
+      "harvestNote": "찰옥수수·초당옥수수는 수염 나온 뒤 20~25일 · 이른 아침에 따요",
+      "prep": [],
+      "tasks": [
+        {
+          "id": "thin",
+          "title": "솎아 주기",
+          "note": "싹이 나오면 한 구멍에 한 포기만 남겨요",
+          "day": ""
+        },
+        {
+          "id": "feed1",
+          "title": "1차 웃거름",
+          "note": "포기 사이 흙을 파고 줘요",
+          "day": 20
+        },
+        {
+          "id": "feed2",
+          "title": "2차 웃거름",
+          "note": "1차 뒤 20~25일 간격으로 한 번 더",
+          "day": 40
+        }
+      ],
+      "sources": [
+        "ns-corn",
+        "wz-corn"
+      ]
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-02-01"
+}
