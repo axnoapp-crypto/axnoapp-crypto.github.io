@@ -1,0 +1,105 @@
+{
+  "_읽을것": [
+    "주택용 전력 요금표(공급약관) 값이다 — 정부 정보 아님. 숫자를 바꿀 땐 sourceUrl 원문을 먼저 열어라. 원문에서 확인한 값만 넣는다",
+    "low = 저압 · high = 고압. tiers 의 upTo = 구간 윗 문턱 kWh(포함), 마지막 구간은 null. baseWon = 그 구간에 들면 붙는 기본요금 · rate = 원\/kWh",
+    "summerMonths = 하계 요금 달 · superMonths = 슈퍼유저(superKwh 초과분 superRate) 달",
+    "extraWonPerKwh(기후환경·연료비) · vatPct · fundPct 는 원문 미확인이라 null — null 이면 앱이 빼고 셈하고 「제외」라고 쓴다",
+    "요금 개정은 시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "effectiveFrom": "2023-11-09",
+  "low": {
+    "summer": [
+      {
+        "upTo": 300,
+        "baseWon": 910,
+        "rate": 120
+      },
+      {
+        "upTo": 450,
+        "baseWon": 1600,
+        "rate": 214.6
+      },
+      {
+        "upTo": null,
+        "baseWon": 7300,
+        "rate": 307.3
+      }
+    ],
+    "other": [
+      {
+        "upTo": 200,
+        "baseWon": 910,
+        "rate": 120
+      },
+      {
+        "upTo": 400,
+        "baseWon": 1600,
+        "rate": 214.6
+      },
+      {
+        "upTo": null,
+        "baseWon": 7300,
+        "rate": 307.3
+      }
+    ],
+    "superKwh": 1000,
+    "superRate": 736.2
+  },
+  "high": {
+    "summer": [
+      {
+        "upTo": 300,
+        "baseWon": 730,
+        "rate": 105
+      },
+      {
+        "upTo": 450,
+        "baseWon": 1260,
+        "rate": 174
+      },
+      {
+        "upTo": null,
+        "baseWon": 6060,
+        "rate": 242.3
+      }
+    ],
+    "other": [
+      {
+        "upTo": 200,
+        "baseWon": 730,
+        "rate": 105
+      },
+      {
+        "upTo": 400,
+        "baseWon": 1260,
+        "rate": 174
+      },
+      {
+        "upTo": null,
+        "baseWon": 6060,
+        "rate": 242.3
+      }
+    ],
+    "superKwh": 1000,
+    "superRate": 593.3
+  },
+  "summerMonths": [
+    7,
+    8
+  ],
+  "superMonths": [
+    7,
+    8,
+    12,
+    1,
+    2
+  ],
+  "extraWonPerKwh": null,
+  "vatPct": null,
+  "fundPct": null,
+  "sourceUrl": "https:\/\/cyber.kepco.co.kr\/ckepco\/front\/jsp\/CY\/E\/E\/CYEEHP00101.jsp",
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
