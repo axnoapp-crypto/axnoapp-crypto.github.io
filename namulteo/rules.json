@@ -1,0 +1,170 @@
+{
+  "_읽을것": [
+    "greens = 나물 한 줄. 제철 시작·끝(startM\/D·endM\/D)은 중부 평지 기준 대략값(참고치)이다 — 앱은 「대략 · 지역차」라고 보여 준다",
+    "id 는 저장 키(기록·알림)라 바꾸지 마라. 새 나물은 줄을 더한다",
+    "style 은 그림 꼴: rosette blade mugwort leafy succulent fan round bud fiddle heart 중 하나",
+    "lookAlike = 식약처가 안내한 닮은 독초 이름(없으면 빈칸). 앱은 구별을 확정하지 않고 「의심되면 먹지 않기」만 말한다",
+    "regions.shiftDays = 중부 대비 며칠 빠르거나(-) 늦은지(+) — 0 인 지역이 하나 있어야 한다",
+    "safetyUrl 은 https 구체 페이지만. 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "greens": [
+    {
+      "id": "naengi",
+      "name": "냉이",
+      "kind": "들나물",
+      "startM": 2,
+      "startD": 20,
+      "endM": 3,
+      "endD": 31,
+      "part": "뿌리째 캐요 · 호미로 둘레를 파서",
+      "tip": "흙을 털고 누런 잎을 떼어 데치거나 된장국에",
+      "lookAlike": "",
+      "style": "rosette"
+    },
+    {
+      "id": "dallae",
+      "name": "달래",
+      "kind": "들나물",
+      "startM": 3,
+      "startD": 1,
+      "endM": 4,
+      "endD": 10,
+      "part": "알뿌리째 캐요 · 흙이 무른 밭둑에서",
+      "tip": "알뿌리 껍질을 벗겨 날로 무치거나 달래장에",
+      "lookAlike": "",
+      "style": "blade"
+    },
+    {
+      "id": "ssuk",
+      "name": "쑥",
+      "kind": "들나물",
+      "startM": 3,
+      "startD": 10,
+      "endM": 4,
+      "endD": 30,
+      "part": "어린순만 칼로 끊어요 · 한 뼘 아래일 때",
+      "tip": "쑥국·쑥버무리 · 자라면 질기고 써요",
+      "lookAlike": "산괴불주머니",
+      "style": "mugwort"
+    },
+    {
+      "id": "sseumbagwi",
+      "name": "씀바귀",
+      "kind": "들나물",
+      "startM": 3,
+      "startD": 15,
+      "endM": 4,
+      "endD": 20,
+      "part": "뿌리째 캐요 · 꽃대 오르기 전",
+      "tip": "쓴맛은 물에 담가 우려요 · 초고추장 무침",
+      "lookAlike": "",
+      "style": "leafy"
+    },
+    {
+      "id": "dolnamul",
+      "name": "돌나물",
+      "kind": "들나물",
+      "startM": 3,
+      "startD": 20,
+      "endM": 5,
+      "endD": 10,
+      "part": "줄기 끝 연한 순만 뜯어요",
+      "tip": "씻어서 날로 · 물김치나 초고추장",
+      "lookAlike": "",
+      "style": "succulent"
+    },
+    {
+      "id": "wonchuri",
+      "name": "원추리",
+      "kind": "산나물",
+      "startM": 3,
+      "startD": 20,
+      "endM": 4,
+      "endD": 15,
+      "part": "어린순만 · 자랄수록 독성분이 늘어요",
+      "tip": "끓는 물에 충분히 데쳐서 먹어요",
+      "lookAlike": "여로",
+      "style": "fan"
+    },
+    {
+      "id": "meowi",
+      "name": "머위",
+      "kind": "들나물",
+      "startM": 3,
+      "startD": 25,
+      "endM": 4,
+      "endD": 30,
+      "part": "어린잎과 잎자루를 끊어요",
+      "tip": "데쳐서 쌈으로 · 쓴맛은 찬물에 우려요",
+      "lookAlike": "",
+      "style": "round"
+    },
+    {
+      "id": "dureup",
+      "name": "두릅",
+      "kind": "산나물",
+      "startM": 4,
+      "startD": 10,
+      "endM": 5,
+      "endD": 5,
+      "part": "나무 끝 새순만 · 가시 조심",
+      "tip": "끓는 물에 데쳐 초고추장에",
+      "lookAlike": "",
+      "style": "bud"
+    },
+    {
+      "id": "gosari",
+      "name": "고사리",
+      "kind": "산나물",
+      "startM": 4,
+      "startD": 15,
+      "endM": 5,
+      "endD": 20,
+      "part": "말린 순(주먹) 때 꺾어요",
+      "tip": "날로 먹지 않아요 · 삶아 우려서 말려요",
+      "lookAlike": "",
+      "style": "fiddle"
+    },
+    {
+      "id": "chwi",
+      "name": "취나물(곰취)",
+      "kind": "산나물",
+      "startM": 4,
+      "startD": 20,
+      "endM": 5,
+      "endD": 31,
+      "part": "어린잎을 끊어요",
+      "tip": "데쳐 무치거나 쌈으로",
+      "lookAlike": "동의나물",
+      "style": "heart"
+    }
+  ],
+  "regions": [
+    {
+      "id": "jeju",
+      "name": "제주",
+      "shiftDays": -14
+    },
+    {
+      "id": "south",
+      "name": "남부",
+      "shiftDays": -7
+    },
+    {
+      "id": "central",
+      "name": "중부",
+      "shiftDays": 0
+    },
+    {
+      "id": "mountain",
+      "name": "산간",
+      "shiftDays": 10
+    }
+  ],
+  "safetyName": "식품의약품안전처 · 봄철 산나물 혼동 주의(정책브리핑)",
+  "safetyUrl": "https:\/\/www.korea.kr\/news\/policyNewsView.do?newsId=148913888",
+  "notice": "",
+  "reviewBy": "2027-02-01"
+}
