@@ -1,0 +1,23 @@
+{
+  "_읽을것": [
+    "요소수 가격은 싣지 않는다 — 사용자가 영수증대로 넣는다. 특정 제품·판매처·제조사 이름을 넣지 마라",
+    "freezeC 는 요소수 어는점(℃) — 출처(https 200)를 확인한 값만. 비우면 앱이 어는점 줄을 숨기고 「확인 필요」",
+    "doseMinPct·doseMaxPct 는 경유 대비 요소수 소모 비율 안내 문구용(예측에 쓰지 않는다). 비우면 문구를 숨긴다",
+    "경고등 기준·시동 제한 거리는 차마다 달라 싣지 않는다 — 사용자가 계기판 값을 넣는다",
+    "defaultLeadKm 는 참고치 시작값 — 사용자가 이미 바꾼 값은 덮지 않는다",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "freezeC": -11,
+  "freezeSrcName": "위키백과 · 요소수",
+  "freezeSrcUrl": "https:\/\/ko.wikipedia.org\/wiki\/%EC%9A%94%EC%86%8C%EC%88%98",
+  "doseMinPct": 2,
+  "doseMaxPct": 6,
+  "doseSrcName": "Wikipedia · Diesel exhaust fluid",
+  "doseSrcUrl": "https:\/\/en.wikipedia.org\/wiki\/Diesel_exhaust_fluid",
+  "defaultLeadKm": 500,
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
