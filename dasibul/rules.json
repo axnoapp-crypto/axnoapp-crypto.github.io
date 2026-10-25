@@ -1,0 +1,852 @@
+{
+  "_읽을것": [
+    "families = 제조사 계열별 에러코드. 제조사 공식 설명서·고객센터 페이지(https · 200)에서 본문을 직접 읽은 코드만 싣는다 — 확인 못 한 코드는 넣지 마라",
+    "codes 는 패널 표기(대문자로 맞춘다) · zone = IGNITION\/EXHAUST\/WATER\/FREEZE\/HEAT\/SENSOR\/GAS\/LINK\/ETC (그림에서 불이 들어오는 부위)",
+    "tries = 사용자가 직접 해 볼 것 최대 3개 — 재가동·전원·밸브 열림 확인·물보충·눈으로 보기 수준만. 분해·부품·연통 손질은 쓰지 마라",
+    "stop = true 면 해 볼 것 없이 「가동 멈추고 A\/S」 · danger = true 면 가스 안전 안내를 맨 위에 띄운다",
+    "makers = 고르는 칸. 계열이 없으면 앱은 「제조사 설명서·고객센터 확인」 · supportUrl 은 https 만",
+    "pressureDays·filterDays = 주기 알림 기본값(참고치) · inspectMonth = 연 1회 점검 알림 달",
+    "family id·maker id 는 기록의 저장 키라 바꾸지 마라 · 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "makers": [
+    {
+      "id": "kiturami",
+      "name": "귀뚜라미",
+      "supportUrl": "https:\/\/krb.co.kr\/self",
+      "note": "모델별 자가진단 매뉴얼에서 옮겼어요"
+    },
+    {
+      "id": "celtic",
+      "name": "대성쎌틱",
+      "supportUrl": "https:\/\/www.celtic.co.kr\/?act=board&bbs_code=faq&ch=customer",
+      "note": "자주하는 질문 · 에러코드 조회에서 옮겼어요"
+    },
+    {
+      "id": "navien",
+      "name": "경동나비엔",
+      "supportUrl": "https:\/\/www.navienhouse.com\/support",
+      "note": "아직 확인한 코드표가 없어요 — 설명서나 고객지원에서 모델명과 함께 확인해요"
+    },
+    {
+      "id": "rinnai",
+      "name": "린나이",
+      "supportUrl": "",
+      "note": "아직 확인한 코드표가 없어요 — 설명서나 본체 옆 스티커의 고객센터로 확인해요"
+    },
+    {
+      "id": "etc",
+      "name": "그 밖",
+      "supportUrl": "",
+      "note": "설명서나 본체 옆 스티커의 고객센터로 확인해요"
+    }
+  ],
+  "families": [
+    {
+      "id": "krb-l10",
+      "maker": "kiturami",
+      "title": "가스보일러 · E 세 자리 코드",
+      "hint": "패널 숫자가 E로 시작하는 세 자리(E003·E294 같은)면 이 계열 · 기준 모델 「거꾸로 NEW 콘덴싱 L10」",
+      "sourceUrl": "https:\/\/krb.co.kr\/self\/26609",
+      "codes": [
+        {
+          "codes": [
+            "E001",
+            "E002",
+            "E003"
+          ],
+          "title": "점화가 안 됨",
+          "meaning": "불꽃 감지에 이상이 생겨 점화가 안 되거나 붙었다가 바로 안전차단된 상태예요. 고장보다 바깥 조건 때문에 잠깐 생기기도 해요.",
+          "zone": "IGNITION",
+          "tries": [
+            "실내온도조절기의 전원·재가동 버튼으로 다시 켜 보기",
+            "보일러에 이어진 가스 중간밸브가 열려 있는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E106"
+          ],
+          "title": "송풍기 회전 감지 안 됨",
+          "meaning": "보일러 안 송풍기 회전수가 감지되지 않는 상태예요.",
+          "zone": "EXHAUST",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E107",
+            "E622"
+          ],
+          "title": "배기·응축수 배출 불량",
+          "meaning": "연통이 막히거나 응축수 트랩에 이물질이 껴서 배출이 잘 안 될 때 떠요.",
+          "zone": "EXHAUST",
+          "tries": [
+            "급배기통이 찌그러지거나 막히지 않았는지 눈으로 보기",
+            "응축수 배출 호스가 꺾이거나 막히지 않았는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E204",
+            "E214",
+            "E215",
+            "E234"
+          ],
+          "title": "센서 이상",
+          "meaning": "보일러 안 센서부에 이상이 생긴 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E294"
+          ],
+          "title": "난방수 부족",
+          "meaning": "보일러 안 난방수가 모자라 보일러를 멈춘 상태예요.",
+          "zone": "WATER",
+          "tries": [
+            "보일러 전원 코드를 뺐다가 다시 꽂기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E297"
+          ],
+          "title": "가스 누설 · 배기가스 역류",
+          "meaning": "보일러 안에서 가스가 새거나 역풍으로 배기가스가 들어왔을 때 떠요.",
+          "zone": "GAS",
+          "tries": [],
+          "stop": false,
+          "danger": true
+        },
+        {
+          "codes": [
+            "E212",
+            "E313"
+          ],
+          "title": "난방 순환 불량",
+          "meaning": "난방 배관이 막히거나 물이 잘 돌지 않을 때 떠요.",
+          "zone": "HEAT",
+          "tries": [
+            "난방 분배기 밸브가 모두 잠겨 있지 않은지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E316",
+            "E396",
+            "E399"
+          ],
+          "title": "과열 안전장치 작동",
+          "meaning": "물 온도가 너무 올라 안전을 위해 멈춘 상태예요. 순환펌프가 돌며 물 온도를 낮춰요.",
+          "zone": "HEAT",
+          "tries": [
+            "보일러가 스스로 물 온도를 낮출 때까지 잠시 기다리기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E491",
+            "E495"
+          ],
+          "title": "난방수 부족(직수)",
+          "meaning": "난방수가 모자라 멈춘 상태예요. 집으로 들어오는 수돗물이 끊겼을 때도 떠요.",
+          "zone": "WATER",
+          "tries": [
+            "수돗물(직수)이 끊기지 않았는지, 직수 밸브가 열려 있는지 보기",
+            "보일러 전원 코드를 뺐다가 다시 꽂기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E492"
+          ],
+          "title": "난방 배관 누수",
+          "meaning": "난방 배관 어딘가에서 물이 새는 상태예요. 설치 초기엔 공기빼기 때문에 뜨기도 해요.",
+          "zone": "WATER",
+          "tries": [
+            "분배기·난방 배관에 물 샌 자국이 없는지 보기",
+            "보일러 전원 코드를 뺐다가 다시 꽂기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E508"
+          ],
+          "title": "통신 이상",
+          "meaning": "보일러와 조절기 사이 통신이 안 되는 상태예요.",
+          "zone": "LINK",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E621",
+            "E495"
+          ],
+          "title": "지진감지기 작동",
+          "meaning": "지진감지기가 작동한 상태예요(지진이 났을 때).",
+          "zone": "ETC",
+          "tries": [
+            "보일러가 기울어지지 않았는지 설치 상태를 눈으로 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E632"
+          ],
+          "title": "믹싱밸브 이상",
+          "meaning": "믹싱밸브가 제대로 움직이지 않는 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E646"
+          ],
+          "title": "가스밸브 제어 이상",
+          "meaning": "비례제어 가스밸브가 제대로 움직이지 않는 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E740"
+          ],
+          "title": "설정 스위치 오류",
+          "meaning": "제어부 딥스위치 설정이 맞지 않는 상태예요. 설치·점검 기사가 확인하는 부분이에요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E743"
+          ],
+          "title": "시운전 중 저수위",
+          "meaning": "시운전 중에 물이 모자란 상태가 이어졌을 때 떠요.",
+          "zone": "WATER",
+          "tries": [
+            "분배기·난방 배관에 물 샌 자국이 없는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "E760"
+          ],
+          "title": "제어부 이상",
+          "meaning": "컨트롤(제어부)에 이상이 생긴 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        }
+      ]
+    },
+    {
+      "id": "krb-two",
+      "maker": "kiturami",
+      "title": "가스보일러 · 두 자리 코드(구형)",
+      "hint": "패널에 두 자리 숫자(03·95·98 같은)가 뜨는 예전 가스보일러 · 기준 모델 「거꾸로 콘덴싱」",
+      "sourceUrl": "https:\/\/krb.co.kr\/self\/351",
+      "codes": [
+        {
+          "codes": [
+            "01",
+            "02",
+            "03"
+          ],
+          "title": "점화가 안 됨",
+          "meaning": "불꽃 감지에 이상이 생겨 점화가 안 되거나 붙었다가 바로 안전차단된 상태예요. 버너가 과열됐을 때도 떠요.",
+          "zone": "IGNITION",
+          "tries": [
+            "실내온도조절기의 전원·재가동 버튼으로 다시 켜 보기",
+            "보일러에 이어진 가스 중간밸브가 열려 있는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "04"
+          ],
+          "title": "수온 센서 이상",
+          "meaning": "보일러 안 수온 센서부에 이상이 생긴 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "05"
+          ],
+          "title": "과열 센서 이상",
+          "meaning": "과열 센서가 끊기거나 붙어 작동한 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "06"
+          ],
+          "title": "송풍기 회전 감지 안 됨",
+          "meaning": "보일러 안 송풍기 회전수가 감지되지 않는 상태예요.",
+          "zone": "EXHAUST",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "07"
+          ],
+          "title": "송풍기 회전수 이상",
+          "meaning": "송풍기에 이물질이 꼈거나, 연통이 바람을 심하게 받는 자리에 있을 때 떠요. 자주 뜨면 연통 위치를 손봐야 해요.",
+          "zone": "EXHAUST",
+          "tries": [],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "08"
+          ],
+          "title": "조절기 배선 이상",
+          "meaning": "실내온도조절기 배선이 너무 길거나 다른 전선과 닿아 생기는 현상이에요.",
+          "zone": "LINK",
+          "tries": [],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "14"
+          ],
+          "title": "출탕 센서 이상",
+          "meaning": "보일러 안 출탕 센서부에 이상이 생긴 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "34"
+          ],
+          "title": "응축수 트랩 막힘",
+          "meaning": "응축수 트랩이 막혀 배출이 잘 안 되는 상태예요.",
+          "zone": "EXHAUST",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "91"
+          ],
+          "title": "저수위 지속",
+          "meaning": "물이 모자란 상태가 5분 넘게 이어졌어요.",
+          "zone": "WATER",
+          "tries": [
+            "수돗물(직수)이 끊기지 않았는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "95"
+          ],
+          "title": "물 부족",
+          "meaning": "보일러 안 물이 모자랄 때 떠요. 자동으로 물이 보충되면 다시 돌아가요.",
+          "zone": "WATER",
+          "tries": [
+            "자동 물보충이 끝날 때까지 잠시 기다리기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "96"
+          ],
+          "title": "과열 안전장치 작동",
+          "meaning": "물 온도가 너무 올라 안전을 위해 멈춘 상태예요. 순환펌프가 돌며 물 온도를 낮춰요.",
+          "zone": "HEAT",
+          "tries": [
+            "보일러가 스스로 물 온도를 낮출 때까지 잠시 기다리기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "97"
+          ],
+          "title": "가스 누설 경보",
+          "meaning": "가스 배관에서 가스가 새고 있다는 표시예요(경보기가 있는 모델).",
+          "zone": "GAS",
+          "tries": [],
+          "stop": false,
+          "danger": true
+        },
+        {
+          "codes": [
+            "98"
+          ],
+          "title": "배기 과열 · 지진감지",
+          "meaning": "버너·배기 과열 안전장치나 지진감지 센서가 작동한 상태예요.",
+          "zone": "EXHAUST",
+          "tries": [],
+          "stop": false,
+          "danger": false
+        }
+      ]
+    },
+    {
+      "id": "krb-oil",
+      "maker": "kiturami",
+      "title": "기름보일러 · 두 자리 코드",
+      "hint": "기름(등유)을 쓰는 보일러 · 기준 모델 「스텐 하이핀 L10」",
+      "sourceUrl": "https:\/\/krb.co.kr\/self\/26706",
+      "codes": [
+        {
+          "codes": [
+            "01",
+            "02",
+            "03"
+          ],
+          "title": "점화가 안 됨",
+          "meaning": "불꽃 감지에 이상이 생겨 점화가 안 되거나 붙었다가 바로 안전차단된 상태예요. 바깥 조건 때문에 잠깐 생기기도 해요.",
+          "zone": "IGNITION",
+          "tries": [
+            "실내온도조절기의 전원·재가동 버튼으로 다시 켜 보기",
+            "기름 밸브가 잠겨 있지 않은지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "04"
+          ],
+          "title": "수온 센서 이상",
+          "meaning": "보일러 안 수온 센서부에 이상이 생긴 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "05"
+          ],
+          "title": "과열 센서 이상",
+          "meaning": "보일러 안 과열 센서부에 이상이 생긴 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "06"
+          ],
+          "title": "버너 모터팬 감지 안 됨",
+          "meaning": "버너 모터팬이 도는 게 감지되지 않는 상태예요.",
+          "zone": "EXHAUST",
+          "tries": [
+            "실내온도조절기의 전원·재가동 버튼으로 다시 켜 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "08"
+          ],
+          "title": "조절기 배선 이상",
+          "meaning": "실내온도조절기 배선이 너무 길거나 다른 전선과 닿아 생기는 현상이에요.",
+          "zone": "LINK",
+          "tries": [],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "92"
+          ],
+          "title": "저수위 · 자동급수 지속",
+          "meaning": "물이 모자라 자동급수가 10분 넘게 켜져 있을 때 떠요.",
+          "zone": "WATER",
+          "tries": [
+            "보충수 밸브가 잠겨 있지 않은지 보기",
+            "분배기·난방 배관에 물 샌 자국이 없는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "95"
+          ],
+          "title": "물 부족",
+          "meaning": "보일러 안 물이 모자랄 때 떠요. 물보충 밸브로 직접 채워야 하는 모델이에요.",
+          "zone": "WATER",
+          "tries": [
+            "설명서 순서대로 물보충 밸브로 물 채우기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "96"
+          ],
+          "title": "과열 안전장치 작동",
+          "meaning": "물 온도가 너무 올라 안전을 위해 멈춘 상태예요. 순환펌프가 돌며 물 온도를 낮춰요.",
+          "zone": "HEAT",
+          "tries": [
+            "보일러가 스스로 물 온도를 낮출 때까지 잠시 기다리기"
+          ],
+          "stop": false,
+          "danger": false
+        }
+      ]
+    },
+    {
+      "id": "celtic-cond",
+      "maker": "celtic",
+      "title": "콘덴싱 가스보일러 · A 코드",
+      "hint": "패널에 A로 시작하는 코드(A6·AF 같은)가 뜨는 가스보일러",
+      "sourceUrl": "https:\/\/www.celtic.co.kr\/?act=board&bbs_code=faq&ch=customer&good_cate2=GD0000&good_cate3=GD000000",
+      "codes": [
+        {
+          "codes": [
+            "AE"
+          ],
+          "title": "역압 · 가스경보기",
+          "meaning": "배기가 잘 안 빠지거나, 가스경보기가 있는 모델이면 경보기가 작동했을 때 떠요.",
+          "zone": "GAS",
+          "tries": [
+            "바깥 연통 끝에 고드름·이물질이 막혀 있지 않은지 눈으로 보기"
+          ],
+          "stop": false,
+          "danger": true
+        },
+        {
+          "codes": [
+            "AD",
+            "13"
+          ],
+          "title": "응축수 센서",
+          "meaning": "응축수가 빠지지 않을 때 떠요.",
+          "zone": "EXHAUST",
+          "tries": [
+            "응축수 배출 호스가 꺾이거나 막히지 않았는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "AC"
+          ],
+          "title": "온수 온도센서 이상",
+          "meaning": "온수 온도센서가 끊기거나 붙었을 때 떠요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "AB"
+          ],
+          "title": "난방 온도센서 이상",
+          "meaning": "난방 온도센서가 끊기거나 붙었을 때 떠요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "AA",
+            "10"
+          ],
+          "title": "센서 과열 · 순환 문제",
+          "meaning": "난방수가 잘 돌지 않아 물 온도가 너무 올랐을 때 떠요. 물이 식으면 저절로 풀려요.",
+          "zone": "HEAT",
+          "tries": [
+            "난방 분배기 밸브가 모두 잠겨 있지 않은지 보기",
+            "난방수가 식은 뒤 설명서 순서대로 난방 필터 청소"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A9"
+          ],
+          "title": "동파 예방 동작",
+          "meaning": "난방수 온도가 내려가 동파를 막으려고 연소하는 중이에요. 온도가 오르면 저절로 풀려요.",
+          "zone": "FREEZE",
+          "tries": [
+            "물 온도가 오를 때까지 잠시 기다리기",
+            "다시 가동해 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A8"
+          ],
+          "title": "화염 감지 이상",
+          "meaning": "불이 꺼져 있는데 불꽃 신호가 잡힐 때 떠요.",
+          "zone": "IGNITION",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A7",
+            "7"
+          ],
+          "title": "거버너 릴레이 불량",
+          "meaning": "제어 기판 부품이 제대로 동작하지 않는 상태예요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A6"
+          ],
+          "title": "점화 불량",
+          "meaning": "점화를 세 번 해도 불꽃이 감지되지 않을 때 떠요.",
+          "zone": "IGNITION",
+          "tries": [
+            "보일러에 이어진 가스 중간밸브가 열려 있는지 보기",
+            "가스레인지 같은 다른 가스기기가 켜지는지 보기 — 다 안 켜지면 도시가스 쪽에 문의"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A5"
+          ],
+          "title": "물 없음 · 펌프 멈춤",
+          "meaning": "배관에 물이 없거나 펌프가 돌지 않을 때 떠요.",
+          "zone": "WATER",
+          "tries": [
+            "압력계가 있는 모델이면 0을 가리킬 때 물을 채우고 다시 가동"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A4"
+          ],
+          "title": "과열",
+          "meaning": "가동 중 난방수 온도가 비정상적으로 올라 멈춘 상태예요.",
+          "zone": "HEAT",
+          "tries": [
+            "난방 분배기 밸브가 모두 잠겨 있지 않은지 보기",
+            "난방수가 식은 뒤 난방 필터가 막히지 않았는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A3",
+            "3"
+          ],
+          "title": "헛불방지기 · 펌프 이상",
+          "meaning": "헛불방지기나 펌프·물 순환에 이상이 있을 때 떠요.",
+          "zone": "HEAT",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A2"
+          ],
+          "title": "급기팬 작동 불량",
+          "meaning": "팬에 전원이 들어가는데 신호가 잡히지 않을 때 떠요.",
+          "zone": "EXHAUST",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "AF"
+          ],
+          "title": "물보충",
+          "meaning": "보일러에 물이 없다고 인식했을 때 떠요.",
+          "zone": "WATER",
+          "tries": [
+            "물보충 밸브가 아래에 있으면 왼쪽으로 열고, 넘침 호스로 물이 나오거나 압력계가 1~2를 가리키면 오른쪽으로 잠그기",
+            "물보충 밸브가 없으면 자동 보충 모델 — 전원 코드를 뺐다 다시 꽂기",
+            "다시 가동해 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A"
+          ],
+          "title": "물보충",
+          "meaning": "보일러에 물이 없다고 인식했을 때 떠요.",
+          "zone": "WATER",
+          "tries": [
+            "물보충 밸브가 아래에 있으면 왼쪽으로 열고, 넘침 호스로 물이 나오거나 압력계가 1~2를 가리키면 오른쪽으로 잠그기",
+            "물보충 밸브가 없으면 자동 보충 모델 — 전원 코드를 뺐다 다시 꽂기",
+            "다시 가동해 보기"
+          ],
+          "stop": false,
+          "danger": false
+        }
+      ]
+    },
+    {
+      "id": "celtic-oil",
+      "maker": "celtic",
+      "title": "기름보일러 · A 코드",
+      "hint": "기름(등유)을 쓰는 보일러 · 램프로 표시되는 모델도 있어요",
+      "sourceUrl": "https:\/\/www.celtic.co.kr\/?act=board&bbs_code=faq&ch=customer&good_cate2=GD0000&good_cate3=GD000002",
+      "codes": [
+        {
+          "codes": [
+            "AB"
+          ],
+          "title": "난방 온도센서 이상",
+          "meaning": "난방 온도센서가 끊기거나 붙었을 때 떠요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "AA"
+          ],
+          "title": "센서 과열",
+          "meaning": "온도센서가 과열됐을 때 떠요.",
+          "zone": "SENSOR",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A9"
+          ],
+          "title": "동파 경고",
+          "meaning": "난방 돌아오는 물 온도가 5℃ 밑으로 떨어졌을 때 떠요(동파 램프). 배관이 얼었으면 따로 조치가 필요해요.",
+          "zone": "FREEZE",
+          "tries": [],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A8"
+          ],
+          "title": "화염 감지 이상",
+          "meaning": "펌프가 돌기 전에 불꽃이 감지됐을 때 떠요.",
+          "zone": "IGNITION",
+          "tries": [],
+          "stop": true,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A6"
+          ],
+          "title": "점화 불량",
+          "meaning": "점화가 안 될 때 떠요(안전차단 램프).",
+          "zone": "IGNITION",
+          "tries": [
+            "기름탱크에 기름이 남아 있는지 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A4"
+          ],
+          "title": "과열",
+          "meaning": "난방수가 너무 뜨거워 과열방지 스위치가 연소를 끊었을 때 떠요(과열 램프).",
+          "zone": "HEAT",
+          "tries": [
+            "다시 가동해 보기"
+          ],
+          "stop": false,
+          "danger": false
+        },
+        {
+          "codes": [
+            "A"
+          ],
+          "title": "물보충 · 저수위",
+          "meaning": "팽창탱크 난방수가 정해진 수위 밑으로 내려갔을 때 떠요(저수위 램프). 자동 보충이 끝나면 풀려요.",
+          "zone": "WATER",
+          "tries": [
+            "자동 물보충이 끝날 때까지 잠시 기다리기",
+            "팽창탱크 난방수 수위 보기"
+          ],
+          "stop": false,
+          "danger": false
+        }
+      ]
+    }
+  ],
+  "inspectMonth": 10,
+  "pressureDays": 30,
+  "filterDays": 90,
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
