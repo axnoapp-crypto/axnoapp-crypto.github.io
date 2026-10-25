@@ -1,0 +1,578 @@
+{
+  "_읽을것": [
+    "소비자분쟁해결기준(공정위 고시) 별표 Ⅱ·Ⅲ·Ⅳ 와 소비자기본법 시행령 별표 1 원문(law.go.kr)에서 확인한 값만 싣는다",
+    "모르는 칸은 0 으로 — 앱은 그 칸을 「확인 필요」로 보여 준다",
+    "categories[].warrantyMonths = 품질보증기간(개월) · partsYears = 부품보유기간(년, 제조일부터) · core = 핵심부품 무상수리 기간",
+    "categories[].early = 10일·1개월 교환 규정(공산품 ①·②)을 쓰나 · fromLastSale = 부품보유를 최종 판매일부터 센다(자동차)",
+    "categories[].id 는 저장 키라 바꾸지 마라 · 'etc' 는 지우지 마라",
+    "earlyRefundDays 10 · earlySwapMonths 1 · sameRepairs 2 · multiRepairs 4 · bonusPct 10 · noReceiptMonths 3 · delayMonths 1 · paidRecurMonths 2",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "categories": [
+    {
+      "id": "fridge",
+      "name": "냉장고",
+      "group": "가전",
+      "glyph": "fridge",
+      "warrantyMonths": 12,
+      "partsYears": 9,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "컴프레서",
+          "months": 36,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "tv",
+      "name": "TV",
+      "group": "가전",
+      "glyph": "tv",
+      "warrantyMonths": 12,
+      "partsYears": 9,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "LCD·LED 패널",
+          "months": 24,
+          "km": 0
+        }
+      ],
+      "note": "패널은 확인 가능한 타이머가 5,000시간을 넘으면 기간이 끝난 것으로 봐요"
+    },
+    {
+      "id": "washer",
+      "name": "세탁기",
+      "group": "가전",
+      "glyph": "washer",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "모터",
+          "months": 36,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "dryer",
+      "name": "의류건조기",
+      "group": "가전",
+      "glyph": "washer",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "컴프레서",
+          "months": 36,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "styler",
+      "name": "의류관리기",
+      "group": "가전",
+      "glyph": "fridge",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "컴프레서",
+          "months": 36,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "vacuum",
+      "name": "전기청소기",
+      "group": "가전",
+      "glyph": "box",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "audio",
+      "name": "전축",
+      "group": "가전",
+      "glyph": "tv",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "massage",
+      "name": "안마의자",
+      "group": "가전",
+      "glyph": "box",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "bidet",
+      "name": "비데",
+      "group": "가전",
+      "glyph": "box",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "aircon_cool",
+      "name": "에어컨(냉방 전용)",
+      "group": "냉난방",
+      "glyph": "aircon",
+      "warrantyMonths": 24,
+      "partsYears": 8,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "컴프레서",
+          "months": 48,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "aircon_both",
+      "name": "에어컨(냉난방 겸용)",
+      "group": "냉난방",
+      "glyph": "aircon",
+      "warrantyMonths": 12,
+      "partsYears": 8,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "컴프레서",
+          "months": 48,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "boiler",
+      "name": "보일러",
+      "group": "냉난방",
+      "glyph": "boiler",
+      "warrantyMonths": 24,
+      "partsYears": 8,
+      "early": false,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "heater",
+      "name": "난로(전기·가스·기름)",
+      "group": "냉난방",
+      "glyph": "heater",
+      "warrantyMonths": 24,
+      "partsYears": 5,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "팬히터·로터리히터 버너",
+          "months": 36,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "emat",
+      "name": "전기장판",
+      "group": "냉난방",
+      "glyph": "heater",
+      "warrantyMonths": 24,
+      "partsYears": 5,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "fan",
+      "name": "선풍기·냉풍기",
+      "group": "냉난방",
+      "glyph": "heater",
+      "warrantyMonths": 24,
+      "partsYears": 5,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "humid",
+      "name": "가습기·제습기",
+      "group": "냉난방",
+      "glyph": "box",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "purifier",
+      "name": "정수기",
+      "group": "주방·생활",
+      "glyph": "fridge",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "microwave",
+      "name": "전자레인지",
+      "group": "주방·생활",
+      "glyph": "cooker",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "마그네트론",
+          "months": 36,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "ricecooker",
+      "name": "전기압력밥솥",
+      "group": "주방·생활",
+      "glyph": "cooker",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "oven",
+      "name": "전기(가스)오븐",
+      "group": "주방·생활",
+      "glyph": "cooker",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "gasrange",
+      "name": "가스레인지",
+      "group": "주방·생활",
+      "glyph": "cooker",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "waterheater",
+      "name": "전기온수기·냉온수기",
+      "group": "주방·생활",
+      "glyph": "boiler",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "mixer",
+      "name": "믹서기",
+      "group": "주방·생활",
+      "glyph": "cooker",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "smallcook",
+      "name": "전기조리기기(멀티쿠커·튀김기·토스터 등)",
+      "group": "주방·생활",
+      "glyph": "cooker",
+      "warrantyMonths": 12,
+      "partsYears": 3,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "hairdryer",
+      "name": "헤어드라이어·전기면도기",
+      "group": "주방·생활",
+      "glyph": "box",
+      "warrantyMonths": 12,
+      "partsYears": 3,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "smartphone",
+      "name": "스마트폰·휴대폰",
+      "group": "디지털",
+      "glyph": "phone",
+      "warrantyMonths": 24,
+      "partsYears": 4,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 12,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "desktop",
+      "name": "데스크탑(완성품)",
+      "group": "디지털",
+      "glyph": "laptop",
+      "warrantyMonths": 12,
+      "partsYears": 4,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "메인보드",
+          "months": 24,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "laptop",
+      "name": "노트북",
+      "group": "디지털",
+      "glyph": "laptop",
+      "warrantyMonths": 12,
+      "partsYears": 4,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [
+        {
+          "name": "메인보드",
+          "months": 24,
+          "km": 0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "tablet",
+      "name": "태블릿",
+      "group": "디지털",
+      "glyph": "phone",
+      "warrantyMonths": 12,
+      "partsYears": 4,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "homephone",
+      "name": "유·무선전화기",
+      "group": "디지털",
+      "glyph": "phone",
+      "warrantyMonths": 12,
+      "partsYears": 6,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "camera",
+      "name": "카메라·내비게이션",
+      "group": "디지털",
+      "glyph": "box",
+      "warrantyMonths": 12,
+      "partsYears": 5,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "car",
+      "name": "자동차",
+      "group": "차",
+      "glyph": "car",
+      "warrantyMonths": 24,
+      "partsYears": 8,
+      "early": false,
+      "km": 40000,
+      "batteryMonths": 0,
+      "fromLastSale": true,
+      "core": [
+        {
+          "name": "원동기·동력전달·고전원전기장치",
+          "months": 36,
+          "km": 60000
+        },
+        {
+          "name": "외판 관통부식",
+          "months": 60,
+          "km": 0
+        }
+      ],
+      "note": "차체·일반부품 기준이에요. 출고 때 달린 내장형 내비게이션도 들어가요"
+    },
+    {
+      "id": "motorcycle",
+      "name": "모터사이클",
+      "group": "차",
+      "glyph": "car",
+      "warrantyMonths": 12,
+      "partsYears": 7,
+      "early": false,
+      "km": 10000,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    },
+    {
+      "id": "etc",
+      "name": "그 밖(비슷한 품목이 없을 때)",
+      "group": "그 밖",
+      "glyph": "box",
+      "warrantyMonths": 12,
+      "partsYears": 5,
+      "early": true,
+      "km": 0,
+      "batteryMonths": 0,
+      "fromLastSale": false,
+      "core": [],
+      "note": ""
+    }
+  ],
+  "earlyRefundDays": 10,
+  "earlySwapMonths": 1,
+  "sameRepairs": 2,
+  "multiRepairs": 4,
+  "bonusPct": 10,
+  "noReceiptMonths": 3,
+  "delayMonths": 1,
+  "paidRecurMonths": 2,
+  "notice": "",
+  "reviewBy": "2026-12-31"
+}
