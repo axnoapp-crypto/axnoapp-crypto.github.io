@@ -1,0 +1,57 @@
+{
+  "_읽을것": [
+    "소득세법(law.go.kr) 본문에서 확인한 값만 싣는다 — lawAsOf 는 근거 법령의 시행일",
+    "basicPerPerson = 기본공제 1명당 금액(§50①) · incomeLimit = 소득금액 합계 상한 · wageOnlyLimit = 근로소득만 있을 때 총급여 상한",
+    "parentMinAge·childMaxAge·siblingMaxAge·siblingMinAge = §50①3 나이 요건 · elderAge = §51 경로우대",
+    "elderExtra·disabledExtra·singleParentExtra·womanExtra(womanIncomeCap) = §51 추가공제",
+    "wageBrackets = §47 근로소득공제 구간(over 초과분 × ratePct% + base) · wageDeductCap = 공제 상한",
+    "개정이 공포되면 값을 고치고 lawAsOf·updatedAt·reviewBy 를 바꾼다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "lawAsOf": "2026-01-01",
+  "basicPerPerson": 1500000,
+  "incomeLimit": 1000000,
+  "wageOnlyLimit": 5000000,
+  "parentMinAge": 60,
+  "childMaxAge": 20,
+  "siblingMaxAge": 20,
+  "siblingMinAge": 60,
+  "elderAge": 70,
+  "elderExtra": 1000000,
+  "disabledExtra": 2000000,
+  "singleParentExtra": 1000000,
+  "womanExtra": 500000,
+  "womanIncomeCap": 30000000,
+  "wageBrackets": [
+    {
+      "over": 0,
+      "base": 0,
+      "ratePct": 70
+    },
+    {
+      "over": 5000000,
+      "base": 3500000,
+      "ratePct": 40
+    },
+    {
+      "over": 15000000,
+      "base": 7500000,
+      "ratePct": 15
+    },
+    {
+      "over": 45000000,
+      "base": 12000000,
+      "ratePct": 5
+    },
+    {
+      "over": 100000000,
+      "base": 14750000,
+      "ratePct": 2
+    }
+  ],
+  "wageDeductCap": 20000000,
+  "notice": "",
+  "reviewBy": "2027-01-15"
+}
