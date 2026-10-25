@@ -1,0 +1,61 @@
+{
+  "_읽을것": [
+    "rate = 연납 계산식의 이자율(지방세법 시행령 제125조제6항) — 현행 0.05. 개정되면 이 칸만 고친다",
+    "capRate = 공제 상한(지방세법 제128조제3항 「100분의 10의 범위」)",
+    "windows = 연납 신청 창(지방세법 제128조제3항 표). kind 는 저장 키라 바꾸지 마라 — 계산식은 kind 별로 앱에 있다",
+    "eduRate = 지방교육세율(자동차세액의 100분의 30) · ccRates·otherPassengerWon·ageCutPerYear·ageMax = 비영업용 승용 연세액 근사(제127조)",
+    "smallAnnualMax = 연세액이 이 금액 이하면 1기분 때 한꺼번에 고지될 수 있다(제128조제4항)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "rate": 0.05,
+  "capRate": 0.1,
+  "windows": [
+    {
+      "kind": "JAN",
+      "month": 1,
+      "fromDay": 16,
+      "toDay": 31
+    },
+    {
+      "kind": "MAR",
+      "month": 3,
+      "fromDay": 16,
+      "toDay": 31
+    },
+    {
+      "kind": "JUN",
+      "month": 6,
+      "fromDay": 16,
+      "toDay": 30
+    },
+    {
+      "kind": "SEP",
+      "month": 9,
+      "fromDay": 16,
+      "toDay": 30
+    }
+  ],
+  "eduRate": 0.3,
+  "ccRates": [
+    {
+      "maxCc": 1000,
+      "wonPerCc": 80
+    },
+    {
+      "maxCc": 1600,
+      "wonPerCc": 140
+    },
+    {
+      "maxCc": 0,
+      "wonPerCc": 200
+    }
+  ],
+  "otherPassengerWon": 100000,
+  "ageCutPerYear": 0.05,
+  "ageMax": 12,
+  "smallAnnualMax": 100000,
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
