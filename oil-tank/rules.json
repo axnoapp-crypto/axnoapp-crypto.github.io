@@ -1,0 +1,19 @@
+{
+  "_읽을것": [
+    "등유 가격은 싣지 않는다 — 사용자가 주유 영수증으로 넣는다. priceUrl 은 가격을 직접 확인하는 페이지 링크뿐(https 전체 경로 · 비우면 링크 줄을 숨긴다)",
+    "특정 주유소·업체를 추천하는 링크를 넣지 마라",
+    "drumL·defaultReserveL·defaultLeadDays·readEveryDays 는 참고치 시작값 — 사용자가 이미 바꾼 값은 덮지 않는다",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "priceName": "오피넷 · 지역별 실내등유·보일러등유 가격",
+  "priceUrl": "https:\/\/www.opinet.co.kr\/user\/dopospdrg\/dopOsPdrgSelect.do",
+  "drumL": 200,
+  "defaultReserveL": 20,
+  "defaultLeadDays": 5,
+  "readEveryDays": 7,
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
