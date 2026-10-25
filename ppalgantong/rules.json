@@ -1,0 +1,31 @@
+{
+  "_읽을것": [
+    "law.go.kr 원문에서 확인한 값만 싣는다 — 모르면 빈칸(앱은 「확인 필요」)",
+    "powderLifeYears = 분말소화기 내용연수(소방시설법 시행령 제19조) · 0 이면 확인 필요",
+    "carFrom = 차량용 소화기 의무 시행일(소방시설법 제11조 · 부칙 제1조) · 빈칸이면 확인 필요",
+    "carTypes = car5(5인승 이상 승용) · van(승합) · truck(화물) · special(특수) 중 대상 — car4(4인승 이하 승용)는 넣지 마라",
+    "homeTypes = detached(단독주택) · multi(아파트·기숙사를 뺀 공동주택) 중 대상 — apt·dorm 을 넣지 마라",
+    "감지기 배터리 주기·압력계 범위는 법령에 없어 싣지 않는다(제품 설명서 몫)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "powderLifeYears": 10,
+  "carFrom": "2024-12-01",
+  "carTypes": [
+    "car5",
+    "special",
+    "truck",
+    "van"
+  ],
+  "homeItems": [
+    "소화기",
+    "단독경보형 감지기"
+  ],
+  "homeTypes": [
+    "detached",
+    "multi"
+  ],
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
