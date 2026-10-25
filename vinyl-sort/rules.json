@@ -1,0 +1,251 @@
+{
+  "_읽을것": [
+    "items = 품목 도감. 버리는 곳은 앱이 kind·dirt·mix 세 답으로 판정한다(품목마다 결과를 적지 않는다)",
+    "kind: pack(포장재·봉투) · goods(비닐 생활용품) · unsure(모름) \/ dirt: none · rinse · stuck \/ mix: single · layer · attach · fixed",
+    "steps 의 bins 는 vinyl · general · check 중 그 줄이 나오는 판정. only 는 rinse · attach · stuck · layer 답일 때만",
+    "판정 근거는 재활용가능자원 분리수거 지침 별표 1 비닐류 칸이다 — 지자체가 조정할 수 있어 화면은 늘 우리 동네 확인을 붙인다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "items": [
+    {
+      "id": "snack",
+      "name": "과자봉지",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "layer",
+      "note": "안쪽이 은색이어도 포장재 비닐 · 부스러기를 털어요"
+    },
+    {
+      "id": "ramen",
+      "name": "라면봉지",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "single",
+      "note": "스프 가루를 털고 접어요"
+    },
+    {
+      "id": "sauce",
+      "name": "소스 봉지",
+      "kind": "pack",
+      "dirt": "rinse",
+      "mix": "single",
+      "note": "작은 봉지도 비닐류 · 헹궈서 물기를 빼요"
+    },
+    {
+      "id": "bag",
+      "name": "비닐봉투",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "single",
+      "note": "1회용 봉투 · 색이 있어도 비닐류"
+    },
+    {
+      "id": "parcel",
+      "name": "택배 비닐",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "attach",
+      "note": "송장·테이프를 떼고 모아요"
+    },
+    {
+      "id": "bubble",
+      "name": "뽁뽁이",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "single",
+      "note": "에어캡 · 필름·시트형 포장재"
+    },
+    {
+      "id": "wrap",
+      "name": "깨끗한 랩",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "single",
+      "note": "랩필름도 깨끗하면 비닐류"
+    },
+    {
+      "id": "frozen",
+      "name": "냉동식품 봉지",
+      "kind": "pack",
+      "dirt": "rinse",
+      "mix": "layer",
+      "note": "헹궈서 물기를 털어요"
+    },
+    {
+      "id": "stick",
+      "name": "커피 스틱",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "layer",
+      "note": "작은 포장재도 비닐류 · 가루를 털어요"
+    },
+    {
+      "id": "laundry",
+      "name": "세탁소 비닐",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "attach",
+      "note": "옷걸이·종이 꼬리표는 떼요"
+    },
+    {
+      "id": "bread",
+      "name": "빵 봉지",
+      "kind": "pack",
+      "dirt": "none",
+      "mix": "attach",
+      "note": "묶음 끈·스티커는 떼요"
+    },
+    {
+      "id": "wrapdirty",
+      "name": "음식 묻은 랩",
+      "kind": "pack",
+      "dirt": "stuck",
+      "mix": "single",
+      "note": "깨끗이 안 지워진 랩은 종량제"
+    },
+    {
+      "id": "cloth",
+      "name": "비닐 식탁보",
+      "kind": "goods",
+      "dirt": "none",
+      "mix": "single",
+      "note": "포장재가 아니라 종량제"
+    },
+    {
+      "id": "glove",
+      "name": "고무장갑",
+      "kind": "goods",
+      "dirt": "none",
+      "mix": "single",
+      "note": "비닐류가 아니에요"
+    },
+    {
+      "id": "mat",
+      "name": "돗자리",
+      "kind": "goods",
+      "dirt": "none",
+      "mix": "single",
+      "note": "크면 대형폐기물 · 우리 동네 조례"
+    },
+    {
+      "id": "floor",
+      "name": "장판",
+      "kind": "goods",
+      "dirt": "none",
+      "mix": "single",
+      "note": "크면 대형폐기물 · 우리 동네 조례"
+    },
+    {
+      "id": "rain",
+      "name": "비닐 우의",
+      "kind": "unsure",
+      "dirt": "none",
+      "mix": "single",
+      "note": "기준 품목에 없어요 · 참고"
+    },
+    {
+      "id": "poly",
+      "name": "위생장갑",
+      "kind": "unsure",
+      "dirt": "none",
+      "mix": "single",
+      "note": "일회용 비닐장갑 · 기준 품목에 없어요"
+    }
+  ],
+  "steps": [
+    {
+      "id": "empty",
+      "label": "내용물을 비워요",
+      "note": "부스러기·가루·물기를 털어요",
+      "bins": [
+        "vinyl"
+      ],
+      "only": ""
+    },
+    {
+      "id": "rinse",
+      "label": "물로 헹궈 이물질을 없애요",
+      "note": "기름·양념이 남지 않게",
+      "bins": [
+        "vinyl"
+      ],
+      "only": "rinse"
+    },
+    {
+      "id": "detach",
+      "label": "다른 재질은 떼어 내요",
+      "note": "송장·테이프·스티커·종이 꼬리표",
+      "bins": [
+        "vinyl"
+      ],
+      "only": "attach"
+    },
+    {
+      "id": "layer",
+      "label": "은박·여러 겹은 그대로 둬요",
+      "note": "벗기지 않아도 돼요",
+      "bins": [
+        "vinyl"
+      ],
+      "only": "layer"
+    },
+    {
+      "id": "bag",
+      "label": "투명·반투명 봉투에 모아요",
+      "note": "흩날리지 않게 한 봉투에",
+      "bins": [
+        "vinyl"
+      ],
+      "only": ""
+    },
+    {
+      "id": "day",
+      "label": "우리 동네 비닐류 요일에 내놓아요",
+      "note": "요일·장소는 지자체마다 달라요",
+      "bins": [
+        "vinyl"
+      ],
+      "only": ""
+    },
+    {
+      "id": "general",
+      "label": "종량제봉투에 넣어요",
+      "note": "큰 것은 대형폐기물·특수규격마대 · 우리 동네 조례",
+      "bins": [
+        "general"
+      ],
+      "only": ""
+    },
+    {
+      "id": "tryclean",
+      "label": "비닐류로 내려면 먼저 깨끗이",
+      "note": "헹궈서 지워지면 다시 판정해요",
+      "bins": [
+        "general"
+      ],
+      "only": "stuck"
+    },
+    {
+      "id": "site",
+      "label": "구청·시청 누리집의 재활용 배출 안내를 봐요",
+      "note": "품목 이름으로 찾아요",
+      "bins": [
+        "check"
+      ],
+      "only": ""
+    },
+    {
+      "id": "hold",
+      "label": "확인 전엔 비닐류 봉투에 섞지 않아요",
+      "note": "섞이면 봉투째 재활용이 어려워요",
+      "bins": [
+        "check"
+      ],
+      "only": ""
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
