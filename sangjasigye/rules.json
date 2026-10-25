@@ -1,0 +1,39 @@
+{
+  "_읽을것": [
+    "정본 = 전자상거래법 §17·§18 · 방문판매법 §8·§9 · 할부거래법 §8·§10 과 각 시행령 — law.go.kr 원문에서 확인한 값만 싣는다",
+    "onlineDays·doorDays·installmentDays = 받은 날(공급받은 날) 다음 날부터 세는 철회 기간",
+    "mismatchMonths·mismatchKnownDays = 표시·광고와 다를 때 공급받은 날부터 몇 달 · 안 날부터 며칠(둘 중 먼저 오는 날이 마감)",
+    "refundBizDays = 판매자가 물건을 돌려받은 날부터 환급까지 영업일 · delayRatePct = 지연배상금 연 이율",
+    "installmentMinWon·installmentCardMinWon = 할부가격이 이 금액 미만이면 할부 철회 불가(신용카드 할부는 뒤 값)",
+    "값이 범위를 벗어나거나 sources 가 비면 앱이 표 전체를 버린다 · notice 는 화면 맨 위 빨간 안내",
+    "법이 바뀌면 숫자를 고치고 updatedAt·reviewBy 를 올린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "onlineDays": 7,
+  "doorDays": 14,
+  "installmentDays": 7,
+  "mismatchMonths": 3,
+  "mismatchKnownDays": 30,
+  "refundBizDays": 3,
+  "delayRatePct": 15,
+  "installmentMinWon": 100000,
+  "installmentCardMinWon": 200000,
+  "notifyHour": 19,
+  "sources": [
+    {
+      "name": "전자상거래법 제17조 청약철회등",
+      "url": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EC%A0%84%EC%9E%90%EC%83%81%EA%B1%B0%EB%9E%98%EB%93%B1%EC%97%90%EC%84%9C%EC%9D%98%EC%86%8C%EB%B9%84%EC%9E%90%EB%B3%B4%ED%98%B8%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0\/%EC%A0%9C17%EC%A1%B0"
+    },
+    {
+      "name": "방문판매법 제8조 청약철회등",
+      "url": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EB%B0%A9%EB%AC%B8%ED%8C%90%EB%A7%A4%EB%93%B1%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0\/%EC%A0%9C8%EC%A1%B0"
+    },
+    {
+      "name": "할부거래법 제8조 청약의 철회",
+      "url": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%ED%95%A0%EB%B6%80%EA%B1%B0%EB%9E%98%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0\/%EC%A0%9C8%EC%A1%B0"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-07-01"
+}
