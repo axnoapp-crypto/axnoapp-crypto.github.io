@@ -1,0 +1,92 @@
+{
+  "_읽을것": [
+    "정본 = 의료급여법 시행령 제13조제5항(본인부담 보상금·상한) · 별표 1(기관별 본인부담). law.go.kr 원문에서 확인한 값만 싣는다",
+    "g1Lo·g1Hi = 1종 월 기준(원) · g1RateLo·g1RateHi = 그 구간 보상률(%) · g1Layered = 5만 초과 달에 2만~5만 구간 50% 도 얹는가",
+    "g2Monthly·g2Rate = 2종 월 기준·보상률 · g2Annual·g2AnnualLong = 2종 연 상한(요양병원 longStayDays 일 초과 입원이면 Long) · g2AnnualRate = 연 상한 초과분 보상률",
+    "minPay = 지급할 금액이 이보다 적으면 지급하지 않음(원)",
+    "copay = 기관별 본인부담. Fixed = 1회·1매당 정액(원), Pct = 정률(%). 둘 다 null 이면 앱은 「확인 필요」",
+    "값을 모르면 null 로 비운다 — 앱은 그 칸을 「확인 필요」로 보이고 셈을 멈춘다. 지어내지 마라",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "g1Lo": 20000,
+  "g1Hi": 50000,
+  "g1RateLo": 50,
+  "g1RateHi": 100,
+  "g1Layered": true,
+  "g2Monthly": 200000,
+  "g2Rate": 50,
+  "g2Annual": 800000,
+  "g2AnnualLong": 1200000,
+  "g2AnnualRate": 100,
+  "longStayDays": 240,
+  "minPay": 2000,
+  "copay": [
+    {
+      "id": "clinic",
+      "title": "의원 외래(1차)",
+      "g1Fixed": 1000,
+      "g1Pct": null,
+      "g2Fixed": 1000,
+      "g2Pct": null,
+      "note": "1회 방문당"
+    },
+    {
+      "id": "hospital",
+      "title": "병원·종합병원 외래(2차)",
+      "g1Fixed": 1500,
+      "g1Pct": null,
+      "g2Fixed": null,
+      "g2Pct": 15,
+      "note": "2종 만성질환 그 질환 외래는 1회 1,000원"
+    },
+    {
+      "id": "tertiary",
+      "title": "상급종합병원 외래(3차)",
+      "g1Fixed": 2000,
+      "g1Pct": null,
+      "g2Fixed": null,
+      "g2Pct": 15,
+      "note": ""
+    },
+    {
+      "id": "pharmacy",
+      "title": "약국(의료기관 처방전)",
+      "g1Fixed": 500,
+      "g1Pct": null,
+      "g2Fixed": 500,
+      "g2Pct": null,
+      "note": "처방전 1매당"
+    },
+    {
+      "id": "inpatient",
+      "title": "입원(1·2·3차)",
+      "g1Fixed": null,
+      "g1Pct": 0,
+      "g2Fixed": null,
+      "g2Pct": 10,
+      "note": "식대·약제 구입금액은 따로 셈"
+    },
+    {
+      "id": "imaging",
+      "title": "CT·MRI·PET 외래",
+      "g1Fixed": null,
+      "g1Pct": 5,
+      "g2Fixed": null,
+      "g2Pct": 15,
+      "note": ""
+    },
+    {
+      "id": "health_center",
+      "title": "보건소·보건지소",
+      "g1Fixed": 0,
+      "g1Pct": null,
+      "g2Fixed": 0,
+      "g2Pct": null,
+      "note": "외래·입원 모두"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
