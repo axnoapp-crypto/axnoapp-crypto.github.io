@@ -1,0 +1,27 @@
+{
+  "_읽을것": [
+    "freeLimitUsd = 자가사용 소액물품 면세 한도(미화 · 운임 제외 · 관세법 시행규칙 제45조②1). 모르면 0(앱은 「확인 필요」)",
+    "usExpressLimitUsd = 한미 FTA 특송 특례 물품의 목록통관 기준(특송물품 수입통관 사무처리에 관한 고시 제9조①) · simpleMaxUsd = 간이신고 특송 상한",
+    "simpleRate* = 간이세율(관세법 시행령 별표 2) — General 기타 15 · Clothing 섬유·가죽 의류·신발 18 · Fur 모피 19. 0~1 사이 소수",
+    "vatRate = 부가가치세율(부가가치세법 제30조) — 관세율을 직접 넣는 품목에만 쓴다",
+    "refundDefectMonths = 계약 내용과 다른 물품 환급 반입 기한(관세법 제106조①) · refundAsIsMonths = 수입한 상태 그대로 수출 기한(제106조의2①) · asIsParcelMaxWon = 탁송·우편 수출신고가격 상한(시행규칙 제58조의2)",
+    "claimYears = 환급청구권 소멸시효(관세법 제22조②)",
+    "합산과세 기준(수입통관 사무처리에 관한 고시 제68조)은 값이 아니라 규칙이라 앱 코드에 있다 — 고시가 바뀌면 notice 로 먼저 알린다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "freeLimitUsd": 150,
+  "usExpressLimitUsd": 200,
+  "simpleMaxUsd": 2000,
+  "simpleRateGeneral": 0.15,
+  "simpleRateClothing": 0.18,
+  "simpleRateFur": 0.19,
+  "vatRate": 0.1,
+  "refundDefectMonths": 12,
+  "refundAsIsMonths": 6,
+  "asIsParcelMaxWon": 2000000,
+  "claimYears": 5,
+  "notice": "",
+  "reviewBy": "2027-01-31"
+}
