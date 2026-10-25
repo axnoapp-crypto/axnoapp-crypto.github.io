@@ -1,0 +1,62 @@
+{
+  "_읽을것": [
+    "정본 = 공정위 고시 「소비자분쟁해결기준」 별표 Ⅱ 여행업 ④ 국외여행(2-1·2-2) — law.go.kr 원문에서 확인한 값만 싣는다",
+    "steps = 출발일 며칠 전까지(이상) 알리면 그 칸. minDays 0 = 출발 당일",
+    "consumerPct = 내 사정 해제 때 여행요금에서 떼는 % (0 = 계약금 환급) · agencyPct = 여행사 사정 취소 때 배상 % (0 = 계약금 환급)",
+    "칸은 minDays 내림차순, %는 같거나 커져야 하고, 마지막 칸은 minDays 0 이어야 한다 — 아니면 앱이 표 전체를 버린다",
+    "minimumNoticeDays = 인원 미달 해제 통지기일 · minimumLate = 통지기일을 놓쳤을 때 배상 칸 · advisoryCutPct = 특별여행주의보 등 위약금 감경 %",
+    "국내여행 표는 원문 칸 이름을 못 읽어 싣지 않았다 — 확인되면 키를 새로 더한다",
+    "고시가 바뀌면 숫자를 고치고 updatedAt·reviewBy 를 올린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "steps": [
+    {
+      "minDays": 30,
+      "consumerPct": 0,
+      "agencyPct": 0
+    },
+    {
+      "minDays": 20,
+      "consumerPct": 10,
+      "agencyPct": 10
+    },
+    {
+      "minDays": 10,
+      "consumerPct": 15,
+      "agencyPct": 15
+    },
+    {
+      "minDays": 8,
+      "consumerPct": 20,
+      "agencyPct": 20
+    },
+    {
+      "minDays": 1,
+      "consumerPct": 30,
+      "agencyPct": 30
+    },
+    {
+      "minDays": 0,
+      "consumerPct": 50,
+      "agencyPct": 50
+    }
+  ],
+  "minimumNoticeDays": 7,
+  "minimumLate": [
+    {
+      "minDays": 1,
+      "pct": 30
+    },
+    {
+      "minDays": 0,
+      "pct": 50
+    }
+  ],
+  "advisoryCutPct": 50,
+  "notifyHour": 19,
+  "sourceName": "공정거래위원회 고시 · 소비자분쟁해결기준(국외여행)",
+  "sourceUrl": "https:\/\/www.law.go.kr\/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99\/%EC%86%8C%EB%B9%84%EC%9E%90%EB%B6%84%EC%9F%81%ED%95%B4%EA%B2%B0%EA%B8%B0%EC%A4%80",
+  "notice": "",
+  "reviewBy": "2027-07-01"
+}
