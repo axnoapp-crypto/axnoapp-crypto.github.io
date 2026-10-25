@@ -1,0 +1,308 @@
+{
+  "_읽을것": [
+    "items = 품목 도감. 버리는 곳은 앱이 mark·form·dirt·part 네 답으로 판정한다(품목마다 결과를 적지 않는다)",
+    "mark: pet · hdpe · ldpe · pp · ps · other · clearpet · vinyl · none \/ form: container · toy · etoy · goods \/ dirt: none · rinse · stuck \/ part: none · off · fixed",
+    "steps 의 bins 는 plastic · clearpet · vinyl · general · small · check 중 그 줄이 나오는 판정. only 는 off · stuck · rinse 답일 때만",
+    "판정 근거는 분리배출 표시 지침 별표 표시재질 칸과 재활용가능자원 분리수거 지침 별표 1 합성수지 용기·트레이류 칸이다 — 지자체가 조정할 수 있어 화면은 늘 우리 동네 확인을 붙인다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "items": [
+    {
+      "id": "deliv",
+      "name": "배달 용기",
+      "mark": "pp",
+      "form": "container",
+      "dirt": "rinse",
+      "part": "none",
+      "note": "양념을 헹궈요 · 뚜껑도 플라스틱이면 같이"
+    },
+    {
+      "id": "tofu",
+      "name": "두부 용기",
+      "mark": "pp",
+      "form": "container",
+      "dirt": "rinse",
+      "part": "none",
+      "note": "물을 버리고 헹궈요"
+    },
+    {
+      "id": "yogurt",
+      "name": "요구르트병",
+      "mark": "ps",
+      "form": "container",
+      "dirt": "rinse",
+      "part": "none",
+      "note": "은박 뚜껑은 떼요"
+    },
+    {
+      "id": "cup",
+      "name": "플라스틱 컵",
+      "mark": "pet",
+      "form": "container",
+      "dirt": "rinse",
+      "part": "off",
+      "note": "빨대·종이 홀더는 따로"
+    },
+    {
+      "id": "fruit",
+      "name": "과일 트레이",
+      "mark": "pet",
+      "form": "container",
+      "dirt": "none",
+      "part": "none",
+      "note": "속 받침 스티로폼·종이는 떼요"
+    },
+    {
+      "id": "colorpet",
+      "name": "유색 음료병",
+      "mark": "pet",
+      "form": "container",
+      "dirt": "rinse",
+      "part": "off",
+      "note": "색이 있는 페트병은 플라스틱류"
+    },
+    {
+      "id": "water",
+      "name": "투명 생수병",
+      "mark": "clearpet",
+      "form": "container",
+      "dirt": "none",
+      "part": "off",
+      "note": "라벨 떼고 납작하게 · 따로"
+    },
+    {
+      "id": "shampoo",
+      "name": "샴푸 펌프 통",
+      "mark": "hdpe",
+      "form": "container",
+      "dirt": "none",
+      "part": "off",
+      "note": "철 스프링 든 펌프는 빼요"
+    },
+    {
+      "id": "detergent",
+      "name": "세제 통",
+      "mark": "pet",
+      "form": "container",
+      "dirt": "rinse",
+      "part": "off",
+      "note": "화학제품 병은 투명해도 플라스틱류"
+    },
+    {
+      "id": "cosmetic",
+      "name": "화장품 공병",
+      "mark": "other",
+      "form": "container",
+      "dirt": "rinse",
+      "part": "off",
+      "note": "펌프·거울 같은 부속은 떼요"
+    },
+    {
+      "id": "tube",
+      "name": "치약 튜브",
+      "mark": "other",
+      "form": "container",
+      "dirt": "none",
+      "part": "none",
+      "note": "헹굴 수 없으면 비우기만"
+    },
+    {
+      "id": "noname",
+      "name": "표시 없는 통",
+      "mark": "none",
+      "form": "container",
+      "dirt": "none",
+      "part": "none",
+      "note": "플라스틱 통이면 · 참고"
+    },
+    {
+      "id": "oily",
+      "name": "기름 밴 용기",
+      "mark": "pp",
+      "form": "container",
+      "dirt": "stuck",
+      "part": "none",
+      "note": "안 지워지면 종량제 · 참고"
+    },
+    {
+      "id": "snackbag",
+      "name": "과자 봉지",
+      "mark": "vinyl",
+      "form": "container",
+      "dirt": "none",
+      "part": "none",
+      "note": "보라 표시 · 비닐류로 따로"
+    },
+    {
+      "id": "block",
+      "name": "블록 장난감",
+      "mark": "none",
+      "form": "toy",
+      "dirt": "none",
+      "part": "none",
+      "note": "전지 없는 장난감은 플라스틱류"
+    },
+    {
+      "id": "etoy",
+      "name": "소리 나는 장난감",
+      "mark": "none",
+      "form": "etoy",
+      "dirt": "none",
+      "part": "none",
+      "note": "소형 전자제품으로"
+    },
+    {
+      "id": "brush",
+      "name": "칫솔",
+      "mark": "none",
+      "form": "goods",
+      "dirt": "none",
+      "part": "none",
+      "note": "종량제봉투로"
+    },
+    {
+      "id": "doll",
+      "name": "봉제 인형",
+      "mark": "none",
+      "form": "goods",
+      "dirt": "none",
+      "part": "none",
+      "note": "플라스틱류가 아니에요"
+    }
+  ],
+  "steps": [
+    {
+      "id": "empty",
+      "label": "내용물을 비우고 헹궈요",
+      "note": "헹굴 수 없는 튜브는 비우기만",
+      "bins": [
+        "plastic"
+      ],
+      "only": ""
+    },
+    {
+      "id": "detach",
+      "label": "뚜껑·라벨·부속은 떼어요",
+      "note": "본체와 재질이 다르면 따로 · 철 스프링 펌프는 빼요",
+      "bins": [
+        "clearpet",
+        "plastic"
+      ],
+      "only": "off"
+    },
+    {
+      "id": "basket",
+      "label": "플라스틱류에 모아요",
+      "note": "색 있는 페트병·장난감도 여기로",
+      "bins": [
+        "plastic"
+      ],
+      "only": ""
+    },
+    {
+      "id": "pclean",
+      "label": "라벨 떼고 깨끗이 비워요",
+      "note": "설탕 든 음료면 헹궈요",
+      "bins": [
+        "clearpet"
+      ],
+      "only": ""
+    },
+    {
+      "id": "press",
+      "label": "납작하게 눌러 뚜껑을 닫아요",
+      "note": "부피를 줄여요",
+      "bins": [
+        "clearpet"
+      ],
+      "only": ""
+    },
+    {
+      "id": "pbag",
+      "label": "투명 페트병만 따로 담아요",
+      "note": "다른 플라스틱과 섞지 않게 · 투명·반투명 봉투",
+      "bins": [
+        "clearpet"
+      ],
+      "only": ""
+    },
+    {
+      "id": "vinyl",
+      "label": "비닐류 봉투에 따로 모아요",
+      "note": "흩날리지 않게 투명·반투명 봉투에",
+      "bins": [
+        "vinyl"
+      ],
+      "only": ""
+    },
+    {
+      "id": "day",
+      "label": "우리 동네 배출 요일에 내놓아요",
+      "note": "요일·장소는 지자체마다 달라요",
+      "bins": [
+        "clearpet",
+        "plastic",
+        "vinyl"
+      ],
+      "only": ""
+    },
+    {
+      "id": "general",
+      "label": "종량제봉투에 넣어요",
+      "note": "큰 것은 대형폐기물 · 우리 동네 조례",
+      "bins": [
+        "general"
+      ],
+      "only": ""
+    },
+    {
+      "id": "tryclean",
+      "label": "헹궈서 지워지면 다시 판정해요",
+      "note": "깨끗해지면 플라스틱류로 갈 수 있어요",
+      "bins": [
+        "general"
+      ],
+      "only": "stuck"
+    },
+    {
+      "id": "smallbox",
+      "label": "소형 전자제품 수거함에 넣어요",
+      "note": "없으면 무상 방문수거나 우리 동네 방법으로",
+      "bins": [
+        "small"
+      ],
+      "only": ""
+    },
+    {
+      "id": "battery",
+      "label": "전지가 빠지면 빼서 전지 수거함에",
+      "note": "안 빠지면 제품 그대로",
+      "bins": [
+        "small"
+      ],
+      "only": ""
+    },
+    {
+      "id": "site",
+      "label": "구청·시청 누리집의 재활용 배출 안내를 봐요",
+      "note": "품목 이름으로 찾아요",
+      "bins": [
+        "check"
+      ],
+      "only": ""
+    },
+    {
+      "id": "hold",
+      "label": "확인 전엔 플라스틱류에 섞지 않아요",
+      "note": "섞이면 재활용이 어려워요",
+      "bins": [
+        "check"
+      ],
+      "only": ""
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
