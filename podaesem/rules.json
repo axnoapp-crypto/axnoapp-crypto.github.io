@@ -1,0 +1,17 @@
+{
+  "_읽을것": [
+    "펠릿 가격·포대 무게·발열량·소모량은 싣지 않는다 — 사용자가 넣거나 사용자 기록에서 셈한다",
+    "특정 제조사·판매처를 추천하는 값이나 링크를 넣지 마라",
+    "defaultReserveBags·defaultLeadDays·countEveryDays·coldBandC 는 참고치 시작값 — 사용자가 이미 바꾼 값은 덮지 않는다",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "defaultReserveBags": 2,
+  "defaultLeadDays": 5,
+  "countEveryDays": 7,
+  "coldBandC": 3,
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
