@@ -1,0 +1,149 @@
+{
+  "_읽을것": [
+    "정본 = 공정위 고시 「소비자분쟁해결기준」 별표 Ⅱ 숙박업(2-1·2-2) — law.go.kr 원문에서 확인한 값만 싣는다",
+    "tiers = 성수기 주중·주말 \/ 비수기 주중·주말 계단. minDays = 숙박일 며칠 전까지(이상) 취소면 그 칸, 0 = 당일",
+    "consumerPct = 소비자 사정 취소 때 총요금에서 떼는 % (0 = 계약금 환급) · businessPct = 사업자 사정 취소 때 배상 % (-1 = 「손해배상」)",
+    "칸은 minDays 내림차순, %는 같거나 커져야 하고, 마지막 칸은 minDays 0 이어야 한다 — 아니면 앱이 표 전체를 버린다",
+    "peaks = 업체 약관에 성수기가 없을 때 쓰는 기간(MM-DD) · 해를 넘겨도 된다",
+    "holidays = 공휴일(YYYY-MM-DD) — 그 전날 숙박은 주말 칸. 마지막 날짜 뒤 숙박은 요일로만 가르고 화면이 「공휴일 근사」라고 밝힌다. 🔴 새해 월력요항(6월)이 나오면 여기에 더한다",
+    "고시가 바뀌면 숫자를 고치고 updatedAt·reviewBy 를 올린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "peaks": [
+    {
+      "name": "여름",
+      "from": "07-15",
+      "to": "08-24"
+    },
+    {
+      "name": "겨울",
+      "from": "12-20",
+      "to": "02-20"
+    }
+  ],
+  "tiers": {
+    "peakWeekday": [
+      {
+        "minDays": 10,
+        "consumerPct": 0,
+        "businessPct": 0
+      },
+      {
+        "minDays": 7,
+        "consumerPct": 10,
+        "businessPct": 10
+      },
+      {
+        "minDays": 5,
+        "consumerPct": 30,
+        "businessPct": 30
+      },
+      {
+        "minDays": 3,
+        "consumerPct": 50,
+        "businessPct": 50
+      },
+      {
+        "minDays": 0,
+        "consumerPct": 80,
+        "businessPct": -1
+      }
+    ],
+    "peakWeekend": [
+      {
+        "minDays": 10,
+        "consumerPct": 0,
+        "businessPct": 0
+      },
+      {
+        "minDays": 7,
+        "consumerPct": 20,
+        "businessPct": 20
+      },
+      {
+        "minDays": 5,
+        "consumerPct": 40,
+        "businessPct": 40
+      },
+      {
+        "minDays": 3,
+        "consumerPct": 60,
+        "businessPct": 60
+      },
+      {
+        "minDays": 0,
+        "consumerPct": 90,
+        "businessPct": -1
+      }
+    ],
+    "offWeekday": [
+      {
+        "minDays": 2,
+        "consumerPct": 0,
+        "businessPct": 0
+      },
+      {
+        "minDays": 1,
+        "consumerPct": 10,
+        "businessPct": 10
+      },
+      {
+        "minDays": 0,
+        "consumerPct": 20,
+        "businessPct": 20
+      }
+    ],
+    "offWeekend": [
+      {
+        "minDays": 2,
+        "consumerPct": 0,
+        "businessPct": 0
+      },
+      {
+        "minDays": 1,
+        "consumerPct": 20,
+        "businessPct": 20
+      },
+      {
+        "minDays": 0,
+        "consumerPct": 30,
+        "businessPct": 30
+      }
+    ]
+  },
+  "peakFree24h": true,
+  "holidays": [
+    "2026-12-25",
+    "2027-01-01",
+    "2027-02-06",
+    "2027-02-07",
+    "2027-02-08",
+    "2027-02-09",
+    "2027-03-01",
+    "2027-05-01",
+    "2027-05-03",
+    "2027-05-05",
+    "2027-05-13",
+    "2027-06-06",
+    "2027-07-17",
+    "2027-07-19",
+    "2027-08-15",
+    "2027-08-16",
+    "2027-09-14",
+    "2027-09-15",
+    "2027-09-16",
+    "2027-10-03",
+    "2027-10-04",
+    "2027-10-09",
+    "2027-10-11",
+    "2027-12-25",
+    "2027-12-27",
+    "2028-01-01"
+  ],
+  "notifyHour": 19,
+  "sourceName": "공정거래위원회 고시 · 소비자분쟁해결기준(숙박업)",
+  "sourceUrl": "https:\/\/www.law.go.kr\/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99\/%EC%86%8C%EB%B9%84%EC%9E%90%EB%B6%84%EC%9F%81%ED%95%B4%EA%B2%B0%EA%B8%B0%EC%A4%80",
+  "notice": "",
+  "reviewBy": "2027-07-01"
+}
