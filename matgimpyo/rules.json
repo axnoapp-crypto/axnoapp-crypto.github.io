@@ -1,0 +1,501 @@
+{
+  "_읽을것": [
+    "정본 = 공정위 고시 「소비자분쟁해결기준」 별표 Ⅱ 세탁업 — law.go.kr 원문에서 확인한 값만 싣는다",
+    "ratios = 배상비율표의 열(%) — 왼쪽(새 옷)부터 줄어드는 순서",
+    "rows = 내용연수 1~6년 행. 칸마다 사용일수 상한(그 일수 이하면 그 열) · 마지막 열은 상한이 없으므로 ratios 보다 하나 적다",
+    "사용일수 = 물품 구입일부터 세탁의뢰일까지(사용 여부 무관)",
+    "items = 품목별 평균 내용연수. id 는 저장 키라 바꾸지 마라 · years 는 1~6",
+    "unknownMultiple = 구입가·구입일을 입증 못 하면 세탁요금의 몇 배 · twoPiece\/threePiece(상·중·하)\/hanbok = 세트 배분 %",
+    "freeAfterMonths = 완성예정일 다음날부터 몇 개월 미회수면 면책 · noticeDays = 회수 통지 도달일부터 며칠 미회수면 면책",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다 · 고시가 바뀌면 숫자를 고치고 updatedAt·reviewBy 를 올린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "ratios": [
+    95,
+    80,
+    70,
+    60,
+    50,
+    45,
+    40,
+    35,
+    30,
+    20,
+    10
+  ],
+  "rows": {
+    "1": [
+      14,
+      44,
+      89,
+      134,
+      179,
+      224,
+      269,
+      314,
+      365,
+      547
+    ],
+    "2": [
+      28,
+      88,
+      178,
+      268,
+      358,
+      448,
+      538,
+      628,
+      730,
+      1095
+    ],
+    "3": [
+      43,
+      133,
+      268,
+      403,
+      538,
+      673,
+      808,
+      943,
+      1095,
+      1642
+    ],
+    "4": [
+      57,
+      177,
+      357,
+      537,
+      717,
+      897,
+      1077,
+      1257,
+      1460,
+      2190
+    ],
+    "5": [
+      72,
+      222,
+      447,
+      672,
+      897,
+      1122,
+      1347,
+      1572,
+      1825,
+      2737
+    ],
+    "6": [
+      86,
+      266,
+      536,
+      806,
+      1076,
+      1346,
+      1616,
+      1886,
+      2190,
+      3285
+    ]
+  },
+  "items": [
+    {
+      "id": "coat",
+      "group": "옷",
+      "name": "코트",
+      "variant": "",
+      "years": 4,
+      "example": "오바코트·레인코트"
+    },
+    {
+      "id": "jumper_w",
+      "group": "옷",
+      "name": "점퍼·자켓",
+      "variant": "동복",
+      "years": 4,
+      "example": "스커트·바지·자켓·점퍼"
+    },
+    {
+      "id": "jumper_s",
+      "group": "옷",
+      "name": "점퍼·자켓",
+      "variant": "춘추복",
+      "years": 4,
+      "example": "스커트·바지·자켓·점퍼"
+    },
+    {
+      "id": "jumper_h",
+      "group": "옷",
+      "name": "점퍼·자켓",
+      "variant": "하복",
+      "years": 3,
+      "example": "스커트·바지·자켓·점퍼"
+    },
+    {
+      "id": "msuit_w",
+      "group": "옷",
+      "name": "신사정장",
+      "variant": "동복",
+      "years": 4,
+      "example": ""
+    },
+    {
+      "id": "msuit_s",
+      "group": "옷",
+      "name": "신사정장",
+      "variant": "춘추복",
+      "years": 4,
+      "example": ""
+    },
+    {
+      "id": "msuit_h",
+      "group": "옷",
+      "name": "신사정장",
+      "variant": "하복",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "wsuit_w",
+      "group": "옷",
+      "name": "여성정장",
+      "variant": "동복",
+      "years": 4,
+      "example": ""
+    },
+    {
+      "id": "wsuit_s",
+      "group": "옷",
+      "name": "여성정장",
+      "variant": "춘추복",
+      "years": 4,
+      "example": ""
+    },
+    {
+      "id": "wsuit_h",
+      "group": "옷",
+      "name": "여성정장",
+      "variant": "하복",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "sweater",
+      "group": "옷",
+      "name": "스웨터",
+      "variant": "",
+      "years": 3,
+      "example": "스웨터·카디건"
+    },
+    {
+      "id": "shirt",
+      "group": "옷",
+      "name": "셔츠",
+      "variant": "",
+      "years": 2,
+      "example": "면셔츠·티셔츠·남방·폴로·와이셔츠"
+    },
+    {
+      "id": "blouse_silk",
+      "group": "옷",
+      "name": "블라우스",
+      "variant": "견",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "blouse_etc",
+      "group": "옷",
+      "name": "블라우스",
+      "variant": "기타",
+      "years": 2,
+      "example": ""
+    },
+    {
+      "id": "jeans",
+      "group": "옷",
+      "name": "청바지",
+      "variant": "일반",
+      "years": 4,
+      "example": ""
+    },
+    {
+      "id": "jeans_wash",
+      "group": "옷",
+      "name": "청바지",
+      "variant": "특수워싱",
+      "years": 3,
+      "example": "샌드·스톤워싱·약품 가공"
+    },
+    {
+      "id": "sports",
+      "group": "옷",
+      "name": "운동복",
+      "variant": "",
+      "years": 3,
+      "example": "트레이닝복·운동 유니폼·수영복"
+    },
+    {
+      "id": "uni_work",
+      "group": "옷",
+      "name": "제복",
+      "variant": "작업복",
+      "years": 2,
+      "example": ""
+    },
+    {
+      "id": "uni_office",
+      "group": "옷",
+      "name": "제복",
+      "variant": "사무복",
+      "years": 2,
+      "example": ""
+    },
+    {
+      "id": "uni_school",
+      "group": "옷",
+      "name": "제복",
+      "variant": "학생복",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "hanbok",
+      "group": "옷",
+      "name": "한복",
+      "variant": "",
+      "years": 4,
+      "example": "치마·저고리·바지·마고자·조끼·두루마기"
+    },
+    {
+      "id": "inner",
+      "group": "옷",
+      "name": "속옷·내복",
+      "variant": "",
+      "years": 2,
+      "example": "파운데이션·란제리·내복"
+    },
+    {
+      "id": "leather_pig",
+      "group": "가죽",
+      "name": "가죽옷",
+      "variant": "돈피·파충류",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "leather_etc",
+      "group": "가죽",
+      "name": "가죽옷",
+      "variant": "그 밖의 가죽",
+      "years": 5,
+      "example": ""
+    },
+    {
+      "id": "leather_other",
+      "group": "가죽",
+      "name": "가죽기타",
+      "variant": "",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "faux",
+      "group": "가죽",
+      "name": "인조가죽",
+      "variant": "",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "fur_rabbit",
+      "group": "가죽",
+      "name": "모피옷",
+      "variant": "토끼털",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "fur_etc",
+      "group": "가죽",
+      "name": "모피옷",
+      "variant": "그 밖의 털",
+      "years": 5,
+      "example": ""
+    },
+    {
+      "id": "fur_other",
+      "group": "가죽",
+      "name": "모피기타",
+      "variant": "",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "bag_leather",
+      "group": "소품",
+      "name": "가죽가방",
+      "variant": "",
+      "years": 3,
+      "example": "가죽·인조가죽"
+    },
+    {
+      "id": "bag",
+      "group": "소품",
+      "name": "일반가방",
+      "variant": "",
+      "years": 2,
+      "example": "천 등"
+    },
+    {
+      "id": "scarf_silk",
+      "group": "소품",
+      "name": "스카프",
+      "variant": "견·모",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "scarf_etc",
+      "group": "소품",
+      "name": "스카프",
+      "variant": "기타",
+      "years": 2,
+      "example": ""
+    },
+    {
+      "id": "muffler",
+      "group": "소품",
+      "name": "머플러",
+      "variant": "",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "tie",
+      "group": "소품",
+      "name": "넥타이",
+      "variant": "",
+      "years": 2,
+      "example": ""
+    },
+    {
+      "id": "cap",
+      "group": "소품",
+      "name": "모자",
+      "variant": "",
+      "years": 1,
+      "example": ""
+    },
+    {
+      "id": "shoe_leather",
+      "group": "소품",
+      "name": "가죽신발",
+      "variant": "",
+      "years": 3,
+      "example": "가죽구두·등산화(경등산화 제외)"
+    },
+    {
+      "id": "shoe",
+      "group": "소품",
+      "name": "운동화",
+      "variant": "",
+      "years": 1,
+      "example": "운동화·고무신"
+    },
+    {
+      "id": "bedding",
+      "group": "침구",
+      "name": "이불·요",
+      "variant": "",
+      "years": 3,
+      "example": "이불·요·침대커버"
+    },
+    {
+      "id": "blanket_wool",
+      "group": "침구",
+      "name": "모포",
+      "variant": "모",
+      "years": 5,
+      "example": ""
+    },
+    {
+      "id": "blanket_etc",
+      "group": "침구",
+      "name": "모포",
+      "variant": "기타",
+      "years": 4,
+      "example": ""
+    },
+    {
+      "id": "carpet_wool",
+      "group": "침구",
+      "name": "카페트",
+      "variant": "모",
+      "years": 6,
+      "example": ""
+    },
+    {
+      "id": "carpet_etc",
+      "group": "침구",
+      "name": "카페트",
+      "variant": "기타",
+      "years": 5,
+      "example": ""
+    },
+    {
+      "id": "curtain_sum",
+      "group": "침구",
+      "name": "커튼",
+      "variant": "춘하용",
+      "years": 2,
+      "example": ""
+    },
+    {
+      "id": "curtain_win",
+      "group": "침구",
+      "name": "커튼",
+      "variant": "추동용",
+      "years": 3,
+      "example": ""
+    },
+    {
+      "id": "sofa_leather",
+      "group": "침구",
+      "name": "쇼파",
+      "variant": "천연피혁",
+      "years": 5,
+      "example": ""
+    },
+    {
+      "id": "sofa_etc",
+      "group": "침구",
+      "name": "쇼파",
+      "variant": "기타",
+      "years": 3,
+      "example": ""
+    }
+  ],
+  "unknownMultiple": 20,
+  "twoPiece": [
+    65,
+    35
+  ],
+  "threePiece": [
+    55,
+    10,
+    35
+  ],
+  "hanbok": [
+    50,
+    50
+  ],
+  "freeAfterMonths": 3,
+  "noticeDays": 30,
+  "receiptPriceFrom": 200000,
+  "notifyHour": 9,
+  "sourceName": "공정거래위원회 고시 · 소비자분쟁해결기준(세탁업)",
+  "sourceUrl": "https:\/\/www.law.go.kr\/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99\/%EC%86%8C%EB%B9%84%EC%9E%90%EB%B6%84%EC%9F%81%ED%95%B4%EA%B2%B0%EA%B8%B0%EC%A4%80",
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
