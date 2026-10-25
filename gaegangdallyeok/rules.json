@@ -1,0 +1,47 @@
+{
+  "_읽을것": [
+    "정본 = 「대학 등록금에 관한 규칙」 제6조 · 별표(등록금의 반환기준) — law.go.kr 원문에서 확인한 값만 싣는다",
+    "bands = 학기 개시일(입학생은 입학일) 뒤 구간. untilDay = 개시일을 1일째로 셀 때 그 구간의 마지막 날, -1 = 그 뒤 전부",
+    "돌려받는 몫 = 등록금(입학금 제외) × num\/den. 구간은 untilDay 오름차순, 몫은 같거나 줄어야 하고, 마지막은 -1 이어야 한다 — 아니면 앱이 표 전체를 버린다",
+    "preStartFull = 개시일 전일까지면 이미 낸 등록금 전액(입학금 포함) · entranceAfterStart = 개시일 뒤 입학금 반환 여부",
+    "deferMin* · deferMonths = 제5조제4항 납부연기 · installMin = 고등교육법 제11조제1항 분할납부 횟수",
+    "규칙이 바뀌면 숫자를 고치고 updatedAt·reviewBy 를 올린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "bands": [
+    {
+      "untilDay": 30,
+      "num": 5,
+      "den": 6
+    },
+    {
+      "untilDay": 60,
+      "num": 2,
+      "den": 3
+    },
+    {
+      "untilDay": 90,
+      "num": 1,
+      "den": 2
+    },
+    {
+      "untilDay": -1,
+      "num": 0,
+      "den": 1
+    }
+  ],
+  "preStartFull": true,
+  "entranceAfterStart": false,
+  "deferMinNum": 1,
+  "deferMinDen": 3,
+  "deferMonths": 2,
+  "installMin": 2,
+  "notifyHour": 19,
+  "sourceName": "대학 등록금에 관한 규칙 제6조 · 별표(등록금의 반환기준)",
+  "sourceUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EB%8C%80%ED%95%99%EB%93%B1%EB%A1%9D%EA%B8%88%EC%97%90%EA%B4%80%ED%95%9C%EA%B7%9C%EC%B9%99",
+  "source2Name": "고등교육법 제11조(등록금 분할납부)",
+  "source2Url": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EA%B3%A0%EB%93%B1%EA%B5%90%EC%9C%A1%EB%B2%95",
+  "notice": "",
+  "reviewBy": "2027-02-01"
+}
