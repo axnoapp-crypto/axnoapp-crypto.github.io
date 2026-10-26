@@ -1,0 +1,384 @@
+{
+  "_읽을것": [
+    "items = 품목. bin 은 food(음식물) · general(일반), group 은 veg · fruit · grain · meat · sea · egg · etc",
+    "local 이 true 면 화면에 동네 확인 표시가 붙는다",
+    "sources 는 화면 맨 아래 참고 링크 — https 만",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "items": [
+    {
+      "id": "scallion_root",
+      "name": "대파·쪽파 뿌리",
+      "group": "veg",
+      "bin": "general",
+      "why": "채소 뿌리는 음식물로 받지 않아요",
+      "tip": "흙을 털어 종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "pepper_seed",
+      "name": "고추씨",
+      "group": "veg",
+      "bin": "general",
+      "why": "고추씨는 일반 쓰레기예요",
+      "tip": "말린 고추를 다듬고 나온 씨는 봉투로",
+      "local": false
+    },
+    {
+      "id": "pepper_stem",
+      "name": "고추대",
+      "group": "veg",
+      "bin": "general",
+      "why": "질긴 줄기는 일반 쓰레기예요",
+      "tip": "길면 잘라서 종량제 봉투에",
+      "local": false
+    },
+    {
+      "id": "garlic_stem",
+      "name": "마른 마늘대",
+      "group": "veg",
+      "bin": "general",
+      "why": "마른 줄기는 일반 쓰레기예요",
+      "tip": "잘라서 종량제 봉투에",
+      "local": false
+    },
+    {
+      "id": "corn_husk",
+      "name": "옥수수 겉껍질·옥수수대",
+      "group": "veg",
+      "bin": "general",
+      "why": "질긴 겉껍질과 대는 일반 쓰레기예요",
+      "tip": "길면 잘라서 종량제 봉투에",
+      "local": false
+    },
+    {
+      "id": "onion_skin",
+      "name": "양파 겉껍질",
+      "group": "veg",
+      "bin": "general",
+      "why": "얇고 마른 겉껍질은 일반 쓰레기예요",
+      "tip": "종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "ginger_skin",
+      "name": "생강 껍질",
+      "group": "veg",
+      "bin": "general",
+      "why": "생강 껍질은 일반 쓰레기예요",
+      "tip": "종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "radish",
+      "name": "통무·통호박",
+      "group": "veg",
+      "bin": "food",
+      "why": "채소 자체는 음식물이에요",
+      "tip": "통째로 넣지 말고 적당히 잘라서",
+      "local": false
+    },
+    {
+      "id": "cabbage",
+      "name": "배추 잎",
+      "group": "veg",
+      "bin": "food",
+      "why": "배추 잎은 음식물이에요",
+      "tip": "김장철엔 따로 봉투로 받는 동네도 있어요",
+      "local": true
+    },
+    {
+      "id": "seaweed",
+      "name": "미역·다시마",
+      "group": "veg",
+      "bin": "food",
+      "why": "해조류는 음식물이에요",
+      "tip": "물기를 최대한 빼고 넣어요",
+      "local": false
+    },
+    {
+      "id": "kimchi",
+      "name": "김치",
+      "group": "veg",
+      "bin": "food",
+      "why": "김치는 음식물이에요",
+      "tip": "양념을 물에 헹궈서 넣어요",
+      "local": false
+    },
+    {
+      "id": "walnut",
+      "name": "호두·밤 껍데기",
+      "group": "fruit",
+      "bin": "general",
+      "why": "딱딱한 견과 껍데기는 일반 쓰레기예요",
+      "tip": "종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "peanut",
+      "name": "땅콩·도토리 껍질",
+      "group": "fruit",
+      "bin": "general",
+      "why": "견과 껍질은 일반 쓰레기예요",
+      "tip": "종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "coconut",
+      "name": "코코넛 껍질",
+      "group": "fruit",
+      "bin": "general",
+      "why": "단단한 껍질은 일반 쓰레기예요",
+      "tip": "과육만 음식물로",
+      "local": false
+    },
+    {
+      "id": "pineapple",
+      "name": "파인애플 껍질",
+      "group": "fruit",
+      "bin": "general",
+      "why": "억센 껍질은 일반 쓰레기예요",
+      "tip": "과육 자투리는 음식물로",
+      "local": false
+    },
+    {
+      "id": "peach_pit",
+      "name": "복숭아·살구 씨",
+      "group": "fruit",
+      "bin": "general",
+      "why": "단단한 씨는 일반 쓰레기예요",
+      "tip": "과육을 발라 씨만 봉투로",
+      "local": false
+    },
+    {
+      "id": "persimmon_seed",
+      "name": "감·아보카도 씨",
+      "group": "fruit",
+      "bin": "general",
+      "why": "단단한 씨는 일반 쓰레기예요",
+      "tip": "과육과 나눠서 버려요",
+      "local": false
+    },
+    {
+      "id": "maesil_pit",
+      "name": "매실청 매실 씨",
+      "group": "fruit",
+      "bin": "general",
+      "why": "씨가 처리 기계를 고장 내요",
+      "tip": "과육은 음식물, 씨는 일반으로 나눠요",
+      "local": false
+    },
+    {
+      "id": "maesil_flesh",
+      "name": "매실청 매실 과육",
+      "group": "fruit",
+      "bin": "food",
+      "why": "씨를 뺀 과육은 음식물이에요",
+      "tip": "씨를 꼭 발라 내고 넣어요",
+      "local": false
+    },
+    {
+      "id": "tangerine",
+      "name": "귤껍질",
+      "group": "fruit",
+      "bin": "food",
+      "why": "부드러운 과일 껍질은 음식물이에요",
+      "tip": "물기를 빼고 넣어요",
+      "local": false
+    },
+    {
+      "id": "watermelon",
+      "name": "수박 껍질",
+      "group": "fruit",
+      "bin": "food",
+      "why": "큰 과일 껍질도 음식물이에요",
+      "tip": "잘게 잘라 물기를 빼요",
+      "local": false
+    },
+    {
+      "id": "melon",
+      "name": "멜론·망고 껍질",
+      "group": "fruit",
+      "bin": "food",
+      "why": "과일 껍질은 음식물이에요",
+      "tip": "물기를 빼고 넣어요",
+      "local": false
+    },
+    {
+      "id": "rice_husk",
+      "name": "왕겨",
+      "group": "grain",
+      "bin": "general",
+      "why": "왕겨는 일반 쓰레기예요",
+      "tip": "종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "old_rice",
+      "name": "묵은 쌀",
+      "group": "grain",
+      "bin": "food",
+      "why": "먹을 수 있던 곡식은 음식물이에요",
+      "tip": "음식물로 넣어요",
+      "local": false
+    },
+    {
+      "id": "chicken_bone",
+      "name": "치킨 뼈",
+      "group": "meat",
+      "bin": "general",
+      "why": "뼈는 일반 쓰레기예요",
+      "tip": "살점은 음식물로, 뼈만 발라 봉투로",
+      "local": false
+    },
+    {
+      "id": "pork_bone",
+      "name": "돼지·소 뼈",
+      "group": "meat",
+      "bin": "general",
+      "why": "뼈다귀는 일반 쓰레기예요",
+      "tip": "감자탕 뼈도 살을 발라서",
+      "local": false
+    },
+    {
+      "id": "fat",
+      "name": "비계·살코기",
+      "group": "meat",
+      "bin": "food",
+      "why": "고기와 비계는 음식물이에요",
+      "tip": "물기를 빼고 넣어요",
+      "local": false
+    },
+    {
+      "id": "meat_gut",
+      "name": "곱창 같은 내장",
+      "group": "meat",
+      "bin": "food",
+      "why": "고기 내장은 음식물이에요",
+      "tip": "물기를 빼고 넣어요",
+      "local": false
+    },
+    {
+      "id": "clam",
+      "name": "조개·굴 껍데기",
+      "group": "sea",
+      "bin": "general",
+      "why": "조개류 껍데기는 일반 쓰레기예요",
+      "tip": "꼬막·전복·소라 껍데기도 같아요",
+      "local": false
+    },
+    {
+      "id": "crab",
+      "name": "게·가재 껍데기",
+      "group": "sea",
+      "bin": "general",
+      "why": "갑각류 껍데기는 일반 쓰레기예요",
+      "tip": "살은 발라 음식물로",
+      "local": false
+    },
+    {
+      "id": "sea_squirt",
+      "name": "멍게 껍질",
+      "group": "sea",
+      "bin": "general",
+      "why": "멍게 껍질은 일반 쓰레기예요",
+      "tip": "종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "fish_bone",
+      "name": "생선 뼈",
+      "group": "sea",
+      "bin": "general",
+      "why": "생선 뼈는 일반 쓰레기예요",
+      "tip": "살과 뼈를 나눠 버려요",
+      "local": false
+    },
+    {
+      "id": "puffer",
+      "name": "복어 내장",
+      "group": "sea",
+      "bin": "general",
+      "why": "독이 있어 사료로 쓸 수 없어요",
+      "tip": "음식물통에 절대 넣지 않아요",
+      "local": false
+    },
+    {
+      "id": "fish_gut",
+      "name": "생선 내장",
+      "group": "sea",
+      "bin": "food",
+      "why": "복어가 아닌 생선 내장은 음식물이에요",
+      "tip": "물기를 빼고 넣어요",
+      "local": false
+    },
+    {
+      "id": "egg",
+      "name": "달걀 껍데기",
+      "group": "egg",
+      "bin": "general",
+      "why": "알 껍데기는 일반 쓰레기예요",
+      "tip": "메추리알·오리알 껍데기도 같아요",
+      "local": false
+    },
+    {
+      "id": "herb",
+      "name": "한약 찌꺼기",
+      "group": "etc",
+      "bin": "general",
+      "why": "한약 찌꺼기는 일반 쓰레기예요",
+      "tip": "물기를 짜서 봉투로",
+      "local": false
+    },
+    {
+      "id": "teabag",
+      "name": "녹차 티백·찻잎",
+      "group": "etc",
+      "bin": "general",
+      "why": "차 찌꺼기는 일반 쓰레기예요",
+      "tip": "티백째 종량제 봉투에",
+      "local": false
+    },
+    {
+      "id": "coffee",
+      "name": "커피 찌꺼기",
+      "group": "etc",
+      "bin": "general",
+      "why": "커피 찌꺼기는 일반 쓰레기예요",
+      "tip": "종량제 봉투에 넣어요",
+      "local": false
+    },
+    {
+      "id": "doenjang",
+      "name": "된장·고추장",
+      "group": "etc",
+      "bin": "general",
+      "why": "장류 자체는 일반 쓰레기예요",
+      "tip": "장이 묻은 음식은 헹궈서 음식물로",
+      "local": false
+    },
+    {
+      "id": "dryer",
+      "name": "음식물 처리기 찌꺼기",
+      "group": "etc",
+      "bin": "food",
+      "why": "처리기에서 나온 부산물은 음식물이에요",
+      "tip": "처리기 사용 설명도 함께 봐요",
+      "local": true
+    }
+  ],
+  "sources": [
+    {
+      "name": "금천구청 · 음식물쓰레기 종류별 배출요령",
+      "url": "https:\/\/www.geumcheon.go.kr\/portal\/contents.do?key=818"
+    },
+    {
+      "name": "서울시 · 음식물쓰레기 분리배출 기준",
+      "url": "https:\/\/news.seoul.go.kr\/env\/?p=1899"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
