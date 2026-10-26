@@ -1,0 +1,28 @@
+{
+  "_읽을것": [
+    "도로교통법 §73⑤·§87·§160② · 시행령 §55·별표6(14·15) 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "cycleYears\/seniorYears\/elderYears\/oneEyeYears = 주기(년). 나이는 직전 갱신일(최초는 합격일) 기준",
+    "monthsBefore\/After = 그 주기가 되는 해의 생일 전후 달수",
+    "renewFineWon\/aptitudeFineWon 이 0 이면 화면은 「확인 필요」. fines=false 면 금액을 숨긴다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "cycleYears": 10,
+  "seniorAge": 65,
+  "seniorYears": 5,
+  "elderAge": 75,
+  "elderYears": 3,
+  "oneEyeYears": 3,
+  "monthsBefore": 6,
+  "monthsAfter": 6,
+  "aptitude2Age": 70,
+  "eduAge": 75,
+  "renewFineWon": 20000,
+  "aptitudeFineWon": 30000,
+  "postponeMaxYears": 3,
+  "postponeAfterMonths": 3,
+  "fines": true,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
