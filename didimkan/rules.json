@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "reviewBy": "2026-12-31",
+  "year": 2026,
+  "median": [
+    2564238,
+    4199292,
+    5359036,
+    6494738,
+    7556719,
+    8555952,
+    9515150
+  ],
+  "medianPlus": 959198,
+  "incomePct": 75,
+  "living": [
+    783000,
+    1286600,
+    1644000,
+    1994600,
+    2324400,
+    2636700
+  ],
+  "livingPlus": 301000,
+  "housingBig": [
+    398900,
+    662500,
+    874100
+  ],
+  "housingMid": [
+    299100,
+    435600,
+    574200
+  ],
+  "housingRural": [
+    189000,
+    250500,
+    330000
+  ],
+  "housingPlus": [
+    105800,
+    69300,
+    39800
+  ],
+  "facility": [
+    552000,
+    941700,
+    1218400,
+    1494100,
+    1770800,
+    2047400
+  ],
+  "facilityPlus": 286400,
+  "medicalMax": 3000000,
+  "eduElem": 127900,
+  "eduMid": 180000,
+  "eduHigh": 214000,
+  "fuel": 150000,
+  "birth": 700000,
+  "funeral": 800000,
+  "power": 500000,
+  "propDeduct": [
+    69000000,
+    42000000,
+    35000000
+  ],
+  "propLimit": [
+    241000000,
+    152000000,
+    130000000
+  ],
+  "finBase": 6000000,
+  "finHousingExtra": 2000000,
+  "livingMonths": 3,
+  "livingMaxMonths": 6,
+  "housingMonths": 1,
+  "housingMaxMonths": 12,
+  "otherMonths": 1,
+  "otherMaxMonths": 6,
+  "medicalMaxTimes": 2,
+  "eduMaxTimes": 4,
+  "reviewMonths": 1,
+  "appealDays": 30,
+  "judging": true
+}
