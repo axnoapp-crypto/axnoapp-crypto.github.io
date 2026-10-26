@@ -1,0 +1,28 @@
+{
+  "_읽을것": [
+    "근로기준법 §60·§61 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "baseDays=15일(§60①) · attendPct=출근율 80% · monthDays=1개월 개근 1일(§60②) · addFromYears\/addEveryYears\/maxDays=3년부터 2년마다 1일, 25일 한도(§60④)",
+    "promo*=사용 촉진 기한(§61①: 6개월 전 기준 10일 이내 촉구 · 10일 회신 · 2개월 전까지 통보) · firstPromo*\/firstLate*=1년 미만 근로자(§61②)",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "baseDays": 15,
+  "attendPct": 80,
+  "monthDays": 1,
+  "addFromYears": 3,
+  "addEveryYears": 2,
+  "maxDays": 25,
+  "expireYears": 1,
+  "promoMonths": 6,
+  "promoWindowDays": 10,
+  "promoReplyDays": 10,
+  "promoLastMonths": 2,
+  "firstPromoMonths": 3,
+  "firstPromoLastMonths": 1,
+  "firstLateMonths": 1,
+  "firstLateWindowDays": 5,
+  "firstLateLastDays": 10,
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
