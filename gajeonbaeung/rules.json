@@ -1,0 +1,129 @@
+{
+  "_읽을것": [
+    "kinds = 가전 종류별 시행령 별표 3 제품군(group: cool · wash · display · phone · office · other)과 앱의 대형 구분(large). 신청 화면 품목이 우선이다",
+    "새 제품을 살 때 같은 종류 헌 제품을 무상으로 회수하는 것은 법 제16조의4제5항이다(앱이 trade 문으로 보낸다)",
+    "smallMinCount = 소형 가전만 방문수거로 보낼 때 받는 최소 개수 · smallWithLarge = 대형과 함께면 소형도 받는가. 공식 신청 안내를 확인한 뒤에만 채운다(빈 값이면 앱은 「확인 필요」라고 말한다)",
+    "스티커 금액은 지자체 조례마다 달라 이 표에 두지 않는다",
+    "moveRemindDays = 이사일 며칠 전 오전 10시에 남은 가전을 알릴까",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "kinds": [
+    {
+      "id": "fridge",
+      "group": "cool",
+      "large": true,
+      "note": "양문형·일반 냉장고"
+    },
+    {
+      "id": "kimchi",
+      "group": "cool",
+      "large": true,
+      "note": "뚜껑형·스탠드형"
+    },
+    {
+      "id": "aircon",
+      "group": "cool",
+      "large": true,
+      "note": "벽걸이·스탠드 · 실외기 함께"
+    },
+    {
+      "id": "washer",
+      "group": "wash",
+      "large": true,
+      "note": "통돌이·드럼"
+    },
+    {
+      "id": "dryer",
+      "group": "other",
+      "large": true,
+      "note": "의류건조기"
+    },
+    {
+      "id": "dish",
+      "group": "other",
+      "large": true,
+      "note": "빌트인·독립형"
+    },
+    {
+      "id": "tv",
+      "group": "display",
+      "large": true,
+      "note": "벽걸이·스탠드 TV"
+    },
+    {
+      "id": "tread",
+      "group": "wash",
+      "large": true,
+      "note": "접이식 포함"
+    },
+    {
+      "id": "massage",
+      "group": "wash",
+      "large": true,
+      "note": "전기 안마의자"
+    },
+    {
+      "id": "monitor",
+      "group": "display",
+      "large": false,
+      "note": "컴퓨터 모니터"
+    },
+    {
+      "id": "pc",
+      "group": "office",
+      "large": false,
+      "note": "데스크톱 본체 · 노트북"
+    },
+    {
+      "id": "printer",
+      "group": "office",
+      "large": false,
+      "note": "프린터·복합기"
+    },
+    {
+      "id": "phone",
+      "group": "phone",
+      "large": false,
+      "note": "휴대폰 · 개인정보는 먼저 지워요"
+    },
+    {
+      "id": "micro",
+      "group": "other",
+      "large": false,
+      "note": "전자레인지·오븐"
+    },
+    {
+      "id": "rice",
+      "group": "other",
+      "large": false,
+      "note": "전기밥솥"
+    },
+    {
+      "id": "vacuum",
+      "group": "other",
+      "large": false,
+      "note": "유선·무선 청소기"
+    },
+    {
+      "id": "fan",
+      "group": "other",
+      "large": false,
+      "note": "선풍기·서큘레이터"
+    },
+    {
+      "id": "airpur",
+      "group": "other",
+      "large": false,
+      "note": "공기청정기·가습기"
+    }
+  ],
+  "smallMinCount": "",
+  "smallWithLarge": "",
+  "pickupName": "폐가전 무상 방문수거 배출예약",
+  "pickupUrl": "https:\/\/www.15990903.or.kr\/",
+  "moveRemindDays": 7,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
