@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "reviewBy": "2026-12-31",
+  "minTrips": 15,
+  "maxTrips": 0,
+  "groups": {
+    "general": {
+      "basePct": 20,
+      "peakPct": 50,
+      "flatGeneralWon": [
+        62000,
+        55000,
+        50000,
+        45000
+      ],
+      "flatPlusWon": [
+        100000,
+        95000,
+        90000,
+        85000
+      ]
+    },
+    "youth": {
+      "basePct": 30,
+      "peakPct": 60,
+      "flatGeneralWon": [
+        55000,
+        50000,
+        45000,
+        40000
+      ],
+      "flatPlusWon": [
+        90000,
+        85000,
+        80000,
+        75000
+      ]
+    },
+    "child3": {
+      "basePct": 50,
+      "peakPct": 80,
+      "flatGeneralWon": [
+        45000,
+        40000,
+        35000,
+        30000
+      ],
+      "flatPlusWon": [
+        80000,
+        75000,
+        70000,
+        65000
+      ]
+    },
+    "low": {
+      "basePct": 53.3,
+      "peakPct": 83.3,
+      "flatGeneralWon": [
+        45000,
+        40000,
+        35000,
+        30000
+      ],
+      "flatPlusWon": [
+        80000,
+        75000,
+        70000,
+        65000
+      ]
+    }
+  },
+  "peakUntil": "2026-12-31",
+  "peakSlots": [
+    "05:30-06:30",
+    "09:00-10:00",
+    "16:00-17:00",
+    "19:00-20:00"
+  ],
+  "flatGeneralUnderWon": 3000,
+  "notice": "",
+  "judging": true,
+  "source": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%EC%9D%98%EC%9C%A1%EC%84%B1%EB%B0%8F%EC%9D%B4%EC%9A%A9%EC%B4%89%EC%A7%84%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0"
+}
