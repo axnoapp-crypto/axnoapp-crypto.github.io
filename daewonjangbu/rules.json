@@ -1,0 +1,27 @@
+{
+  "_읽을것": [
+    "민방위기본법 §18①·§23·§24·§39 · 시행령 §30·§31 · 시행령 별표 4 의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "fromAge·toAge = 그 나이가 되는 해의 1월 1일부터 12월 31일까지",
+    "hoursByYear 는 연차 1년차부터 교육 시간. 법령이 아니라 행정안전부 지침이라 확인한 뒤에만 채운다 — 비우면 화면은 「확인 필요」",
+    "eduFineWon 이 0 이면 화면은 「확인 필요」. penalties=false 면 과태료 금액을 숨긴다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "fromAge": 20,
+  "toAge": 40,
+  "yearDaysMax": 10,
+  "yearHoursMax": 50,
+  "hoursByYear": [],
+  "noticeDaysBefore": 7,
+  "makeupNoticeHours": 48,
+  "deferHoursBefore": 1,
+  "exemptEndDays": 7,
+  "abroadMonths": 3,
+  "eduFineWon": 100000,
+  "fineCapWon": 300000,
+  "fineAdjustPct": 50,
+  "penalties": true,
+  "notice": "",
+  "reviewBy": "2027-03-31"
+}
