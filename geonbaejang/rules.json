@@ -1,0 +1,62 @@
+{
+  "_읽을것": [
+    "정본 = 공정거래위원회 고시 「소비자분쟁해결기준」 별표 외식업(2-1·2-2) — law.go.kr 원문에서 확인한 값만 싣는다",
+    "general = 일반 음식점 · based = 예약기반 음식점 · steps 는 남은 분이 많은 구간부터 · minMinutes 이상이면 그 구간 · 맨 끝은 0",
+    "refundPct = 그 구간에 취소하면 돌려받는 예약보증금 % · capPct = 예약보증금 상한(총 이용금액 대비 %)",
+    "noShowRefundPct = 예약부도 때 돌려받는 % · shopFaultTimes = 업체 사정으로 풀릴 때 예약보증금의 몇 배를 돌려받나",
+    "leadMinutes = 구간이 바뀌기 몇 분 전에 알릴까(앱이 정한 값)",
+    "퍼센트를 모르면 null — 앱이 「확인 필요」로 보인다",
+    "값이 범위를 벗어나거나 구간 순서가 틀리거나 sources 가 비면 앱이 표 전체를 버린다 · notice 는 화면 맨 위 빨간 안내",
+    "고시가 바뀌면 숫자를 고치고 updatedAt·reviewBy 를 올린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "general": {
+    "title": "일반 음식점",
+    "capPct": 20,
+    "steps": [
+      {
+        "minMinutes": 60,
+        "label": "1시간 전까지",
+        "refundPct": 100
+      },
+      {
+        "minMinutes": 0,
+        "label": "1시간 안",
+        "refundPct": 25
+      }
+    ]
+  },
+  "based": {
+    "title": "예약기반 음식점",
+    "capPct": 40,
+    "steps": [
+      {
+        "minMinutes": 1440,
+        "label": "24시간 전까지",
+        "refundPct": 100
+      },
+      {
+        "minMinutes": 60,
+        "label": "24시간~1시간 전",
+        "refundPct": 50
+      },
+      {
+        "minMinutes": 0,
+        "label": "1시간 안",
+        "refundPct": 25
+      }
+    ]
+  },
+  "noShowRefundPct": 0,
+  "shopFaultTimes": 2,
+  "leadMinutes": 120,
+  "sources": [
+    {
+      "name": "소비자분쟁해결기준(외식업)",
+      "url": "https:\/\/www.law.go.kr\/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99\/%EC%86%8C%EB%B9%84%EC%9E%90%EB%B6%84%EC%9F%81%ED%95%B4%EA%B2%B0%EA%B8%B0%EC%A4%80"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
