@@ -1,0 +1,19 @@
+{
+  "_읽을것": [
+    "청소 주기는 가습기마다 달라 앱에 굽지 않는다 — 사용자가 제품 설명서 값을 넣는다",
+    "refs 에는 공개 출처(https 200)에서 원문을 확인한 참고 주기(일)만 싣는다. task 는 WATER·TANK·FILTER",
+    "제조사·세정제 브랜드 이름을 넣지 마라. 건강 효능을 쓰지 마라. 값을 지어내지 마라 — 모르면 refs 를 비운다",
+    "soonPct·onTimePct 는 참고치 시작값",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "soonPct": 70,
+  "onTimePct": 110,
+  "refs": [],
+  "safetyName": "가습기살균제 피해구제를 위한 특별법",
+  "safetyUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%82%B4%EA%B7%A0%EC%A0%9C%ED%94%BC%ED%95%B4%EA%B5%AC%EC%A0%9C%EB%A5%BC%EC%9C%84%ED%95%9C%ED%8A%B9%EB%B3%84%EB%B2%95",
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
