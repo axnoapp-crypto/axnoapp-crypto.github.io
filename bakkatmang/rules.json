@@ -1,0 +1,16 @@
+{
+  "_읽을것": [
+    "요금·데이터량·기간은 사용자가 직접 넣는다 — 이 표에 로밍·유심·eSIM 요금표나 평균값을 싣지 마라",
+    "통신사·판매처 이름을 notice 에도 쓰지 마라",
+    "departWarnDays = 출국 며칠 전 알림(1~7) · notifyHour\/returnHour = 알림 시각 · maxDays = 여행 일수 상한(14~120)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "departWarnDays": 1,
+  "notifyHour": 19,
+  "returnHour": 20,
+  "maxDays": 60,
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
