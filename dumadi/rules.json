@@ -1,0 +1,62 @@
+{
+  "_읽을것": [
+    "조세특례제한법 §100의3·§100의5·§100의6·§100의7·§100의8 과 같은 법 시행령 §100의7·§100의9 의 값이다. 바꿀 땐 law.go.kr 조문을 먼저 읽어라",
+    "curves 는 [점증 끝, 평탄 끝, 점감 끝(=총소득기준금액), 최대 지급액] 원",
+    "h1Apply 는 그해, h2Apply·regular·settleBy 는 다음 해의 월-일이다",
+    "payNoticeH1·payNoticeH2 는 국세청이 공지한 실제 지급 예정(자유 문구) — 비우면 화면이 「확인 필요」와 법정 기한만 말한다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "curves": {
+    "SOLO": [
+      4000000,
+      9000000,
+      22000000,
+      1650000
+    ],
+    "ONE": [
+      7000000,
+      14000000,
+      32000000,
+      2850000
+    ],
+    "TWO": [
+      8000000,
+      17000000,
+      44000000,
+      3300000
+    ]
+  },
+  "assetCap": 240000000,
+  "assetHalfFrom": 170000000,
+  "assetHalfPct": 50,
+  "halfPct": 35,
+  "zeroBelow": 15000,
+  "riseFloor": 100000,
+  "fallFloor": 30000,
+  "h1DeferBelow": 150000,
+  "latePct": 95,
+  "spouseMin": 3000000,
+  "h1Apply": {
+    "from": "09-01",
+    "to": "09-15"
+  },
+  "h2Apply": {
+    "from": "03-01",
+    "to": "03-15"
+  },
+  "regular": {
+    "from": "05-01",
+    "to": "05-31"
+  },
+  "lateMonths": 6,
+  "decideMonths": 3,
+  "halfPayDays": 15,
+  "regularPayDays": 30,
+  "settleBy": "06-30",
+  "payNoticeH1": "",
+  "payNoticeH2": "",
+  "notice": "",
+  "reviewBy": "2027-12-31"
+}
