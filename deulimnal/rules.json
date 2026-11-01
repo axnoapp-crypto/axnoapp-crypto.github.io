@@ -1,0 +1,273 @@
+{
+  "_읽을것": [
+    "모든 값은 sources·plants.page 의 공개 출처(https)에서 본문으로 확인한 것만 싣는다 — 모르면 그 칸을 지운다(null). 앱은 「확인 필요」라고 보여 준다",
+    "plants.id 는 저장 키라 바꾸지 마라. other(다른 식물)는 반드시 남긴다",
+    "minC = 농사로 「겨울최저온도」 숫자 · minText = 그 글 그대로 · hardy = 「0℃ 이하」(영하도 견딘다고만 적힌 식물)",
+    "물 주는 간격(며칠)은 정본이 없어 사용자가 정한다 — 여기에 기본값을 넣지 마라",
+    "기온은 사용자가 예보·온도계를 보고 넣는다(날씨 API 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "reviewBy": "2027-03-31",
+  "notice": "",
+  "bringIn": "10월 중하순부터는 아침저녁 일교차가 커서, 바깥에서 키우던 관엽식물은 실내로 들여놓아요",
+  "verandaRule": "최저 10℃ 이상이 필요한 식물은 베란다에 두지 말고 실내로 옮겨요",
+  "winterTips": [
+    "베란다에 둘 수밖에 없으면 밤엔 커튼으로 외풍을 막고, 때에 따라 화분을 비닐이나 신문지로 덮어요",
+    "실내로 들인 화분은 바닥 말고 선반 위에 — 온돌 열기에 뿌리가 마를 수 있어요",
+    "실내 습도는 50~60%가 좋아요 · 식물 옆에 온습도계를 두면 확인하기 쉬워요",
+    "들여놓을 때 잎과 가지를 정리하면 쓸데없는 양분 소모를 막아요"
+  ],
+  "repotWhen": "한겨울 쉬고 봄에 다시 자라기 시작할 때 — 너무 이른 봄보다 좀 더 따뜻해진 4~5월경을 좋아하는 식물이 많아요",
+  "repotMonth": 4,
+  "repotCycle": "잘 자라 해마다 화분이 비좁아지면 매년 봄, 2년쯤 걸리면 2년마다, 아주 느리면 필요할 때",
+  "repotSigns": [
+    "뿌리가 화분 밑 구멍으로 빠져나와요",
+    "식물이 너무 커서 화분이 자꾸 넘어져요",
+    "뿌리가 위로 밀려 올라오고, 흙이 금방 말라요"
+  ],
+  "repotTips": [
+    "흙은 화분 높이의 80~90%쯤 채워요",
+    "분갈이한 뒤엔 물을 충분히 주고, 1주일쯤 반그늘에서 쉬게 한 뒤 밝은 곳으로 옮겨요"
+  ],
+  "plants": [
+    {
+      "id": "monstera",
+      "name": "몬스테라",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "흙을 촉촉하게(물에 잠기지 않게)",
+      "waterWinter": "겉흙이 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=16449",
+      "form": "BROAD"
+    },
+    {
+      "id": "sansevieria",
+      "name": "산세베리아",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=19448",
+      "form": "BLADE"
+    },
+    {
+      "id": "scindapsus",
+      "name": "스킨답서스",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=19716",
+      "form": "VINE"
+    },
+    {
+      "id": "spathiphyllum",
+      "name": "스파티필룸",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=19717",
+      "form": "FLOWER"
+    },
+    {
+      "id": "benjamin",
+      "name": "벤자민고무나무",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "겉흙이 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=14919",
+      "form": "BUSH"
+    },
+    {
+      "id": "lyrata",
+      "name": "떡갈잎 고무나무",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=14911",
+      "form": "BROAD"
+    },
+    {
+      "id": "areca",
+      "name": "아레카야자",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "겉흙이 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=19465",
+      "form": "BLADE"
+    },
+    {
+      "id": "alocasia",
+      "name": "알로카시아 아마조니카",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "흙을 촉촉하게(물에 잠기지 않게)",
+      "waterWinter": "겉흙이 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=18658",
+      "form": "BROAD"
+    },
+    {
+      "id": "massangeana",
+      "name": "드라세나 맛상게아나",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "흙을 촉촉하게(물에 잠기지 않게)",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=14690",
+      "form": "BLADE"
+    },
+    {
+      "id": "gaeunjuk",
+      "name": "개운죽",
+      "minC": 13,
+      "minText": "13℃ 이상",
+      "hardy": false,
+      "waterSpring": "흙을 촉촉하게(물에 잠기지 않게)",
+      "waterWinter": "겉흙이 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=12954",
+      "form": "BLADE"
+    },
+    {
+      "id": "syngonium",
+      "name": "싱고니움",
+      "minC": 10,
+      "minText": "10℃",
+      "hardy": false,
+      "waterSpring": "흙을 촉촉하게(물에 잠기지 않게)",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=19714",
+      "form": "BROAD"
+    },
+    {
+      "id": "geranium",
+      "name": "제라니움",
+      "minC": 10,
+      "minText": "10℃",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=16248",
+      "form": "FLOWER"
+    },
+    {
+      "id": "wilma",
+      "name": "골드크레스트 '윌마'",
+      "minC": 10,
+      "minText": "10℃",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=12955",
+      "form": "BUSH"
+    },
+    {
+      "id": "clivia",
+      "name": "군자란",
+      "minC": 10,
+      "minText": "10℃",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=12974",
+      "form": "BLADE"
+    },
+    {
+      "id": "cyclamen",
+      "name": "시클라멘",
+      "minC": 7,
+      "minText": "7℃",
+      "hardy": false,
+      "waterSpring": "",
+      "waterWinter": "겉흙이 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=19707",
+      "form": "FLOWER"
+    },
+    {
+      "id": "yucca",
+      "name": "유카",
+      "minC": 5,
+      "minText": "5℃",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=18582",
+      "form": "BLADE"
+    },
+    {
+      "id": "ivy",
+      "name": "아이비",
+      "minC": 5,
+      "minText": "5℃",
+      "hardy": false,
+      "waterSpring": "흙을 촉촉하게(물에 잠기지 않게)",
+      "waterWinter": "겉흙이 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=19461",
+      "form": "VINE"
+    },
+    {
+      "id": "nandina",
+      "name": "남천",
+      "minC": 5,
+      "minText": "5℃",
+      "hardy": false,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=13206",
+      "form": "BUSH"
+    },
+    {
+      "id": "camellia",
+      "name": "동백",
+      "minC": 0,
+      "minText": "0℃ 이하",
+      "hardy": true,
+      "waterSpring": "겉흙이 마르면 듬뿍",
+      "waterWinter": "화분 흙이 대부분 마르면 듬뿍",
+      "page": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentSub.ps?menuId=PS00376&cntntsNo=14663",
+      "form": "BUSH"
+    },
+    {
+      "id": "other",
+      "name": "다른 식물",
+      "minC": null,
+      "minText": "",
+      "hardy": false,
+      "waterSpring": "",
+      "waterWinter": "",
+      "page": "",
+      "form": "BROAD"
+    }
+  ],
+  "sources": [
+    {
+      "id": "garden",
+      "name": "농사로 · 실내식물 이용정보(식물별 겨울 최저온도)",
+      "url": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentMain.ps?menuId=PS00376"
+    },
+    {
+      "id": "winter",
+      "name": "정책브리핑 · 관엽식물, 안전한 겨울나기 비법",
+      "url": "https:\/\/www.korea.kr\/news\/policyNewsView.do?newsId=148909251"
+    },
+    {
+      "id": "repot",
+      "name": "농사로 · 분갈이",
+      "url": "https:\/\/www.nongsaro.go.kr\/portal\/ps\/psz\/psza\/contentMain.ps?menuId=PS04107"
+    }
+  ]
+}
