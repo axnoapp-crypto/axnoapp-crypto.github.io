@@ -1,0 +1,67 @@
+{
+  "_읽을것": [
+    "고용보험법 시행령 §12·§18~§21 · 시행규칙 §24 · 고시 「고용유지지원금 신청 및 지급에 관한 규정」의 값이다. 숫자를 바꿀 땐 조문을 먼저 읽어라",
+    "비율은 \"분자\/분모\" 문자열 · crisisRate(고용사정 악화 고시)·specialRate(특별고용지원업종)는 고시가 나오면 채운다. 비어 있으면 앱이 「확인 필요」를 띄운다",
+    "1일 상한 = max(wageCapDaily × capPct%, 최저임금 시간급 × floorHours × floorPct%) · minWages 는 from 날짜부터 적용",
+    "개정안은 공포·시행 전에 넣지 마라. notice 한 줄로만 알린다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-23",
+  "reviewBy": "2027-01-15",
+  "ratePriority": "2\/3",
+  "rateLarge": "1\/2",
+  "rateLargeDeep": "2\/3",
+  "deepCutPct": 50,
+  "crisisRate": "",
+  "crisisUntil": "",
+  "specialRate": "",
+  "specialUntil": "",
+  "wageCapDaily": 113500,
+  "capPct": 60,
+  "floorPct": 80,
+  "floorHours": 8,
+  "minWages": [
+    {
+      "from": "2026-01-01",
+      "hourly": 10320
+    },
+    {
+      "from": "2027-01-01",
+      "hourly": 10700
+    }
+  ],
+  "annualDays": 180,
+  "minCutPct": 20,
+  "insuredDays": 90,
+  "salesDropPct": 15,
+  "salesBaseMonths": 6,
+  "keepAfterMonths": 1,
+  "applyMonths": 3,
+  "bands": [
+    {
+      "id": "mfg",
+      "label": "제조업",
+      "example": "공장 · 가공 · 식품 제조",
+      "max": 500
+    },
+    {
+      "id": "b300",
+      "label": "건설·운수·정보통신·전문서비스",
+      "example": "광업 · 물류 · 소프트웨어 · 보건복지",
+      "max": 300
+    },
+    {
+      "id": "b200",
+      "label": "도소매·숙박음식·금융·여가",
+      "example": "가게 · 식당 · 호텔 · 헬스장",
+      "max": 200
+    },
+    {
+      "id": "other",
+      "label": "그 밖의 업종",
+      "example": "교육 · 수리 · 개인서비스",
+      "max": 100
+    }
+  ],
+  "notice": ""
+}
