@@ -1,0 +1,147 @@
+{
+  "_읽을것": [
+    "자연재해대책법 제27조 원문에서 확인한 것만 싣는다: 책임 주체(holders)·치울 곳(areas)·범위는 조례에 맡김(delegatedTo)",
+    "regions 의 scopeNote(범위)·timeNote(시간)는 그 지역 조례 원문을 열어 확인했을 때만 채운다. null 이면 화면이 「사는 곳 조례 확인」",
+    "areas 에 walk 가 없거나 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-26",
+  "lawName": "자연재해대책법",
+  "article": "제27조",
+  "lawUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EC%9E%90%EC%97%B0%EC%9E%AC%ED%95%B4%EB%8C%80%EC%B1%85%EB%B2%95\/%EC%A0%9C27%EC%A1%B0",
+  "holders": [
+    "소유자",
+    "점유자",
+    "관리자"
+  ],
+  "areas": [
+    {
+      "id": "walk",
+      "label": "보도",
+      "note": "건물 주변 인도"
+    },
+    {
+      "id": "lane",
+      "label": "이면도로",
+      "note": "건물 옆·뒤 좁은 골목길"
+    },
+    {
+      "id": "path",
+      "label": "보행자 전용도로",
+      "note": "사람만 다니는 길"
+    },
+    {
+      "id": "roof",
+      "label": "시설물의 지붕",
+      "note": "대통령령으로 정하는 시설물의 지붕만 · 대상은 확인 필요"
+    }
+  ],
+  "delegatedTo": "해당 지방자치단체의 조례",
+  "regions": [
+    {
+      "id": "seoul",
+      "name": "서울특별시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "busan",
+      "name": "부산광역시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "daegu",
+      "name": "대구광역시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "incheon",
+      "name": "인천광역시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "gwangju",
+      "name": "광주광역시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "daejeon",
+      "name": "대전광역시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "ulsan",
+      "name": "울산광역시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "sejong",
+      "name": "세종특별자치시",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "gyeonggi",
+      "name": "경기도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "gangwon",
+      "name": "강원특별자치도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "chungbuk",
+      "name": "충청북도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "chungnam",
+      "name": "충청남도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "jeonbuk",
+      "name": "전북특별자치도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "jeonnam",
+      "name": "전라남도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "gyeongbuk",
+      "name": "경상북도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "gyeongnam",
+      "name": "경상남도",
+      "scopeNote": null,
+      "timeNote": null
+    },
+    {
+      "id": "jeju",
+      "name": "제주특별자치도",
+      "scopeNote": null,
+      "timeNote": null
+    }
+  ],
+  "ordinanceSearchUrl": "https:\/\/www.law.go.kr\/ordinSc.do?query=",
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
