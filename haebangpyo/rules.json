@@ -1,0 +1,211 @@
+{
+  "_읽을것": [
+    "year = 학년도. 다음 입시 일정이 나오면 year 를 올리고 marks 의 from·to 를 바꿔라",
+    "kind = RANGE(기간·to 필수) · DAY(하루). 모든 마디는 src 에 https 출처 필수 — 출처 없는 마디는 싣지 마라. id 'exam'(수능 날)은 꼭 있어야 한다",
+    "jungsi = true 면 「수시로 끝나요」를 고른 사람에겐 접어 두고 알림도 안 건다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-04",
+  "year": 2027,
+  "marks": [
+    {
+      "id": "exam",
+      "name": "수능",
+      "short": "수능",
+      "kind": "DAY",
+      "from": "2026-11-19",
+      "to": "",
+      "jungsi": false,
+      "tip": "이날부터 해방 날수를 세요. 수고 많았어요.",
+      "src": "https:\/\/mobile.newsis.com\/view\/NISX20260331_0003570832"
+    },
+    {
+      "id": "score",
+      "name": "수능 성적 통지",
+      "short": "성적",
+      "kind": "DAY",
+      "from": "2026-12-11",
+      "to": "",
+      "jungsi": false,
+      "tip": "성적은 12월 11일까지 통지될 예정이에요. 받는 방법은 학교·시험지구 안내를 따르세요.",
+      "src": "https:\/\/mobile.newsis.com\/view\/NISX20260331_0003570832"
+    },
+    {
+      "id": "apply",
+      "name": "정시 원서 접수",
+      "short": "원서",
+      "kind": "RANGE",
+      "from": "2027-01-04",
+      "to": "2027-01-07",
+      "jungsi": true,
+      "tip": "가·나·다군에서 한 곳씩 쓸 수 있어요. 대학마다 마감 시각이 다르니 모집요강을 확인하세요.",
+      "src": "https:\/\/www.kcue.or.kr\/_upload\/news\/2025\/04\/30\/application_25d9ccd90388d6ba316a2c7d398ff944.pdf"
+    },
+    {
+      "id": "announce",
+      "name": "정시 합격 발표",
+      "short": "발표",
+      "kind": "DAY",
+      "from": "2027-02-05",
+      "to": "",
+      "jungsi": true,
+      "tip": "2월 5일까지 대학별로 발표해요. 발표 날짜는 대학마다 달라요.",
+      "src": "https:\/\/www.kcue.or.kr\/_upload\/news\/2025\/04\/30\/application_25d9ccd90388d6ba316a2c7d398ff944.pdf"
+    },
+    {
+      "id": "register",
+      "name": "정시 최초합격 등록",
+      "short": "등록",
+      "kind": "RANGE",
+      "from": "2027-02-10",
+      "to": "2027-02-12",
+      "jungsi": true,
+      "tip": "합격한 대학 중 한 곳에만 등록해요. 등록 방법은 대학 안내를 따르세요.",
+      "src": "https:\/\/www.kcue.or.kr\/_upload\/news\/2025\/04\/30\/application_25d9ccd90388d6ba316a2c7d398ff944.pdf"
+    },
+    {
+      "id": "refill",
+      "name": "정시 충원 합격·등록",
+      "short": "충원",
+      "kind": "RANGE",
+      "from": "2027-02-13",
+      "to": "2027-02-18",
+      "jungsi": true,
+      "tip": "충원 합격 통보는 2월 17일 18시까지, 등록은 2월 18일까지예요.",
+      "src": "https:\/\/www.kcue.or.kr\/_upload\/news\/2025\/04\/30\/application_25d9ccd90388d6ba316a2c7d398ff944.pdf"
+    },
+    {
+      "id": "extra",
+      "name": "추가모집",
+      "short": "추가",
+      "kind": "RANGE",
+      "from": "2027-02-19",
+      "to": "2027-02-26",
+      "jungsi": true,
+      "tip": "정원을 다 채우지 못한 대학이 추가로 모집해요. 모집하는 대학은 그때 공고를 보세요.",
+      "src": "https:\/\/www.kcue.or.kr\/_upload\/news\/2025\/04\/30\/application_25d9ccd90388d6ba316a2c7d398ff944.pdf"
+    }
+  ],
+  "ideas": [
+    {
+      "text": "운전면허 따기",
+      "zone": "LEARN",
+      "steps": [
+        "학원 고르기",
+        "학과 시험",
+        "기능 시험",
+        "도로 주행"
+      ]
+    },
+    {
+      "text": "친구들이랑 1박 2일 여행",
+      "zone": "PLAY",
+      "steps": [
+        "날짜 맞추기",
+        "숙소 정하기",
+        "교통편 예약"
+      ]
+    },
+    {
+      "text": "첫 아르바이트 구하기",
+      "zone": "EARN",
+      "steps": [
+        "하고 싶은 일 고르기",
+        "지원하기",
+        "근로계약서 받기"
+      ]
+    },
+    {
+      "text": "밀린 드라마 정주행",
+      "zone": "PLAY",
+      "steps": []
+    },
+    {
+      "text": "공연·콘서트 보러 가기",
+      "zone": "PLAY",
+      "steps": []
+    },
+    {
+      "text": "바다 보러 가기",
+      "zone": "PLAY",
+      "steps": []
+    },
+    {
+      "text": "요리 세 가지 익히기",
+      "zone": "LEARN",
+      "steps": [
+        "첫 번째 요리",
+        "두 번째 요리",
+        "세 번째 요리"
+      ]
+    },
+    {
+      "text": "책 다섯 권 읽기",
+      "zone": "LEARN",
+      "steps": []
+    },
+    {
+      "text": "영어 회화 다시 시작",
+      "zone": "LEARN",
+      "steps": []
+    },
+    {
+      "text": "코딩 맛보기",
+      "zone": "LEARN",
+      "steps": []
+    },
+    {
+      "text": "번 돈으로 가족 선물",
+      "zone": "EARN",
+      "steps": []
+    },
+    {
+      "text": "용돈 기입장 시작",
+      "zone": "EARN",
+      "steps": []
+    },
+    {
+      "text": "아침 산책 습관 들이기",
+      "zone": "MOVE",
+      "steps": []
+    },
+    {
+      "text": "자전거로 한강·강변 달리기",
+      "zone": "MOVE",
+      "steps": []
+    },
+    {
+      "text": "새 운동 하나 배우기",
+      "zone": "MOVE",
+      "steps": []
+    },
+    {
+      "text": "수강신청 미리 알아보기",
+      "zone": "READY",
+      "steps": []
+    },
+    {
+      "text": "새 학기 노트북 고르기",
+      "zone": "READY",
+      "steps": []
+    },
+    {
+      "text": "기숙사·자취방 알아보기",
+      "zone": "READY",
+      "steps": []
+    },
+    {
+      "text": "증명사진 새로 찍기",
+      "zone": "READY",
+      "steps": []
+    },
+    {
+      "text": "문제집 정리하고 방 비우기",
+      "zone": "READY",
+      "steps": []
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-03-01"
+}
