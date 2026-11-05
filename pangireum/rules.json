@@ -1,0 +1,21 @@
+{
+  "_읽을것": [
+    "wax* = 바닥 재질별 왁싱 주기 처음 값. 단위는 반나절(하루 = 2), 2~40",
+    "range* · edgeNote = 화면에 그대로 나가는 출처 요약 한 줄",
+    "출처 없는 수치를 더하지 마라. 하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-05",
+  "waxSintered": 8,
+  "waxExtruded": 12,
+  "waxUnknown": 8,
+  "rangeSintered": "소결 바닥은 탄 날 3~5일마다",
+  "rangeExtruded": "압출 바닥은 탄 날 5~8일마다",
+  "rangeUnknown": "보통 탄 날 3~5일마다",
+  "edgeNote": "엣지는 핫왁싱 할 때 같이, 빠르면 탄 날 3일마다 손보라고 해요",
+  "waxUrl": "https:\/\/www.salomon.com\/en-us\/sg\/a\/how-to-wax-a-snowboard-essential-tips-all-riders",
+  "waxUrl2": "https:\/\/www.evo.com\/guides\/how-to-wax-snowboard",
+  "edgeUrl": "https:\/\/www.burton.com\/blogs\/the-burton-blog\/how-to-sharpen-snowboard-edges",
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
