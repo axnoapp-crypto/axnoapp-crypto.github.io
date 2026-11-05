@@ -1,0 +1,57 @@
+{
+  "_읽을것": [
+    "presets 는 김치 종류별 시작값이다. 새 통을 담글 때 달력에 미리 잡히는 값이고, 그 집 맛본 기록이 있으면 기록이 이긴다",
+    "kind = DONGCHIMI CHONGGAK PA KKAKDUGI NABAK BAECHU OTHER (종류마다 한 줄)",
+    "room 은 담근 뒤 실온에 두는 날(0~span) · span 은 담근 날부터 맛볼 날까지(1~90) · eat 은 맛볼 날부터 먹기 좋은 기간(1~60)",
+    "🔴 이 값들은 앱이 고른 시작값이다. 사실처럼 쓰지 말고, 출처 없는 수치를 근거처럼 적지 마라",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-05",
+  "notice": "",
+  "presets": [
+    {
+      "kind": "DONGCHIMI",
+      "room": 2,
+      "span": 14,
+      "eat": 30
+    },
+    {
+      "kind": "CHONGGAK",
+      "room": 2,
+      "span": 10,
+      "eat": 30
+    },
+    {
+      "kind": "PA",
+      "room": 1,
+      "span": 5,
+      "eat": 14
+    },
+    {
+      "kind": "KKAKDUGI",
+      "room": 1,
+      "span": 5,
+      "eat": 14
+    },
+    {
+      "kind": "NABAK",
+      "room": 1,
+      "span": 3,
+      "eat": 7
+    },
+    {
+      "kind": "BAECHU",
+      "room": 1,
+      "span": 14,
+      "eat": 45
+    },
+    {
+      "kind": "OTHER",
+      "room": 1,
+      "span": 7,
+      "eat": 14
+    }
+  ]
+}
