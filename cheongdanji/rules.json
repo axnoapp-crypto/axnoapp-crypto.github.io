@@ -1,0 +1,22 @@
+{
+  "_읽을것": [
+    "presets 는 과일별 시작값이다. 새 병을 담글 때 카드에 미리 잡히는 값이고, 그 집 맛본 기록이 있으면 기록이 이긴다",
+    "fruit = YUJA LEMON GRAPEFRUIT GINGER QUINCE GREEN OTHER · YUJA 줄은 꼭 있어야 한다. 없는 과일은 YUJA 값을 빌려 쓴다",
+    "room 은 실온에 두며 뒤집는 날(0~7, open 이하) · open 은 담근 날부터 맛볼 날까지(1~60) · sugar 는 과일 무게 대비 설탕 %(100 = 같은 무게)",
+    "🔴 https 출처가 있는 값만 넣는다. 출처는 apps\/yuja-jar\/CLAUDE.md 「정본」 표에 같이 적는다",
+    "season 은 빈 홈 첫 줄 아래 한 줄(비우면 없음) · notice 는 화면 맨 위에 붉은 글씨(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-05",
+  "notice": "",
+  "season": "유자는 11월에 수확이 시작돼요",
+  "presets": [
+    {
+      "fruit": "YUJA",
+      "room": 2,
+      "open": 7,
+      "sugar": 100
+    }
+  ]
+}
