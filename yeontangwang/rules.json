@@ -1,0 +1,54 @@
+{
+  "_읽을것": [
+    "단가·하루 장수·겨울 날수는 싣지 않는다 — 사용자가 넣는다",
+    "safety 는 공식 페이지에서 읽은 문장만. 못 읽은 수치·절차를 넣지 마라",
+    "links 는 https 전체 경로 · 업체 링크 금지",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "defaultAlertDays": 14,
+  "safety": [
+    {
+      "text": "실내 공기를 자주 환기해요",
+      "source": "환경보건포털"
+    },
+    {
+      "text": "보일러와 난로 연통의 이음매 부근에서 가스가 새지 않는지 수시로 점검해요",
+      "source": "소방청"
+    },
+    {
+      "text": "보일러를 켜기 전에 배기통이 빠지지 않았는지, 배관이 찌그러지지 않았는지 살펴요",
+      "source": "행정안전부"
+    },
+    {
+      "text": "일산화탄소 감지기 설치를 권해요",
+      "source": "소방청"
+    },
+    {
+      "text": "차량과 텐트 안에서는 석탄·목재류를 쓰지 않아요",
+      "source": "소방청"
+    },
+    {
+      "text": "중독 증상이 있으면 즉시 환기해 신선한 공기를 마시게 하고 119에 신고해요",
+      "source": "소방청"
+    }
+  ],
+  "links": [
+    {
+      "name": "소방청 · 일산화탄소 중독사고 안내",
+      "url": "https:\/\/www.nfa.go.kr\/nfa\/safetyinfo\/lifesafety\/stats"
+    },
+    {
+      "name": "환경보건포털 · 실내공기 일산화탄소",
+      "url": "https:\/\/www.ehtis.or.kr\/cmn\/sym\/mnu\/mpm\/111021206\/htmlCnView.do"
+    },
+    {
+      "name": "행정안전부 · 난방기구 일산화탄소 주의",
+      "url": "https:\/\/www.mois.go.kr\/frt\/bbs\/type010\/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=104812"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
