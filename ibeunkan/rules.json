@@ -1,0 +1,35 @@
+{
+  "_읽을것": [
+    "presets 는 처음 깔리는 옷 칸이다(1~6개). 이미 칸을 만든 사람에겐 안 바뀐다",
+    "n 은 칸 이름(12자 이내) · limit 는 몇 번 입고 빠나(1~60) · kind 는 타일 그림 모양",
+    "kind = KNIT TURTLE CARDIGAN COAT SCARF OTHER(모르면 OTHER)",
+    "🔴 limit 는 앱이 고른 시작값이다. 사실처럼 쓰지 말고, 출처 없는 수치를 근거처럼 적지 마라",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-05",
+  "notice": "",
+  "presets": [
+    {
+      "n": "니트",
+      "kind": "KNIT",
+      "limit": 5
+    },
+    {
+      "n": "가디건",
+      "kind": "CARDIGAN",
+      "limit": 6
+    },
+    {
+      "n": "울 코트",
+      "kind": "COAT",
+      "limit": 15
+    },
+    {
+      "n": "목도리",
+      "kind": "SCARF",
+      "limit": 8
+    }
+  ]
+}
