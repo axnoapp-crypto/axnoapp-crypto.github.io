@@ -1,0 +1,18 @@
+{
+  "_읽을것": [
+    "peelMonth·recheckMonth 는 앱이 정한 참고 시작값이다",
+    "절약액·온도·난방비 비율을 넣지 마라. 값을 지어내지 마라",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "peelMonth": 4,
+  "peelDay": 1,
+  "recheckMonth": 11,
+  "recheckDay": 1,
+  "safetyName": "한국가스안전공사",
+  "safetyUrl": "https:\/\/www.kgs.or.kr",
+  "notice": "",
+  "reviewBy": "2027-09-30"
+}
