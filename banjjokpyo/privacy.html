@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>「반쪽표」 개인정보 처리방침</title>
+<title>HalfStub Privacy Policy</title>
 <style>
   :root{
     --bg:#0f1116; --card:#161a22; --line:#242a35;
@@ -43,11 +43,105 @@
   .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
   .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
   .note{color:var(--dim);font-size:13px}
+  .langs{display:flex;gap:8px;margin:0 0 18px}
+  .langs button{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--dim);cursor:pointer}
+  .langs button.on{color:var(--accent);border-color:var(--accent)}
+  [data-lang][hidden]{display:none}
 </style>
 </head>
 <body>
 <div class="wrap">
 
+  <div class="langs"><button type="button" data-to="en" class="on">English</button><button type="button" data-to="ko">한국어</button></div>
+
+  <div data-lang="en" lang="en">
+  <div class="eyebrow">Privacy</div>
+  <h1>HalfStub Privacy Policy</h1>
+  <p class="sub">Last updated 2026-11-09</p>
+
+  <section>
+    <h2>Summary</h2>
+    <p>HalfStub (the "Service") respects your privacy. This policy explains what information the Service handles and why.</p>
+  </section>
+
+  <section>
+    <h2>1. What the Service is</h2>
+    <p>The Service lets you record the shows you have seen or plan to see (title, venue, date, seat, nickname of who came along, ticket price, stars and a one-line note) and keeps them on your device as a stub wall. It reminds you on your device before a show. There is no sign-up, login or identity check, and the developer runs no server that receives or stores your information.</p>
+  </section>
+
+  <section>
+    <h2>2. Information processed</h2>
+    <div class="item">
+      <p class="label">Advertising identifiers <span class="note">Personalized ads</span></p>
+      <p>Google AdMob uses the advertising ID and App Set ID to show ads. The developer does not collect or store these values.</p>
+    </div>
+    <div class="item">
+      <p class="label">Device and usage data <span class="note">Ad measurement and crash diagnostics</span></p>
+      <p>Ad impressions and clicks, and error and performance information, may be processed by Google AdMob. Nothing you type into the Service is included.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Information stored only on your device</h2>
+    <p>The following stays in your device's internal storage and is never sent anywhere:</p>
+    <ul>
+      <li>Show titles, venues, dates, seats, nicknames, ticket prices, stars and notes you enter</li>
+      <li>Display settings and whether reminders are on</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Retention and deletion</h2>
+    <p>Information on your device is deleted as soon as you uninstall the Service or clear its data (Settings &gt; Apps &gt; Storage &gt; Clear data). The developer keeps no separate copy.</p>
+  </section>
+
+  <section>
+    <h2>5. Third-party services</h2>
+    <div class="item">
+      <p class="label">Google AdMob <span class="note">Ads</span></p>
+      <p><a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/ads">How Google uses information from sites or apps that use its services</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>6. Permissions</h2>
+    <div class="item">
+      <p class="label">Internet <span class="note">Required</span></p>
+      <p>Used only to show ads and receive the latest notice.</p>
+    </div>
+    <div class="item">
+      <p class="label">Notifications <span class="note">Optional</span></p>
+      <p>Requested only if you turn reminders on. The Service reminds you on your device a few days before and on the morning of a show. Everything else works without it.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>7. Children</h2>
+    <p>The Service is not directed at children under 13 and does not knowingly process children's personal information.</p>
+  </section>
+
+  <section>
+    <h2>8. Your choices</h2>
+    <p>You can delete stubs in the Service or uninstall it at any time to remove the information on your device. You can reset or delete your advertising ID in your device settings (Settings &gt; Privacy &gt; Ads).</p>
+  </section>
+
+  <section>
+    <h2>9. Contact</h2>
+    <p>For privacy questions, email us and we will reply promptly.</p>
+    <ul>
+      <li>Email: <a href="mailto:axno.app@gmail.com">axno.app@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Changes</h2>
+    <p>If this policy changes, we will post the new version on this page with its date.</p>
+  </section>
+
+
+  </div>
+
+  <div data-lang="ko" lang="ko" hidden>
   <div class="eyebrow">Privacy</div>
   <h1>「반쪽표」 개인정보 처리방침</h1>
   <p class="sub">최종 수정일 </p>
@@ -134,6 +228,18 @@
   </section>
 
 
+  </div>
+
 </div>
+<script>
+(function(){
+  function show(l){document.querySelectorAll('[data-lang]').forEach(function(d){d.hidden=d.getAttribute('data-lang')!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.className=b.getAttribute('data-to')===l?'on':''});
+    document.documentElement.lang=l;}
+  document.querySelectorAll('.langs button').forEach(function(b){b.onclick=function(){show(b.getAttribute('data-to'))}});
+  var h=(location.hash||'').slice(1), n=(navigator.language||'').toLowerCase();
+  show(h==='ko'||h==='en'?h:(n.indexOf('ko')===0?'ko':'en'));
+})();
+</script>
 </body>
 </html>
