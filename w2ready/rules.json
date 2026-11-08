@@ -1,0 +1,12 @@
+{
+  "_read_me": [
+    "Dates of each tax season, keyed by TAX YEAR (the year the income was earned; filing is the next spring).",
+    "jan = senders must furnish W-2 and most 1099s · feb = 1099-B and a few others · file = return due. Each already rolled to the next business day.",
+    "Source: https://www.irs.gov/filing/individuals/when-to-file . Only list a year when the IRS moves a date; missing years are worked out by rule in the app.",
+    "The app drops this whole file if any row is bad."
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-08",
+  "years": {},
+  "notice": ""
+}
