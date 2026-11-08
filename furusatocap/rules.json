@@ -1,0 +1,14 @@
+{
+  "_읽을것": [
+    "ふるさと納税 上限メーター(furusato-cap) 앱의 제도 값 표. 앱은 이 파일을 통째로 받거나 통째로 버린다.",
+    "상한액은 사람마다 달라 여기 없다(사용자가 직접 넣는다). 여기는 제도 값만 둔다.",
+    "yearEnd = 그해 기부를 세는 마감(달력 연도, 12/31). oneStop = 원스톱 신청서 기한(기부한 다음 해 m/d 필착).",
+    "asOf 는 화면에 그대로 뜬다. 값을 고치면 asOf 도 같이 고친다.",
+    "출처: 자기부담·5자치단체 https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/mechanism/deduction.html · 신청서 기한은 각 자치단체 안내(예 https://www.city.mutsu.lg.jp/government/furusato/files/onestop2.pdf)"
+  ],
+  "asOf": "2026-11-08",
+  "selfBurden": 2000,
+  "oneStopMax": 5,
+  "yearEnd": { "m": 12, "d": 31 },
+  "oneStop": { "m": 1, "d": 10 }
+}
