@@ -1,0 +1,11 @@
+{
+  "_읽을것": [
+    "QuarterTax(quarter-tax) 앱의 납부일 표. 앱은 이 파일을 통째로 받거나 통째로 버린다.",
+    "기본은 앱 안의 규칙(1분기 4/15 · 2분기 6/15 · 3분기 9/15 · 4분기 다음 해 1/15, 토·일·공휴일이면 다음 영업일)이다. 이 표는 그 규칙을 덮어쓸 때만 쓴다(재난 연기 등).",
+    "years 의 키는 세금 연도. 값은 1~4분기 납부일 4개(오름차순). 1~3분기는 그 해, 4분기는 다음 해여야 한다 — 하나라도 어긋나면 앱이 표 전체를 버린다.",
+    "asOf 는 화면에 그대로 뜬다. 값을 고치면 asOf 도 같이 고친다. years 가 비어 있어도 된다(규칙만 쓴다).",
+    "출처: https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes · 연기 안내는 https://www.irs.gov/newsroom/tax-relief-in-disaster-situations"
+  ],
+  "asOf": "2026-11-08",
+  "years": {}
+}
