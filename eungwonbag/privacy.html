@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>「응원가방」 개인정보 처리방침</title>
+<title>Cheer Bag Privacy Policy</title>
 <style>
   :root{
     --bg:#0f1116; --card:#161a22; --line:#242a35;
@@ -43,11 +43,108 @@
   .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
   .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
   .note{color:var(--dim);font-size:13px}
+  .langs{display:flex;gap:8px;margin:0 0 18px}
+  .langs button{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--dim);cursor:pointer}
+  .langs button.on{color:var(--accent);border-color:var(--accent)}
+  [data-lang][hidden]{display:none}
 </style>
 </head>
 <body>
 <div class="wrap">
 
+  <div class="langs"><button type="button" data-to="en" class="on">English</button><button type="button" data-to="ko">한국어</button></div>
+
+  <div data-lang="en" lang="en">
+  <div class="eyebrow">Privacy</div>
+  <h1>Cheer Bag Privacy Policy</h1>
+  <p class="sub">Last updated 2026-11-09</p>
+
+  <section>
+    <h2>Summary</h2>
+    <p>Cheer Bag (the "Service") respects your privacy. This policy explains what information the Service handles and why.</p>
+  </section>
+
+  <section>
+    <h2>1. What the Service is</h2>
+    <p>The Service lets you enter your shows and packing lists, keeps them on your device, and reminds you on your device the evening before and on the day of a show. There is no sign-up, login or identity check, and the developer runs no server that receives or stores your information.</p>
+  </section>
+
+  <section>
+    <h2>2. Information processed</h2>
+    <div class="item">
+      <p class="label">Advertising identifiers <span class="note">Personalized ads</span></p>
+      <p>Google AdMob uses the advertising ID and App Set ID to show ads. The developer does not collect or store these values.</p>
+    </div>
+    <div class="item">
+      <p class="label">Device and usage data <span class="note">Ad measurement and crash diagnostics</span></p>
+      <p>Ad impressions and clicks, and error and performance information, may be processed by Google AdMob. Nothing you type into the Service is included.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Information stored only on your device</h2>
+    <p>The following stays in your device's internal storage and is never sent anywhere:</p>
+    <ul>
+      <li>Show names, dates, types and seats you enter</li>
+      <li>Item names, sections, notes, packed marks and the day a bag was finished</li>
+      <li>One-line notes on past shows</li>
+      <li>Whether reminders are on and the reminder time</li>
+    </ul>
+    <p>If you choose "Export", these records are saved to a file in a location you pick. The file is not sent to the developer, and keeping it safe is up to you.</p>
+  </section>
+
+  <section>
+    <h2>4. Retention and deletion</h2>
+    <p>Information stored on your device is deleted as soon as you uninstall the app or clear its data in your phone's settings. The developer holds no other information.</p>
+  </section>
+
+  <section>
+    <h2>5. Third-party services</h2>
+    <div class="item">
+      <p class="label">Google AdMob <span class="note">Showing ads</span></p>
+      <p><a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/ads">Google advertising technologies</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>6. Permissions</h2>
+    <div class="item">
+      <p class="label">Internet <span class="note">Required</span></p>
+      <p>Used only to show ads and to receive the latest reference table.</p>
+    </div>
+    <div class="item">
+      <p class="label">Notifications <span class="note">Optional</span></p>
+      <p>Requested when you add your first show or turn reminders on. If items are left in the bag, the app reminds you on your device the evening before at the time you choose and on the morning of the show. Other features work without it.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>7. Children</h2>
+    <p>The Service is not aimed at children under 14 and does not knowingly process their personal information.</p>
+  </section>
+
+  <section>
+    <h2>8. Your rights</h2>
+    <p>You can delete your records inside the Service or uninstall the app at any time to remove what is stored on your device. You can reset or delete your advertising ID in Settings &gt; Privacy &gt; Ads.</p>
+  </section>
+
+  <section>
+    <h2>9. Contact</h2>
+    <p>For privacy questions, email us and we will reply promptly.</p>
+    <ul>
+      <li>Email: <a href="mailto:axno.app@gmail.com">axno.app@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Changes</h2>
+    <p>If this policy changes, we will post the new version on this page with its date.</p>
+  </section>
+
+
+  </div>
+
+  <div data-lang="ko" lang="ko" hidden>
   <div class="eyebrow">Privacy</div>
   <h1>「응원가방」 개인정보 처리방침</h1>
   <p class="sub">최종 수정일 </p>
@@ -136,6 +233,18 @@
   </section>
 
 
+  </div>
+
 </div>
+<script>
+(function(){
+  function show(l){document.querySelectorAll('[data-lang]').forEach(function(d){d.hidden=d.getAttribute('data-lang')!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.className=b.getAttribute('data-to')===l?'on':''});
+    document.documentElement.lang=l;}
+  document.querySelectorAll('.langs button').forEach(function(b){b.onclick=function(){show(b.getAttribute('data-to'))}});
+  var h=(location.hash||'').slice(1), n=(navigator.language||'').toLowerCase();
+  show(h==='ko'||h==='en'?h:(n.indexOf('ko')===0?'ko':'en'));
+})();
+</script>
 </body>
 </html>
