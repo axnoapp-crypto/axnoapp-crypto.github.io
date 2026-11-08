@@ -1,0 +1,109 @@
+{
+ "_readme": [
+  "Source of truth for the DueDay Tax app's remote date table (apps/due-day-tax/store/rules.json -> axnoapp-crypto.github.io/dueday/rules.json).",
+  "m/d = nominal date for calendar-year filers; the app moves weekend and DC-holiday dates to the next business day itself.",
+  "Replace the whole file or nothing: the app discards a table with an unknown id, a bad date or fewer than 5 rules.",
+  "Change asOf whenever the dates are re-checked against irs.gov/filing/when-to-file and irs.gov/payments/estimated-taxes.",
+  "Valid ids: q4 p1065 f1040 f1120 q1 q2 q3 x1065 x1040 q4c. who: w2 free part corp. kind: file pay ext."
+ ],
+ "asOf": "2026-11-08",
+ "reviewBy": "2027-01-10",
+ "rules": [
+  {
+   "id": "q4",
+   "m": 1,
+   "d": 15,
+   "kind": "pay",
+   "who": [
+    "free"
+   ]
+  },
+  {
+   "id": "p1065",
+   "m": 3,
+   "d": 15,
+   "kind": "file",
+   "who": [
+    "part"
+   ]
+  },
+  {
+   "id": "f1040",
+   "m": 4,
+   "d": 15,
+   "kind": "file",
+   "who": [
+    "w2",
+    "free"
+   ]
+  },
+  {
+   "id": "f1120",
+   "m": 4,
+   "d": 15,
+   "kind": "file",
+   "who": [
+    "corp"
+   ]
+  },
+  {
+   "id": "q1",
+   "m": 4,
+   "d": 15,
+   "kind": "pay",
+   "who": [
+    "free",
+    "corp"
+   ]
+  },
+  {
+   "id": "q2",
+   "m": 6,
+   "d": 15,
+   "kind": "pay",
+   "who": [
+    "free",
+    "corp"
+   ]
+  },
+  {
+   "id": "q3",
+   "m": 9,
+   "d": 15,
+   "kind": "pay",
+   "who": [
+    "free",
+    "corp"
+   ]
+  },
+  {
+   "id": "x1065",
+   "m": 9,
+   "d": 15,
+   "kind": "ext",
+   "who": [
+    "part"
+   ]
+  },
+  {
+   "id": "x1040",
+   "m": 10,
+   "d": 15,
+   "kind": "ext",
+   "who": [
+    "w2",
+    "free",
+    "corp"
+   ]
+  },
+  {
+   "id": "q4c",
+   "m": 12,
+   "d": 15,
+   "kind": "pay",
+   "who": [
+    "corp"
+   ]
+  }
+ ]
+}
