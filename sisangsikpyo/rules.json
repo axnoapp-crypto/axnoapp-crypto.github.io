@@ -1,0 +1,22 @@
+{
+  "_읽을것": [
+    "airings = 방송 날짜 목록. show 는 앱에 있는 id 만 된다: kbs-song sbs-song mbc-song kbs-fun mbc-fun sbs-fun kbs-act mbc-act sbs-act",
+    "date 는 YYYY-MM-DD(이틀이면 also 에 둘째 날), start 는 HH:mm(모르면 빈칸), url 은 그 날짜가 적힌 https 공식 발표·기사",
+    "짐작한 날짜를 넣지 마라 — 비어 있으면 앱이 「편성 발표 전」이라고 말한다",
+    "같은 시상식·같은 해는 원격 값이 앱 내장값을 이긴다. 하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-05",
+  "airings": [
+    {
+      "show": "sbs-song",
+      "date": "2026-12-24",
+      "start": "",
+      "place": "일산 킨텍스",
+      "url": "https:\/\/isplus.com\/article\/view\/isp202610010202",
+      "also": "2026-12-25"
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2026-12-01"
+}
