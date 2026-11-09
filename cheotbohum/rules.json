@@ -1,0 +1,23 @@
+{
+  "_읽을것": [
+    "국민연금법 제100조의5 · 부칙 <제21689호, 2026.5.26> 제1조·제2조 · 국민연금공단 안내의 값이다. 숫자를 바꿀 땐 공단 공지를 먼저 읽어라",
+    "premiumWon 은 신청일 기준 기준소득월액 하한액 보험료(원) — 매년 7월 바뀐다. 모르면 null(앱이 금액을 말하지 않는다)",
+    "preApplyYears 는 지금 사전신청을 받는 출생 연도 — 공단이 다음 해 출생자 사전신청을 열면 더한다",
+    "하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-05",
+  "startDate": "2027-01-01",
+  "firstBirthYear": 2009,
+  "applyFromAge": 18,
+  "applyUntilAge": 27,
+  "supportMonths": 1,
+  "premiumWon": 41000,
+  "premiumAsOf": "2026-10",
+  "preApplyFrom": "2026-10-01",
+  "preApplyYears": [
+    2009
+  ],
+  "notice": "",
+  "reviewBy": "2027-07-31"
+}
