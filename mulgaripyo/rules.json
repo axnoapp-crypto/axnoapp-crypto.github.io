@@ -1,0 +1,18 @@
+{
+  "_읽을것": [
+    "cycleDays·smallPercent·largePercent·filterDays 는 사용자가 따로 안 정한 어항의 시작값이다",
+    "warnPercent 를 넘겨 빼면 눈금에 경고, maxPercent 를 넘기면 더 센 경고가 뜬다",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-02",
+  "notice": "",
+  "cycleDays": 7,
+  "smallPercent": 15,
+  "largePercent": 20,
+  "warnPercent": 25,
+  "maxPercent": 50,
+  "filterDays": 30,
+  "reviewBy": "2027-10-31"
+}
