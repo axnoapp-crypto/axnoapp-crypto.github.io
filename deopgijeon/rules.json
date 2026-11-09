@@ -1,0 +1,16 @@
+{
+  "_읽을것": [
+    "용량·화질·포맷 주기는 제품마다 달라 앱에 굽지 않는다 — 사용자가 제품 설명서 값을 넣는다",
+    "formatLeadDays·keepLeadDays·onTimePct 는 앱이 정한 참고치다",
+    "제조사·제품 브랜드 이름을 넣지 마라",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "formatLeadDays": 3,
+  "keepLeadDays": 1,
+  "onTimePct": 110,
+  "notice": "",
+  "reviewBy": "2027-10-31"
+}
