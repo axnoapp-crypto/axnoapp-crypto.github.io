@@ -1,0 +1,208 @@
+{
+  "_읽을것": [
+    "공원 명단만 있다 — 지정·해제가 공고되면 parks 를 고친다",
+    "x·y 는 앱 도식 위 자리(0~100, 0~132)이지 실제 좌표가 아니다",
+    "스탬프 운영 규칙·판매처·입장료·통제는 넣지 않는다 — 공식 안내로 보낸다",
+    "하나라도 깨지면 앱은 표 전체를 버린다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "parks": [
+    {
+      "id": "seorak",
+      "name": "설악산",
+      "short": "설악",
+      "kind": "mountain",
+      "x": 72,
+      "y": 12
+    },
+    {
+      "id": "odae",
+      "name": "오대산",
+      "short": "오대",
+      "kind": "mountain",
+      "x": 76,
+      "y": 24
+    },
+    {
+      "id": "bukhan",
+      "name": "북한산",
+      "short": "북한",
+      "kind": "mountain",
+      "x": 36,
+      "y": 20
+    },
+    {
+      "id": "chiak",
+      "name": "치악산",
+      "short": "치악",
+      "kind": "mountain",
+      "x": 60,
+      "y": 30
+    },
+    {
+      "id": "taebaek",
+      "name": "태백산",
+      "short": "태백",
+      "kind": "mountain",
+      "x": 80,
+      "y": 38
+    },
+    {
+      "id": "worak",
+      "name": "월악산",
+      "short": "월악",
+      "kind": "mountain",
+      "x": 58,
+      "y": 44
+    },
+    {
+      "id": "sobaek",
+      "name": "소백산",
+      "short": "소백",
+      "kind": "mountain",
+      "x": 69,
+      "y": 46
+    },
+    {
+      "id": "taean",
+      "name": "태안해안",
+      "short": "태안",
+      "kind": "coast",
+      "x": 20,
+      "y": 44
+    },
+    {
+      "id": "songni",
+      "name": "속리산",
+      "short": "속리",
+      "kind": "mountain",
+      "x": 52,
+      "y": 56
+    },
+    {
+      "id": "gyeryong",
+      "name": "계룡산",
+      "short": "계룡",
+      "kind": "mountain",
+      "x": 36,
+      "y": 58
+    },
+    {
+      "id": "juwang",
+      "name": "주왕산",
+      "short": "주왕",
+      "kind": "mountain",
+      "x": 82,
+      "y": 54
+    },
+    {
+      "id": "palgong",
+      "name": "팔공산",
+      "short": "팔공",
+      "kind": "mountain",
+      "x": 70,
+      "y": 66
+    },
+    {
+      "id": "deogyu",
+      "name": "덕유산",
+      "short": "덕유",
+      "kind": "mountain",
+      "x": 50,
+      "y": 72
+    },
+    {
+      "id": "gaya",
+      "name": "가야산",
+      "short": "가야",
+      "kind": "mountain",
+      "x": 60,
+      "y": 76
+    },
+    {
+      "id": "gyeongju",
+      "name": "경주",
+      "short": "경주",
+      "kind": "heritage",
+      "x": 82,
+      "y": 72
+    },
+    {
+      "id": "byeonsan",
+      "name": "변산반도",
+      "short": "변산",
+      "kind": "coast",
+      "x": 26,
+      "y": 72
+    },
+    {
+      "id": "naejang",
+      "name": "내장산",
+      "short": "내장",
+      "kind": "mountain",
+      "x": 36,
+      "y": 80
+    },
+    {
+      "id": "jiri",
+      "name": "지리산",
+      "short": "지리",
+      "kind": "mountain",
+      "x": 52,
+      "y": 88
+    },
+    {
+      "id": "geumjeong",
+      "name": "금정산",
+      "short": "금정",
+      "kind": "mountain",
+      "x": 80,
+      "y": 88
+    },
+    {
+      "id": "mudeung",
+      "name": "무등산",
+      "short": "무등",
+      "kind": "mountain",
+      "x": 38,
+      "y": 93
+    },
+    {
+      "id": "wolchul",
+      "name": "월출산",
+      "short": "월출",
+      "kind": "mountain",
+      "x": 28,
+      "y": 102
+    },
+    {
+      "id": "hallyeo",
+      "name": "한려해상",
+      "short": "한려",
+      "kind": "coast",
+      "x": 66,
+      "y": 102
+    },
+    {
+      "id": "dadohae",
+      "name": "다도해해상",
+      "short": "다도해",
+      "kind": "coast",
+      "x": 44,
+      "y": 108
+    },
+    {
+      "id": "halla",
+      "name": "한라산",
+      "short": "한라",
+      "kind": "mountain",
+      "x": 30,
+      "y": 124
+    }
+  ],
+  "guideNote": "스탬프 운영·판매처·탐방로 통제·입장료는 바뀔 수 있어요. 운영 안내는 공식 안내가 우선이에요.",
+  "guideUrl": "https:\/\/www.knps.or.kr\/portal\/main\/contents.do?menuNo=8000341",
+  "notice": "",
+  "reviewBy": "2027-03-01"
+}
