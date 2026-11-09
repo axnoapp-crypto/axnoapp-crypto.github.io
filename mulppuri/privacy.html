@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>「물뿌리」 개인정보 처리방침</title>
+<title>Hydro Root Privacy Policy</title>
 <style>
   :root{
     --bg:#0f1116; --card:#161a22; --line:#242a35;
@@ -43,11 +43,104 @@
   .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
   .label{font-weight:700;font-size:14.5px;margin:0 0 4px}
   .note{color:var(--dim);font-size:13px}
+  .langs{display:flex;gap:8px;margin:0 0 18px}
+  .langs button{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--dim);cursor:pointer}
+  .langs button.on{color:var(--accent);border-color:var(--accent)}
+  [data-lang][hidden]{display:none}
 </style>
 </head>
 <body>
 <div class="wrap">
 
+  <div class="langs"><button type="button" data-to="en" class="on">English</button><button type="button" data-to="ko">한국어</button></div>
+
+  <div data-lang="en" lang="en">
+  <div class="eyebrow">Privacy</div>
+  <h1>Hydro Root Privacy Policy</h1>
+  <p class="sub">Last updated 2026-11-09</p>
+
+  <section>
+    <h2>Summary</h2>
+    <p>Hydro Root (the "Service") respects your privacy. This policy explains what information the Service handles and why.</p>
+  </section>
+
+  <section>
+    <h2>1. What the Service is</h2>
+    <p>The Service keeps the hydroponic jars and water change records you enter on your own device and tells you when the next water change is due. There is no sign-up, login or identity check, and the developer runs no server that receives or stores your information.</p>
+  </section>
+
+  <section>
+    <h2>2. Information processed</h2>
+    <div class="item">
+      <p class="label">Advertising identifiers <span class="note">Personalized ads</span></p>
+      <p>Google AdMob uses the advertising ID and App Set ID to show ads. The developer does not collect or store these values.</p>
+    </div>
+    <div class="item">
+      <p class="label">Device and usage data <span class="note">Ad measurement and crash diagnostics</span></p>
+      <p>Ad impressions and clicks, and error and performance information, may be processed by Google AdMob. Nothing you type into the Service is included.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Information stored only on your device</h2>
+    <p>The following stays in your device's internal storage and is never sent anywhere:</p>
+    <ul>
+      <li>Jar names and heights, the plants you grow, planting dates and change cycles</li>
+      <li>Water change and top-up records (date, water level, root color, notes)</li>
+      <li>Whether reminders are on and the reminder time</li>
+    </ul>
+    <p>If you export a backup, it is saved as a file in the location you choose and is not sent to the developer.</p>
+  </section>
+
+  <section>
+    <h2>4. Retention and deletion</h2>
+    <p>Data on your device is deleted as soon as you uninstall the Service or clear its storage in system settings. The developer holds no other data.</p>
+  </section>
+
+  <section>
+    <h2>5. Third-party services</h2>
+    <div class="item">
+      <p class="label">Google AdMob <span class="note">Ad delivery</span></p>
+      <p><a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/ads">How Google uses data in ads</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>6. Permissions</h2>
+    <div class="item">
+      <p class="label">Internet <span class="note">Required</span></p>
+      <p>Used only to deliver ads and to receive the latest reference values.</p>
+    </div>
+    <div class="item">
+      <p class="label">Notifications <span class="note">Optional</span></p>
+      <p>Requested only if you turn reminders on. When a jar is due, a reminder is shown on your device at the time you picked. The other features work without it.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>7. Children</h2>
+    <p>The Service is not directed to children under 13 and does not knowingly process children's personal information.</p>
+  </section>
+
+  <section>
+    <h2>8. Your rights</h2>
+    <p>You can delete your records inside the Service or uninstall it at any time to remove the data on your device. You can reset or delete your advertising ID in your device's ad settings.</p>
+  </section>
+
+  <section>
+    <h2>9. Contact</h2>
+    <p>Questions about privacy: <a href="mailto:axno.app@gmail.com">axno.app@gmail.com</a></p>
+  </section>
+
+  <section>
+    <h2>10. Changes</h2>
+    <p>If this policy changes, the new version and date will be posted on this page.</p>
+  </section>
+
+
+  </div>
+
+  <div data-lang="ko" lang="ko" hidden>
   <div class="eyebrow">Privacy</div>
   <h1>「물뿌리」 개인정보 처리방침</h1>
   <p class="sub">최종 수정일 </p>
@@ -135,6 +228,18 @@
   </section>
 
 
+  </div>
+
 </div>
+<script>
+(function(){
+  function show(l){document.querySelectorAll('[data-lang]').forEach(function(d){d.hidden=d.getAttribute('data-lang')!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.className=b.getAttribute('data-to')===l?'on':''});
+    document.documentElement.lang=l;}
+  document.querySelectorAll('.langs button').forEach(function(b){b.onclick=function(){show(b.getAttribute('data-to'))}});
+  var h=(location.hash||'').slice(1), n=(navigator.language||'').toLowerCase();
+  show(h==='ko'||h==='en'?h:(n.indexOf('ko')===0?'ko':'en'));
+})();
+</script>
 </body>
 </html>
