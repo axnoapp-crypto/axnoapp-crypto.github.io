@@ -1,0 +1,27 @@
+{
+  "_읽을것": [
+    "yearMonths·halfMonths 는 하수도법 시행규칙 제33조제1항제2호, fineCapWon 은 하수도법 제80조제4항제12호",
+    "fineFirstWon·fineSecondWon·fineThirdWon 은 하수도법 시행령 별표를 원문으로 확인한 뒤에만 넣는다. 비어 있으면 화면은 「확인 필요」라고 말한다",
+    "soonDays 는 참고치 시작값",
+    "청소업체 이름을 넣지 마라. 값을 지어내지 마라",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "yearMonths": 12,
+  "halfMonths": 6,
+  "soonDays": 60,
+  "fineCapWon": 1000000,
+  "fineFirstWon": null,
+  "fineSecondWon": null,
+  "fineThirdWon": null,
+  "ruleName": "하수도법 시행규칙 제33조(개인하수처리시설의 관리기준)",
+  "ruleUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%ED%95%98%EC%88%98%EB%8F%84%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99\/%EC%A0%9C33%EC%A1%B0",
+  "actName": "하수도법 제39조(개인하수처리시설의 운영·관리)",
+  "actUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%ED%95%98%EC%88%98%EB%8F%84%EB%B2%95\/%EC%A0%9C39%EC%A1%B0",
+  "fineName": "하수도법 제80조(과태료)",
+  "fineUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%ED%95%98%EC%88%98%EB%8F%84%EB%B2%95\/%EC%A0%9C80%EC%A1%B0",
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
