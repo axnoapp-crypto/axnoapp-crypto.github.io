@@ -1,0 +1,18 @@
+{
+  "_읽을것": [
+    "물주기 참고 자료 표다. 값은 기관 글에 적힌 그대로 옮기고 url 에 https 근거를 단다",
+    "2026-11-01 각 페이지 본문을 읽었다. 기관마다 간격이 달라 앱은 정답을 고르지 않는다",
+    "기본값(틸란드시아 7일·20분)은 앱에 있고 코넬 글 범위에서 왔다. 테라리움 간격은 출처가 없어 사용자가 센다",
+    "하나라도 깨지면 앱은 표 전체를 버리고 앱 안의 표를 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-01",
+  "reviewBy": "2027-11-01",
+  "notice": "",
+  "facts": [
+    {"org": "미국 코넬 협동확장(워런 카운티)", "value": "일주일에 두 번 미지근한 물로 헹구기. 다른 자료로는 매주 20분~1시간 담그기. 유리병에 돌려놓기 전 4시간 이상 말리기.", "url": "https://warren.cce.cornell.edu/gardening-landscape/warren-county-master-gardener-articles/air-plants-tillandsia"},
+    {"org": "영국 왕립원예협회(RHS)", "value": "봄~가을 빗물에 평균 주 2~3회 담그기. 사이사이 꼭 말리기. 분무만으로는 부족. 12도까지 내려가면 물주기 피하기.", "url": "https://www.rhs.org.uk/plants/types/houseplants/air-plants"},
+    {"org": "싱가포르 국립공원청(NParks)", "value": "많아야 주 3회. 담글 때는 한 달에 한 번 30분쯤에 가끔 분무. 털어서 거꾸로나 옆으로 완전히 말리기.", "url": "https://nparks.gov.sg/publications-resources/articles/tilly-tlc"},
+    {"org": "농촌진흥청(테라리움)", "value": "용기 안쪽 물기가 마르면 스프레이로 배수층에만 고일 정도로. 물이 많으면 휴지나 천으로 흡수. 직사광선이 들지 않는 밝은 곳에.", "url": "https://rda.go.kr/webzine/2022/05/sub3-3.html"}
+  ]
+}
