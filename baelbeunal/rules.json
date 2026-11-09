@@ -1,0 +1,22 @@
+{
+  "_읽을것": [
+    "cycleMonths·refuseNote 는 시행규칙·공급규정을 원문으로 확인한 뒤에만 넣는다. 비어 있으면 화면은 「확인 필요 · 공급사 안내가 우선」이라고 말한다",
+    "soonDays 는 참고치 시작값",
+    "도시가스사 이름을 넣지 마라. 값을 지어내지 마라",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "cycleMonths": null,
+  "refuseNote": "",
+  "soonDays": 30,
+  "planName": "도시가스사업법 제26조(안전관리규정)",
+  "planUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EB%8F%84%EC%8B%9C%EA%B0%80%EC%8A%A4%EC%82%AC%EC%97%85%EB%B2%95\/%EC%A0%9C26%EC%A1%B0",
+  "orderName": "도시가스사업법 제27조(가스시설의 개선명령 등)",
+  "orderUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EB%8F%84%EC%8B%9C%EA%B0%80%EC%8A%A4%EC%82%AC%EC%97%85%EB%B2%95\/%EC%A0%9C27%EC%A1%B0",
+  "deviceName": "도시가스사업법 제43조의2(가스안전 장치의 보급)",
+  "deviceUrl": "https:\/\/www.law.go.kr\/%EB%B2%95%EB%A0%B9\/%EB%8F%84%EC%8B%9C%EA%B0%80%EC%8A%A4%EC%82%AC%EC%97%85%EB%B2%95\/%EC%A0%9C43%EC%A1%B0%EC%9D%982",
+  "notice": "",
+  "reviewBy": "2027-06-30"
+}
