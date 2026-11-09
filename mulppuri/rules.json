@@ -1,0 +1,15 @@
+{
+  "_읽을것": [
+    "cycleDays 는 사용자가 따로 안 정한 병의 시작값이다(앱이 정한 값 · 안내마다 다르다)",
+    "immerseMinMm·immerseMaxMm 은 그물 화분 바닥이 잠기는 깊이 — 눈금자에 띠로 뜬다",
+    "notice 는 화면 맨 위에 붉은 글씨로 뜬다(비우면 없음)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-05",
+  "notice": "",
+  "cycleDays": 14,
+  "immerseMinMm": 13,
+  "immerseMaxMm": 25,
+  "reviewBy": "2027-10-31"
+}
