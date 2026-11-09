@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "season": 2027,
+  "changeLimit": 1,
+  "cancelNote": "",
+  "notice": "",
+  "noticeUrl": "",
+  "stops": [
+    {
+      "id": "a1",
+      "track": "ACTIVE",
+      "kind": "APPLY",
+      "title": "1회차 접수",
+      "short": "1회차",
+      "start": "2026-07-22",
+      "end": "2026-07-24",
+      "startTime": "10:00",
+      "endTime": "",
+      "zones": {
+        "A": "2026-07-22",
+        "B": "2026-07-23",
+        "C": "2026-07-24"
+      },
+      "note": "지역마다 하루씩 달라요 · 오전 10시~오후 4시 사이 지역별 시각 · 선착순 마감",
+      "url": "https://www.fnnews.com/news/202607080805387319"
+    },
+    {
+      "id": "a2",
+      "track": "ACTIVE",
+      "kind": "APPLY",
+      "title": "2회차 접수",
+      "short": "2회차",
+      "start": "2026-09-16",
+      "end": "2026-09-18",
+      "startTime": "",
+      "endTime": "",
+      "zones": {},
+      "note": "선착순 마감 · 지역별 시각은 병무청 공지사항",
+      "url": "https://www.segye.com/newsView/20260708509951"
+    },
+    {
+      "id": "a3",
+      "track": "ACTIVE",
+      "kind": "APPLY",
+      "title": "3회차 접수",
+      "short": "3회차",
+      "start": "2026-11-25",
+      "end": "2026-11-27",
+      "startTime": "",
+      "endTime": "",
+      "zones": {},
+      "note": "선착순 마감 · 지역별 시각은 병무청 공지사항",
+      "url": "https://www.segye.com/newsView/20260708509951"
+    },
+    {
+      "id": "s1",
+      "track": "SOCIAL",
+      "kind": "APPLY",
+      "title": "소집신청 접수",
+      "short": "소집신청",
+      "start": "2026-11-10",
+      "end": "2026-11-16",
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "zones": {},
+      "note": "재학생·국외 입영연기자 · 최대 2지망 · 접수 기간엔 횟수 제한 없이 변경·취소",
+      "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148974516"
+    },
+    {
+      "id": "s2",
+      "track": "SOCIAL",
+      "kind": "RESULT",
+      "title": "소집신청 결과 발표",
+      "short": "발표",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "startTime": "14:00",
+      "endTime": "",
+      "zones": {},
+      "note": "병무청 누리집에서 조회 · 선발자는 알림톡",
+      "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148974516"
+    },
+    {
+      "id": "s3",
+      "track": "SOCIAL",
+      "kind": "APPLY",
+      "title": "본인선택 접수",
+      "short": "본인선택",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "startTime": "",
+      "endTime": "",
+      "zones": {},
+      "note": "소집신청으로 선발된 사람은 이 접수를 할 수 없어요",
+      "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148974516"
+    }
+  ]
+}
