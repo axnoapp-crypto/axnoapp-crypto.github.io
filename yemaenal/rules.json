@@ -1,0 +1,336 @@
+{
+  "_읽을것": [
+    "seasons = 명절마다 한 줄. 올해 공고가 나오면 그 명절의 steps 를 채워라 — 비어 있으면 앱은 「공고 전」으로 보이고, 채워지는 순간 사용자에게 「공고가 나왔어요」 알림이 간다",
+    "steps 의 날짜·시각은 https 출처(src)에서 문장을 직접 읽은 것만. 시각을 모르면 fromTime·toTime 을 비워라",
+    "side = NORTH(서울·용산 쪽) · SUSEO(수서 출발) \/ kind = REGISTER · PRIORITY · GENERAL · PAY · REMAIN \/ audience = ALL · PRIORITY(우선 예매로 잡은 표의 결제)",
+    "lines 가 비면 모든 노선, who 가 비면 누구나. 노선 이름은 Line 열거형 그대로(GYEONGBU…)",
+    "하나라도 깨지면 앱은 표 전체를 버리고 내장값을 쓴다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-07",
+  "seasons": [
+    {
+      "id": "2026-seol",
+      "name": "2026 설",
+      "day": "2026-02-17",
+      "holidayFrom": "2026-02-16",
+      "holidayTo": "2026-02-18",
+      "holidaySrc": "https:\/\/etk.srail.kr\/bt\/notice.html",
+      "travelFrom": "2026-02-13",
+      "travelTo": "2026-02-18",
+      "steps": [
+        {
+          "id": "n-pri-1",
+          "side": "NORTH",
+          "kind": "PRIORITY",
+          "from": "2026-01-15",
+          "fromTime": "09:00",
+          "to": "",
+          "toTime": "15:00",
+          "lines": [
+            "GYEONGBU",
+            "GYEONGJEON",
+            "GYEONGBUK",
+            "DAEGU",
+            "CHUNGBUK",
+            "JUNGBU",
+            "DONGHAE",
+            "GYOOE"
+          ],
+          "who": [
+            "SENIOR",
+            "DISABLED",
+            "MERIT"
+          ],
+          "audience": "PRIORITY",
+          "note": "교통약자 본인이 함께 타는 표만 예매돼요",
+          "src": "https:\/\/www.hankyung.com\/article\/202601075989h"
+        },
+        {
+          "id": "n-pri-2",
+          "side": "NORTH",
+          "kind": "PRIORITY",
+          "from": "2026-01-16",
+          "fromTime": "09:00",
+          "to": "",
+          "toTime": "15:00",
+          "lines": [
+            "HONAM",
+            "JEOLLA",
+            "GANGNEUNG",
+            "JANGHANG",
+            "JUNGANG",
+            "YEONGDONG",
+            "TAEBAEK",
+            "SEOHAE",
+            "GYEONGCHUN",
+            "MOKPO"
+          ],
+          "who": [
+            "SENIOR",
+            "DISABLED",
+            "MERIT"
+          ],
+          "audience": "PRIORITY",
+          "note": "교통약자 본인이 함께 타는 표만 예매돼요",
+          "src": "https:\/\/www.hankyung.com\/article\/202601075989h"
+        },
+        {
+          "id": "s-reg",
+          "side": "SUSEO",
+          "kind": "REGISTER",
+          "from": "2026-01-16",
+          "fromTime": "12:00",
+          "to": "2026-01-22",
+          "toTime": "18:00",
+          "lines": [],
+          "who": [
+            "DISABLED",
+            "MERIT"
+          ],
+          "audience": "PRIORITY",
+          "note": "장애인·국가유공자 회원만 · 65세 이상은 등록 없이 우선 예매돼요",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        },
+        {
+          "id": "n-gen-1",
+          "side": "NORTH",
+          "kind": "GENERAL",
+          "from": "2026-01-19",
+          "fromTime": "07:00",
+          "to": "",
+          "toTime": "13:00",
+          "lines": [
+            "HONAM",
+            "JEOLLA",
+            "JANGHANG",
+            "JUNGANG",
+            "SEOHAE",
+            "MOKPO"
+          ],
+          "who": [],
+          "audience": "ALL",
+          "note": "온라인으로만 받아요 · 전 국민",
+          "src": "https:\/\/www.hankyung.com\/article\/202601075989h"
+        },
+        {
+          "id": "n-gen-2",
+          "side": "NORTH",
+          "kind": "GENERAL",
+          "from": "2026-01-20",
+          "fromTime": "07:00",
+          "to": "",
+          "toTime": "13:00",
+          "lines": [
+            "GYEONGJEON",
+            "GYEONGBUK",
+            "DAEGU",
+            "CHUNGBUK",
+            "JUNGBU",
+            "DONGHAE",
+            "GANGNEUNG",
+            "YEONGDONG",
+            "TAEBAEK",
+            "GYEONGCHUN",
+            "GYOOE"
+          ],
+          "who": [],
+          "audience": "ALL",
+          "note": "온라인으로만 받아요 · 전 국민",
+          "src": "https:\/\/www.hankyung.com\/article\/202601075989h"
+        },
+        {
+          "id": "n-gen-3",
+          "side": "NORTH",
+          "kind": "GENERAL",
+          "from": "2026-01-21",
+          "fromTime": "07:00",
+          "to": "",
+          "toTime": "13:00",
+          "lines": [
+            "GYEONGBU"
+          ],
+          "who": [],
+          "audience": "ALL",
+          "note": "온라인으로만 받아요 · 전 국민",
+          "src": "https:\/\/www.hankyung.com\/article\/202601075989h"
+        },
+        {
+          "id": "n-pay-pri",
+          "side": "NORTH",
+          "kind": "PAY",
+          "from": "2026-01-22",
+          "fromTime": "00:00",
+          "to": "2026-01-28",
+          "toTime": "",
+          "lines": [],
+          "who": [
+            "SENIOR",
+            "DISABLED",
+            "MERIT"
+          ],
+          "audience": "PRIORITY",
+          "note": "우선 예매로 잡은 표 · 기한 안에 안 내면 자동 취소돼요",
+          "src": "https:\/\/www.hankyung.com\/article\/202601075989h"
+        },
+        {
+          "id": "n-pay-gen",
+          "side": "NORTH",
+          "kind": "PAY",
+          "from": "2026-01-22",
+          "fromTime": "00:00",
+          "to": "2026-01-25",
+          "toTime": "",
+          "lines": [],
+          "who": [],
+          "audience": "ALL",
+          "note": "일반 예매로 잡은 표 · 기한 안에 안 내면 자동 취소되고 좌석은 예약대기 순서로 넘어가요",
+          "src": "https:\/\/www.hankyung.com\/article\/202601075989h"
+        },
+        {
+          "id": "s-pri-1",
+          "side": "SUSEO",
+          "kind": "PRIORITY",
+          "from": "2026-01-26",
+          "fromTime": "09:00",
+          "to": "",
+          "toTime": "15:00",
+          "lines": [
+            "GYEONGBU",
+            "GYEONGJEON",
+            "DONGHAE"
+          ],
+          "who": [
+            "SENIOR",
+            "DISABLED",
+            "MERIT"
+          ],
+          "audience": "PRIORITY",
+          "note": "온라인과 전화로 받아요",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        },
+        {
+          "id": "s-pri-2",
+          "side": "SUSEO",
+          "kind": "PRIORITY",
+          "from": "2026-01-27",
+          "fromTime": "09:00",
+          "to": "",
+          "toTime": "15:00",
+          "lines": [
+            "HONAM",
+            "JEOLLA"
+          ],
+          "who": [
+            "SENIOR",
+            "DISABLED",
+            "MERIT"
+          ],
+          "audience": "PRIORITY",
+          "note": "온라인과 전화로 받아요",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        },
+        {
+          "id": "s-gen-1",
+          "side": "SUSEO",
+          "kind": "GENERAL",
+          "from": "2026-01-28",
+          "fromTime": "07:00",
+          "to": "",
+          "toTime": "13:00",
+          "lines": [
+            "GYEONGBU",
+            "GYEONGJEON",
+            "DONGHAE"
+          ],
+          "who": [],
+          "audience": "ALL",
+          "note": "온라인으로만 받아요 · 한 사람 12매(한 번에 6매)까지",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        },
+        {
+          "id": "s-gen-2",
+          "side": "SUSEO",
+          "kind": "GENERAL",
+          "from": "2026-01-29",
+          "fromTime": "07:00",
+          "to": "",
+          "toTime": "13:00",
+          "lines": [
+            "HONAM",
+            "JEOLLA"
+          ],
+          "who": [],
+          "audience": "ALL",
+          "note": "온라인으로만 받아요 · 한 사람 12매(한 번에 6매)까지",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        },
+        {
+          "id": "s-pay-gen",
+          "side": "SUSEO",
+          "kind": "PAY",
+          "from": "2026-01-29",
+          "fromTime": "15:00",
+          "to": "2026-02-01",
+          "toTime": "23:59",
+          "lines": [],
+          "who": [],
+          "audience": "ALL",
+          "note": "일반 예매로 잡은 표 · 기한 안에 안 내면 자동 취소돼요",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        },
+        {
+          "id": "s-pay-pri",
+          "side": "SUSEO",
+          "kind": "PAY",
+          "from": "2026-01-29",
+          "fromTime": "15:00",
+          "to": "2026-02-04",
+          "toTime": "23:59",
+          "lines": [],
+          "who": [
+            "SENIOR",
+            "DISABLED",
+            "MERIT"
+          ],
+          "audience": "PRIORITY",
+          "note": "우선 예매로 잡은 표 · 기한 안에 안 내면 자동 취소돼요",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        },
+        {
+          "id": "s-remain",
+          "side": "SUSEO",
+          "kind": "REMAIN",
+          "from": "2026-01-29",
+          "fromTime": "15:00",
+          "to": "",
+          "toTime": "",
+          "lines": [
+            "GYEONGBU",
+            "GYEONGJEON",
+            "DONGHAE",
+            "HONAM",
+            "JEOLLA"
+          ],
+          "who": [],
+          "audience": "ALL",
+          "note": "예매가 끝나고 남은 표를 팔기 시작해요",
+          "src": "https:\/\/etk.srail.kr\/bt\/notice.html"
+        }
+      ]
+    },
+    {
+      "id": "2027-seol",
+      "name": "2027 설",
+      "day": "2027-02-07",
+      "holidayFrom": "2027-02-06",
+      "holidayTo": "2027-02-09",
+      "holidaySrc": "https:\/\/www.segye.com\/newsView\/20260629506183",
+      "travelFrom": "",
+      "travelTo": "",
+      "steps": []
+    }
+  ],
+  "notice": "",
+  "reviewBy": "2026-12-15"
+}
