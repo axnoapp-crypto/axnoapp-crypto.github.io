@@ -1,0 +1,62 @@
+{
+  "_읽을것": [
+    "유형 E 공장 앱의 기준표 — 줄(items)·칸·상수(consts)가 하나라도 빠지면 앱이 표 전체를 버리고 앱에 든 값을 쓴다(통째로 받거나 통째로 버린다)",
+    "updatedAt 은 화면의 「기준 YYYY-MM-DD」 로 그대로 뜬다 — 값을 고치면 날짜도 고친다",
+    "음수·글자는 안 된다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-23",
+  "items": {
+    "normal": {
+      "factor": 4,
+      "strands_rec": 8
+    },
+    "candy_stripe": {
+      "factor": 4,
+      "strands_rec": 8
+    },
+    "chevron": {
+      "factor": 4,
+      "strands_rec": 8
+    },
+    "diamond": {
+      "factor": 5,
+      "strands_rec": 8
+    },
+    "alpha": {
+      "factor": 3,
+      "strands_rec": 8
+    },
+    "zigzag": {
+      "factor": 4,
+      "strands_rec": 8
+    },
+    "ladder": {
+      "factor": 4,
+      "strands_rec": 6
+    },
+    "spiral": {
+      "factor": 5,
+      "strands_rec": 4
+    },
+    "square_knot": {
+      "factor": 4,
+      "strands_rec": 4
+    },
+    "braid3": {
+      "factor": 1.5,
+      "strands_rec": 3
+    },
+    "fishtail": {
+      "factor": 3,
+      "strands_rec": 4
+    },
+    "cobra": {
+      "factor": 6,
+      "strands_rec": 4
+    }
+  },
+  "consts": {
+    "skein_cm": 800
+  }
+}
