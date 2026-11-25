@@ -1,0 +1,102 @@
+{
+  "_읽을것": [
+    "유형 E 공장 앱의 기준표 — 줄(items)·칸·상수(consts)가 하나라도 빠지면 앱이 표 전체를 버리고 앱에 든 값을 쓴다(통째로 받거나 통째로 버린다)",
+    "updatedAt 은 화면의 「기준 YYYY-MM-DD」 로 그대로 뜬다 — 값을 고치면 날짜도 고친다",
+    "음수·글자는 안 된다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-25",
+  "items": {
+    "s12to13": {
+      "succ": 40,
+      "boom": 0,
+      "cutok": 1
+    },
+    "s13to14": {
+      "succ": 35,
+      "boom": 0,
+      "cutok": 1
+    },
+    "s14to15": {
+      "succ": 30,
+      "boom": 0,
+      "cutok": 1
+    },
+    "s15to16": {
+      "succ": 30,
+      "boom": 2.1,
+      "cutok": 1
+    },
+    "s16to17": {
+      "succ": 30,
+      "boom": 2.1,
+      "cutok": 1
+    },
+    "s17to18": {
+      "succ": 15,
+      "boom": 6.8,
+      "cutok": 1
+    },
+    "s18to19": {
+      "succ": 15,
+      "boom": 6.8,
+      "cutok": 1
+    },
+    "s19to20": {
+      "succ": 15,
+      "boom": 8.5,
+      "cutok": 1
+    },
+    "s20to21": {
+      "succ": 30,
+      "boom": 10.5,
+      "cutok": 1
+    },
+    "s21to22": {
+      "succ": 15,
+      "boom": 12.75,
+      "cutok": 1
+    },
+    "s22to23": {
+      "succ": 15,
+      "boom": 17,
+      "cutok": 0
+    },
+    "s23to24": {
+      "succ": 10,
+      "boom": 18,
+      "cutok": 0
+    },
+    "s24to25": {
+      "succ": 10,
+      "boom": 18,
+      "cutok": 0
+    },
+    "s25to26": {
+      "succ": 10,
+      "boom": 18,
+      "cutok": 0
+    },
+    "s26to27": {
+      "succ": 7,
+      "boom": 18.6,
+      "cutok": 0
+    },
+    "s27to28": {
+      "succ": 5,
+      "boom": 19,
+      "cutok": 0
+    },
+    "s28to29": {
+      "succ": 3,
+      "boom": 19.4,
+      "cutok": 0
+    },
+    "s29to30": {
+      "succ": 1,
+      "boom": 19.8,
+      "cutok": 0
+    }
+  },
+  "consts": {}
+}
