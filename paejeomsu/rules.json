@@ -1,0 +1,61 @@
+{
+  "_읽을것": [
+    "유형 E 공장 앱의 기준표 — 줄(items)·칸·상수(consts)가 하나라도 빠지면 앱이 표 전체를 버리고 앱에 든 값을 쓴다(통째로 받거나 통째로 버린다)",
+    "updatedAt 은 화면의 「기준 YYYY-MM-DD」 로 그대로 뜬다 — 값을 고치면 날짜도 고친다",
+    "음수·글자는 안 된다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-25",
+  "items": {
+    "none": {
+      "mult": 1
+    },
+    "pibak": {
+      "mult": 2
+    },
+    "gwangbak": {
+      "mult": 2
+    },
+    "meongbak": {
+      "mult": 2
+    },
+    "shake": {
+      "mult": 2
+    },
+    "shake2": {
+      "mult": 4
+    },
+    "pi_gwang": {
+      "mult": 4
+    },
+    "pi_meong": {
+      "mult": 4
+    },
+    "gwang_meong": {
+      "mult": 4
+    },
+    "pi_shake": {
+      "mult": 4
+    },
+    "gwang_shake": {
+      "mult": 4
+    },
+    "pi_gwang_meong": {
+      "mult": 8
+    },
+    "pi_gwang_shake": {
+      "mult": 8
+    }
+  },
+  "consts": {
+    "gw3": 3,
+    "gw3bi": 2,
+    "gw4": 4,
+    "gw5": 15,
+    "yeol_need": 5,
+    "godori_pts": 5,
+    "tti_need": 5,
+    "dan_pts": 3,
+    "pi_need": 10
+  }
+}
