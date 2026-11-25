@@ -1,0 +1,164 @@
+{
+  "_읽을것": [
+    "유형 E 공장 앱의 기준표 — 줄(items)·칸·상수(consts)가 하나라도 빠지면 앱이 표 전체를 버리고 앱에 든 값을 쓴다(통째로 받거나 통째로 버린다)",
+    "updatedAt 은 화면의 「기준 YYYY-MM-DD」 로 그대로 뜬다 — 값을 고치면 날짜도 고친다",
+    "음수·글자는 안 된다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-25",
+  "items": {
+    "ep0": {
+      "ss": 20,
+      "coin": 0,
+      "essence": 0,
+      "star": 0,
+      "tomax": 290,
+      "top": 5
+    },
+    "ep1": {
+      "ss": 20,
+      "coin": 500,
+      "essence": 0,
+      "star": 1,
+      "tomax": 270,
+      "top": 5
+    },
+    "ep2": {
+      "ss": 30,
+      "coin": 5000,
+      "essence": 0,
+      "star": 2,
+      "tomax": 250,
+      "top": 5
+    },
+    "ep3": {
+      "ss": 50,
+      "coin": 10000,
+      "essence": 0,
+      "star": 3,
+      "tomax": 220,
+      "top": 5
+    },
+    "ep4": {
+      "ss": 70,
+      "coin": 50000,
+      "essence": 0,
+      "star": 4,
+      "tomax": 170,
+      "top": 5
+    },
+    "ep5": {
+      "ss": 100,
+      "coin": 100000,
+      "essence": 0,
+      "star": 5,
+      "tomax": 100,
+      "top": 5
+    },
+    "sp0": {
+      "ss": 20,
+      "coin": 0,
+      "essence": 0,
+      "star": 0,
+      "tomax": 190,
+      "top": 5
+    },
+    "sp1": {
+      "ss": 20,
+      "coin": 500,
+      "essence": 0,
+      "star": 1,
+      "tomax": 170,
+      "top": 5
+    },
+    "sp2": {
+      "ss": 30,
+      "coin": 5000,
+      "essence": 0,
+      "star": 2,
+      "tomax": 150,
+      "top": 5
+    },
+    "sp3": {
+      "ss": 30,
+      "coin": 10000,
+      "essence": 0,
+      "star": 3,
+      "tomax": 120,
+      "top": 5
+    },
+    "sp4": {
+      "ss": 40,
+      "coin": 50000,
+      "essence": 0,
+      "star": 4,
+      "tomax": 90,
+      "top": 5
+    },
+    "sp5": {
+      "ss": 50,
+      "coin": 100000,
+      "essence": 0,
+      "star": 5,
+      "tomax": 50,
+      "top": 5
+    },
+    "lg0": {
+      "ss": 20,
+      "coin": 0,
+      "essence": 0,
+      "star": 0,
+      "tomax": 540,
+      "top": 6
+    },
+    "lg1": {
+      "ss": 20,
+      "coin": 500,
+      "essence": 0,
+      "star": 1,
+      "tomax": 520,
+      "top": 6
+    },
+    "lg2": {
+      "ss": 40,
+      "coin": 5000,
+      "essence": 10,
+      "star": 2,
+      "tomax": 500,
+      "top": 6
+    },
+    "lg3": {
+      "ss": 70,
+      "coin": 10000,
+      "essence": 30,
+      "star": 3,
+      "tomax": 460,
+      "top": 6
+    },
+    "lg4": {
+      "ss": 100,
+      "coin": 50000,
+      "essence": 50,
+      "star": 4,
+      "tomax": 390,
+      "top": 6
+    },
+    "lg5": {
+      "ss": 130,
+      "coin": 100000,
+      "essence": 80,
+      "star": 5,
+      "tomax": 290,
+      "top": 6
+    },
+    "lg6": {
+      "ss": 160,
+      "coin": 150000,
+      "essence": 120,
+      "star": 6,
+      "tomax": 160,
+      "top": 6
+    }
+  },
+  "consts": {}
+}
