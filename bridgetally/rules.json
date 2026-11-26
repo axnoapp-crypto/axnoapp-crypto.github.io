@@ -1,0 +1,116 @@
+{
+  "_읽을것": [
+    "유형 E 공장 앱의 기준표 — 줄(items)·칸·상수(consts)가 하나라도 빠지면 앱이 표 전체를 버리고 앱에 든 값을 쓴다(통째로 받거나 통째로 버린다)",
+    "updatedAt 은 화면의 「기준 YYYY-MM-DD」 로 그대로 뜬다 — 값을 고치면 날짜도 고친다",
+    "음수·글자는 안 된다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-26",
+  "items": {
+    "c_plain": {
+      "per": 20,
+      "first": 0,
+      "mult": 1,
+      "insult": 0
+    },
+    "c_x": {
+      "per": 20,
+      "first": 0,
+      "mult": 2,
+      "insult": 50
+    },
+    "c_xx": {
+      "per": 20,
+      "first": 0,
+      "mult": 4,
+      "insult": 100
+    },
+    "d_plain": {
+      "per": 20,
+      "first": 0,
+      "mult": 1,
+      "insult": 0
+    },
+    "d_x": {
+      "per": 20,
+      "first": 0,
+      "mult": 2,
+      "insult": 50
+    },
+    "d_xx": {
+      "per": 20,
+      "first": 0,
+      "mult": 4,
+      "insult": 100
+    },
+    "h_plain": {
+      "per": 30,
+      "first": 0,
+      "mult": 1,
+      "insult": 0
+    },
+    "h_x": {
+      "per": 30,
+      "first": 0,
+      "mult": 2,
+      "insult": 50
+    },
+    "h_xx": {
+      "per": 30,
+      "first": 0,
+      "mult": 4,
+      "insult": 100
+    },
+    "s_plain": {
+      "per": 30,
+      "first": 0,
+      "mult": 1,
+      "insult": 0
+    },
+    "s_x": {
+      "per": 30,
+      "first": 0,
+      "mult": 2,
+      "insult": 50
+    },
+    "s_xx": {
+      "per": 30,
+      "first": 0,
+      "mult": 4,
+      "insult": 100
+    },
+    "n_plain": {
+      "per": 30,
+      "first": 10,
+      "mult": 1,
+      "insult": 0
+    },
+    "n_x": {
+      "per": 30,
+      "first": 10,
+      "mult": 2,
+      "insult": 50
+    },
+    "n_xx": {
+      "per": 30,
+      "first": 10,
+      "mult": 4,
+      "insult": 100
+    }
+  },
+  "consts": {
+    "game": 100,
+    "rub_two": 700,
+    "rub_three": 500,
+    "slam_small": 500,
+    "slam_grand": 1000,
+    "honor_four": 100,
+    "honor_five": 150,
+    "over_x": 100,
+    "down_nv": 50,
+    "x_first_nv": 100,
+    "x_mid_nv": 200,
+    "x_first_v": 200,
+    "x_late": 300
+  }
+}
