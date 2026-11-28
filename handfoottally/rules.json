@@ -1,0 +1,92 @@
+{
+  "_읽을것": [
+    "유형 E 공장 앱의 기준표 — 줄(items)·칸·상수(consts)가 하나라도 빠지면 앱이 표 전체를 버리고 앱에 든 값을 쓴다(통째로 받거나 통째로 버린다)",
+    "updatedAt 은 화면의 「기준 YYYY-MM-DD」 로 그대로 뜬다 — 값을 고치면 날짜도 고친다",
+    "음수·글자는 안 된다"
+  ],
+  "version": 1,
+  "updatedAt": "2026-11-28",
+  "items": {
+    "classic": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 0,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 100
+    },
+    "hidden3": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 0,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 100
+    },
+    "wild1500": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 1500,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 100
+    },
+    "redblack": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 1500,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 0
+    },
+    "piles": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 1500,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 0
+    },
+    "joker": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 1500,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 0
+    },
+    "red300": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 1500,
+      "out": 0,
+      "red3": 300,
+      "red3_lost": 0
+    },
+    "rm_team": {
+      "clean": 700,
+      "dirty": 300,
+      "wild": 1500,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 0
+    },
+    "rm_single": {
+      "clean": 700,
+      "dirty": 300,
+      "wild": 0,
+      "out": 100,
+      "red3": 100,
+      "red3_lost": 0
+    },
+    "pen500": {
+      "clean": 500,
+      "dirty": 300,
+      "wild": 0,
+      "out": 100,
+      "red3": 0,
+      "red3_lost": 500
+    }
+  },
+  "consts": {}
+}
